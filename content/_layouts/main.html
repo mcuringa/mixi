@@ -1,0 +1,33 @@
+---
+layout: base
+---
+
+<nav class="bg-dark navbar navbar-expand-md">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+           <img class="d-block d-lg-none" src="/img/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="MainNav collapse navbar-collapse" id="topNavBar">
+            <div class="navbar-nav d-flex flex-row align-items-center">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/img/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="thesis.html">Research</a>
+                <a class="nav-link link-light" href="/degrees">Graduate Degrees</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+
+{{content}}
+{% include footer.html %}

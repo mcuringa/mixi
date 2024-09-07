@@ -14,9 +14,9 @@ function safeName(name) {
     return safe;
 }
 
-function addBootstrapStyles() {
+function addHeaders() {
     const headers = document.getElementsByTagName("h2");
-    const addLink = (header)=> {
+    const addLink = (header) => {
 
         let link = document.createElement("a");
         let id = header.id;
@@ -24,7 +24,7 @@ function addBootstrapStyles() {
             id = safeName(header.textContent);
             header.id = id;
         }
-        link.href = "#" + header.id ;
+        link.href = "#" + header.id;
 
         let icon = document.createElement("i");
         icon.classList.add("bi");
@@ -32,15 +32,18 @@ function addBootstrapStyles() {
         icon.classList.add("text-primary");
         icon.classList.add("text-decoration-none");
         // link.classList.add("fs-4");
-        
+
         link.appendChild(icon);
         header.insertAdjacentElement("beforeend", link);
 
     }
     for (let header of headers) {
-      console.log("adding header link to " + header.id);
-      addLink(header);
+        console.log("adding header link to " + header.id);
+        addLink(header);
     }
+}
+
+function addBootstrapStyles() {
     
     let tables = document.getElementsByTagName("table");
     for (let table of tables) {

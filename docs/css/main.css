@@ -1,46 +1,71 @@
-@font-face {
-    font-family: 'Graphik';
-    src: url('Graphik/GraphikRegular.otf') format('opentype');
-    font-weight: normal;
-    font-style: normal;
+body {
+    opacity: .5;
+    animation: fadeIn 1s ease-in forwards;
 }
 
-@font-face {
-    font-family: 'Graphik';
-    src: url('Graphik/GraphikRegularItalic.otf') format('opentype');
-    font-weight: normal;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Graphik';
-    src: url('Graphik/GraphikBold.otf') format('opentype');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Graphik';
-    src: url('Graphik/GraphikBoldItalic.otf') format('opentype');
-    font-weight: bold;
-    font-style: italic;
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
 }
 
 body, .font-sans-serif {
     font-family: 'Graphik', sans-serif; 
 }
 
-/* Repeat the pattern for other weights and styles */
-.gold {
+a {
+    text-decoration: none;
+}
+
+:root {
+    --yellow-pink: linear-gradient(158deg, rgba(159, 209, 214, 0.56) 18.75%, #D9DE19 56.25%, rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+.yellow-pink {
+    background: var(--yellow-pink);
+}
+
+.overlay {
+    background: rgba(255, 255, 255, 0.4);
+}
+
+
+.bg-slate-blue {
+    background-color: #bfdfe3;
+
+}
+
+.bg-gold {
     background-color: #ffb337;
 }
 
+.bg-gray {
+    background-color: #f8f8f8;
+}
+
+.text-upper {
+    text-transform: uppercase;
+}
+.text-red {
+    color: #E21C21;
+}
+.text-burnt {
+    color: #C1380A;
+}
+.text-brown {
+    color: #8b6255;
+}
 
 .HomeLink { 
     line-height: 1; 
     font-size: 32px;
     font-weight: 900;
 }
+.MainNav .nav-link {
+    font-size: 20px;
+}
+
+
 h1, h2, h3 {
     font-weight: 600;
 }
@@ -54,4 +79,33 @@ h1, h2, h3 {
     margin: 0;
     margin-left: 2em;
     text-indent: -2em;
+}
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.page-title {
+    text-align: center;
+    position: relative;
+    margin-top: 1em;
+}
+
+.page-title::after {
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: black;
+    margin: 10px auto 0 auto;
+}
+
+.font-serif {
+    font-family: "Cormorant Garamond", serif;
+}
+
+.fs-huge {
+    font-size: 3.5rem;
+    line-height: 1.15em;
 }

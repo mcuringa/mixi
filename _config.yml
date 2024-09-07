@@ -18,14 +18,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Matthew X. Curinga
+title: "MIXI: Manhattan Instittue for STEM and the Imagination"
 email: mcuringa@adelphi.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 
-baseurl: "/au-courses" 
+# baseurl: "/" 
+
 url: "https://adelphi-ed-tech.github.io/au-courses/"
 # twitter_username: jekyllrb
 # github_username:  jekyll
@@ -33,10 +34,17 @@ url: "https://adelphi-ed-tech.github.io/au-courses/"
 source: content
 destination: docs
 
+# blog stuff
+# permalink: /post/:title/
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
 
 sass:
   quiet_deps: true

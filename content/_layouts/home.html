@@ -3,10 +3,9 @@ layout: base
 ---
 <style>
     .IndexHeader {
-        background-image: url('img/purple-pink.svg'); */
+        background-image: url('img/purple-pink.svg');
         background-size: cover;
-        /* padding: 100px 0px; */
-        /* background: blue; */
+
     }
 
     .TitleText {
@@ -20,15 +19,34 @@ layout: base
     }
 </style>
 
+{% assign program_info = "
+<div class='TitleText text-center mx-auto text-light p-2'>
+    Adelphi University Master's of Arts in Educational Technology
+</div>
+<div class='d-block text-center mx-auto text-light p-2' style='max-width: 800px; font-size: 32px'>
+    <strong>100% online</strong><br>
+    <strong>7 core courses ~ 3 electives ~ 1 thesis</strong>
+</div>
+" %}
+
 <div class="IndexHeader container-fluid">
     {% include top-nav.html %}
-    <div class="TitleText d-block text-center mx-auto text-light p-2" style="max-width: 800px;">
-        Adelphi University Master's of Arts in Educational Technology
+
+    <div class="row">
+        <div class="col">
+            {{ program_info | escape }}
+        </div>
+        <div class="col">
+            {{ program_info | escape }}
+        </div>
+        <div class="col">
+            {{ program_info | escape }}
+        </div>
     </div>
-    <div class="d-block text-center mx-auto text-light p-2" style="max-width: 800px; font-size: 32px">
-        <strong>100% online</strong><br>
-        <strong>7 core courses ~ 3 electives ~ 1 thesis</strong>
-    </div>
+
+
+
+
 </div>
 
 
