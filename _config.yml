@@ -39,6 +39,8 @@ destination: docs
 paginate: 5
 paginate_path: "/blog/page:num/"
 
+permalink: /:categories/:title/
+
 
 # Build settings
 theme: minima

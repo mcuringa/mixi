@@ -1,0 +1,54 @@
+---
+layout: main
+title: News
+---
+
+<nav class="navbar navbar-expand-md navbar-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/blog/">All Posts</a>
+                </li>
+                {% for category in site.categories %}
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/category/{{ category[0] | slugify }}/">{{ category[0] }}</a>
+                </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-4">
+    <h1>Posts in {{ page.title }}</h1>
+
+    {% assign current_category = page.title %}
+    {% assign filtered_posts = site.posts | where: "categories", current_category %}
+
+    {% if filtered_posts.size > 0 %}
+        {% for post in filtered_posts %}
+        <div class="row mb-2">
+            <div class="col-md-4 mx-auto">
+                <a class="text-black" href="{{ post.url }}">
+                    <img src="/assets/images/blog/{{ post.image }}" class="img-fluid" alt="{{ post.title }}">
+                </a>
+            </div>
+            <div class="col-md-8">
+                <h4><a class="text-black" href="{{ post.url }}">{{ post.title }}</a></h4>
+                <div class="d-flex">
+                    <p class="me-2 text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
+                    <p>posted by {{ post.author }}</p>
+                </div>
+                <p>{{ post.tease }}</p>
+            </div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <p>No posts found in this category.</p>
+    {% endif %}
+</div>
