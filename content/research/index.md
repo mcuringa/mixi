@@ -1,72 +1,8 @@
-<!DOCTYPE html>
-<html class="h-100" lang="en">
-
-<head>
-  <!--
-    /\      | |    | |     | |   (_)
-   /  \   __| | ___| |_ __ | |__  _
-  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
- / ____ \ (_| |  __/ | |_) | | | | |
-/_/    \_\__,_|\___|_| .__/|_| |_|_|
-                     | |
-                     |_|
- ______    _   _______        _
-|  ____|  | | |__   __|      | |
-| |__   __| |    | | ___  ___| |__
-|  __| / _` |    | |/ _ \/ __| '_ \
-| |___| (_| |    | |  __/ (__| | | |
-|______\__,_|    |_|\___|\___|_| |_|
-
--->
-
-  <title>MIXI: Degrees</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-
-  <link rel="shortcut icon" type="image/ico" href="/img/favicon.ico">
-
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-  <link href="/css/fonts.css" rel="stylesheet">
-  <link href="/css/main.css" rel="stylesheet">
-  
-
-</head>
-
-<body class="d-flex flex-column h-100">
-
-<nav class="bg-dark navbar navbar-expand-md">
-    <div class="container">
-        <a class="navbar-brand" href="/">
-           <img class="d-block d-lg-none" src="/img/mixi-word.png" alt="mixi">
-        </a>
-        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
-            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="MainNav collapse navbar-collapse" id="topNavBar">
-            <div class="navbar-nav d-flex flex-row align-items-center">
-                <a class="navbar-brand" href="/">
-                    <img class="d-none d-lg-block" src="/img/mixi.png" alt="mixi">
-                </a>
-                <a class="nav-link link-light" href="/about">About</a>
-                <a class="nav-link link-light" href="/people">People</a>
-                <a class="nav-link link-light" href="/research">Research</a>
-                <a class="nav-link link-light" href="/degrees">Graduate Degrees</a>
-                <a class="nav-link link-light" href="/blog">News</a>
-                <a class="nav-link link-light" href="/events">Events</a>
-            </div>
-        </div>
-    </div>
-</nav>
-
-
+---
+layout: main
+title: "MIXI: Research"
+author: "mxc"
+---
 <style>
 .halfway {
   /* position: relative; */
@@ -104,7 +40,7 @@
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-8 pe-0 m-0">
-            <img class="halfway img-fluid" src="/assets/images/goldberg.jpg" alt="students working on robotics" />
+            <img class="halfway img-fluid" src="/assets/images/goldberg.jpg" alt="students working on robotics">
         </div>
     </div>
 <!-- learning sciences -->
@@ -116,7 +52,7 @@
             prepares scholars and researchers to address our most
             vital challenges in education, technology, and society.
             </p>
-            <p class="fs-2">
+            <p  class="fs-2">
             Classroom and out-of-class experiences 
             mix experimentation, play, fantasy and design so that 
             together we can imagine new ways of 
@@ -156,18 +92,17 @@
             <div class="row">
                 <div class="col">
                     <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Where can I work?</h4>
-<ul>
-  <li>University or college faculty</li>
-  <li>Instructional design (in person and online)</li>
-  <li>School districts</li>
-  <li>Museums and libraries</li>
-  <li>Technology companies (particularly in the AI industry)</li>
-  <li>Educational publishing companies</li>
-  <li>Government agencies</li>
-  <li>Nonprofits &amp; Community organizations</li>
-  <li>Toy companies</li>
-</ul>
-
+{%md%}
+- University or college faculty
+- Instructional design (in person and online)
+- School districts
+- Museums and libraries
+- Technology companies (particularly in the AI industry)
+- Educational publishing companies
+- Government agencies
+- Nonprofits & Community organizations
+- Toy companies
+{% endmd %}
                 </div>
                 <div class="col">
                     <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
@@ -183,7 +118,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build" />
+                    <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build">
                 </div>
             </div>
             <p class="fs-4">
@@ -196,36 +131,3 @@
 </div>
 
 
-<footer class="footer mt-auto py-3 bg-dark d-print-none">
-    <div class="container">
-        <div class="row d-flex text-white">
-            <div class="col mb-2 d-flex align-items-center justify-content-center">
-                <div class="d-flex align-items-end">
-                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
-                </div>
-            </div>
-            <div class="col mb-2 d-flex align-items-center justify-content-center">
-                <p>
-                    <b>MIXI</b><br>
-                    Adelphi University<br>
-                    179 Livingston Street<br>
-                    Brooklyn, NY 11238<br>
-                </p>
-            </div>
-            <div class="col mb-2 d-flex align-items-center justify-content-center">
-                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
-            </div>
-        </div>
-    </div>
-</footer>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-    crossorigin="anonymous"></script>
-<script src="/js/boot_styles.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
-</script>
-
-</body>
-</html>
