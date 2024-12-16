@@ -4,5 +4,17 @@ layout: main
 
 <div class="container">
 <h1 class="page-title">{{page.title}}</h1>
+<small class="fw-bold">{{page.date | date: "%B %-d, %Y"}} | 
+    {% for cat in page.categories %}
+<a href="/category/{{cat | downcase}}.html">{{ cat }}</a>
+{% endfor %}</small> 
+<div>
+    {% if page.tags %}
+    {% for tag in page.tags %}
+    <span>#{{ tag }}</span>
+    {% endfor %}
+    {% endif %}
+</div>
+    
 {{content}}
 </div>
