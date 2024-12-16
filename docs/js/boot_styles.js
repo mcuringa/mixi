@@ -52,3 +52,38 @@ function addBootstrapStyles() {
       table.classList.add("table-hover");
     }
 }
+
+function halfway() {
+    let t = document.getElementsByClassName("halfway");
+    for (let el of t) {
+        // if it's an img element
+        if(el.tagName === "IMG") {
+            let off = el.height / -2;
+            el.style.marginTop = off + "px";
+        }
+      }
+}
+window.addEventListener("load", halfway);
+window.addEventListener("resize", halfway);
+
+
+function cycleWords() {
+    let index = 0;
+    const wordCycle = document.getElementsByClassName("word-cycle");
+    const words = wordCycle[0].getElementsByTagName("span");
+
+    function cycle() {
+        words[index].classList.remove("d-inline");
+        words[index].classList.remove("active");
+        words[index].classList.add("d-none");
+        words[index].classList.add("inactive");
+        index = (index + 1) % words.length;
+        words[index].classList.remove("d-none");
+        words[index].classList.remove("inactive");
+        setTimeout(()=> words[index].classList.add("active"), 100);
+    }
+    setInterval(cycle, 2000);
+}
+
+window.addEventListener("load", cycleWords);
+

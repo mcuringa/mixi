@@ -68,117 +68,133 @@
 
 
 <style>
-
-:root {
-    --green-orange-arc: radial-gradient(circle at 0% 100%, #97B49D 0%, 24%, rgba(151,180,157,0) 24%),
-                        radial-gradient(circle at 3.97% 36.10%, #27784F 0%, 35%, rgba(39,120,79,0) 35%),
-                        radial-gradient(circle at 27.50% 92.78%, #004623 0%, 40%, rgba(0,70,35,0) 40%),
-                        radial-gradient(circle at 53.38% 100%, rgba(215,53,1,0.99) 0%, 50%, rgba(215,53,1,0) 50%),
-                        radial-gradient(circle at 42.29% 20.62%, #FF4401 0%, 70%, rgba(255,68,1,0) 70%),
-                        radial-gradient(circle at 93.69% 11.43%, #FFB993 0%, 70%, rgba(255,185,147,0) 70%),
-                        radial-gradient(circle at 48.90% 49.52%, #ffffff 0%, 100%, rgba(255,255,255,0) 100%);
+.halfway {
+  /* position: relative; */
+  /* margin-top: calc(-10%); */
 }
-
-.DegreeContainer {
-    width: 100vw;
-    height: 100vh;
-    background: var(--green-orange-arc);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.AboutSteam {
-    background-color: rgba(255, 255, 255, 0.8);
-    padding-top: 2em;
-}
-.AboutSteam p, .AboutSteam ul {
-
-    max-width: 440px;
-}
-
 </style>
 
-<div class="DegreeContainer container-fluid h-100">
-    <div class="row h-100">
-        <div class="col-md-8 d-flex flex-column p-4">
-            <div class="align-self-end" style="max-width: 400px">
-                <h1 class="text-upper fs-huge">Master's Degrees</h1>
-                <p class="fw-bold font-serif ms-4 fs-2">
-                    Math Education,<br />
-                    Science Education, or<br />
-                    Computer Science Education<br />
-                </p>
-                <p class="fs-huge fw-bold text-upper mt-4 text-center">
-                    STEAM TEACHING<br />
-                    &amp;<br />
-                    LEARNING
-                </p>
-            </div>
-            <img class="d-block mx-auto mt-3 img-fluid" src="/assets/images/microbit-tactile.jpg" title="students building a tactile interface with micro:bit" />
+<div class="container-fluid">
+<!-- header -->
+    <div class="row bg-slate-blue">
+        <div class="col-md-2"></div>
+        <div class="col-md-5 col-3 mt-4 mb-4">
+            <h1 class="text-white p-0">Graduate degrees at the intersection of creativity, technology, learning, and action</h1>
         </div>
-        <div class="AboutSteam col-md-4">
-
-<p class="fw-bold fs-5">
-The Master’s in STEAM Teaching and Learning prepares students for 
-careers in mathematics education, science education or computer 
-science education, with accreditation for K-12 teaching in their 
-discipline.
-</p>
-
-<p>
-The program emphasizes interdisciplinary learning experiences and 
-creativity. The term STEAM refers to Science, Technology, Engineering, 
-Art, and Math. STEAM represents an approach to STEM education that 
-prioritizes creativity, design, reasoning, innovation, making, and 
-technology, with a focus on teaching and learning in formal and informal 
-learning environments.
-</p>
-
-<p class="fs-5">
-We have <b>NOYCE fellowships</b> available to cover student tuition. Contact Dr. 
-Tracy Hogan at <a class="fw-bold" href="mailto:hogan@adelphi.edu">hogan@adelphi.edu</a>
-</p>
-
-<p class="fw-bold">
-Find information here <a href="https://www.adelphi.edu/steam-pipeline/">NOYCE fellowships</a>.
-</p>
-
-<p>
-This program equips students with skills for developing project-based 
-curricula and engaging pedagogy, guided by research indicating that the 
-STEAM approach can help students who have been excluded from math, science, 
-and computer science academically and professionally. The program supports 
-students to become effective and passionate teachers who can design robust 
-project-based curriculum, connect across school communities, and inspire 
-their students to think rigorously and creatively about mathematics, science, 
-and computer science.
-</p>
-
-<p>
-The program offers courses online and in-person, allowing candidates to 
-take courses at night. The program can be completed in one year and 
-includes 30 credits of coursework and a teaching practicum. Candidates 
-benefit from our collaborative partnerships with school districts, our 
-exceptional mentor teachers in the field, and opportunities to join projects 
-and events hosted by MIXI, our Manhattan Institute for Studies of STEM and 
-the Imagination.
-</p>
-
-<p>
-See the full course listings for your degree:
-</p>
-
+    </div>
+    <div class="row bg-slate-blue pt-2 pb-2">
+        <div class="col-md-2"></div>
+        <div class="col-md-2">
+            <nav class="nav flex-column nav-underline">
+                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#phd-ls">PhD in the Learning Sciences</a>
+                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#steam">
+                    MA in STEAM:
+                    <div class="word-cycle">
+                        <span class="active text-rb-7">Science</span>
+                        <span class="inactive d-none text-rb-6">Math</span>
+                        <span class="inactive d-none text-rb-5">Computer Science</span>
+                        <span class="inactive d-none text-rb-2">Learning Sciences</span>
+                    </div>
+                </a>
+                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#edx">MA in Educational Technology</a>
+                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#courses">Courses</a>
+            </nav>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-8 pe-0 m-0">
+            <img class="halfway img-fluid" src="/assets/images/goldberg.jpg" alt="students working on robotics" />
+        </div>
+    </div>
+<!-- learning sciences -->
+    <div class="row mt-3">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+            <p id="phd-ls" class="fs-2">
+            Launched in 2024, the word's newest <strong>PhD in the Learning Sciences</strong>
+            prepares scholars and researchers to address our most
+            vital challenges in education, technology, and society.
+            </p>
+            <p class="fs-2">
+            Classroom and out-of-class experiences 
+            mix experimentation, play, fantasy and design so that 
+            together we can imagine new ways of 
+            thinking and learning.
+            </p>
+        </div>
+        <div class="col-md-7">
+            <div class="row">
+                <div class="col">
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Who is this for?</h4>
+                    <p>
+                        This <b>interdisciplinary degree</b> 
+                        is open to students from diverse backgrounds.
+                        Applicants from arts, humanities, STEM, or social sciences
+                        are all welcome. Study the material, cultural,
+                        and cognitive dimensions of learning.
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Funding is available!</h4>
+                    <p>
+                        Full time <b>Ammon Scholars</b>, accepted each year, receive full tuition funding
+                        and a stipend. Additional partial funding is available for outstanding students
+                        working on MIXI research and other projects.
+                    </p>
+                </div>
+                <div class="col">
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Where is the program?</h4>
+                    <p>
+                        The <b>hybrid PhD</b> is based at Adelphi's New York City campus: currently in Downtown Brooklyn,
+                        we are moving t a new Manhattan Campus in 2026. The PhD is ideally situated to interact with
+                        New York City's vibrant arts and technology communities, and to impact the largest public
+                        school system in the U.S.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Where can I work?</h4>
 <ul>
-    <li><a href="http://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16423">Master's in Math Education</a></li>
-    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16425">Master's in Science Education</a></li>
-    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16432">Master's in CS Education</a></li>
-    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16426">STEAM Learning Sciences</a></li>
+  <li>University or college faculty</li>
+  <li>Instructional design (in person and online)</li>
+  <li>School districts</li>
+  <li>Museums and libraries</li>
+  <li>Technology companies (particularly in the AI industry)</li>
+  <li>Educational publishing companies</li>
+  <li>Government agencies</li>
+  <li>Nonprofits &amp; Community organizations</li>
+  <li>Toy companies</li>
 </ul>
 
-
+                </div>
+                <div class="col">
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
+                    <p>
+                        Typically, students enter with a Master's degree, and can complete the PhD in 4-5 years
+                        of full-time study. The <i>45-credit curriculum</i> includes 
+                        <b>8 classes, the learning sciences workshop, and dissertation.</b>
+                    </p>
+                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">The Research</h4>
+                    <p>
+                        PhD students work closely with MIXI faculty on <a href="/research">on research projects</a>
+                        with opportunities to present at conferences, publish in journals, and impact our community.
+                    </p>
+                </div>
+                <div class="col">
+                    <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build" />
+                </div>
+            </div>
+            <p class="fs-4">
+                Applications are evaluated on a rolling basis for a Fall start. For full consideration,
+                for the 2024 Ammon Scholars, apply by April 1, 2024.
+            </p>
+            <a class="btn btn-warning" href="https://www.adelphi.edu/program/doctoral/learning-sciences/">Click for more information and to apply</a>
         </div>
     </div>
 </div>
+
 
 <footer class="footer mt-auto py-3 bg-dark d-print-none">
     <div class="container">

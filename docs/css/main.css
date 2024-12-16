@@ -19,10 +19,15 @@ a {
 
 :root {
     --yellow-pink: linear-gradient(158deg, rgba(159, 209, 214, 0.56) 18.75%, #D9DE19 56.25%, rgba(245, 193, 241, 0.57) 79.6875%);
+    --deep-purple: linear-gradient(158deg, rgba(75, 0, 130, 0.7) 18.75%, #4B0082 56.25%, rgba(138, 43, 226, 0.6) 79.6875%);
 }
 
 .yellow-pink {
     background: var(--yellow-pink);
+}
+
+.bg-purple {
+    background: #4B0082;
 }
 
 .overlay {
@@ -55,6 +60,24 @@ a {
 .text-brown {
     color: #8b6255;
 }
+
+/* the mixi I colors */
+.text-rb-0 { color: #e6462c; }
+.text-rb-1 { color: #F28225; }
+.text-rb-2 { color: #F9D900; }
+.text-rb-3 { color: #B7C256; }
+.text-rb-4 { color: #B7C256; }
+.text-rb-5 { color: #2367AB; }
+.text-rb-6 { color: #90387C; }
+.text-rb-7 { color: #D65889; }
+.bg-rb-0 { background-color: #e6462c; }
+.bg-rb-1 { background-color: #F28225; }
+.bg-rb-2 { background-color: #F9D900; }
+.bg-rb-3 { background-color: #B7C256; }
+.bg-rb-4 { background-color: #B7C256; }
+.bg-rb-5 { background-color: #2367AB; }
+.bg-rb-6 { background-color: #90387C; }
+.bg-rb-7 { background-color: #D65889; }
 
 .HomeLink { 
     line-height: 1; 
@@ -108,4 +131,25 @@ h1, h2, h3 {
 .fs-huge {
     font-size: 3.5rem;
     line-height: 1.15em;
+}
+
+/* .word-cycle {
+    display: inline-block;
+    position: relative;
+} */
+
+.word-cycle span {
+    /* position: absolute; */
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+
+.word-cycle span.active {
+    opacity: 1;
+    transition: opacity 1.5s ease;
+}
+
+.word-cycle span.inactive {
+    opacity: 0;
+    transition: opacity 1.5s ease;
 }
