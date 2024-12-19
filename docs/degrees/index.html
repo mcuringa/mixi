@@ -69,8 +69,48 @@
 
 <style>
 .halfway {
-  /* position: relative; */
-  /* margin-top: calc(-10%); */
+  max-width: 85%;
+  margin: 2rem auto;
+  display: block;
+}
+.bg-slate-blue {
+  background-color: #bfdfe3;
+}
+.text-upper {
+  text-transform: uppercase;
+}
+.off-grid-left {
+  margin-left: 10%;
+  margin-right: 0;
+}
+.header-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 2rem;
+}
+.header-text h1 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  color: #ffffff;
+  text-align: center;
+}
+ul {
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+@media (max-width: 768px) {
+  .off-grid-left {
+    margin-left: 5%;
+  }
+  .header-text h1 {
+    font-size: 1.8rem;
+  }
+
+  .img-mobile {
+      margin-top: 0px !important;
+  }
 }
 </style>
 
@@ -104,97 +144,67 @@
     <div class="row">
         <div class="col-md-4"></div>
         <div class="col-md-8 pe-0 m-0">
-            <img class="halfway img-fluid" src="/assets/images/goldberg.jpg" alt="students working on robotics" />
+            <img class="halfway img-fluid img-mobile" src="/assets/images/goldberg.jpg" alt="students working on robotics" />
         </div>
     </div>
-<!-- learning sciences -->
-    <div class="row mt-3">
-        <div class="col-md-2"></div>
-        <div class="col-md-3">
-            <p id="phd-ls" class="fs-2">
-            Launched in 2024, the word's newest <strong>PhD in the Learning Sciences</strong>
-            prepares scholars and researchers to address our most
-            vital challenges in education, technology, and society.
-            </p>
-            <p class="fs-2">
-            Classroom and out-of-class experiences 
-            mix experimentation, play, fantasy and design so that 
-            together we can imagine new ways of 
-            thinking and learning.
-            </p>
-        </div>
-        <div class="col-md-7">
-            <div class="row">
-                <div class="col">
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Who is this for?</h4>
-                    <p>
-                        This <b>interdisciplinary degree</b> 
-                        is open to students from diverse backgrounds.
-                        Applicants from arts, humanities, STEM, or social sciences
-                        are all welcome. Study the material, cultural,
-                        and cognitive dimensions of learning.
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Funding is available!</h4>
-                    <p>
-                        Full time <b>Ammon Scholars</b>, accepted each year, receive full tuition funding
-                        and a stipend. Additional partial funding is available for outstanding students
-                        working on MIXI research and other projects.
-                    </p>
-                </div>
-                <div class="col">
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Where is the program?</h4>
-                    <p>
-                        The <b>hybrid PhD</b> is based at Adelphi's New York City campus: currently in Downtown Brooklyn,
-                        we are moving t a new Manhattan Campus in 2026. The PhD is ideally situated to interact with
-                        New York City's vibrant arts and technology communities, and to impact the largest public
-                        school system in the U.S.
-                    </p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">Where can I work?</h4>
-<ul>
-  <li>University or college faculty</li>
-  <li>Instructional design (in person and online)</li>
-  <li>School districts</li>
-  <li>Museums and libraries</li>
-  <li>Technology companies (particularly in the AI industry)</li>
-  <li>Educational publishing companies</li>
-  <li>Government agencies</li>
-  <li>Nonprofits &amp; Community organizations</li>
-  <li>Toy companies</li>
-</ul>
 
-                </div>
-                <div class="col">
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
+<!-- Learning Sciences Section -->
+    <div class="row mt-3">
+        <div class="col-lg-2 d-none d-lg-block"></div>
+        <div class="col-lg-3 col-md-12 off-grid-left">
+            <section id="phd-ls" class="my-4">
+                <h2 class="text-start">PhD in the Learning Sciences</h2>
+                <p class="fs-5">
+                    Launched in 2024, the world's newest <strong>PhD in the Learning Sciences</strong> prepares scholars and researchers to address our most vital challenges in education, technology, and society.
+                </p>
+                <p class="fs-5">
+                    Classroom and out-of-class experiences mix experimentation, play, fantasy, and design so that together we can imagine new ways of thinking and learning.
+                </p>
+            </section>
+        </div>
+        <div class="col-lg-5 col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="bg-slate-blue text-white p-2">Who is this for?</h4>
                     <p>
-                        Typically, students enter with a Master's degree, and can complete the PhD in 4-5 years
-                        of full-time study. The <i>45-credit curriculum</i> includes 
-                        <b>8 classes, the learning sciences workshop, and dissertation.</b>
-                    </p>
-                    <h4 class="bg-slate-blue d-inline-block p-2 text-upper mb-2">The Research</h4>
-                    <p>
-                        PhD students work closely with MIXI faculty on <a href="/research">on research projects</a>
-                        with opportunities to present at conferences, publish in journals, and impact our community.
+                        This <b>interdisciplinary degree</b> is open to students from diverse backgrounds, including arts, humanities, STEM, or social sciences.
                     </p>
                 </div>
-                <div class="col">
-                    <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build" />
+                <div class="col-md-6">
+                    <h4 class="bg-slate-blue text-white p-2">Funding is available!</h4>
+                    <p>
+                        Full-time <b>Ammon Scholars</b> receive full tuition funding and a stipend. Additional partial funding is available for outstanding students working on MIXI research.
+                    </p>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4 class="bg-slate-blue text-white p-2">Where is the program?</h4>
+                    <p>
+                        The <b>hybrid PhD</b> is based at Adelphi's New York City campus, ideally situated to interact with NYC's vibrant arts and technology communities.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h4 class="bg-slate-blue text-white p-2">The Curriculum</h4>
+                    <p>
+                        Typically completed in 4-5 years, the <i>45-credit curriculum</i> includes <b>8 classes, the learning sciences workshop, and dissertation.</b>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-2 d-none d-lg-block"></div>
+    </div>
+
+<!-- Footer Call-to-Action -->
+    <div class="row bg-slate-blue text-white text-center py-3">
+        <div class="col-12">
             <p class="fs-4">
-                Applications are evaluated on a rolling basis for a Fall start. For full consideration,
-                for the 2024 Ammon Scholars, apply by April 1, 2024.
+                Applications are evaluated on a rolling basis for a Fall start. For full consideration, apply by April 1, 2024.
             </p>
             <a class="btn btn-warning" href="https://www.adelphi.edu/program/doctoral/learning-sciences/">Click for more information and to apply</a>
         </div>
     </div>
 </div>
-
 
 <footer class="footer mt-auto py-3 bg-dark d-print-none">
     <div class="container">
