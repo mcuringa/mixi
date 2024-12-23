@@ -85,5 +85,5 @@ function cycleWords() {
     setInterval(cycle, 2000);
 }
 
-window.addEventListener("load", cycleWords);
+// window.addEventListener("load", cycleWords);
 
