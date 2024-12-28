@@ -242,7 +242,7 @@ section h4 { background-color: #416165; color: white; }
             </p>
         </div>
         <div class="col col-xl-3">
-            <img class="img-fluid d-block" src="/assets/images/hydroponics-xr.png" alt="speculative xr interface for a hydroponics system">
+            <img class="img-fluid d-block mx-auto" src="/assets/images/hydroponics-xr.png" alt="speculative xr interface for a hydroponics system">
             <a href="https://online.adelphi.edu/graduate-degrees/ma-education-technology/" 
               class="d-block fs-3 fw-bold text-center mt-3">Click here for application and details!</a>
         </div>
@@ -286,10 +286,10 @@ section h4 { background-color: #416165; color: white; }
     <div class="d-flex flex-wrap mx-4">
     {% for course in site.data.courses %}
         <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow {{course.tags}}">
-            {% if course.img != "" %}<img class="rounded-top d-block img-fluid" src="/img/{{course.img}}" alt="{{course.alt}}">{% endif %}
+            {% if course.img != "" %}<img class="rounded-top d-block img-fluid" src="/courses/img/{{course.img}}" alt="{{course.alt}}">{% endif %}
             {% if course.required == 'false' %}<div class="text-center text-danger fw-bold"><i class="bi bi-stars"></i> elective</div>{% endif %}
             {% if course.url %}
-                <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" href="/courses/cd{{course.url}}">{{course.course}}</a></strong>
+                <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" target="course" href="/courses/{{course.url}}">{{course.course}}</a></strong>
             {% else %}
                 <strong class="d-block text-center py-1">{{course.course}}</strong>
             {% endif %}

@@ -1,24 +1,24 @@
 course,url,tags,img,required,alt
-EDT 501 Digital Literacies and 21<sup>st</sup> Century Skills,digital-literacies.html,edx,fake-news.jpg,true,Reporters with various forms of 'fake news' from an 1894 illustration by Frederick Burr Opper
-EDT 503 Technology and Instructional Design,instructional-design.html,edx,wireframe.png,true,a wireframe for a user interface
+EDT 501 Digital Literacies and 21<sup>st</sup> Century Skills,digital-literacies,edx,fake-news.jpg,true,Reporters with various forms of 'fake news' from an 1894 illustration by Frederick Burr Opper
+EDT 503 Technology and Instructional Design,instructional-design,edx,wireframe.png,true,a wireframe for a user interface
 EDT 604 Technology and Society,,edx steam-cs steam-ls steam-math steam-sci ls,women-cs-history.png,true,4 female programmers in front of an early computer
-CSC 602 Introduction to Computer Programming,intro-to-programming_python.html,edx steam-cs ls,python-logo.png,true,Python intertwined snakes and text on white field
-EDT 606 Educational Information Systems and Networks,school-networks.html,edx steam-cs,rpi.png,true,illustrated raspberry pi board computer
-EDT 603 Programming Web-Based Educational Media,web-programming.html,edx steam-cs,web-programming.png,true,html and markdown code for the csc 602 syllabus
+CSC 602 Introduction to Computer Programming,intro-to-programming,edx steam-cs ls,python-logo.png,true,Python intertwined snakes and text on white field
+EDT 606 Educational Information Systems and Networks,school-networks,edx steam-cs,rpi.png,true,illustrated raspberry pi board computer
+EDT 603 Programming Web-Based Educational Media,web-programming,edx steam-cs,web-programming.png,true,html and markdown code for the csc 602 syllabus
 CSC 580 Cybersecurity ,,steam-cs,cybersec.png,true,cybersec ascii art text
-EDT 618 Research and Evaluation of Educational Technology,research-seminar.html,edx ls,research.png,true,sketches from Darwin’s journals
-EDT 620 Educator’s Multimedia Studio,multimedia-studio.html,edx,multimedia-studio.png,true,welcome to AI studio
-EDT 612 Mobile Learning,mlearning.html,edx steam-ls,tracy-watch.jpg,false,comic of Dick Tracy and his smart watch
-EDT 611 Learning with Video Games,video-games.html,edx,story-games.png,false,"ace attorney, doki doki, undertale, zork"
-EDT 610 Online Learning,online-ed.html,edx,remote.jpg,false,person at computer
-EDT 613 Teaching with Social Media,social-media.html,edx,social.png,false,social media icons as polaroids
-EDT 791 S/T Learning analytics,learning-analytics.html,edx,lak.png,false,digital charts
+EDT 618 Research and Evaluation of Educational Technology,research-seminar,edx ls,research.png,true,sketches from Darwin’s journals
+EDT 620 Educator’s Multimedia Studio,multimedia-studio,edx,multimedia-studio.png,true,welcome to AI studio
+EDT 612 Mobile Learning,mlearning,edx steam-ls,tracy-watch.jpg,false,comic of Dick Tracy and his smart watch
+EDT 611 Learning with Video Games,video-games,edx,story-games.png,false,"ace attorney, doki doki, undertale, zork"
+EDT 610 Online Learning,online-ed,edx,remote.jpg,false,person at computer
+EDT 613 Teaching with Social Media,social-media,edx,social.png,false,social media icons as polaroids
+EDT 791 S/T Learning analytics,learning-analytics,edx,lak.png,false,digital charts
 EDT 791 S/T The art of digital storytelling with video,,edx,film.png,false,illustration of film strips
 EDT 791 S/T Generative AI,,edx,ai-course.png,false,sketch of neural network
-EDT 793 Integrated Thesis,thesis.html,edx,lego-maker.jpg,true,lego figure shooting a movie
-ESM 501 Maker Lab 1: Design Lab,design-lab.html,steam-cs steam-ls steam-math steam-sci,mixi-stencil.jpg,true,mixi spray paint stencil
+EDT 793 Integrated Thesis,thesis,edx,lego-maker.jpg,true,lego figure shooting a movie
+ESM 501 Maker Lab 1: Design Lab,design-lab,steam-cs steam-ls steam-math steam-sci,mixi-stencil.jpg,true,mixi spray paint stencil
 ESM 502 Maker Lab 2: Equity Lab,,steam-cs steam-ls steam-math steam-sci,spark-solder.jpg,true,soldering irons
-ESM 503 Maker Lab 3: School Lab,,steam-cs steam-ls steam-math steam-sci,candle.png,true,rube goldberg candle and fan
+ESM 503 Maker Lab 3: School Lab,maker3,steam-cs steam-ls steam-math steam-sci,candle.png,true,rube goldberg candle and fan
 EDO 594 Critical Literacy in Mathematics and Science Education,,steam-math steam-sci,copernicus.jpg,true,copernicus diagram of celestial movement
 ESM 601 Multimodal Literacies,,steam-cs steam-ls steam-math steam-sci,gestures.png,true,gesture and movement tracking
 EDO 617 Teaching Science in the Secondary Inclusive Classroom,,steam-sci,sci-lab.png,true,2 students working on a science lab
