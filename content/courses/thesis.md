@@ -31,7 +31,7 @@ Educational Technology Integrated Thesis Project
 
 **Keywords:** thesis, research, multimedia, learning sciences, master piece
 
-<img src="img/lego-maker.jpg" class="img-fluid" alt="lego figure shooting a movie">
+<img src="/courses/img/lego-maker.jpg" class="img-fluid" alt="lego figure shooting a movie">
 
 The _integrated thesis project_ of the Master's of Arts in Educational Technology
 is the culminating experience of a student's time in the program, and displays

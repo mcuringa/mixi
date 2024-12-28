@@ -2,7 +2,7 @@
 layout: design
 title: "Learning with games"
 syllabus_footer: true
-header-img: img/nexus-minecraft.jpg
+header-img: /courses/img/nexus-minecraft.jpg
 header-img-alt: "Adelphi Nexus building modeled in Minecraft"
 author:
     - "Matthew X. Curinga"
@@ -51,7 +51,7 @@ Learning with games
 <div class="row mt-3">
 <div class="d-none d-md-block col-md-2">
 {% md %}
-<img class="img-fluid" src="img/au-mario.png" alt="adelphi au in super mario world">
+<img class="img-fluid" src="/courses/img/au-mario.png" alt="adelphi au in super mario world">
 {% endmd %}
 </div>
 <div class="col-md-6">
