@@ -9,7 +9,7 @@ author: "mxc"
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('/img/painting.jpg');
+    background-image: url('/assets/images/painting.jpg');
     text-shadow: 2px 2px 4px #000000;
     color: white;
     padding: 2em;

@@ -20,6 +20,7 @@ a {
 :root {
     --yellow-pink: linear-gradient(158deg, rgba(159, 209, 214, 0.56) 18.75%, #D9DE19 56.25%, rgba(245, 193, 241, 0.57) 79.6875%);
     --deep-purple: linear-gradient(158deg, rgba(75, 0, 130, 0.7) 18.75%, #4B0082 56.25%, rgba(138, 43, 226, 0.6) 79.6875%);
+    --blue-slate: #bfdfe3;
 }
 
 .yellow-pink {
@@ -32,6 +33,10 @@ a {
 
 .overlay {
     background: rgba(255, 255, 255, 0.4);
+}
+
+.transparent {
+    background: rgba(255, 255, 255, 0.8);
 }
 
 
@@ -131,25 +136,4 @@ h1, h2, h3 {
 .fs-huge {
     font-size: 3.5rem;
     line-height: 1.15em;
-}
-
-/* .word-cycle {
-    display: inline-block;
-    position: relative;
-} */
-
-.word-cycle span {
-    /* position: absolute; */
-    opacity: 0;
-    transition: opacity 1.5s ease;
-}
-
-.word-cycle span.active {
-    opacity: 1;
-    transition: opacity 1.5s ease;
-}
-
-.word-cycle span.inactive {
-    opacity: 0;
-    transition: opacity 1.5s ease;
 }

@@ -27,21 +27,20 @@ layout: main
         {% for post in paginator.posts %}
         <div class="col">
             <div class="card h-100">
-                {% if post.image %}
-                <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
-                {% endif %}
-                <div class="card-body">
-                    <h5 class="card-title">
-                        <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
-                    </h5>
-                    <p class="card-text">
-                        <small class="text-muted">{{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</small>
-                    </p>
-                    <p class="card-text">{{ post.tease }}</p>
-                </div>
-                <div class="card-footer">
-                    <a href="{{ post.url }}" class="btn btn-primary">Read More</a>
-                </div>
+                <a href="{{ post.url }}">
+                    {% if post.image %}
+                    <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+                    {% endif %}
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
+                        </h5>
+                        <p class="card-text">
+                            <small class="text-muted">{{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</small>
+                        </p>
+                        <p class="card-text">{{ post.tease }}</p>
+                    </div>
+                </a>
             </div>
         </div>
         {% endfor %}
@@ -54,14 +53,14 @@ layout: main
             {% if paginator.previous_page %}
             <li class="page-item">
                 <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl }}" aria-label="Previous">
-                    <span aria-hidden="true">&laquo; Earlier</span>
+                    <span aria-hidden="true">&laquo; Later</span>
                 </a>
             </li>
             {% endif %}
             {% if paginator.next_page %}
             <li class="page-item">
                 <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next">
-                    <span aria-hidden="true">Later &raquo;</span>
+                    <span aria-hidden="true">Earlier &raquo;</span>
                 </a>
             </li>
             {% endif %}

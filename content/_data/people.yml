@@ -10,20 +10,20 @@
   key: hogan
   title: Professor
   dept: College of Education and Health Sciences
-- name: Cindy Maguire
-  key: maguire
-  title: Associate Professor
-  dept: Communications, Arts & Sciences
+- name: Suraj Uttamchandani
+  key: uttamchandani
+  title: Associate Professor & Assoc Dean
+  dept: College of Education and Health Sciences
 - name: Aaron Hung
   key: hung
   title: Associate Professor
   dept: College of Education and Health Sciences
-- name: Suraj Uttamchandani
-  key: uttamchandani
-  title: Assistant Professor
-  dept: College of Education and Health Sciences
-- name: John Drew
-  key: drew
+- name: Craig Carson
+  key: carson
+  title: Associate Professor
+  dept: English, Honors College, Arts & Sciences
+- name: Cindy Maguire
+  key: maguire
   title: Associate Professor
   dept: Communications, Arts & Sciences
 - name: Hannah Allen

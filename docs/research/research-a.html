@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title>MIXI Research</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="MainNav collapse navbar-collapse" id="topNavBar">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi-word.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Graduate Degrees</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<style>
+    .bg-slate-blue {
+    background-color: #bfdfe3;
+    }
+
+  .research-header {
+    margin: 2rem 0;
+    position: relative;
+  }
+
+  .research-header img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+
+  .research-header h1 {
+    position: absolute;
+    top: 50%;
+    right: 2rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #333;
+    background-color: #fff;
+    padding: 10px 20px;
+  }
+
+  .research-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns on desktop */
+    gap: 2rem;
+    padding: 2rem;
+  }
+
+  .research-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    background-color: #fff;
+  }
+
+  .research-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+
+  .research-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+  }
+
+  .research-card p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .research-card .btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 3px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .research-card .btn:hover {
+    background-color: #0056b3;
+  }
+
+  /* Responsive adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .research-grid {
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+
+    .research-header h1 {
+      position: static;
+      text-align: center;
+      transform: none;
+      margin-top: 1rem;
+    }
+  }
+</style>
+
+<div class="bg-slate-blue">
+`<div class="container">
+  <!-- Header Section -->
+  <div class="research-header">
+    <img src="/assets/images/research.png" alt="Research overview image" />
+    <h1>MIXI Research</h1>
+  </div>
+
+  <!-- Research Topics Grid -->
+  <div class="research-grid">
+
+    <div class="research-card">
+      <img src="/assets/images/control-soc.png" alt="abstract painting with person emerging from dark colors" />
+      <h3>Learning Under Algorithmic Conditions</h3>
+      <p>This new book presents 28 <i>memoranda</i> from leading scholars,  offering concise commentary on a range of topics  that intersect in their interest in understanding how learning under algorithmic conditions is newly embodied, more-than-human,  political, and all too compliant with speculative capital and techno-economic proceduralism.
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/nyc-dots-thumb.png" alt="dot density map of racial demographics in NYC" />
+      <h3>Maps That Matter: CS+Spatial Justice</h3>
+      <p>Combining computer science, spatial justice, and critical geographies, we explore ways to teach CS that expand who studies computing, and how new approaches may transform computing and engineering fields. <b>Funded by the Mozilla Foundation.</b>
+</p>
+      <a href="/research/maps-that-matter" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/d13-thumb.png" alt="map of schools in district 13 brooklyn" />
+      <h3>School Maps &amp; Sensory Ethnography</h3>
+      <p>Mapping schools to better understand the spatial environment where learning occurs, using sensor ethnography, experimental cartography, and participatory design. <b>Funded by the Spencer Foundation.</b>
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/choir.png" alt="Diagramatic representation of ensemble learning in a choir" />
+      <h3>Ensemble Learning in Queer Spaces</h3>
+      <p>Odio corrupti doloribus neque natus. Dignissimos modi perspiciatis ab eum.  Qui laborum et minima ut nemo quisquam alias. Sint ullam nisi inventore.  Laborum autem sunt repellat aut repudiandae quas et fugiat.  Voluptatem praesentium excepturi velit rerum.
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/math-text.png" alt="16th century illustration of measuring angles from a tower" />
+      <h3>Decolonizing education in the Americas </h3>
+      <p>This is an international research project with historians and educators,  including colleagues in Mexico and Canada, exploring 17th century archives in Puebla, Mexico. <b>Funded by the Social Sciences and Humanities Research Council of Canada.</b>
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/bubbles.jpg" alt="Student teachers modifying a bubble machine with tools and soldering iron" />
+      <h3>STEAM, Creativity, and Teacher Preparation</h3>
+      <p>Preparing teachers to integraate art, aesthetics, and creativity into school STEM education through hands-on lab work, and school-based apprenticeships. Studying how new approaches might lead to institutional change, in close partnership with New York City public schools. <b>Funded by the National Science Foundation and State University of New York (SUNY).</b>
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/neon-sparks.png" alt="neon sparks" />
+      <h3>Whiteness, trauma, and psychoanalysis in Brazil</h3>
+      <p>Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut.  Incidunt ex libero ea eos molestias quo.  Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/courses/img/au-mario.png" alt="AU Games Logo" />
+      <h3>Games &amp; Learning in Digital Environments</h3>
+      <p>Quidem sunt perferendis vel consequatur consequatur aspernatur. Iusto voluptas fugiat nostrum molestias.  Hic hic totam quia voluptatem eveniet et.  Quisquam assumenda rem quod dolorem voluptas debitis voluptas. Nam voluptates nulla voluptatibus.  Accusantium molestias maxime consectetur deleniti iste molestias cumque.
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+    <div class="research-card">
+      <img src="/assets/images/geometric.png" alt="geometric abstract" />
+      <h3>Translanguaging, GenAI, and LLM</h3>
+      <p>Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut.  Incidunt ex libero ea eos molestias quo.  Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+</p>
+      <a href="#" class="btn">Learn More</a>
+    </div>
+
+</div>`
+</div>
+</div>
+
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    179 Livingston Street<br>
+                    Brooklyn, NY 11238<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+</body>
+</html>

@@ -7,3 +7,7 @@ AI Studio Projects.csv
 au-courses.code-workspace
 ai-studio.ipynb
 content.bak
+.~*
+.firebaserc
+.firebase*
+firebase.json

@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title>Learning with games</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="MainNav collapse navbar-collapse" id="topNavBar">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi-word.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Graduate Degrees</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="http://localhost:4000//courses/img/nexus-minecraft.jpg" alt="Adelphi Nexus building modeled in Minecraft" class="header d-print-none">
+    <div class="p-4"><!-- **********************
+    * This syllabus was created for
+    * the Educational Technology Program
+    * at Adelphi University:
+    * http://education.adelphi.edu
+    * copyright 2010-2021 Matthew X. Curinga and Aaron Chia-Yuan Hung
+    * https://matt.curinga.com
+    * https://www.hungchiayuan.com/
+    * This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License.
+    * To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send
+    * a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.
+    * We ask, but do not require, that attribution includes a link to our websites (above).
+    * version: 2.1
+    */-->
+
+<div class="row">
+<div class="col-md-6">
+<h1 id="learning-with-games">Learning with games</h1>
+<p><strong>Educational Technology 0858-611</strong><br />
+<strong>Adelphi University, Fall 2024</strong></p>
+
+<p><strong>Keywords:</strong> games for learning, game design, serious games, simulations, multimedia learning, virtual reality, augmented reality</p>
+
+</div>
+<div class="col-md-6">
+<p><strong>Instructor:</strong> <a href="http://matt.curinga.com" title="prof curinga's site">Matthew X. Curinga</a>, <a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></p>
+
+<p><strong>Campus:</strong> Online<br />
+<strong>Meeting time:</strong> asynchronous</p>
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="d-none d-md-block col-md-2">
+<p><img class="img-fluid" src="/courses/img/au-mario.png" alt="adelphi au in super mario world" /></p>
+
+</div>
+<div class="col-md-6">
+<h2 id="description">Description</h2>
+<p>Video games have become an increasingly important source of culture and entertainment in our society. They are more popular than Hollywood movies, yet receive a fraction of the attention, especially in academia. In recent years, this has been changing, as scholars have begun to interrogate games from many levels: design, critique, and as a means of learning. In this course, we really have 3 separate, but overlapping goals: 1) to understand video games as a social and cultural phenomenon, especially important to youth culture; 2) to think of ways to teach <em>about</em> video games, as part of a (digital) literacy perspective; and 3) to investigate ways to teach <em>with</em> games, both off the shelf and ones that we design ourselves.</p>
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6">
+<h2 id="goals">Goals</h2>
+<p>The course has two main goals. Firstly, it introduces students to a range of game genres that have been popular in education. Secondly, it covers a range of learning principles, research topics, controversies, and potential applications for video games and simulations in education, and gives students the foundations for applying both analog and digital games in educational contexts.</p>
+
+<p>By the end of the course, students should be able to:</p>
+
+<ul>
+  <li>Understand major topics in educational games and simulations</li>
+  <li>Situate video games and learning in its historical manifestations - military exercises, simulations, game theory, board games and digital (video) games</li>
+  <li>Understand the difference between exogenous and endogenous games, and design a simple endogenous game that can be used to teach a specific topic</li>
+  <li>Understand the key differences between popular game genres</li>
+  <li>Analyze and reflect on the potential of existing games and their potential in educational contexts</li>
+</ul>
+
+</div>
+<div class="col-md-6">
+<h2 id="materials">Materials</h2>
+<h3 id="books">Books</h3>
+<p><em>There are no required books to purchase for this class</em>. 
+All readings and videos are available through the course website.
+Weekly readings will be posted on the course website.</p>
+
+<h3 id="games">Games</h3>
+<p>We will be playing several games during the semester, including some commercial
+video games that will have to be purchased. Total cost for games will be
+less than $100.</p>
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6">
+<h2 id="class-sessions">Class sessions</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Session</th>
+      <th>Date</th>
+      <th>Topic</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Aug 29</td>
+      <td>Welcome</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Sep 05</td>
+      <td>Playing &amp; Learning</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Sep 12</td>
+      <td>Game Mechanics</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Sep 19</td>
+      <td>Narrative</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Sep 26</td>
+      <td>Game Design</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Oct 03</td>
+      <td>Game Violence</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Oct 10</td>
+      <td>Games &amp; Representation</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>Oct 17</td>
+      <td>Games for Learning</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>Oct 24</td>
+      <td>Educational Games</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>Oct 31</td>
+      <td>Designing as Learning</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>Nov 07</td>
+      <td>Game Pitches</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Nov 14</td>
+      <td>Design studio</td>
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>Nov 21</td>
+      <td>Game Loops</td>
+    </tr>
+    <tr>
+      <td>-</td>
+      <td>Nov 28</td>
+      <td><em>Thanksgiving Break</em></td>
+    </tr>
+    <tr>
+      <td>14</td>
+      <td>Dec 05</td>
+      <td>Playtesting</td>
+    </tr>
+    <tr>
+      <td>15</td>
+      <td>Dec 12</td>
+      <td>Final Games</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+<div class="col-md-6 apa">
+<h2 id="assignments--grading">Assignments &amp; Grading</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>assignment</th>
+      <th>due</th>
+      <th>pts</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Online Participation</td>
+      <td>weekly</td>
+      <td>30</td>
+    </tr>
+    <tr>
+      <td>Game study post 1</td>
+      <td>Sep 19</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Game study post 2</td>
+      <td>Oct 20</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Game study post 3</td>
+      <td>Nov 14</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Game Pitch</td>
+      <td>Nov 07</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Game Design</td>
+      <td>Dec 19</td>
+      <td>30</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+</div>
+
+<div class="row mt-3">
+<div class="col-md-6">
+<h3 id="online-participation-30-points">Online participation (30 points)</h3>
+<p>Your participation in the weekly online activities make the difference
+between having a fun class where we learn together, and a dry self-paced
+experience that will vary greatly for everyone. To earn full credit
+for participation:</p>
+
+<ul>
+  <li>Complete all weekly assignments on time</li>
+  <li>Don’t just do the minimum requirements</li>
+  <li>Be engaged on Discord</li>
+  <li>Find time to play some games with your classmates (we will organize them through Discord)</li>
+  <li>Be respectful</li>
+  <li>Don’t let your partner down (if you have one) for the final project</li>
+  <li>Have fun!</li>
+</ul>
+
+<h3 id="game-study-posts-30-points">Game study posts (30 points)</h3>
+<p>One of our goals for this course is to turn a critical eye towards games so that we can gain a better understanding of how they work, <em>when</em> they work, and what their possibilities are. This skill helps us to design our own game/play activities, to understand how to incorporate game for teaching, and to appreciate the role that games play in our society.</p>
+
+<p>For this assignment, write 3 posts in the “Game Studies” forum on our class website. Before you post, play a game for at least an hour. Write a 500 word post on the forum (as a new topic, with its own title). The post should not be a book report! Do not recap the entire game. Do not summarize the rules. <em>Do</em> have a specific, interesting point that you want to make. You might describe a game play experience in detail and then discuss it. You might look at a specific mechanic. You may consider how the game can work for teaching and learning. Mostly, you want to try hard to make your post something that we all want to read and that offers new knowledge to the class. Some examples might be: “One night ultimate werewolf: why lying is so much fun,” “Animal Crossing and online friends,” or “Valorant defusing strategies when you’re the last player.”</p>
+
+<p>Your post <em>should</em> offer a brief description of the game (with links as needed) before you move to your thesis. You should draw on the techniques and theories in our readings to bolster your argument. Discuss how the game “works” (mechanics, rules, components, user experience, art); where it fits in the field (is it groundbreaking? does it draw on and improve other games? is it a rip off of a better game?); and any critical analysis of the game (who is the expected “audience” of the game? does the game trade in stereotypes?). As needed, use photos, screenshots, videos, etc to illustrate your points.</p>
+
+<p><em>Forum rules:</em></p>
+
+<ol>
+  <li>Post 3 times, once between weeks 1-4, once 5-8, and the final one between 9-12.</li>
+  <li>Any type of game can work. Consider mixing up the types/genres for your posts.</li>
+  <li>Read every post. Comment liberally. Don’t just say, “I really like what you wrote.”</li>
+</ol>
+
+<p><strong>Grading:</strong>7</p>
+<ul>
+  <li>excellent (8-10 points): post is unique and interesting, it’s well written and edited, arguments show reflection and integration of the course discussions and readings, discussion is supported logically and by close examples from the game.</li>
+  <li>good (5-8 points): meets all of the criteria as above, but may have minor flaws in editing or supporting arguments.</li>
+  <li>satisfactory (3-5 points): either the writing and examples are not clear enough to fully support the argument, or the arguments don’t reflect the course readings or exhibit other clear flaws</li>
+  <li>poor (0-2 points): the post fails to meet the basic criteria for the assignment</li>
+</ul>
+
+</div>
+<div class="col-md-6">
+<h3 id="game-pitch-10-points">Game pitch (10 points)</h3>
+<p>Everyone will “pitch” a game. You will create and upload a 5 minute 
+video where you pitch a game that you would like to design. This game 
+can be analog (e.g., board game, card game, physical game, etc.) 
+or digital games.</p>
+
+<p>The idea of the pitch is to make your game sound exciting,
+valuable, “new”, and fun. You should convince us why it’s
+a great game, and why it would be worth making.</p>
+
+<p>Scoring the pitch:</p>
+
+<ul>
+  <li>4 points: learning value (clear goals, effective pedagogy, 
+hard-to-teach concepts or hard-to-reach audience)</li>
+  <li>4 points: game design (fun, original, creative, good mechanics, story, art, concept)</li>
+  <li>2 points: presentation (clear, engaging, well-prepared, good use of time)</li>
+  <li>extra credit: up to 2 points for a <em>great</em> comments on every other pitch</li>
+</ul>
+
+<h3 id="game-design-30-points">Game design (30 points)</h3>
+
+<p>The third major grade will come from a game that you will design, either on your own or with a partner. 
+The max team size is 2. You will design one of the games for learning that you or your partner pitched. 
+<strong>We are not going to manufacture a game or wite the code for a digital game.</strong> We will be doing 
+low-fidelity (paper) prototyping and testing.</p>
+
+<p>It must have an educational component to it and it should encompass some of the aspects of game design 
+that we have discussed. For the purposes of this assignment, I am more interested in the process you go 
+through in designing this game than the final product. This process will include two play-testing 
+sessions where you will have to organize an online/distributed play-test with the other students in the 
+class. Your final product will also be evaluated on 1) how educational it is; 2) how clear the rules and 
+guidelines are; 3) how well it incorporates good design principles and 4) how well you present it. We 
+will be using various techniques for rapid prototyping and testing, whether creating a digital or analog 
+game. By the end of the term, you must have a playable prototype that has gone through several iterations.</p>
+
+<p>To submit this assignment, you will turn in the following:</p>
+
+<ol>
+  <li>A game design document (GDD) that outlines the game’s 
+purpose, rules, mechanics, components, and art.</li>
+  <li>A play testing report that outlines the feedback you 
+received and how you incorporated it into your game.</li>
+  <li>A discussion of the educational purpose of your game: what learning 
+objects it addresses, why it’s an effective pedagogy, and why 
+game-based learning is a good match for your goals</li>
+  <li>A reflection on the process of designing and play testing your game.</li>
+</ol>
+
+<p>Your game design will be scored:</p>
+
+<ul>
+  <li>10 points: educational purpose and foundation</li>
+  <li>5 points: play testing</li>
+  <li>10 points: game design (rules, mechanics, components, art, etc)</li>
+  <li>5 points: reflection</li>
+</ul>
+
+</div>
+</div>
+
+<div class="apa">
+<h2 id="course-bibliography">Course Bibliography</h2>
+<p>Aarseth, E. (2023). Game or Supernovel? Playing and Reading Massive Game Novels. <em>European Review</em>, <em>31</em>(S1), S66–S76. <a href="https://doi.org/10.1017/S1062798723000443">https://doi.org/10.1017/S1062798723000443</a></p>
+
+<p>Aarseth, E. (2019). Game Studies: How to play — Ten play-tips for the aspiring game-studies scholar. <em>Game Studies</em>, <em>19</em>(2). <a href="https://gamestudies.org/1902/articles/howtoplay">https://gamestudies.org/1902/articles/howtoplay</a></p>
+
+<p>Brown, S. (2008). [Video][26:42] <a href="https://www.ted.com/talks/stuart_brown_play_is_more_than_just_fun">Play is more than just fun</a>. <em>TED Talk</em>.</p>
+
+<p>Caillois, R. (1961). The Definition of Play. <em>In Man, Play, and Games</em> (pp. 3–10). University of Illinois Press.</p>
+
+<p>Costikyan, G. (2002). I Have No Words &amp; I Must Design: Toward a Critical Vocabulary for Games. <em>Proceedings of Computer Games and Digital Cultures Conference</em>.</p>
+
+<p>Facer, K., Joiner, R., Stanton, D., Reid, J., Hull, R., &amp; Kirk, D. (2004). Savannah: Mobile gaming and learning? <em>Journal of Computer Assisted Learning</em>, <em>20</em>(6), 399–409.</p>
+
+<p>Fox, J., &amp; Tang, W. Y. (2014). Sexism in online video games: The role of conformity to masculine norms and social dominance orientation. <em>Computers in Human Behavior</em>, 33, 314–320. <a href="https://doi.org/10.1016/j.chb.2013.07.014">https://doi.org/10.1016/j.chb.2013.07.014</a></p>
+
+<p>Fullerton, T. (2019). <em>Game design workshop: A playcentric approach to creating innovative games</em>. AK Peters/CRC Press.</p>
+
+<p>Gee, J. P. (2003). What video games have to teach us about learning and literacy. <em>Computers in Entertainment</em>, 1(1), 20. <a href="https://doi.org/10.1145/950566.950595">https://doi.org/10.1145/950566.950595</a></p>
+
+<p>Gee, J. P., &amp; Price, A. (2021). Game-Design Teaching and Learning. Strategies, 34(3), 35–38. <a href="https://doi.org/10.1080/08924562.2021.1896928">https://doi.org/10.1080/08924562.2021.1896928</a></p>
+
+<p>Huang, S.-Y., Tarng, W., &amp; Ou, K.-L. (2023). Effectiveness of AR Board Game on Computational Thinking and Programming Skills for Elementary School Students. <em>Systems</em>, <em>11</em>(1), Article 1. <a href="https://doi.org/10.3390/systems11010025">https://doi.org/10.3390/systems11010025</a></p>
+
+<p>Huizinga, J. (1955). Nature and significance of play as a cultural phenomenon. In <em>Homo ludens; a study of the play-element in culture</em>. (pp. 1–27). Beacon Press.</p>
+
+<p>Hunicke, R., LeBlanc, M., &amp; Zubek, R. (2004). MDA: A formal approach to game design and game research. <em>Proceedings of the AAAI Workshop on Challenges in Game AI</em>, 04–04. <a href="https://cdn.aaai.org/Workshops/2004/WS-04-04/WS04-04-001.pdf">https://cdn.aaai.org/Workshops/2004/WS-04-04/WS04-04-001.pdf</a></p>
+
+<p>Kafai, Y. B., &amp; Burke, Q. (2015). Constructionist Gaming: Understanding the Benefits of Making Games for Learning. <em>Educational Psychologist</em>, <em>50</em>(4), 313–334. <a href="https://doi.org/10.1080/00461520.2015.1124022">https://doi.org/10.1080/00461520.2015.1124022</a></p>
+
+<p>Kelly, D., Nic Giolla Easpaig, B., &amp; Castillo, P. (2023). ‘You Game Like a Girl’: Perceptions of Gender and Competence in Gaming. <em>Games and Culture</em>, <em>18</em>(1), 62–78. <a href="https://doi.org/10.1177/15554120221077730">https://doi.org/10.1177/15554120221077730</a></p>
+
+<p>Laakso, N. L., Korhonen, T. S., &amp; Hakkarainen, K. P. J. (2021). Developing students’ digital competences through collaborative game design. <em>Computers &amp; Education</em>, 174, 104308. <a href="https://doi.org/10.1016/j.compedu.2021.104308">https://doi.org/10.1016/j.compedu.2021.104308</a></p>
+
+<p>Olsson, T. (2023). Teaching History with Video Games. <em>The American Historical Review</em>, <em>128</em>(4), 1755–1775. <a href="https://doi.org/10.1093/ahr/rhad488">https://doi.org/10.1093/ahr/rhad488</a></p>
+
+<p>Peppler, K., &amp; Kafai, Y. B. (2009). Making Games, Art, and Animations with Scratch. In Y. Kafai, K. A. Peppler, &amp; R. N. Chapman (Eds.), <em>The Computer Clubhouse: Constructionism and Creativity in Youth Communities</em> (pp. 47–57). Teachers College Press. <a href="https://escholarship.org/uc/item/3d33v38w">https://escholarship.org/uc/item/3d33v38w</a></p>
+
+<p>Salen, K., &amp; Zimmerman, E. (2003). <em>Rules of Play: Game Design Fundamentals</em>. MIT Press.</p>
+
+<p>Simons, J. (2007). Narrative, Games, and Theory. <em>Game Studies</em>, <em>7</em>(1). <a href="https://gamestudies.org/0701/articles/simons">https://gamestudies.org/0701/articles/simons</a></p>
+
+<p>Squire, K., &amp; Jenkins, H. (2011). Ideological Worlds: What makes a “good” educational game? In K. Squire &amp; H. Jenkins, <em>Video games and learning: Teaching and participatory culture in the digital age</em> (pp. 19–37). Teachers College Press.</p>
+
+<p><em>Vox.com</em> (2018, June 14). <a href="https://www.youtube.com/watch?v=2PEt5RdNHNw">Dungeons and Dragons, explained</a> [Video recording][10:12].</p>
+
+<p>Wells, G., Romhanyi, A., Reitman, J. G., Gardner, R., Squire, K., &amp; Steinkuehler, C. (2024). Right-Wing Extremism in Mainstream Games: A Review of the Literature. <em>Games and Culture</em>, <em>19</em>(4), 469–492. <a href="https://doi.org/10.1177/15554120231167214">https://doi.org/10.1177/15554120231167214</a></p>
+
+<p>Wistow, H. (2024). The Stupid, the Ridiculous, the Camp: How Goat Simulator’s “Messy” Design Facilitates Queer Play. Games and Culture, 15554120241278851. <a href="https://doi.org/10.1177/15554120241278851">https://doi.org/10.1177/15554120241278851</a></p>
+
+<p>Zubek, R. (2020). <em>Elements of game design</em>. MIT Press.</p>
+
+</div>
+
+<p>Career opportunities in this rapidly growing field are abundant. Our research doctorate prepares candidates for <strong>faculty and academic research positions</strong> as well as work such as:</p>
+</div>
+    
+    <hr>
+    <div class="container mx-auto mt-4 pt-4">
+        <h3 id="adelphi-university-services-policies-and-regulations">Adelphi University Services, Policies, and Regulations</h3>
+
+<h4 id="student-access-office-and-disability-accommodation">Student Access Office and Disability Accommodation</h4>
+
+<p>If you have a disability that may significantly impact your ability to carry out assigned 
+coursework, please contact the <a href="https://www.adelphi.edu/access-office/">Student Access Office (SAO)</a>
+at <tel>(516) 877-3806</tel> or send an email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. The staff will review your concerns and 
+determine, with you, appropriate and necessary accommodations. Please allow for a reasonable time frame for 
+requesting ASL interpreters or transcription services.</p>
+
+<p>Reasonable accommodations are available in online classes for students with a documented 
+disability. Please note that due to the nature of online courses, some accommodations approved 
+for on campus classes may not apply. If you have a disability that may significantly impact your 
+ability to carry out assigned coursework, please contact the SAO at <tel>(516) 877-3806</tel> or send an 
+email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. We will review your request and determine with you appropriate and 
+necessary accommodations.</p>
+
+<h4 id="university-libraries">University Libraries</h4>
+<p>The Adelphi University Libraries provides education, information resources, services and spaces that advance teaching, learning, research and creative activity. The Libraries provide semester-long support to assist with research assignment development, skills assessment, research readiness and more. Our goal is to equip learners with the information literacy skills necessary to become effective lifelong consumers of information. For more information visit the <a href="https://www.adelphi.edu/libraries/">Libraries homepage</a>
+or <a href="https://www.adelphi.edu/libraries/contacts-get-help/">contact us</a> for help.</p>
+
+<h4 id="student-counseling-center">Student Counseling Center</h4>
+
+<p>The Student Counseling Center (SCC) provides confidential and professional virtual mental health 
+counseling services, resources, and referrals to support the academic and personal success, health, 
+and well-being of Adelphi students without additional charge. Counselors are available to help 
+students cope with a variety of stressors and personal issues that may interfere with their academic 
+and personal experiences. The SCC also supports students who may be feeling suicidal or in crisis. To 
+schedule an appointment, call (516) 877-3646 or email scc@adelphi.edu. If you need immediate 
+assistance, walk-in services are available during the fall and spring semesters Monday-Friday, 9:00 a.
+m.–5:00 p.m. Additional information can also be found at <scc.adelphi.edu>.</scc.adelphi.edu></p>
+
+<p>Need support when the SCC is not available? For 24/7 emergency counseling, referral, or assistance, please contact:</p>
+
+<ul>
+  <li>Long Island Crisis Center: <tel>(516) 679-1111</tel></li>
+  <li>National Suicide Prevention Lifeline: 988</li>
+  <li>Crisis Text Line: Text PAWS to 741741</li>
+  <li>Adelphi Office of Public Safety:
+    <ul>
+      <li>Off campus: <tel>(516) 877-3511</tel></li>
+      <li>On campus: Extension 5 on any campus phone</li>
+      <li>911 (for immediate health-related emergency)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="center-for-academic-support-and-enrichment-formerly-the-learning-and-writing-centers">Center for Academic Support and Enrichment (formerly the Learning and Writing Centers)</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Website: <a href="http://adelphi.edu/case">http://adelphi.edu/case</a></td>
+      <td>Email: <a href="mailto:CASE@adelphi.edu">CASE@adelphi.edu</a></td>
+    </tr>
+    <tr>
+      <td>Phone: <tel>(516) 877-3200</tel></td>
+      <td>Location: Nexus 132</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The Center for Academic Support and Enrichment (CASE) offers programs and services—like individual 
+tutoring in writing and subjects across the curriculum, small group study sessions, academic coaching 
+and targeted workshops—that help students explore, deepen and extend their classroom learning. Support 
+programming focuses on establishing foundational skills and techniques of studentship, like time 
+management and note-taking. Enrichment services develop higher-order critical thinking skills and 
+problem solving skills inherent in both abstractions and applications of curricular study. Contact us 
+via email, phone or via <a href="https://login.adelphi.edu/cas/login?service=https%3A%2F%2Fportal.adelphi.edu%2F">eCampus</a> 
+to review our full slate of real-time (in person and remote) and 
+asynchronous services. These are included in your tuition, so you’ve already bought them! Don’t miss 
+out on the opportunity to supercharge your college experience. Many services require reservations, 
+especially late in the semester. Reserve a spot on our scheduling portal and/or join the self-directed 
+virtual <a href="https://moodle.adelphi.edu/course/view.php?id=102830&amp;notifyeditingon=1">CASE LAB</a>. 
+Get on the CASE, and take your Adelphi experience to the next level.</p>
+
+<h3 id="the-adelphi-honor-code">The Adelphi Honor Code</h3>
+<p>“The University is an academic community devoted to the pursuit of knowledge. Fundamental to this pursuit is academic
+integrity. In joining the Adelphi community I accept the University’s Statement of Academic Integrity and pledge to
+uphold the principles of honesty and civility embodied in it. I will conduct myself in accordance with ideals of truth
+and honesty and I will forthrightly oppose actions which would violate these ideals.”</p>
+
+<h3 id="code-of-academic-integrity">Code of Academic Integrity</h3>
+<p>The <a href="https://www.adelphi.edu/policies/academic-integrity/">Code of Academic Integrity </a> 
+prohibits behavior that can broadly be described as lying, cheating, or stealing.
+<a href="https://www.adelphi.edu/conduct/academic-dishonesty/">Academic dishonesty</a> or 
+violations of the Code of Academic Integrity include, but are not limited to, the following:</p>
+
+<ol>
+  <li>Fabricating data or citations</li>
+  <li>Collaborating in areas not approved by the professor</li>
+  <li>Unauthorized multiple submission of one’s own work</li>
+  <li>Sabotage of others’ work, including library vandalism or manipulation</li>
+  <li>Plagiarism</li>
+  <li>The creation of unfair advantage</li>
+  <li>The facilitation of dishonesty</li>
+  <li>Tampering with or falsifying records</li>
+  <li>Cheating</li>
+  <li>Other forms of academic dishonesty</li>
+</ol>
+
+<p>Copying and pasting from any source into your assignments or exams without quotation marks, citations and references,
+constitutes plagiarism. Students are expected to produce and submit original work and to cite all sources appropriately.
+Unauthorized collaboration on any work, or the presentation of someone else’s work as your own, is plagiarism. Content
+generated by an Artificial Intelligence third-party service or site (AI-generated content, e.g. ChatGPT) without
+attribution or authorization is also a form of plagiarism. Unless explicitly stated, artificial intelligence-based
+technologies, such as ChatGPT or word mixing software, cannot be used to generate responses (partial or otherwise) for
+student assignments or exams.</p>
+
+<p>If you are unsure about what plagiarism or another form of academic dishonesty are, please reach out to me to discuss it
+as soon as possible. An allegation of an academic integrity violation of this section may be referred for further review
+and could result in disciplinary action.</p>
+
+<h3 id="student-course-evaluations">Student Course Evaluations</h3>
+<p>During the last two weeks of the class, you will receive notification, via email and eCampus, that the course evaluation
+is available for your input electronically. Your feedback is valuable and students are strongly encouraged to respond.
+Please be assured that your responses are anonymous and the results will not be available to the instructor until after
+course grades have been submitted after the semester ends.</p>
+
+<h3 id="religious-observance-policy">Religious Observance Policy</h3>
+<p>Adelphi University welcomes diversity in its community and respects various religious observances. Students who
+anticipate being absent due to their religious observance are required by Adelphi University to notify their professors
+at the start of the semester. This will allow faculty to take these observances into consideration in light of their
+course exam and assignment schedules. Students absent from class, clinical experiences, practice, labs, etc. on those
+days, after prior notice to the professor, will not be penalized for any exam or assignment deadline missed because of
+those absences. Students must contact the instructor to work out suitable arrangements for make-ups or other
+satisfaction of academic requirements. 
+<a href="https://www.adelphi.edu/policies/absence-policy/">Adelphi’s Exam/Assignment Absence Policy can be viewed here</a>.</p>
+
+<h3 id="attendance-policy">Attendance Policy</h3>
+<p>Only students who are registered for courses, and whose name appears on the Official Class Roster may attend courses at
+the University. Adelphi students make a commitment to be active participants in their educational program; class
+attendance is an integral part of this commitment. Students are expected to be present promptly at the beginning of each
+class period, unless prevented by illness or by other compelling cause. In the event of such absence, students may
+request that faculty members be notified by the Office of Academic Services and Retention. Students are responsible for
+learning course content and completing coursework missed through absences.</p>
+
+    </div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    179 Livingston Street<br>
+                    Brooklyn, NY 11238<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+
+</body>
+</html>

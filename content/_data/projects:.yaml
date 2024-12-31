@@ -1,0 +1,88 @@
+
+- title: "Learning Under Algorithmic Conditions"
+  desc: >
+    This new book presents 28 <i>memoranda</i> from leading scholars, 
+    offering concise commentary on a range of topics 
+    that intersect in their interest in understanding how learning under
+    algorithmic conditions is newly embodied, more-than-human, 
+    political, and all too compliant with speculative capital and techno-economic proceduralism.
+  link: "#"
+  img: "/assets/images/control-soc.png"
+  alt: "abstract painting with person emerging from dark colors"
+
+- title: "Maps That Matter: CS+Spatial Justice"
+  desc: >
+    Combining computer science, spatial justice, and critical geographies, we explore ways to teach CS
+    that expand who studies computing, and how new approaches may transform computing and engineering fields.
+    <b>Funded by the Mozilla Foundation.</b>
+  link: "/research/maps-that-matter"
+  img: "/assets/images/nyc-dots-thumb.png"
+  alt: "dot density map of racial demographics in NYC"
+
+- title: "School Maps & Sensory Ethnography"
+  desc: > 
+    Mapping schools to better understand the spatial environment where learning occurs,
+    using sensor ethnography, experimental cartography, and participatory design.
+    <b>Funded by the Spencer Foundation.</b>
+  link: "#"
+  img: "/assets/images/d13-thumb.png"
+  alt: "map of schools in district 13 brooklyn"
+
+- title: "Ensemble Learning in Queer Spaces"
+  desc: > 
+    Odio corrupti doloribus neque natus. Dignissimos modi perspiciatis ab eum. 
+    Qui laborum et minima ut nemo quisquam alias. Sint ullam nisi inventore. 
+    Laborum autem sunt repellat aut repudiandae quas et fugiat. 
+    Voluptatem praesentium excepturi velit rerum.
+  link: "#"
+  img: "/assets/images/choir.png"
+  alt: "Diagramatic representation of ensemble learning in a choir"
+
+- title: "Decolonizing education in the Americas "
+  desc: > 
+    This is an international research project with historians and educators, 
+    including colleagues in Mexico and Canada, exploring 17th century archives in Puebla, Mexico.
+    <b>Funded by the Social Sciences and Humanities Research Council of Canada.</b>
+    
+  link: "#"
+  img: "/assets/images/math-text.png"
+  alt: "16th century illustration of measuring angles from a tower"
+
+- title: "STEAM, Creativity, and Teacher Preparation"
+  desc: > 
+    Preparing teachers to integraate art, aesthetics, and creativity into school
+    STEM education through hands-on lab work, and school-based apprenticeships.
+    Studying how new approaches might lead to institutional change, in close
+    partnership with New York City public schools.
+    <b>Funded by the National Science Foundation and State University of New York (SUNY).</b>
+  link: "#"
+  img: "/assets/images/bubbles.jpg"
+  alt: "Student teachers modifying a bubble machine with tools and soldering iron"
+
+- title: "Whiteness, trauma, and psychoanalysis in Brazil"
+  desc: > 
+    Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut. 
+    Incidunt ex libero ea eos molestias quo. 
+    Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+  link: "#"
+  img: "/assets/images/neon-sparks.png"
+  alt: "neon sparks"
+
+- title: "Games & Learning in Digital Environments"
+  desc: > 
+    Quidem sunt perferendis vel consequatur consequatur aspernatur. Iusto voluptas fugiat nostrum molestias. 
+    Hic hic totam quia voluptatem eveniet et. 
+    Quisquam assumenda rem quod dolorem voluptas debitis voluptas. Nam voluptates nulla voluptatibus. 
+    Accusantium molestias maxime consectetur deleniti iste molestias cumque.
+  link: "#"
+  img: "/courses/img/au-mario.png"
+  alt: "AU Games Logo"
+
+- title: "Translanguaging, GenAI, and LLM"
+  desc: > 
+    Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut. 
+    Incidunt ex libero ea eos molestias quo. 
+    Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+  link: "#"
+  img: "/assets/images/geometric.png"
+  alt: "geometric abstract"
