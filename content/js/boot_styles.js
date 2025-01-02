@@ -53,18 +53,31 @@ function addBootstrapStyles() {
     }
 }
 
-function halfway() {
-    let t = document.getElementsByClassName("halfway");
-    for (let el of t) {
-        // if it's an img element
-        if(el.tagName === "IMG") {
-            let off = el.height / -2;
-            el.style.marginTop = off + "px";
-        }
-      }
-}
-window.addEventListener("load", halfway);
-window.addEventListener("resize", halfway);
+// function halfway() {
+
+//     const fadeIn = (image) => {
+//         const lift = window.matchMedia("(min-width: 721px)").matches;
+//         if (lift) {
+//             gsap.to(image, { y: "-50%", duration: 0, delay: 0, });
+//         } else {
+//             // gsap.to(image, { opacity: 1, duration: 1, delay: 0.5, });
+//         }
+//     };
+
+//     let t = document.getElementsByClassName("halfway");
+//     for (let el of t) {
+//         if (el.tagName === "IMG") {
+//             el.onload = fadeIn(el);
+//         }
+//     }
+// }
+
+
+
+
+
+// window.addEventListener("load", halfway);
+// window.addEventListener("resize", halfway);
 
 
 function cycleWords() {

@@ -65,24 +65,24 @@ body {
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script>
-  document.querySelectorAll(".Project").forEach((project) => {
-    const title = project.querySelector("h4");
-    const description = project.querySelector("p");
+document.querySelectorAll(".Project").forEach((project) => {
+  const title = project.querySelector("h4");
+  const description = project.querySelector("p");
 
-    project.addEventListener("mouseenter", () => {
-      // Fade out the title
-      gsap.to(title, { duration: 0.3, opacity: 0 });
+  project.addEventListener("mouseenter", () => {
+    // Fade out the title
+    gsap.to(title, { duration: 0.3, opacity: 0 });
 
-      // Show and animate the description to cover the block
-      gsap.to(description, { duration: 0.5, opacity: 1, zIndex: 2 });
-    });
-
-    project.addEventListener("mouseleave", () => {
-      // Fade in the title
-      gsap.to(title, { duration: 0.3, opacity: 1 });
-
-      // Hide the description
-      gsap.to(description, { duration: 0.5, opacity: 0, zIndex: 1 });
-    });
+    // Show and animate the description to cover the block
+    gsap.to(description, { duration: 0.5, opacity: 1, zIndex: 2 });
   });
+
+  project.addEventListener("mouseleave", () => {
+    // Fade in the title
+    gsap.to(title, { duration: 0.3, opacity: 1 });
+
+    // Hide the description
+    gsap.to(description, { duration: 0.5, opacity: 0, zIndex: 1 });
+  });
+});
 </script>

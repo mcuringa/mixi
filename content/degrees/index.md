@@ -36,6 +36,13 @@ section h4 { background-color: #416165; color: white; }
     background-color: rgba(255, 255, 255, 0.2);
 }
 
+@media (min-width: 992px) {
+    .halfway {
+        /* margin-top: -220px; */
+        margin-top: -220px;
+    }
+}
+
 </style>
 
 <section id="DegreeHeader" class="container-fluid">
@@ -45,7 +52,7 @@ section h4 { background-color: #416165; color: white; }
         </div>
     </div>
     <div class="row pt-2 pb-2">
-        <div class="col-md-2 offset-md-2">
+        <div class="col-12 col-md-6 col-lg-3 col-xl-2 offset-md-2">
             <nav class="nav flex-column nav-underline">
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#PhD-LS"><i class="bi bi-arrow-down-square"></i> PhD in the Learning Sciences</a>
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#STEAM">
@@ -63,14 +70,15 @@ section h4 { background-color: #416165; color: white; }
 </section>
 
 <section id="PhD-LS" class="container-fluid">
-    <div class="row">
-        <div class="col-md-4"></div>
-        <div class="col-md-8 pe-0 m-0">
+    <div class="row pt-2 pb-2">
+        <div class="col-12 col-lg-3 col-xl-2 offset-lg-2">
+        </div>
+        <div class="col-12 col-lg-7 col-xl-8 px-0 m-0">
             <img class="img-fluid halfway" src="/assets/images/goldberg.jpg" alt="students working on robotics">
         </div>
     </div>
     <div class="row mt-3">
-        <div class="col-md-3 offset-md-2">
+        <div class="col-12 col-md-3 offset-md-2">
             <p class="fs-2">
             Launched in 2024, the word's newest <strong>PhD in the Learning Sciences</strong>
             prepares scholars and researchers to address our most
@@ -86,11 +94,11 @@ section h4 { background-color: #416165; color: white; }
                 Applications are evaluated on a rolling basis for a Fall start. For full consideration,
                 for the 2024 Ammon Scholars, apply by April 1, 2024.
             </p>
-            <a class="btn btn-warning" href="https://www.adelphi.edu/program/doctoral/learning-sciences/">Click for more information and to apply</a>
+            <a class="btn btn-warning mb-2" href="https://www.adelphi.edu/program/doctoral/learning-sciences/">Click for more information and to apply</a>
         </div>
-        <div class="col-md-7">
+        <div class="col-12 col-md-7">
             <div class="row">
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Who is this for?</h4>
                     <p>
                         This <b>interdisciplinary degree</b> 
@@ -100,7 +108,7 @@ section h4 { background-color: #416165; color: white; }
                         and cognitive dimensions of learning.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-6 col-md-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Funding is available!</h4>
                     <p>
                         Full time <b>Ammon Scholars</b>, accepted each year, receive full tuition funding
@@ -108,7 +116,7 @@ section h4 { background-color: #416165; color: white; }
                         working on MIXI research and other projects.
                     </p>
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Where is the program?</h4>
                     <p>
                         The <b>hybrid PhD</b> is based at Adelphi's New York City campus: currently in Downtown Brooklyn,
@@ -119,7 +127,7 @@ section h4 { background-color: #416165; color: white; }
                 </div>
             </div>
             <div class="row">
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Where can I work?</h4>
 {%md%}
 - University or college faculty
@@ -133,7 +141,7 @@ section h4 { background-color: #416165; color: white; }
 - Toy companies
 {% endmd %}
                 </div>
-                <div class="col">
+                <div class="col-12 col-md-6 col-lg-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
                     <p>
                         Typically, students enter with a Master's degree, and can complete the PhD in 4-5 years
@@ -146,7 +154,7 @@ section h4 { background-color: #416165; color: white; }
                         with opportunities to present at conferences, publish in journals, and impact our community.
                     </p>
                 </div>
-                <div class="col">
+                <div class="d-none d-lg-block col-lg-4">
                     <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build">
                 </div>
             </div>
@@ -156,10 +164,10 @@ section h4 { background-color: #416165; color: white; }
 
 <section id="STEAM" class="container-fluid">
     <div class="row">
-        <div class="col-md-3 offset-md-2">
+        <div class="col-12 col-md-3 offset-md-2">
             <img class="img-fluid" src="/assets/images/embroidery.jpg" alt="students designing digital embroidery patterns">
         </div>
-        <div class="col-md-3">
+        <div class="col-md-7 col-xl-4">
             <p class="fs-3">
                 <b>The Master’s in STEAM Teaching and Learning</b> prepares students for 
                 careers in mathematics education, science education or computer 
@@ -188,7 +196,7 @@ section h4 { background-color: #416165; color: white; }
                 you can earn your Master's while making an impact in the classroom.
             </p>
         </div>
-        <div class="col col-xl-3 d-flex flex-column justify-content-around">
+        <div class="col offset-0 offset-md-5 offset-xl-0 d-flex flex-column justify-content-around">
              <p>
                 <b>Become a science or mathematics teacher!</b> Teach 
                 Mathematics, Chemistry, Physics, Earth Science, or 
@@ -241,25 +249,27 @@ section h4 { background-color: #416165; color: white; }
                 and potential for positive social impact.
             </p>
         </div>
-        <div class="col col-xl-3">
-            <img class="img-fluid d-block mx-auto" src="/assets/images/hydroponics-xr.png" alt="speculative xr interface for a hydroponics system">
-            <a href="https://online.adelphi.edu/graduate-degrees/ma-education-technology/" 
-              class="d-block fs-3 fw-bold text-center mt-3">Click here for application and details!</a>
-        </div>
-        <div class="col col-xl-3">
-            <p>
-                <b>Inside and outside of the classroom</b>, Ed Tech students lead the way in
-                designing learning environments that are culturally responsive, supportive of
-                diverse learners, and pushing the boundaries of what is possible with technology.
-            </p>
-            <p>
-                <b>The interdisciplinary curriculum builds on core courses in learning sciences,
-                CS and informational technology, digital media & technology studies, and creative design</b>.
-                Ed Tech students come from diverse backgrounds and disciplines, including education, IT,
-                media production, and STEM fields. Some are seasoned K-12 teachers, others are engaged with
-                teaching and learning more broadly.
-            </p>
-            <h3>Our strong alumni network work in:</h3>
+        <div class="col">
+            <div class="row">
+                <div class="col-12 col-xl-6">
+                    <img class="img-fluid d-block mx-auto" src="/assets/images/hydroponics-xr.png" alt="speculative xr interface for a hydroponics system">
+                    <a href="https://online.adelphi.edu/graduate-degrees/ma-education-technology/" 
+                    class="d-block fs-3 fw-bold text-center mt-3">Click here for application and details!</a>
+                </div>
+                <div class="col">
+                    <p>
+                        <b>Inside and outside of the classroom</b>, Ed Tech students lead the way in
+                        designing learning environments that are culturally responsive, supportive of
+                        diverse learners, and pushing the boundaries of what is possible with technology.
+                    </p>
+                    <p>
+                        <b>The interdisciplinary curriculum builds on core courses in learning sciences,
+                        CS and informational technology, digital media & technology studies, and creative design</b>.
+                        Ed Tech students come from diverse backgrounds and disciplines, including education, IT,
+                        media production, and STEM fields. Some are seasoned K-12 teachers, others are engaged with
+                        teaching and learning more broadly.
+                    </p>
+                    <h3>Our strong alumni network work in:</h3>
 {%md%}
 - higher education instructional design at Columbia, Yale, Adelphi, NYU, Hofstra and more
 - the most innovative K-12 schools on Long Island and in NYC
@@ -268,13 +278,15 @@ section h4 { background-color: #416165; color: white; }
 - public and university library systems
 - multimedia, video, and audio production
 {% endmd %}
+                </div>
+            </div>
         </div>
     </div>
 </section>
 
 <section id="courses" class="container-fluid">
     <h2 class="ps-3">MIXI Course Catalog</h2>
-    <div class="ps-3 btn-group">
+    <div class="ps-md-3 btn-group flex-wrap">
         <button type="button" class="course-btn btn-all btn btn-sm btn-primary active" onclick="showCourses('all')">All</button>
         <button type="button" class="course-btn btn-edx btn btn-sm btn-primary" onclick="showCourses('edx')">Ed Tech</button>
         <button type="button" class="course-btn btn-steam-sci btn btn-sm btn-primary" onclick="showCourses('steam-sci')">STEAM Science</button>

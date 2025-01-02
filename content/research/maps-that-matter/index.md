@@ -2,94 +2,48 @@
 layout: main
 title: "MIXI Research"
 author: "mxc"
----
 
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script>
-
-
-<!-- RoughEase, ExpoScaleEase and SlowMo are all included in the EasePack file -->    
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
-
-
-<style>
-
-.image {
-    width: 100px;
-    background: url('/assets/images/nyc-dots.png') center/contain no-repeat;
-}
-.text {
-    opacity: 0;
-    width: 40%;
-}
-
-.text h3, .text p {
-  max-width: 720px;
-}
-
-</style>
-<div class="research-nav d-flex flex-row justify-content-end z-1 opacity-0">
-  <div class="transparent fw-bold p-2"><a href="/research">Research</a>::Maps that Matter</div>
-</div>
-
-<div id="sections">
-  <!-- Intro -->
-  <div class="container-fluid vh-100 py-4 d-flex align-items-center justify-content-between section">
-    <div class="image"></div>
-    <div class="text fs-2 text-secondary pe-2">
-      <p>
-        With <strong class="text-black">Maps that Matter</strong>
-        we rethink the methods and content we use to
-        teach computer science in order. Our goals are to expand the field to welcome students
-        from previously excluded groups. We have a co-commitment to
-        changing the culture of computer science by challenging the core
-        core tenets of solutionism and techo-capitalism; looking for ways that
-        computer programming can be used as a tool for expression and critique.
-      </p>
-      <p>
-        Drawing on theories of <span class="text-danger">spatial justice and critical
-        cartography</span>, we design interdisciplinary computing courses,
-        and new software tools to embed the study of computer science
-        in the context of geospatial, political data, and map-making.
-      </p>
-    </div>
-  </div>
-
-  <!-- Courses -->
-  <div class="container-fluid vh-100 py-4 d-flex align-items-center justify-content-between section">
-    <div class="text fs-2 text-secondary pe-2">
-      <p>
-        Funding from the <strong>Mozilla Foundation's <a href="https://foundation.mozilla.org/en/responsible-computing-challenge/">Responsible Computing Challenge</a></strong>
-        provided MIXI faculty Matt Curinga and Suraj Uttamchandani, along with John Drew (SUNY New Paltz),
-        the opportunity to redesign a 300-level Communications seminar and a First-Year Seminar. We are studying how 
-        interweaving aspects of computer science, interaction design, spatial justice, and critical cartography;
-        can increase motivation and achievement in grasping core CS concepts, while deepening students understanding
-        of the both the spatial and technical connections to political questions.
-      </p>
-      <p>
-        Dr. Curinga was also able to use the approaches developed to rethink
-        his graduate <a href="/courses/intro-to-programming/">Introduction to Programming</a>
-        as a project-based intro to CS using maps, python, and data from the US Census.
-      </p>
-    </div>
-    <div class="image" style="background-image: url('/assets/images/maps-students.jpg');"></div>
-  </div>
-
-  <!-- Section 3 -->
-  <div class="container-fluid vh-100 py-4 d-flex align-items-center justify-content-between section">
-    <div class="image" style="background-image: url('/assets/images/school-data-portal.png');"></div>
-    <div class="text fs-4 pe-2 apa">
-      <h3 class="text-black text-right mb-2">Publications</h3>
+intro:
+  img: "/assets/images/nyc-dots.png"
+  alt: "dot density map of residential housing in NYC"
+  content: >
+    <p>
+      With <strong class="text-black">Maps that Matter</strong>
+      we rethink the methods and content we use to
+      teach computer science in order. Our goals are to expand the field to welcome students
+      from previously excluded groups. We have a co-commitment to
+      changing the culture of computer science by challenging the core
+      core tenets of solutionism and techo-capitalism; looking for ways that
+      computer programming can be used as a tool for expression and critique.
+    </p>
+    <p>
+      Drawing on theories of <span class="text-danger">spatial justice and critical
+      cartography</span>, we design interdisciplinary computing courses,
+      and new software tools to embed the study of computer science
+      in the context of geospatial, political data, and map-making.
+    </p>
+project:
+  img: "/assets/images/maps-students.jpg"
+  alt: "students presenting interactive map project"
+  content: >
+    <p>
+      Funding from the <strong>Mozilla Foundation's <a href="https://foundation.mozilla.org/en/responsible-computing-challenge/">Responsible Computing Challenge</a></strong>
+      provided MIXI faculty Matt Curinga and Suraj Uttamchandani, along with John Drew (SUNY New Paltz),
+      the opportunity to redesign a 300-level Communications seminar and a First-Year Seminar. We are studying how 
+      interweaving aspects of computer science, interaction design, spatial justice, and critical cartography;
+      can increase motivation and achievement in grasping core CS concepts, while deepening students understanding
+      of the both the spatial and technical connections to political questions.
+    </p>
+    <p>
+      Dr. Curinga was also able to use the approaches developed to rethink
+      his graduate <a href="/courses/intro-to-programming/">Introduction to Programming</a>
+      as a project-based intro to CS using maps, python, and data from the US Census.
+    </p>
+publications:
+  img: "/assets/images/school-data-portal.png"
+  alt: "educatonal materials from the data portal"
+  content: >
+    <h3 class="text-black text-right mb-2">Publications</h3>
       <p>
         Curinga, M. X., Uttamchandani, S., & Drew, J. (under review). 
         Examining the role of computing as an expressive medium for spatial issues in framing undergraduates’ learning. 
@@ -116,53 +70,110 @@ author: "mxc"
         [<a href="https://github.com/mcuringa/cartopy/tree/main/src/maptools">code</a>]
       </p>
       <p><b>Contact:</b> Dr. Curinga, <a class="fw-bold" href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></p>
+
+---
+
+
+<style>
+.section { min-height: 75vh; }
+.section-img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  height: 100px;
+  visibility: hidden;
+}
+
+.text {
+    opacity: 0;
+}
+
+.text h3, .text p {
+  max-width: 720px;
+}
+</style>
+
+
+
+
+<div id="sections container-fluid position-relative">
+  <!-- Intro -->
+  <div class="d-flex flex-row py-4 section align-content-stretch">
+    <div class="d-none d-md-block w-50">
+      <div class="section-img" style="background-image: url('{{page.intro.img}}');"></div>
+    </div>
+    <div class="w-auto d-flex flex-column justify-content-center">
+      <div class="text fs-2 text-secondary px-2">{{page.intro.content}}</div>
     </div>
   </div>
+  <img src="{{page.intro.img}}" alt="{{page.intro.alt}}" class="d-block d-md-none img-fluid mx-auto">
+  <!-- Project -->
+  <div class="d-flex flex-row py-4 section align-content-stretch">
+    <div class="d-none d-md-block w-50">
+      <div class="section-img" style="background-image: url('{{page.project.img}}');"></div>
+    </div>
+    <div class="w-auto d-flex flex-column justify-content-center">
+      <div class="text fs-2 text-secondary px-2">{{page.project.content}}</div>
+    </div>
+  </div>
+  <img src="{{page.project.img}}" alt="{{page.project.alt}}" class="d-block d-md-none img-fluid mx-auto">
+  <!-- Publications -->
+  <div class="d-flex flex-row py-4 section align-content-stretch">
+    <div class="w-auto d-flex flex-column justify-content-center">
+      <div class="text fs-5 mx-2 apa">{{page.publications.content}}</div>
+    </div>
+    <div class="d-none d-md-block w-50">
+      <div class="section-img" style="background-image: url('{{page.publications.img}}');"></div>
+    </div>
+  </div>
+
+  <div class="transparent fw-bold p-2"><a href="/research"><i class="bi bi-arrow-left-circle-fill"></i> Back to Research Projects</a></div>
 
 </div>
 
 
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> -->
 
 
 <script>
 document.addEventListener("DOMContentLoaded", () => {
-
-  gsap.to(".research-nav", {
-    x: 0,
-    right: 0,
-    duration: 1,
-    ease: "power2.out",
-    position: "fixed",  
-    opacity: 1,
-    scrollTrigger: {
-      trigger: ".MainNav", // Start animation when the main header starts scrolling
-      start: "top top", // Trigger when the top of the main header reaches the top of the viewport
-      end: "bottom top", // Animation ends when the bottom of the main header leaves the viewport
-      scrub: true, // Smooth scroll-based animation
-    },
-  });
-
   const sections = document.querySelectorAll(".section");
-
-  sections.forEach((section, index) => {
-    const image = section.querySelector(".image");
-    const text = section.querySelector(".text");
-
+  const scaleImg = (image, el) => {
     gsap.to(image, {
       duration: 1,
-      width: "59%",
-      height: "95%",
+      height: "100%",
       scrollTrigger: {
-        trigger: section,
+        trigger: el,
         start: "top 75%",
-        toggleActions: "play none none reset",
+        toggleActions: "play none none reverse",
       },
+      onStart: () => { image.style.visibility = "visible"; }, 
+      onReverseComplete: () => { image.style.visibility = "hidden"; }, 
     });
+  }
+
+  sections.forEach((section, index) => {
+    const image = section.querySelector(".section-img");
+    const text = section.querySelector(".text");
+    scaleImg(image, section);
+
 
     gsap.to(text, {
       duration: 1,
       opacity: 1,
-      delay: 0.5,
+      delay: 0,
       scrollTrigger: {
         trigger: section,
         start: "top 75%",
