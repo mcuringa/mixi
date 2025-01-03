@@ -26,13 +26,10 @@ Followed by a celebratory reception.
 [See the tentative program here.](https://adelphi-ed-tech.github.io/au-courses/maker3/conference.html)
 
 
-Tuesday May 14 ~ 5pm-8pm
-
-Adelphi NYC Campus @ St. Francis College
-
-179 Livingston Street, 7th Floor
-
-Free and Open Admissions ~ Registration Required
+Tuesday May 14 ~ 5pm-8pm\
+Adelphi NYC Campus @ St. Francis College\
+179 Livingston Street, 7th Floor\
+Free and Open Admissions ~ Registration Required\
 
 {% endmd %}
 

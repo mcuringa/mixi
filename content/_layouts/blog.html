@@ -32,12 +32,12 @@ layout: main
                     <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
                     {% endif %}
                     <div class="card-body">
+                        <p class="card-text">
+                            <small class="text-muted">{{ post.date | date: "%m.%d.%Y" }} </small>
+                        </p>
                         <h5 class="card-title">
                             <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
                         </h5>
-                        <p class="card-text">
-                            <small class="text-muted">{{ post.date | date: "%B %d, %Y" }} by {{ post.author }}</small>
-                        </p>
                         <p class="card-text">{{ post.tease }}</p>
                     </div>
                 </a>
