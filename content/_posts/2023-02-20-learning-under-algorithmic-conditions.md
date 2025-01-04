@@ -4,6 +4,13 @@ title:  "Learning Under Algorithmic Conditions"
 image:  "algorithmic.png"
 tease: "April 18-20 What is the nature of learning under algorithmic conditions?"
 date:   2023-02-20 12:00:00 -0400
+event:
+  name: "Steam mini conference"
+  start: 2023-04-18
+  end: 2023-04-20
+  location: >
+    Adelphi Manhattan Center
+  description: Interdisciplinary conference to discuss the nature of learning under algorithmic conditions.
 author: "matt curinga"
 categories: [Events]
 tags: ["algorithms"]

@@ -2,6 +2,9 @@
 layout: main
 title: "Events"
 ---
+{% assign events = site.posts | where: "categories", "Events" | sort: "event.start" | reverse %}
+
+{{today}}
 
 <nav class="navbar navbar-expand-md navbar-light">
     <div class="container">
@@ -24,29 +27,46 @@ title: "Events"
 
 <div class="container mt-4">
     <h1>Events at Mixi</h1>
-    <p>MIXI hosts events throughout the year that help us investigate the wide range of concerns about STEM and the imagination. Our events include the MIXI Lecture Series where we invite leading thinkers to discuss their work. Reading Groups, held online or in person, bring together scholars, activists, artists, practitioners and students meet regularly to discuss key works. Workshops help us explore new technologies, share knowledge about the latest methods, and work together on MIXI projects. Our conferences and seminars gather transdisciplinary thinkers to share their work while expanding the boundaries.</p>
+    <p>
+        MIXI hosts events throughout the year that help us investigate the wide range of concerns
+        about STEM and the imagination. Our events include the MIXI Lecture Series where we invite
+        leading thinkers to discuss their work. Reading Groups, held online or in person,
+        bring together scholars, activists, artists, practitioners and students meet regularly
+        to discuss key works. Workshops help us explore new technologies, share knowledge about
+        the latest methods, and work together on MIXI projects. Our conferences and
+        seminars gather transdisciplinary thinkers to share their work while expanding the boundaries.
+    </p>
 
     <hr class="my-5">
-    <h2>Featured Events</h2>
-    <div class="row bg-light p-4 rounded">
-        {% assign featured_events = site.posts | where: "categories", "Events" | slice: 0, 3 %}
-        {% for post in featured_events %}
-        <div class="col-md-4 mb-4">
-            <div class="card h-100">
-                <div class="card-body">
-                    <a class="text-black" href="{{ post.url }}"></a>
-                        <img src="/assets/images/blog/{{ post.image }}" class="img-fluid" alt="{{ post.title }}">
-                    </a>
-                    <br/>
-                    <br/>
-                    <h5 class="card-title"><a href="{{ post.url }}">{{ post.title }}</a></h5>
-                    <p class="text-muted">{{ post.date | date: "%B %d, %Y" }}</p>
-                </div>
+    <h2>Upcoming Events</h2>
+    <div class="row bg-light p-4 rounded mb-4">
+        {% for post in events %}
+            <div class="future-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
+                <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
+                <a class="d-block" href="{{ post.url }}">
+                    <div class="text-black fw-bold">{{ post.title }}</div>
+                    <small class="text-secondary ms-4 d-block mb-2">{{post.tease}}</small>
+                    <div class="ms-4 text-secondary"><i class="bi bi-calendar2-heart-fill"></i> {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}</div>
+                    <div class="ms-4 text-secondary"><i class="bi bi-map-fill"></i> {{ post.event.location }}</div>
+                </a>
             </div>
-        </div>
+        {% endfor %}
+    </div>
+    <h2 class="mt-5">Past Events</h2>
+    <div class="row bg-light p-4 rounded mb-4">
+        {% for post in events %}
+            <div class="past-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
+                <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
+                <a class="d-block" href="{{ post.url }}">
+                    <div class="text-black fw-bold">{{ post.title }}</div>
+                    <div class="ms-4 text-secondary"><i class="bi bi-calendar2-heart-fill"></i> {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}</div>
+                    <div class="ms-4 text-secondary"><i class="bi bi-map-fill"></i> {{ post.event.location }}</div>
+                </a>
+            </div>
         {% endfor %}
     </div>
 </div>
+
 
 <div class="container">
     <nav aria-label="Page navigation">
@@ -61,8 +81,7 @@ title: "Events"
             {% endif %}
             {% if paginator.next_page %}
             <li class="page-item">
-                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}"
-                    aria-label="Next">
+                <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl }}" aria-label="Next">
                     <span aria-hidden="true">Later &raquo;</span>
                 </a>
             </li>
@@ -70,3 +89,32 @@ title: "Events"
         </ul>
     </nav>
 </div>
+
+<script>
+function showFutureEventsOnly() {
+    const today = new Date();
+    const events = document.querySelectorAll('.future-event');
+    events.forEach(function(event) {
+        const ts = event.getAttribute('data-start');
+        const eventDate = new Date(ts);
+        if (eventDate < today) {
+            event.style.display = 'none';
+        }
+    });
+}
+
+function showPastEventsOnly() {
+    const today = new Date();
+    const events = document.querySelectorAll('.past-event');
+    events.forEach(function (event) {
+        const ts = event.getAttribute('data-start');
+        const eventDate = new Date(ts);
+        if (eventDate >= today) {
+            event.style.display = 'none';
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', showFutureEventsOnly);
+document.addEventListener('DOMContentLoaded', showPastEventsOnly);
+</script>

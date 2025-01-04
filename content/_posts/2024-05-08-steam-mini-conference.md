@@ -4,6 +4,16 @@ title:  "Steam mini conference"
 image:  "mini-conference.png"
 tease: "STEAM MINI Conference '24, May 14 @ MIXI"
 date:   2024-05-08 12:00:00 -0400
+event:
+  name: "Steam mini conference"
+  start: 2024-05-14T17:00-05:00
+  end: 2024-05-14T20:00-05:00
+  location: >
+    Tuesday May 14 ~ 5pm-8pm
+    Adelphi NYC Campus @ St. Francis College
+    179 Livingston Street, 7th Floor
+    Brooklyn, NY 11201
+  description: STEAM student workshops.
 categories: [Events, Conference]
 author: "matt curinga"
 tags: ["steam", "maker ed", "micro:bit", "paper circuits", "chibitronics", "chaos theory", "games for learning", "reception"]

@@ -5,6 +5,12 @@ image:  "rocket-switch-workshop.png"
 tease: 
     Sunday, April 30. 11am-2pm. Learn how 3D printing, soldering, and computer boards can expand computing for disabled users.
 date:   2023-03-28 12:00:00 -0400
+event:
+  name: "Rocket Switch Workshop"
+  start: 2023-04-12
+  end: 2023-04-12
+  location: >
+    Adelphi Manhattan Center
 author: "matt curinga"
 categories: [Events]
 tags: ["STEAM Lab", "assistive technology", "soldering", "3D printing", "makers making change", "arduino"]
