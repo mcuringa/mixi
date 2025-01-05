@@ -2,7 +2,7 @@
 layout: post
 title:  "Mapping open school and census data in New York City"
 image:  "mapping-census-promo.png"
-tease: "MIXI researchers present work on spatial analysis of City demographics at NYC Open Data week."
+excerpt: "MIXI researchers present work on spatial analysis of City demographics at NYC Open Data week."
 date:   2024-03-28 12:00:00 -0400
 categories: [News]
 author: "matt curinga"

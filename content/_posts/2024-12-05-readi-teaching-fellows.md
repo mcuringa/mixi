@@ -2,7 +2,7 @@
 layout: post
 title:  "Applications now open for MIXI STEAM and NYC Teaching Fellows"
 image:  "readi.png"
-tease: > 
+excerpt: > 
   Funded through a $1.24M grant from SUNY, applications 
   are now open for NYC Teaching Fellows to become STEM 
   educators trained through Adelphi's STEAM Master's.

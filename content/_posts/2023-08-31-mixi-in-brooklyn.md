@@ -2,7 +2,7 @@
 layout: post
 title:  "MIXI in Brooklyn"
 image:  "mixi-in-bk.png"
-tease: "MIXI's not BIXI, but we are in Brooklyn!"
+excerpt: "MIXI's not BIXI, but we are in Brooklyn!"
 date:   2023-08-31 10:00:00 -0400
 author: "matt curinga"
 categories: [News]

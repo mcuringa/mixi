@@ -2,7 +2,7 @@
 layout: post
 title:  "Steam mini conference"
 image:  "mini-conference.png"
-tease: "STEAM MINI Conference '24, May 14 @ MIXI"
+excerpt: "STEAM MINI Conference '24, May 14 @ MIXI"
 date:   2024-05-08 12:00:00 -0400
 event:
   name: "Steam mini conference"

@@ -45,7 +45,7 @@ title: "Events"
                 <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
                 <a class="d-block" href="{{ post.url }}">
                     <div class="text-black fw-bold">{{ post.title }}</div>
-                    <small class="text-secondary ms-4 d-block mb-2">{{post.tease}}</small>
+                    <small class="text-secondary ms-4 d-block mb-2">{{post.excerpt}}</small>
                     <div class="ms-4 text-secondary"><i class="bi bi-calendar2-heart-fill"></i> {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}</div>
                     <div class="ms-4 text-secondary"><i class="bi bi-map-fill"></i> {{ post.event.location }}</div>
                 </a>

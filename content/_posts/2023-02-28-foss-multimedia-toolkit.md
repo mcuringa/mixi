@@ -2,7 +2,7 @@
 layout: post
 title:  "FOSS Multimedia Toolkit"
 image:  "foss.png"
-tease: 
+excerpt: 
     For many years I have used GNU/Linux computers as my main/sole computers. I mostly stay in the Debian/Ubuntu line of distros because they...
 date:   2023-02-28 12:00:00 -0400
 author: "matt curinga"

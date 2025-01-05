@@ -2,7 +2,7 @@
 layout: post
 title:  "Rocket Switch Workshop"
 image:  "rocket-switch-workshop.png"
-tease: 
+excerpt: 
     Sunday, April 30. 11am-2pm. Learn how 3D printing, soldering, and computer boards can expand computing for disabled users.
 date:   2023-03-28 12:00:00 -0400
 event:

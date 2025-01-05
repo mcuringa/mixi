@@ -2,7 +2,7 @@
 layout: post
 title:  "Mozilla Foundation funds MIXI Research"
 image:  "mozilla-foundation-mixi.jpeg"
-tease:
+excerpt:
     MIXI researchers awarded grant to study CS Education, ethical computing, and spatial justice.
 date:   2023-11-14 10:00:00 -0400
 author: "matt curinga"

@@ -2,7 +2,7 @@
 layout: post
 title:  "ChatGPT Translanguaging for multilingual learners"
 image:  "aaal.jpg"
-tease: > 
+excerpt: > 
   Matt Curinga and Aaron Hung team up with Matt's sister,
   Dr. Rebecca Curinga from CUNY to present their research
   on translanguaging with GPT-3 at AAAL 2025.

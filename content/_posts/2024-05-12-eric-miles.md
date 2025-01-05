@@ -2,7 +2,7 @@
 layout: post
 title:  "Muralist Eric Miles joins MIXI faculty"
 image:  "mural-th.jpg"
-tease: "Muralist and teaching artist Eric Miles joining MIXI faculty to teach the Design Lab"
+excerpt: "Muralist and teaching artist Eric Miles joining MIXI faculty to teach the Design Lab"
 date:   2024-05-12 12:00:00 -0400
 categories: [News]
 author: "matt curinga"

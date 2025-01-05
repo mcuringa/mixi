@@ -2,7 +2,7 @@
 layout: post
 title:  "MIXI Lecture 04: Mia Shaw, Restorying STEAM Identities"
 image:  "mixi-lecture-04.png"
-tease:
+excerpt:
     Join us on Nov 30 to hear about Dr. Shaw's Black Feminist-
     Womanist approach to STEAM education.
 date:   2023-11-14 12:00:00 -0400

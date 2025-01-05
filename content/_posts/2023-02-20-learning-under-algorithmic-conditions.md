@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning Under Algorithmic Conditions"
 image:  "algorithmic.png"
-tease: "April 18-20 What is the nature of learning under algorithmic conditions?"
+excerpt: "April 18-20 What is the nature of learning under algorithmic conditions?"
 date:   2023-02-20 12:00:00 -0400
 event:
   name: "Steam mini conference"
