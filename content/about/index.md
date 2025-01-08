@@ -23,14 +23,14 @@ author: "mxc"
 <div class="container p-2 mt-2 mb-4">
     <h1 class="page-title text-center text-upper mb-4">About MIXI</h1>
     <p class="fs-5">
-Founded in 2020, the MIXI Institute for STEM and the Imagination is housed at the Adelphi University 
-Brooklyn Center. The Institute provides an open space for transdisciplinary collaboration and 
-innovation in response to rapidly changing social and material conditions of contemporary life. We 
-pursue novel theoretical and methodological approaches to the social sciences, drawing on fields such 
-as speculative philosophy, affective computing, science and technology studies, sensory ethnography, 
-immersive arts and media, adaptive architecture, sensor technologies, and critical life studies. Our 
-combined focus on the biosocialities of learning and behaviour is underpinned by a rigorous 
-commitment to bio-ethics that is responsive to social, technological, and environmental change.
+        Founded in 2020, the MIXI Institute for STEM and the Imagination is housed at the Adelphi University 
+        Brooklyn Center. The Institute provides an open space for transdisciplinary collaboration and 
+        innovation in response to rapidly changing social and material conditions of contemporary life. We 
+        pursue novel theoretical and methodological approaches to the social sciences, drawing on fields such 
+        as speculative philosophy, affective computing, science and technology studies, sensory ethnography, 
+        immersive arts and media, adaptive architecture, sensor technologies, and critical life studies. 
+        Our combined focus on the complexity of learning ecologies of all kinds is underpinned by a 
+        rigorous commitment to the ethics of responsive research practices.
     </p>
 </div>
 

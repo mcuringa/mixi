@@ -48,7 +48,8 @@ author: "mxc"
     <div class="container">
         <div class="row align-items-center">
             <div class="HomeText col-md-6">
-                MIXI Institute
+                MIXI<br>
+                Institute<br>
                 for STEM<br>
                 and the<br>
                 Imagination

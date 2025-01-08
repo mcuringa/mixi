@@ -86,12 +86,16 @@
 
 <style>
 section h4 { background-color: #416165; color: white; }
-#DegreeHeader { background-color: #D8E2DC; }
-#DegreeHeader h1 { color: #416165; }
+#DegreeHeader { background-color: #cdb4db; }
+#DegreeHeader h1 { color: #59356e; }
+.btn-edt { background-color: #59356e; color: white;}
+.btn-edt:hover { background-color: #8650a5;  color: white;}
 
-#PhD-LS { background-color: #FFE5D9; padding-bottom: 2em;}
+#PhD-LS { background-color: #FFE5D9; padding: 100px 0; }
 
 #STEAM { background-color: #FFCAD4; padding: 100px 0; }
+#STEAM .btn { color: white; background-color: #ff87ab; border-color: white;}
+#STEAM .btn:hover { color: white; background-color: #feb1c6; }
 
 #STEAM h1.fs-huge {
     margin-bottom: 1em;
@@ -114,23 +118,28 @@ section h4 { background-color: #416165; color: white; }
     background-color: rgba(255, 255, 255, 0.2);
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
+    #ls-content { padding-top: 360px;}
     .halfway {
-        /* margin-top: -220px; */
-        margin-top: -220px;
+        position: absolute;
     }
+} */
+
+.row {
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 </style>
 
 <section id="DegreeHeader" class="container-fluid">
     <div class="row pt-2 pb-2">
-        <div class="col-md-5 offset-md-2">
+        <div class="col-md-7">
             <h1 class="p-0">Graduate degrees at the intersection of creativity, technology, learning, and action</h1>
         </div>
     </div>
     <div class="row pt-2 pb-2">
-        <div class="col-12 col-md-6 col-lg-3 col-xl-2 offset-md-2">
+        <div class="col-12 col-md-5 col-xl-3">
             <nav class="nav flex-column nav-underline">
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#PhD-LS"><i class="bi bi-arrow-down-square"></i> PhD in the Learning Sciences</a>
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#STEAM">
@@ -144,29 +153,25 @@ section h4 { background-color: #416165; color: white; }
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#courses"><i class="bi bi-arrow-down-square"></i> Courses</a>
             </nav>
         </div>
+        <div class="col">
+            <img class="img-fluid d-block rounded mb-4" src="/assets/images/dance-sketch.png" alt="sketches of dancers on a table" />
+        </div>
     </div>
 </section>
 
 <section id="PhD-LS" class="container-fluid">
-    <div class="row pt-2 pb-2">
-        <div class="col-12 col-lg-3 col-xl-2 offset-lg-2">
-        </div>
-        <div class="col-12 col-lg-7 col-xl-8 px-0 m-0">
-            <img class="img-fluid halfway" src="/assets/images/goldberg.jpg" alt="students working on robotics" />
-        </div>
-    </div>
     <div class="row mt-3">
-        <div class="col-12 col-md-3 offset-md-2">
+        <div class="col-12 col-md-6 col-xl-3">
             <p class="fs-2">
-            Launched in 2024, the word's newest <strong>PhD in the Learning Sciences</strong>
-            prepares scholars and researchers to address our most
-            vital challenges in education, technology, and society.
+                Launched in 2024, the word's newest <strong>PhD in the Learning Sciences</strong>
+                prepares scholars and researchers to address our most
+                vital challenges in education, technology, and society.
             </p>
             <p class="fs-2">
-            Classroom and out-of-class experiences 
-            mix experimentation, play, fantasy and design so that 
-            together we can imagine new ways of 
-            thinking and learning.
+                Classroom and out-of-class experiences 
+                mix experimentation, play, fantasy and design so that 
+                together we can imagine new ways of 
+                thinking and learning.
             </p>
             <p class="fs-4">
                 Applications are evaluated on a rolling basis for a Fall start. For full consideration,
@@ -174,9 +179,9 @@ section h4 { background-color: #416165; color: white; }
             </p>
             <a class="btn btn-warning mb-2" href="https://www.adelphi.edu/program/doctoral/learning-sciences/">Click for more information and to apply</a>
         </div>
-        <div class="col-12 col-md-7">
+        <div id="ls-content" class="col">
             <div class="row">
-                <div class="col-6 col-md-4">
+                <div class="col-12 col-md-6 col-xl-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Who is this for?</h4>
                     <p>
                         This <b>interdisciplinary degree</b> 
@@ -185,16 +190,6 @@ section h4 { background-color: #416165; color: white; }
                         are all welcome. Study the material, cultural,
                         and cognitive dimensions of learning.
                     </p>
-                </div>
-                <div class="col-6 col-md-4">
-                    <h4 class="d-inline-block p-2 text-upper mb-2">Funding is available!</h4>
-                    <p>
-                        Full time <b>Ammon Scholars</b>, accepted each year, receive full tuition funding
-                        and a stipend. Additional partial funding is available for outstanding students
-                        working on MIXI research and other projects.
-                    </p>
-                </div>
-                <div class="col-12 col-md-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Where is the program?</h4>
                     <p>
                         The <b>hybrid PhD</b> is based at Adelphi's New York City campus: currently in Downtown Brooklyn,
@@ -203,9 +198,26 @@ section h4 { background-color: #416165; color: white; }
                         school system in the U.S.
                     </p>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-4">
+                <div class="col-12 col-md-6 col-xl-4">
+                    <h4 class="d-inline-block p-2 text-upper mb-2">Funding is available!</h4>
+                    <p>
+                        Full time <b>Ammon Scholars</b>, accepted each year, receive full tuition funding
+                        and a stipend. Additional partial funding is available for outstanding students
+                        working on MIXI research and other projects.
+                    </p>
+                    <h4 class="d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
+                    <p>
+                        Typically, students enter with a Master's degree, and can complete the PhD in 4-5 years
+                        of full-time study. The <i>45-credit curriculum</i> includes 
+                        <b>8 classes, the learning sciences workshop, and dissertation.</b>
+                    </p>
+                    <h4 class="d-inline-block p-2 text-upper mb-2">The Research</h4>
+                    <p>
+                        PhD students work closely with MIXI faculty on <a href="/research">on research projects</a>
+                        with opportunities to present at conferences, publish in journals, and impact our community.
+                    </p>
+                </div>
+                <div class="col-12 col-xl-4">
                     <h4 class="d-inline-block p-2 text-upper mb-2">Where can I work?</h4>
 <ul>
   <li>University or college faculty</li>
@@ -219,22 +231,7 @@ section h4 { background-color: #416165; color: white; }
   <li>Toy companies</li>
 </ul>
 
-                </div>
-                <div class="col-12 col-md-6 col-lg-4">
-                    <h4 class="d-inline-block p-2 text-upper mb-2">The Curriculum</h4>
-                    <p>
-                        Typically, students enter with a Master's degree, and can complete the PhD in 4-5 years
-                        of full-time study. The <i>45-credit curriculum</i> includes 
-                        <b>8 classes, the learning sciences workshop, and dissertation.</b>
-                    </p>
-                    <h4 class="d-inline-block p-2 text-upper mb-2">The Research</h4>
-                    <p>
-                        PhD students work closely with MIXI faculty on <a href="/research">on research projects</a>
-                        with opportunities to present at conferences, publish in journals, and impact our community.
-                    </p>
-                </div>
-                <div class="d-none d-lg-block col-lg-4">
-                    <img class="img-fluid" src="/assets/images/assistive-toys-soldering.jpg" alt="student soldering in an assistive toy build" />
+                    <img class="img-fluid d-block" src="/assets/images/fishing.jpg" alt="person fishing with a net in the forest" />
                 </div>
             </div>
         </div>
@@ -243,11 +240,8 @@ section h4 { background-color: #416165; color: white; }
 
 <section id="STEAM" class="container-fluid">
     <div class="row">
-        <div class="col-12 col-md-3 offset-md-2">
-            <img class="img-fluid" src="/assets/images/embroidery.jpg" alt="students designing digital embroidery patterns" />
-        </div>
-        <div class="col-md-7 col-xl-4">
-            <p class="fs-3">
+        <div class="col-12 col-md-6 col-xl-3">
+            <p class="fs-2">
                 <b>The Master’s in STEAM Teaching and Learning</b> prepares students for 
                 careers in mathematics education, science education or computer 
                 science education, with accreditation for K-12 teaching in their 
@@ -261,21 +255,31 @@ section h4 { background-color: #416165; color: white; }
                 technology, with a focus on teaching and learning in formal and informal 
                 learning environments.
             </p>
+            <h3 class="">For more information and to apply:</h3>
+            <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
+                <a class="btn btn-primary btn-block" href="http://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16423">MA STEAM Math Education</a>
+                <a class="btn btn-primary btn-block" href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16425">MA STEAM Science Education</a>
+                <a class="btn btn-primary btn-block" href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16432">MA STEAM CS Education</a>
+                <a class="btn btn-primary btn-block" href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16426">MA STEAM Learning Sciences</a>
+            </div>
+        </div>
+        <div class="col-12 col-xl-4">
+            <img class="img-fluid" src="/assets/images/embroidery.jpg" alt="students designing digital embroidery patterns" />
+        </div>
+        <div class="col d-flex flex-column justify-content-center fs-5">
             <p class="fs-5">
                 The <b>Maker Lab</b> is at the core of the curriculum, where students
                 design and construct their own hands-on projects using a variety
                 of digital design and fabrication tools (3d printing, laser cutting,
                 microelectronics, cnc embroidery, etc.)
             </p>
-            <p class="fs-5">
+            <p class="">
                 With <b>scholarships from the National Science Foundation</b>
                 you can complete this 30-credit Master's in one year to become
                 a highly sought-after STEAM educator.
                 Through MIXI's partnerships with <a href="https://nycteachingfellows.org/">NYC Teaching Fellows</a>
                 you can earn your Master's while making an impact in the classroom.
             </p>
-        </div>
-        <div class="col offset-0 offset-md-5 offset-xl-0 d-flex flex-column justify-content-around">
              <p>
                 <b>Become a science or mathematics teacher!</b> Teach 
                 Mathematics, Chemistry, Physics, Earth Science, or 
@@ -297,27 +301,19 @@ section h4 { background-color: #416165; color: white; }
                 practice. This track is suitable for international students and NYS teachers
                 seeking professional certification in their initial certification area.
             </p>
-            <img class="img-fluid d-block" src="/assets/images/led-board.png" alt="programming an LED board interface with Micro:bit" />
-            <div>
-                <h3 class="">See program details and apply now:</h3>
-                <ul class="fs-5">
-                    <li><a href="http://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16423">MA STEAM Math Education</a></li>
-                    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16425">MA STEAM Science Education</a></li>
-                    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16432">MA STEAM CS Education</a></li>
-                    <li><a href="https://catalog.adelphi.edu/preview_program.php?catoid=33&amp;poid=16426">MA STEAM Learning Sciences</a></li>
-                </ul>
-            </div>
-        </div>
+         </div>
     </div>
 </section>
 
 <section id="EDX" class="container-fluid">
     <div class="row">
-        <div class="col-md-3 offset-md-2">
+        <div class="col-12 col-md-6 col-xl-3">
             <p class="fs-1 text-center fw-bold">
-            Master's of Arts in Educational Technology<br />
-            100% online<br />
-            <small>7 core courses ~ 3 electives ~ 1 thesis</small>
+                Master's of Arts in Educational Technology
+            </p>
+            <p class="fs-2 text-center fw-bold">
+                100% online<br />
+                <small>7 core courses ~ 3 electives ~ 1 thesis</small>
             </p>
             <p class="fs-3">
                 Learn to use the latest technologies for learning:
@@ -327,14 +323,14 @@ section h4 { background-color: #416165; color: white; }
                 and tools, to evaluate new approaches in terms of transformational learning, 
                 and potential for positive social impact.
             </p>
+            <a href="https://online.adelphi.edu/graduate-degrees/ma-education-technology/" class="btn btn-edt mb-4">Click here for application and details!</a>
         </div>
         <div class="col">
             <div class="row">
                 <div class="col-12 col-xl-6">
                     <img class="img-fluid d-block mx-auto" src="/assets/images/hydroponics-xr.png" alt="speculative xr interface for a hydroponics system" />
-                    <a href="https://online.adelphi.edu/graduate-degrees/ma-education-technology/" class="d-block fs-3 fw-bold text-center mt-3">Click here for application and details!</a>
                 </div>
-                <div class="col">
+                <div class="col fs-5">
                     <p>
                         <b>Inside and outside of the classroom</b>, Ed Tech students lead the way in
                         designing learning environments that are culturally responsive, supportive of
@@ -433,7 +429,7 @@ section h4 { background-color: #416165; color: white; }
         </div>
     
         <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow edx ls">
-            <img class="rounded-top d-block img-fluid" src="/courses/img/research.png" alt="sketches from Darwin’s journals" />
+            <img class="rounded-top d-block img-fluid" src="/courses/img/darwin.jpg" alt="sketches from Darwin’s journals" />
             
             
                 <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" target="course" href="/courses/research-seminar">EDT 618 Research and Evaluation of Educational Technology</a></strong>
@@ -457,7 +453,7 @@ section h4 { background-color: #416165; color: white; }
         </div>
     
         <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow edx">
-            <img class="rounded-top d-block img-fluid" src="/courses/img/story-games.png" alt="ace attorney, doki doki, undertale, zork" />
+            <img class="rounded-top d-block img-fluid" src="/courses/img/games.png" alt="ace attorney, doki doki, undertale, zork, gta, civ 6" />
             <div class="text-center text-danger fw-bold"><i class="bi bi-stars"></i> elective</div>
             
                 <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" target="course" href="/courses/video-games">EDT 611 Learning with Video Games</a></strong>

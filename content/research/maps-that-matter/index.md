@@ -1,6 +1,6 @@
 ---
 layout: main
-title: "MIXI Research"
+title: "Maps that Matter"
 author: "mxc"
 
 intro:
