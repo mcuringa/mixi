@@ -67,10 +67,10 @@ author: "mxc"
 
 <!-- create the content for the featured items here -->
 
-{% assign degrees = "
-<a class='text-decoration-none text-black' href='/degrees'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>Master's Degree</p>
+{% assign steam = "
+<a class='text-decoration-none text-black' href='/degrees/#STEAM'>
+    <div class=' text-upper fw-bold'>
+        <p class='text-red '>Master's Degree</p>
         <p>STEAM Education</p>
         <p><small>Math | Science | CS</small></p>
         <p><small class='text-burnt'>fellowships available</small></p>
@@ -78,50 +78,51 @@ author: "mxc"
 </a>
 " %}
 
-{% assign exhibitions = "
-<a class='text-decoration-none text-black' href='/exhibitions'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>Critical Data literacy</p>
-        <p>and</p>
-        <p>NYC Schools</p>
-    </div>
-</a>
-" %}
-{% assign mentoring = "
-<a class='text-decoration-none text-black' href='#'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>Maker Labs</p>
-        <p>and</p>
-        <p>STEM Teacher Mentoring</p>
-        <p><small>funded by the nsf</small></p>
-    </div>
-</a>
-" %}
-{% assign math_body = "
-<a class='text-decoration-none text-black' href='#'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>mathematics</p>
-        <p>and</p>
-        <p>material practices</p>
-    </div>
-</a>
-" %}
-
-
 {% assign luac = "
-<a class='text-decoration-none text-black' href='#'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>learning under</p>
-        <p>algorithmic conditions</p>
+<a class='text-decoration-none text-black' href='/research/luac/'>
+    <div class=' text-upper fw-bold'>
+        <p class='text-red'>Learning Under</p>
+        <p>Algorithmic Conditions</p>
+        <p><small>book coming 2025</small></p>
     </div>
 </a>
-
 " %}
-{% assign equity = "
-<a class='text-decoration-none text-black' href='#'>
-    <div class='text-center text-upper fw-bold'>
-        <p class='text-red text-center'>International Equity</p>
-        <p>through STEAM</p>
+
+{% assign phd = "
+<a class='text-decoration-none text-black' href='/degrees/#PhD-LS'>
+    <div class=' text-upper fw-bold'>
+        <p class='text-red'>PhD Learning Sciences</p>
+        <p>new research doctorate</p>
+        <p class='text-burnt'><small>full funding & stipend available</small></p>
+    </div>
+</a>
+" %}
+
+{% assign spencer = "
+<a class='text-decoration-none text-black' href='/research/#'>
+    <div class=' text-upper fw-bold'>
+        <p class='text-red'>School Maps</p>
+        <p>and Sensory Ethnography</p>
+        <p><small>Funded by the Spencer Foundation</small></p>
+    </div>
+</a>
+" %}
+
+{% assign maps = "
+<a class='text-decoration-none text-black' href='/research/maps-that-matter/'>
+    <div class=' text-upper fw-bold'>
+        <p class='text-red'>maps that matter</p>
+        <p>CS & Responsible Computing</p>
+        <p><small>Funded by the Mozilla Foundation</small></p>
+    </div>
+</a>
+" %}
+
+{% assign news = "
+<a class='text-decoration-none text-black' href='/blog'>
+    <div class='text-upper fw-bold'>
+        <p class='text-red'>Latest News</p>
+        <p class='text-red'>& Events</p>
     </div>
 </a>
 " %}
@@ -129,17 +130,17 @@ author: "mxc"
 
 {% assign css = "d-flex align-items-center justify-content-center square overlay p-2" %}
 <div class="HomePrograms yellow-pink pb-4 d-flex">
-    <div class="container p-2">
+    <div class="container p-2 text-center">
         <h1 class="text-upper text-center">Programs and Projects</h1>
         <div class="d-flex flex-wrap justify-content-center mb-3">
-            <div class="{{css}}"> {{ degrees | raw }} </div>
-            <div class="{{css}}"> {{ exhibitions | raw }} </div>
-            <div class="{{css}}"> {{ mentoring | raw }} </div>
+            <div class="{{css}}"> {{ phd | raw }} </div>
+            <div class="{{css}}"> {{ luac | raw }} </div>
+            <div class="{{css}}"> {{ steam | raw }} </div>
         </div>
         <div class="d-flex flex-wrap justify-content-center">
-            <div class="{{css}}"> {{ math_body | raw }} </div>
-            <div class="{{css}}"> {{ luac | raw }} </div>
-            <div class="{{css}}"> {{ equity | raw }} </div>
+            <div class="{{css}}"> {{ maps | raw }} </div>
+            <div class="{{css}}"> {{ spencer | raw }} </div>
+            <div class="{{css}}"> {{ news | raw }} </div>
         </div>
     </div>
 </div>
