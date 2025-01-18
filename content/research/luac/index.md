@@ -11,18 +11,14 @@ body {
 
 }
 
-/* #memos {
-  background: hsla(319, 61%, 87%, 1);
-  background: linear-gradient(150deg, hsla(319, 61%, 87%, 1) 40%, hsla(286, 23%, 66%, 1) 100%);
-} */
 </style>
 <div id="intro" class="transparent container">
 <h1 class="page-title my-5 py-5">Learning Under Algorithmic Conditions</h1>
 
 <div class="d-flex flex-row justify-content-between mx-auto mb-2">
-    <img class="w-25 img-fluid d-block pe-1" src="/assets/images/control-soc.png">
-    <img class="w-25 img-fluid d-block pe-1" src="/assets/images/control-soc.png">
     <img class="w-25 img-fluid d-none d-md-block pe-1" src="/assets/images/control-soc.png">
+    <img class="w-25 img-fluid d-block pe-1" src="/assets/images/control-soc.png">
+    <img class="w-25 img-fluid d-block pe-1" src="/assets/images/control-soc.png">
     <img class="w-25 img-fluid d-block" src="/assets/images/control-soc.png">
 </div>
 

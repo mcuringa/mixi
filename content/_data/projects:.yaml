@@ -1,88 +1,151 @@
-
 - title: "Learning Under Algorithmic Conditions"
+  subtitle: "A new book by MIXI faculty"
+  id: "LUAC"
   desc: >
-    This new book presents 28 <i>memoranda</i> from leading scholars, 
-    offering concise commentary on a range of topics 
-    that connect shared interests in understanding how learning under
-    algorithmic conditions is newly embodied, more-than-human, 
-    political, and all too compliant with speculative capital and techno-economic proceduralism.
+        This new book presents 28 _memoranda_ from leading scholars, 
+        offering concise commentary on a range of topics 
+        that connect shared interests in understanding how learning under
+        algorithmic conditions is newly embodied, more-than-human, 
+        political, and all too compliant with speculative capital and techno-economic proceduralism.\
+
+        The manuscript will be published in Spring 2025 by the University of Minnesota Press.
   link: "/research/luac"
-  img: "/assets/images/control-soc.png"
+  researchers: Liz de Freitas, Matt Curinga
+  img: "/assets/images/luac-dalle.png"
   alt: "abstract painting with person emerging from dark colors"
 
 - title: "Maps That Matter: CS+Spatial Justice"
+  subtitle: "Rethinking college level CS"
+  id: "RCC"
   desc: >
     Combining computer science, spatial justice, and critical geographies, we explore ways to teach CS
     that expand who studies computing, and how new approaches may transform computing and engineering fields.
-    <b>Funded by the Mozilla Foundation.</b>
+    This project studies new course designs to for undergraduate and graduate computing, as well
+    as the creation of new software tools to facilitate teaching spatial justice and critical
+    cartography alongside computer programming with Python.\
+
+    **Funded by the Mozilla Foundation.**
   link: "/research/maps-that-matter"
-  img: "/assets/images/nyc-dots-thumb.png"
+  researchers: Matt Curinga, Suraj Uttamchandani
+  img: "/assets/images/nyc-dots.png"
   alt: "dot density map of racial demographics in NYC"
 
 - title: "School Maps & Sensory Ethnography"
+  subtitle: "exploring the spaces and places of learning with new technologies"
+  id: "SchoolMaps"
   desc: > 
-    Mapping schools to better understand the spatial environment where learning occurs,
-    using sensor ethnography, experimental cartography, and participatory design.
-    <b>Funded by the Spencer Foundation.</b>
-  link: "#"
-  img: "/assets/images/d13-thumb.png"
-  alt: "map of schools in district 13 brooklyn"
+    We are mapping schools to better understand the spatial environment where learning occurs,
+    using sensory ethnography, experimental cartography, and participatory design.
+    Researchers combine ethnographic investigations of schools and their
+    communities, with historical and current geospatial data to gather the
+    context of learning in school sites. This knowledge is combined through
+    collaborative research with high school and middle school students,
+    using 3D environments and sensors to investigate the material and affective
+    aspects of their schools.\
 
-- title: "Ensemble Learning in Queer Spaces"
-  desc: > 
-    Odio corrupti doloribus neque natus. Dignissimos modi perspiciatis ab eum. 
-    Qui laborum et minima ut nemo quisquam alias. Sint ullam nisi inventore. 
-    Laborum autem sunt repellat aut repudiandae quas et fugiat. 
-    Voluptatem praesentium excepturi velit rerum.
+    **Funded by the Spencer Foundation.**
   link: "#"
+  researchers: Liz de Freitas, Matt Curinga
+  img: "/assets/images/unity-schools.png"
+  alt: "school sim in Unity"
+
+- title: "Collaborative Learning in Ensembles"
+  id: Choir
+  subtitle: Social bonding & intimacy in the choir
+  desc: > 
+    This work is motivated by a desire to understand if and how 
+    pedagogues can create intimacy and social bonding through deliberate, 
+    disciplinary (rather than content-free) pedagogical routines. 
+    Learning scientists have demonstrated that designing learning 
+    environments to support strong positive relationships can result 
+    in deep disciplinary learning. Choral education scholars repeatedly 
+    call attention to how positive relationships are a common outcome of 
+    participation in choir. However, scholars have rarely brought these two 
+    fields of study into conversation to understand how the learning of 
+    relational orientations takes place at individual, sectional, and 
+    choir-wide levels, how it intersects with the making of music and 
+    learning of musical concepts, and how teachers’ pedagogical choices 
+    support this learning. This study is based on an ethnography I 
+    conducted with a college-level choir over the course of a semester, 
+    and included field notes, video- and audio-records of each rehearsal 
+    and performance, and interviews with students and the conductor.
+  link: "#"
+  researchers: Suraj Uttamchandani
   img: "/assets/images/choir.png"
   alt: "Diagramatic representation of ensemble learning in a choir"
 
-- title: "Decolonizing education in the Americas "
+- title: "Decolonizing education in the Americas"
+  subtitle: "Archival research of early colonial mathematics"
+  id: "Decolonizing"
   desc: > 
     This is an international research project with historians and educators, 
     including colleagues in Mexico and Canada, exploring 17th century archives in Puebla, Mexico.
-    <b>Funded by the Social Sciences and Humanities Research Council of Canada.</b>
-    
+    The project traces the spread of mathematical knowledge, along with colonial bias,
+    as it spread from Spain to Mexico, and aroud the globe.\
+
+    **Funded by the Social Sciences and Humanities Research Council of Canada.**
   link: "#"
-  img: "/assets/images/math-text.png"
+  researchers: Liz de Freitas
+  img: "/assets/images/steganographia.jpg"
   alt: "16th century illustration of measuring angles from a tower"
 
 - title: "STEAM, Creativity, and Teacher Preparation"
+  subtitle: Transforming schools with arts and innovation
+  id: STEAM
   desc: > 
-    Preparing teachers to integraate art, aesthetics, and creativity into school
+    Preparing teachers to integrate art, aesthetics, and creativity into school
     STEM education through hands-on lab work, and school-based apprenticeships.
     Studying how new approaches might lead to institutional change, in close
-    partnership with New York City public schools.
-    <b>Funded by the National Science Foundation and State University of New York (SUNY).</b>
+    partnership with New York City public schools.\
+
+    **Funded by the National Science Foundation and State University of New York (SUNY).**
   link: "#"
+  researchers: Tracy Hogan, Matt Curinga, Liz de Freitas
   img: "/assets/images/bubbles.jpg"
   alt: "Student teachers modifying a bubble machine with tools and soldering iron"
 
-- title: "Whiteness, trauma, and psychoanalysis in Brazil"
-  desc: > 
-    Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut. 
-    Incidunt ex libero ea eos molestias quo. 
-    Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
-  link: "#"
-  img: "/assets/images/neon-sparks.png"
-  alt: "neon sparks"
+# - title: "Whiteness, trauma, and psychoanalysis in Brazil"
+#   desc: > 
+#     Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut. 
+#     Incidunt ex libero ea eos molestias quo. 
+#     Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+#   link: "#"
+#   img: "/assets/images/neon-sparks.png"
+#   alt: "neon sparks"
 
-- title: "Games & Learning in Digital Environments"
+- title: "Asynchronous online voice discussions"
+  subtitle: "A look at the unique modalities of asynchronous audio"
+  id: "VT"
   desc: > 
-    Quidem sunt perferendis vel consequatur consequatur aspernatur. Iusto voluptas fugiat nostrum molestias. 
-    Hic hic totam quia voluptatem eveniet et. 
-    Quisquam assumenda rem quod dolorem voluptas debitis voluptas. Nam voluptates nulla voluptatibus. 
-    Accusantium molestias maxime consectetur deleniti iste molestias cumque.
+      This ongoing study examines asynchronous voice discussions in 
+      online courses using VoiceThread, a platform for voice, text, 
+      and video communication. While most research focuses on text-based 
+      messaging or video conferencing, this study investigates 
+      voice-based discussion forums. Adapting methods from Zhu, 
+      Herring, and Bonk (2019), it analyzes speech acts and linguistic 
+      patterns through CMC speech acts analysis and Linguistic Inquiry 
+      and Word Count (LIWC). The study tracks three students’ 
+      participation over a semester, exploring how varying levels of 
+      engagement influence communication styles.
+  researchers: "Aaron Hung"
   link: "#"
-  img: "/courses/img/au-mario.png"
-  alt: "AU Games Logo"
+  img: "/assets/images/mosaic.jpg"
+  alt: "multicolored mosaic tiles"
 
 - title: "Translanguaging, GenAI, and LLM"
+  subtitle: "Speaking 2 languages with chat-gpt"
+  id: "LLM"
   desc: > 
-    Eum enim ipsum atque animi recusandae inventore. Ex sed qui sequi eos iure ipsa ut. 
-    Incidunt ex libero ea eos molestias quo. 
-    Qui cupiditate dolorum blanditiis aut aut optio suscipit expedita.
+    This project explores the ways that Chat-GPT (and other LLM) can
+    use multiple languages in the same conversation to communicate ideas
+    more clearly. Based on understandings of translanguaging and raciolinguistics,
+    researchers prompt LLM to use Spanish and English, or Chinese and English over
+    the course of a conversation. They analyze conversation in various contexts:
+    casual (e.g. cooking), school academics (e.g. NYS regents), general knowledge
+    (e.g. _who's the actor in Attack the Block?_). They compare the LLM's method
+    of translanguaging to the documented approaches used by human speakers, examining
+    the syntax, morphology, lexical structures, and content of the conversations.
   link: "#"
-  img: "/assets/images/geometric.png"
-  alt: "geometric abstract"
+  researchers: Aarong Hung, Matt Curinga
+  img: "/assets/images/leaf-bg.jpg"
+  alt: "colorful leaf"

@@ -3,8 +3,6 @@ layout: main
 title: "MIXI: Research"
 author: "mxc"
 ---
-<!-- link js/courses.js -->
-<script src="/js/courses.js"></script>
 
 <style>
 section h4 { background-color: #416165; color: white; }
@@ -27,17 +25,6 @@ section h4 { background-color: #416165; color: white; }
 
 #EDX h1.fs-huge {
     margin-bottom: 1em;
-}
-
-
-#courses { 
-    padding: 100px 0; 
-    background: hsla(24, 100%, 83%, 1);
-    background: linear-gradient(160deg, hsla(24, 100%, 83%, 1) 0%, hsla(341, 91%, 68%, 1) 100%);
-}
-#courses div.course {
-    max-width: 400px;
-    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .row {
@@ -65,7 +52,7 @@ section h4 { background-color: #416165; color: white; }
                         <div class="ps-4 fs-6">Learning Sciences</div>
                 </a>
                 <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#EDX"><i class="bi bi-arrow-down-square"></i> MA in Educational Technology</a>
-                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="#courses"><i class="bi bi-arrow-down-square"></i> Courses</a>
+                <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="/courses"><i class="bi bi-arrow-right-square"></i> Courses</a>
             </nav>
         </div>
         <div class="col">
@@ -273,28 +260,3 @@ section h4 { background-color: #416165; color: white; }
     </div>
 </section>
 
-<section id="courses" class="container-fluid">
-    <h2 class="ps-3">MIXI Course Catalog</h2>
-    <div class="ps-md-3 btn-group flex-wrap">
-        <button type="button" class="course-btn btn-all btn btn-sm btn-primary active" onclick="showCourses('all')">All</button>
-        <button type="button" class="course-btn btn-edx btn btn-sm btn-primary" onclick="showCourses('edx')">Ed Tech</button>
-        <button type="button" class="course-btn btn-steam-sci btn btn-sm btn-primary" onclick="showCourses('steam-sci')">STEAM Science</button>
-        <button type="button" class="course-btn btn-steam-math btn btn-sm btn-primary" onclick="showCourses('steam-math')">STEAM Math</button>
-        <button type="button" class="course-btn btn-steam-cs btn btn-sm btn-primary" onclick="showCourses('steam-cs')">STEAM CS</button>
-        <button type="button" class="course-btn btn-steam-ls btn btn-sm btn-primary" onclick="showCourses('steam-ls')">STEAM Learning Sciences</button>
-        <button type="button" class="course-btn btn-ls btn btn-sm btn-primary" onclick="showCourses('ls')">PhD Learning Sciences</button>
-    </div>
-    <div class="d-flex flex-wrap mx-4">
-    {% for course in site.data.courses %}
-        <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow {{course.tags}}">
-            {% if course.img != "" %}<img class="rounded-top d-block img-fluid" src="/courses/img/{{course.img}}" alt="{{course.alt}}">{% endif %}
-            {% if course.required == 'false' %}<div class="text-center text-danger fw-bold"><i class="bi bi-stars"></i> elective</div>{% endif %}
-            {% if course.url %}
-                <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" target="course" href="/courses/{{course.url}}">{{course.course}}</a></strong>
-            {% else %}
-                <strong class="d-block text-center py-1">{{course.course}}</strong>
-            {% endif %}
-        </div>
-    {% endfor %}
-    </div>
-</section>
