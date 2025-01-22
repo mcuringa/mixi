@@ -26,6 +26,7 @@ section h4 { background-color: #416165; color: white; }
 #EDX h1.fs-huge {
     margin-bottom: 1em;
 }
+#Courses { background-color: #dff18e; padding: 100px 0; }
 
 .row {
     max-width: 1920px;
@@ -254,9 +255,24 @@ section h4 { background-color: #416165; color: white; }
 - public and university library systems
 - multimedia, video, and audio production
 {% endmd %}
+                    <a href="ed-tech-handbook" class="font-weight-bold py-2">More details in the Ed Tech Handbook</a>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+<section id="Courses" class="container-fluid">
+    <div class="container">
+        <p class="fs-3 fst-italic">
+            MIXI faculty teach a variety of graduate courses. Most 500 level courses are open
+            to graduate students from other programs; some are available for advanced undergraduate students.<br>
+            If you would like to sit in or audit a class, please contact the instructor
+            or one of our faculty.
+        </p>
+        <p>
+            <a class="nav-link link-dark m-0 p-0 fw-bold fs-4" href="/courses"><i class="bi bi-arrow-right-square pe-2"></i>
+            Click for the MIXI course catalog</a>
+        </p>
+    </div>
+</section>
