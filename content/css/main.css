@@ -75,6 +75,8 @@ a {
     color: #8b6255;
 }
 
+.text-shadow { text-shadow: 2px 2px 4px #000000; }
+
 /* the mixi I colors */
 .text-rb-0 { color: #e6462c; }
 .text-rb-1 { color: #F28225; }

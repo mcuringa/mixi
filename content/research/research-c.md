@@ -1,6 +1,7 @@
 ---
 layout: main
 title: "MIXI Research"
+draft: true
 author: 
   - "claire"
   - "mxc"

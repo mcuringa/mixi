@@ -3,6 +3,7 @@ layout: main
 title: "MIXI Research"
 author: "mxc"
 permalink: /research/research-a.html
+draft: true
 ---
 <style>
     .bg-slate-blue {

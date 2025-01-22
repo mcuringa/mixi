@@ -29,9 +29,9 @@ html, body {
 #RCC .about { background-color: #26323E; }
 #Decolonizing .about { background-color: #24392E; }
 #SchoolMaps .about { background-color: #1B224B; }
-#Choir .title { color: black; }
 #Choir .about { background-color: #5671BE; }
 #STEAM .about { background-color: #5f0f40; }
+#VT .about { background-color: #A95724; }
 #LLM .about { background-color: #5B3B16; }
 
 .hidden {
@@ -78,13 +78,12 @@ section {
   .about {
     max-width: 100%;
     overflow-y: auto;
+    padding-bottom: 2em;
   }
 }
 
 
 .panel.active { display: block; opacity: 1; }
-
-
 
 .prev, .next { cursor: pointer; }
 
@@ -98,7 +97,9 @@ section {
     <h1 class="fs-huge">Research @ MIXI</h1>
     <h2 class="">Selected Research Projects & Publications</h2>
     <p class="fs-3 fw-bold next">
-      <i class="bi bi-arrow-down-square"></i> Scroll to begin
+      <i class="bi bi-arrow-down-square"></i>
+      <span class="d-none d-md-auto">Scroll to begin</span>
+      <span class="d-auto d-md-none border-bottom">Click to start</span>
     </p>
   </div>
 </section>
@@ -113,17 +114,25 @@ section {
         <span class="next fs-3 cursor-pointer"><i class="bi bi-arrow-right-square"></i></span><br>
         {{project.title}}
       </h1>
-      <h2 class="">{{project.subtitle}}</h2>
+      <h2 class="fs-4 fs-md-2">{{project.subtitle}}</h2>
     </div>
   </div>
   <div class="about fs-3 font-serif">
     <div class="inner">
+      <div class="mx-2 d-block d-md-none text-center fs-3">
+        <i class="bi bi-chevron-up text-shadow prev"></i>
+      </div>
       {{ project.desc | markdownify}}
       <hr>
       <div>
         <b>MIXI faculty:</b><br>
       </div>
       <div class="ps-2"><small>{{project.researchers}}</small></div>
+      {% if forloop.last == false %}
+        <div class="mx-2 d-block d-md-none text-center fs-3">
+          <i class="bi bi-chevron-down text-shadow next pb-2"></i>
+        </div>
+      {% endif %}
     </div>
   </div>
 </section>
@@ -131,6 +140,8 @@ section {
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+
 
 <script>
 
@@ -139,10 +150,6 @@ function updateURL(id) {
   if (window.location.hash !== `#${id}`) {
     history.pushState(null, null, newURL);
   }
-}
-
-function isTouch() {
-  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 }
 
 gsap.registerPlugin(ScrollTrigger);
@@ -224,13 +231,32 @@ document.querySelectorAll(".about").forEach(aboutSection => {
     let atTop = aboutSection.scrollTop <= aboutSection.clientHeight * buffer;
     let atBottom = aboutSection.scrollTop >= (aboutSection.scrollHeight - aboutSection.clientHeight * (1 + buffer));
 
-    // if ((e.deltaY < 0 && atTop) || (e.deltaY > 0 && atBottom)) {
-    //   // Allow scroll to bubble when within the buffer at the top or bottom
-    //   return;
-    // }
-
     e.stopPropagation();
   }, { passive: false });
 });
+
+// add swipe for mobile (left/right)
+function isTouch() {
+  return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
+}
+
+// gsap.registerPlugin(Draggable);
+
+// Draggable.create(".about", {
+//   // if (!isTouch()) {
+//   //   return;
+//   // }
+//   type: "x",
+//   bounds: document.querySelector(".about"),
+//   onDragEnd: function () {
+//     const direction = this.getDirection();
+//     if (direction === "left") {
+//       scrollDown()
+//     } else if (direction === "right") {
+//       scrollUp();
+//     }
+//   }
+// });
+
 
 </script>
