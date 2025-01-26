@@ -7,6 +7,7 @@ author:
 sidenav: "maker3-nav.html"
 css: "css/blueprint.css"
 au_img: "au-white.svg"
+permalink: "/courses/maker3/readings.html"
 ---
 
 <i class="bi bi-book"></i> Readings for ESM 503 Maker Lab 3: School Lab

@@ -1,14 +1,13 @@
 ---
 layout: syllabus
-title: "Maker Lab 3: STEAM Mini Conference"
+title: "Maker Lab 3: STEAM Mini Conference 2024"
 author:
     - "Matthew X. Curinga"
     - "Tracy Hogan"
-css: "css/blueprint.css"
-au_img: "au-white.svg"
+permalink: /courses/maker2/conference-2024.html
 ---
 
-<img src="img/steam-mini2.png" style="max-width: 100%; width: 600px; display: block; margin: 0 auto" alt="STEAM Mini Conference 2">
+<img src="/courses/maker3/img/steam-mini2.png" style="max-width: 100%; width: 600px; display: block; margin: 0 auto" alt="STEAM Mini Conference 2">
 
 <p class="fw-bold fs-1">
 <i class="bi bi-calendar-heart-fill"></i> Tuesday, May 14<br>
@@ -64,29 +63,6 @@ board games for learning which they designed and prototyped.
 </div>
 </div>
 </div>
-
-
-
-Game Play Sessions
-------------------
-{% for game in site.data.games %}
-
-<div class="row mb-2 ms-2">
-    <div class="col-md-4 border bg-light rounded p-2">
-        <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%">
-            <div class="">
-                <h3 class="text-center"><a class="link-underline-light" href="{{game.template}}">{{game.title}}</a></h3>
-            </div>
-            <h5>{{game.names}}</h5>
-            <strong>{{game.room}} ~ {{game.time}}</strong>
-        </div>
-    </div>
-    <div class="col">
-        <p>{{game.description}}</p>
-    </div>
-</div>
-
-{% endfor %}
 
 Workshop Sessions
 -----------------
@@ -176,6 +152,25 @@ Jessican and Shannen will demonstrate their low-cost heart rate monitor built wi
 
 </div>
 
+Game Play Sessions
+------------------
+_Games for learning designed in Multimodal Literacies_
 
+{% for game in site.data.games %}
 
+<div class="row mb-2 ms-2">
+    <div class="col-md-4 border bg-light rounded p-2">
+        <div class="d-flex flex-column align-items-center justify-content-center" style="height: 100%">
+            <div class="">
+                <h3 class="text-center"><a class="link-underline-light" href="{{game.template}}">{{game.title}}</a></h3>
+            </div>
+            <h5>{{game.names}}</h5>
+            <strong>{{game.room}} ~ {{game.time}}</strong>
+        </div>
+    </div>
+    <div class="col">
+        <p>{{game.description}}</p>
+    </div>
+</div>
 
+{% endfor %}

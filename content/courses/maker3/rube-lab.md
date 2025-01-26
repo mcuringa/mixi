@@ -1,5 +1,5 @@
 ---
-layout: com301
+layout: design
 title: "Maker Lab 3: Rube Lab"
 author:
     - "Matthew X. Curinga"
@@ -7,10 +7,12 @@ author:
 sidenav: "maker3-nav.html"
 css: "css/blueprint.css"
 au_img: "au-white.svg"
+permalink: "/courses/maker3/rube.html"
 ---
 
 LEGO Robotics Catapult Lab
 ==========================
+[back to syllabus](/courses/maker3)
 
 <img src="img/rube-wide.jpg" class="img-fluid d-block" alt="rube goldberg machine">
 
@@ -24,33 +26,38 @@ explore the potential of educational robotics by building
 a Rube Goldberg machine with LEGO robotics mixed with other materials.
 The focus of this lab is on creativity and originality. To constrain
 the activity (and foster discussions between teams), each team
-must build a system that ends by extinguishing a candle.
+must build a system that ends by extinguishing a candle. Teams
+will range in size from 2 people to 4 people depending on the
+total number of participants. Each team will have a LEGO Prime
+robotics kit and a laptop loaded with the LEGO Prime app,
+connected to their robot. They will have access to the shared
+materials, as well.
+
+<img src="img/brick.png" class="img-fluid d-block" alt="imaginative sketch of early lego robot">
 
 Time
 ----
-90 minutes
+60 minutes
 
 Goals
 -----
-This lab is designed as a further exploration of
+This lab is designed as an exploration of
 LEGO Robotics in the context of design, creativity,
 play, and originality. Participants will:
 
 - combine LEGO and non-LEGO materials to create a Rube Goldberg
   machine
-- use at least 2 LEGO sensors and 2 LEGO motors
-- program the large motor
+- use at least 1 LEGO sensors and 1 LEGO motors
+- program the motor and sensor
 - design a system that "works" but is also fun and novel
-- implement an iterative design process
-- each system must have at least 4 major components
+- combine LEGO and non-LEGO parts
+- each system must have at least 2 major components
 - each team member must be the lead designer for at least one component
 
 Prior activities
 ----------------
 Before the lab, teams have been formed and members have been asked to review online
-examples of rube goldberg machines. They have been asked to meet (online or in person)
-to plan and sketch the major stages of their design. They must submit any specialized
-materials they may need before the lab, and bring anything they need from home.
+examples of rube goldberg machines.
 
 Stock Materials
 ---------------
@@ -60,7 +67,6 @@ Stock Materials
 - crafting:
   - marbles, dominoes, magnets, coins
   - string, rubber bands, tape, pipe cleaners, glue
-  - glue guns
   - scissors, knives
   - cardboard, paper, felt, foam, plastic, wood
   - small cups, bowls, and containers
@@ -71,7 +77,11 @@ Stock Materials
   - small microcontrollers (e.g., micro:bit, arduino)  
   - small speakers
   - breadboards, wires, resistors, capacitors, etc.
-
+- equipment:
+  - laser cutter
+  - cricut
+  - inkjet printer
+  - glue guns
 
 Procedure
 ---------
@@ -79,17 +89,16 @@ This is a largely unstructured activity. The teams will work to design a consist
 project that has a unified theme, and will sequence their components so
 they work together and transition to one another. Each member will design
 their own component, but teams are free to build them together, or just support
-each other as they work on their own component. Teams **must document their work**
-so they can include it in their portfolios.
+each other as they work on their own component.
 
 Timeline:
-
-- plan before the lab
-- **meeting 1:** 90 minute build with instructor support
-- independent work with access to maker lab (2 weeks)
-- **meeting 2:** final build and show with 20 minute setup
+---------
+1. Introduction to building and programming LEGO prime (8 minutes)
+2. Explanation of the challenge (2 minutes)
+3. Teams work on project, instructors support with both ideas and using LEGO (35 minutes)
+4. Teams demo their Rube Goldberg machine (15 minutes)
 
 
 Resources
 ---------
-- [Cool Materials: Rube Goldberg](https://coolmaterial.com/feature/rube-goldberg-machines/).
+- [Spike Prime Resources](https://education.lego.com/en-us/product-resources/spike-prime/downloads/building-instructions/)
