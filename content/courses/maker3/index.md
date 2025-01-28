@@ -9,6 +9,11 @@ author:
 .maker-img { max-width: 600px; padding: 1em;}
 .no-clear { clear: none !important; }
 h1, h2, h3 { clear: both; }
+.ClassMeetings { 
+  background-color: #cdb4db;
+  margin-top: 20px;
+  margin-bottom: 20px;
+ }
 </style>
 
 <h1 class="page-title">Maker Lab 3: School lab</h1>
@@ -74,7 +79,7 @@ Class Schedule
 | 5      | Mar 25  | Workshop Critique                                     | Mar 25    | Apr 1     |
 | 6      | Apr 8   | Studio Session                                        | Apr 8     | Apr 15    |
 | 7      | Apr 29  | Workshop Rehearsal                                    | Apr 29    | May 6     |
-| 8      | May 13  | Conference                                            | May 13    | May 20    |
+| 8      | May 13  | Conference                                            | **May 13**| **May 13**|
 
 This course is organized into 8 2-week modules. Each module consists of an in-person
 meeting in the Maker Lab and an online week. If you are in **section 001** you will
@@ -93,15 +98,14 @@ workshops.
 
 _You **must** complete the readings for the current module before your the in-person meeting for your section._
 
-Class Meetings
---------------
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+<section class="ClassMeetings p-2 rounded border">
+<h2>Class Meetings</h2>
 
 <div class="row"><div class="col-12 col-md-6">
 {% md %}
 
-### Module 1: Roots & Robots (Jan 28 - Feb 10)
+### Module 1: Roots & Robots (Jan 28 - Feb 4)
 In our first 2 weeks we will read and talk about the roots
 of maker and STEAM education, and reflect on the goals
 of maker ed while advancing our own skills in with the
@@ -127,7 +131,7 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
 5. Lab Demo
 
-### Module 3: Play, Creativity, & Workshop Brainstorming (Feb 25 - March 10)
+### Module 3: Play, Creativity, & Workshop Brainstorming (Feb 25 - March 4)
 The success of this course depends on each
 class member developing new skills, and iterating
 many times over their workshop ideas until they are
@@ -146,11 +150,30 @@ ready to make a pitch for an extraordinary workshop.
 - Wilson, H. E., Song, H., Johnson, J., Presley, L., & Olson, K. (2021). [Effects of transdisciplinary STEAM lessons on student critical and creative thinking.](https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true)
   _The Journal of Educational Research_, _114_(5), 445–457.
 
+### Module 5: Workshop Critique (March 25 - April 1)
+In this session pairs will present their proposed
+workshop and run a demo of the core component(s).
+They will receive feedback from the class and instructors.
+
+After considering this feedback, the final draft of their
+workshop as well as their material list and budget are due.
+
+#### Readings due
+- Student readings 1 (TBD)
+
+### Module 7: Workshop Rehearsal (April 29 - May 6)
+This is the final run through of the demo. Each
+team will run their workshop for a group of students
+and instructors. All materials must be 100% ready
+for this demo. Teams will have the opportunity to
+refine their workshop based on the experience.
+
+
 {% endmd %}
 </div><div class="col-12 col-md-6">
 {% md %}
 
-### Module 2: Mushrooms and Deconstructing Instructional Frameworks (Feb 11 - Feb 24)
+### Module 2: Mushrooms and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
 In this session we will discuss how to design
 lessons for professional development and how
 to become a leader in your school. We will complete
@@ -170,27 +193,54 @@ _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4
 2. Mycelium Lab
 3. Sign up for article presentations
 
-### Module 4: STEAM & School Culture, Pitches  (Feb 11 - Feb 24)
-In this module we discuss how STEAM and Maker Education
-fits in with movements to change and advance school-based
-learning. In addition, we will hear formal pitches from
-everyone for their final workshop (see details below).
+
+### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
+
+In this module we discuss how STEAM and Maker Education fits in with 
+movements to change and advance school-based learning. In addition, 
+we will hear formal pitches from everyone for their final workshop (see details below).
 
 #### Readings due
-- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). _The Journal of the Learning Sciences_, _6_(4), 417–427.
-- Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools.](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link)
-  _Technology, Pedagogy and Education_, _28_(3), 317–328. https://doi.org/10.1080/1475939X.2019.1610040
-- Bullock, E. (2017). [Only STEM Can Save Us?](https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing) _Examining Race, Place, and STEM Education as Property Educational Studies_, _53_(6), 628–641.
+- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). 
+  _The Journal of the Learning Sciences_, _6_(4), 417–427.
+- Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link). 
+  _Technology, Pedagogy and Education_, _28_(3), 317–328.
+- Bullock, E. (2017). [Only STEM Can Save Us? Examining Race, Place, and STEM Education as Property](https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing).
+  _Educational Studies_, _53_(6), 628–641.
+
+#### Agenda
+- Reading Discussion
+- Pitches
+
+
+### Module 6: Workshop Studio (Mar 11 - Mar 18)
+This will be a full lab, working session to prepare materials
+and methods for the full rehearsal and final show.
+
+#### Readings due
+- [student readings 2]
 
 #### Agenda
 1. Reading Discussion
-2. Pitches
+2. Lab work on workshops
+
+### Module 8: Mini-Conference May 13
+The mini-conference will be held on
+the 7th floor of Adelphi-St. Francis, from 5pm-8pm.
+Students from both sections must attend on May 13. You should
+plan to be on campus by 4:30 on May 13 in order
+to prepare your materials.
+
+- schedule (TBD)
+- friends, family, and colleagues welcome (sign-up TBD)
+
+
 
 {% endmd %}
 
 </div></div>
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+</section>
 
 Grading & Assignments
 ---------------------
@@ -244,7 +294,7 @@ am looking for:
   obligations.
 - **Attendance grading:**
   - for each lateness less than 10 minutes you will lose 1 point on your final grade
-  - for each absense or lateness more than 10 minutes you will lose 2 points on your final grade
+  - for each absence or lateness more than 10 minutes you will lose 2 points on your final grade
   - if you miss more than 3 of the total 8 in person classes, you may be asked to withdraw
     and repeat this course
   - The final "mini conference" on Tuesday May 13 is absolutely mandatory.
