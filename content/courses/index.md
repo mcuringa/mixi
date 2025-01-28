@@ -37,11 +37,14 @@ body {
 <div class="d-flex flex-wrap mx-auto justify-content-center">
 {% for course in site.data.courses %}
     <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow {{course.tags}}">
-        {% if course.img != "" %}<img class="rounded-top d-block img-fluid" src="/courses/img/{{course.img}}" alt="{{course.alt}}">{% endif %}
         {% if course.required == 'false' %}<div class="text-center text-danger fw-bold"><i class="bi bi-stars"></i> elective</div>{% endif %}
         {% if course.url %}
-            <strong class="d-block text-center py-1"><a class="link-underline link-underline-opacity-0" target="course" href="/courses/{{course.url}}">{{course.course}}</a></strong>
+            <a class="link-underline link-underline-opacity-0" target="course" href="/courses/{{course.url}}">
+                <img class="rounded-top d-block img-fluid" src="/courses/img/{{course.img}}" alt="{{course.alt}}">
+                <strong class="d-block text-center py-1">{{course.course}}</strong>
+            </a>
         {% else %}
+            <img class="rounded-top d-block img-fluid" src="/courses/img/{{course.img}}" alt="{{course.alt}}">
             <strong class="d-block text-center py-1">{{course.course}}</strong>
         {% endif %}
     </div>

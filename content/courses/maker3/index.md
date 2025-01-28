@@ -6,14 +6,10 @@ author:
     - "Tracy Hogan"
 ---
 <style>
-.maker-img { max-width: 600px; padding: 1em;}
+.maker-img { max-width: 100%; width: 600px; padding: 1em;}
 .no-clear { clear: none !important; }
 h1, h2, h3 { clear: both; }
-.ClassMeetings { 
-  background-color: #cdb4db;
-  margin-top: 20px;
-  margin-bottom: 20px;
- }
+
 </style>
 
 <h1 class="page-title">Maker Lab 3: School lab</h1>
@@ -24,7 +20,7 @@ h1, h2, h3 { clear: both; }
 
 Description
 -----------
-<img src="img/lab-floorplan.png" class="maker-img float-md-start d-sm-block" alt="floorplan of a maker lab">
+<img src="img/lab-floorplan.png" class="maker-img float-md-start d-sm-block img-fluid" alt="floorplan of a maker lab">
 
 <p class="fs-4">
 In the “school lab” students are challenged to conceive of and design their own STEAM 
@@ -34,13 +30,12 @@ design to develop and execute an effective lesson, including assessments of lear
 Developing a specialized workshop allows students to solidify expert-level mastery of 
 specific aspects of the maker lab; teaching these skills to an authentic audience helps 
 them reflect on the knowledge they’ve acquired in the previous labs while practicing the 
-lab-based pedagogical techniques which they’ve previously experienced as students.<br>
-[prerequisite: maker labs 1 & 2]. 25 hours of fieldwork is required.
+lab-based pedagogical techniques which they’ve previously experienced as students.
 </p>
 
 Course Goals
 ------------
-<img src="img/dog.png" class="maker-img float-md-end d-sm-block" alt="schemata for a robotic dog">
+<img src="img/dog.png" class="maker-img float-md-end d-sm-block img-fluid" alt="schemata for a robotic dog">
 The student will be able to:
 
 - Define and identify characteristics of equitable classrooms where all learners have access to ensuring
@@ -55,7 +50,7 @@ The student will be able to:
 **Instructor:**
 
 - [Matthew X. Curinga](http://matt.curinga.com), <mcuringa@adelphi.edu>
-- [Tracy Hogan](hogan@adelphi.edu)
+- Tracy Hogan, <hogan@adelphi.edu>
 
 **Class dates:** Tuesday January 23 - Tuesday May 15
 
@@ -64,23 +59,25 @@ The student will be able to:
 - Tuesday 3pm-5pm, Brooklyn Campus
 - _office hours by appointment_
 
+**Class roster:** [google docs](https://docs.google.com/spreadsheets/d/1B8ZZe3VW4FtDiNOnjHGIbB07t99LyW9LeJLuBWkZBX8/edit?usp=drive_link)
+
 Required Textbook
 -----------------
-_There is no required textbook for this course. Course readings will be made available through the course website._
+_There is no required textbook for this course. Course readings will be made available through this course website._
 
 Class Schedule
 --------------
 
-| Module | Date    | Topic                                                 | Section 1 | Section 2 |
-|--------|---------|-------------------------------------------------------|-----------|-----------|
-| 1      | Jan 28  | Robotics, Creativity, & Roots of Maker Education      | Jan 28    | Feb 4     |
-| 2      | Feb 11  | Mushrooms and Deconstructing Instructional Frameworks | Feb 11    | Feb 18    |
-| 3      | Feb 25  | Workshop Brainstorming                                | Feb 25    | Mar 4     |
-| 4      | Mar 11  | Pitch                                                 | Mar 11    | Mar 18    |
-| 5      | Mar 25  | Workshop Critique                                     | Mar 25    | Apr 1     |
-| 6      | Apr 8   | Studio Session                                        | Apr 8     | Apr 15    |
-| 7      | Apr 29  | Workshop Rehearsal                                    | Apr 29    | May 6     |
-| 8      | May 13  | Conference                                            | **May 13**| **May 13**|
+| Module | Date       | Topic                                                 | Section 1 | Section 2 |
+|--------|------------|-------------------------------------------------------|-----------|-----------|
+| 1      | Jan 28     | Robotics, Creativity, & Roots of Maker Education      | Jan 28    | Feb 4     |
+| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks | Feb 11    | Feb 18    |
+| 3      | Feb 25     | Workshop Brainstorming                                | Feb 25    | Mar 4     |
+| 4      | Mar 11     | Pitch                                                 | Mar 11    | Mar 18    |
+| 5      | Mar 25     | Workshop Critique                                     | Mar 25    | Apr 1     |
+| 6      | Apr 8      | Studio Session                                        | Apr 8     | Apr 15    |
+| 7      | Apr 29     | Workshop Rehearsal                                    | Apr 29    | May 6     |
+| **8**  | **May 13** | **Conference**                                        | **May 13**| **May 13**|
 
 This course is organized into 8 2-week modules. Each module consists of an in-person
 meeting in the Maker Lab and an online week. If you are in **section 001** you will
@@ -100,12 +97,10 @@ workshops.
 _You **must** complete the readings for the current module before your the in-person meeting for your section._
 
 
-<section class="ClassMeetings p-2 rounded border">
-<h2>Class Meetings</h2>
-
-<div class="row"><div class="col-12 col-md-6">
-{% md %}
-
+Class Meetings
+--------------
+<section class="d-flex flex-wrap justify-content-between">
+{% card %}
 ### Module 1: Roots & Robots (Jan 28 - Feb 4)
 In our first 2 weeks we will read and talk about the roots
 of maker and STEAM education, and reflect on the goals
@@ -115,7 +110,7 @@ robots are the direct descendent of Seymour Papert's
 groundbreaking Constructionist research at MIT, beginning
 with the LOGO programming language and LOGO Turtle.
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Seymour_Papert.jpg/434px-Seymour_Papert.jpg"
+<img src="img/turtle.jpg"
   class="d-block img-fluid" alt="Papert presents his LOGO turtle robot">
 
 _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg)_
@@ -123,7 +118,6 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 #### Readings (before class)
 - Papert, S. (1999, March 29). [Child Psychologist Jean Piaget](https://content.time.com/time/subscriber/article/0,33009,990617,00.html). _Time_. 
 - Valente, J. A., & Blikstein, P. (2019). [Maker Education: Where Is the Knowledge Construction?](https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf) _Constructivist Foundations_, _14_(3), Article 3.
-- (optional) Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
 
 #### Agenda
 1. Introductions
@@ -131,6 +125,10 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 3. Discuss Readings
 4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
 5. Lab Demo
+{% endcard %}
+
+
+{% card %}
 
 ### Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
 In this session we will discuss how to design
@@ -144,15 +142,19 @@ _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4
 
 #### Readings due
 - Martinez, S. L., & Stager, G. (2019). [Teaching (Chapter 5)](https://drive.google.com/file/d/1xIwfkHnIx48D8hmxivhMrhiMswwHpxnt/view?usp=drive_link) in _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. 
-- Loeng, S. (2023). Pedagogy and andragogy in comparison – Conceptions and perspectives. Andragoška spoznanja/Studies in _Adult Education and Learning_, _1_(1-14). <https://doi.org/10.4312/as/11482>
-- Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). Designing professional development that works. _Educational Leadership_, _57_(8), 28-33
+- Loeng, S. (2023). [Pedagogy and andragogy in comparison – Conceptions and perspectives](https://drive.google.com/file/d/1mFUOp6y4szBKibPc2liV3vztsDWT71g5/view?usp=drive_link).
+  _Andragoška spoznanja/Studies in Adult Education and Learning_, _1_(1-14). 
+- Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). [Designing professional development that works](https://outlier.uchicago.edu/computerscience/OS4CS/landscapestudy/resources/Birman-Desimone-Porter-and-Garet-2000.pdf). _Educational Leadership_, _57_(8), 28-33
 
 #### Agenda
-1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU) :What Makes a TedTalk so Inviting? 
+1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU): What Makes a TedTalk so Inviting? 
 2. Reading Discussion and synthesizing an instructional framework for adult learning
 3. Sign up for article presentations
 4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
 
+{% endcard %}
+
+{% card %}
 ### Module 3: Play, Creativity, & Workshop Brainstorming (Feb 25 - March 4)
 The success of this course depends on each
 class member developing new skills, and iterating
@@ -167,11 +169,14 @@ help set our own learning goals for the semester, and get
 ready to make a pitch for an extraordinary workshop.
 
 #### Readings due
-- Gallup. (2020). Creativity in learning: Understand the value of creativity in learning and how to enable it in the classroom by leveraging the full potential of technology. Gallup. Retrieved from https://www.gallup.com
-- Blikstein, P., & Worsley, M. (2016). Children are not hackers. In K. Peppler, E. Halverson, & Y. B. Kafai (Eds.), _Makeology: Makerspaces as Learning Environments_. Routledge.
-- Wilson, H. E., Song, H., Johnson, J., Presley, L., & Olson, K. (2021). [Effects of transdisciplinary STEAM lessons on student critical and creative thinking.](https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true)
+- Gallup. (2020). [Creativity in learning: Understand the value of creativity in learning and how to enable it in the classroom by leveraging the full potential of technology](https://www.gallup.com/file/education/267449/Creativity%20in%20Learning.pdf). _Gallup_.
+- Blikstein, P., & Worsley, M. (2016). [Children are not hackers](http://beyondbitsandatoms.org/readings/blikstein2015children.pdf). In K. Peppler, E. Halverson, & Y. B. Kafai (Eds.), _Makeology: Makerspaces as Learning Environments_. Routledge.
+- Wilson, H. E., Song, H., Johnson, J., Presley, L., & Olson, K. (2021). [Effects of transdisciplinary STEAM lessons on student critical and creative thinking.](https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true) [AU link]
   _The Journal of Educational Research_, _114_(5), 445–457.
 
+{% endcard %}
+
+{% card %}
 ### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
 
 In this module we discuss how STEAM and Maker Education fits in with 
@@ -179,7 +184,7 @@ movements to change and advance school-based learning. In addition,
 we will hear formal pitches from everyone for their final workshop (see details below).
 
 #### Readings due
-- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). 
+- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). [AU link] 
   _The Journal of the Learning Sciences_, _6_(4), 417–427.
 - Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link). 
   _Technology, Pedagogy and Education_, _28_(3), 317–328.
@@ -190,6 +195,9 @@ we will hear formal pitches from everyone for their final workshop (see details 
 - Reading Discussion
 - Pitches
 
+{% endcard %}
+
+{% card %}
 ### Module 5: Workshop Critique (March 25 - April 1)
 In this session pairs will present their proposed
 workshop and run a demo of the core component(s).
@@ -201,6 +209,9 @@ workshop as well as their material list and budget are due.
 #### Readings due
 - Student readings 1 (TBD)
 
+{% endcard %}
+
+{% card %}
 ### Module 6: Workshop Studio (Mar 11 - Mar 18)
 This will be a full lab, working session to prepare materials
 and methods for the full rehearsal and final show.
@@ -211,7 +222,10 @@ and methods for the full rehearsal and final show.
 #### Agenda
 1. Reading Discussion
 2. Lab work on workshops
-   
+
+{% endcard %}
+
+{% card %}
 ### Module 7: Workshop Rehearsal (April 29 - May 6)
 This is the final run through of the demo. Each
 team will run their workshop for a group of students
@@ -219,12 +233,9 @@ and instructors. All materials must be 100% ready
 for this demo. Teams will have the opportunity to
 refine their workshop based on the experience.
 
+{% endcard %}
 
-{% endmd %}
-</div><div class="col-12 col-md-6">
-{% md %}
-
-
+{% card %}
 ### Module 8: Mini-Conference May 13
 The mini-conference will be held on
 the 7th floor of Adelphi-St. Francis, from 5pm-8pm.
@@ -234,14 +245,11 @@ to prepare your materials.
 
 - schedule (TBD)
 - friends, family, and colleagues welcome (sign-up TBD)
-
-
-
-{% endmd %}
-
-</div></div>
+{% endcard %}
 
 </section>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Grading & Assignments
 ---------------------
@@ -363,6 +371,8 @@ See the 2024 STEAM Mini Conference Program</a>
 
 {% endmd %}
 </div> </div>
+
+<img src="img/wood-blocks.png" class="maker-img float-end d-block img-fluid" alt="sketch of wooden froebel blocks">
 
 #### Workshop Pitch
 Although this is a pair project, everyone will design their

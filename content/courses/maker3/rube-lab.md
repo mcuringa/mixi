@@ -45,6 +45,13 @@ This lab is designed as an exploration of
 LEGO Robotics in the context of design, creativity,
 play, and originality. Participants will:
 
+- learn how to build LEGO robotics using gears, motors, and sensors
+- lean to program LEGO robotics using the Prime block-based programming language
+- experience and reflect on a "constructivist" learning activity
+
+The Challenge
+-------------
+
 - combine LEGO and non-LEGO materials to create a Rube Goldberg
   machine
 - use at least 1 LEGO sensors and 1 LEGO motors
@@ -71,12 +78,6 @@ Stock Materials
   - cardboard, paper, felt, foam, plastic, wood
   - small cups, bowls, and containers
   - markers, paint, and other art supplies
-- other electronics:
-  - batteries, wires, switches, buzzers, LEDs
-  - small motors, fans, and other moving parts
-  - small microcontrollers (e.g., micro:bit, arduino)  
-  - small speakers
-  - breadboards, wires, resistors, capacitors, etc.
 - equipment:
   - laser cutter
   - cricut
@@ -85,11 +86,16 @@ Stock Materials
 
 Procedure
 ---------
-This is a largely unstructured activity. The teams will work to design a consistent
-project that has a unified theme, and will sequence their components so
-they work together and transition to one another. Each member will design
-their own component, but teams are free to build them together, or just support
-each other as they work on their own component.
+After a brief introduction to the project and goals, students
+will be given time to explore the LEGO kits. Each team
+will have one LEGO Prime kit and one laptop configured
+to program the "brick", which is already connected. Teams
+will get as much help as needed from instructors, both on 
+the technical aspects of using LEGO robots, and the design
+of an interesting and creative Rube Goldberg machine. The
+instructor will keep track of time and monitor to make
+sure teams are making progress and can test their work
+before the final demo at the end of the lab.
 
 Timeline:
 ---------
@@ -98,7 +104,7 @@ Timeline:
 3. Teams work on project, instructors support with both ideas and using LEGO (35 minutes)
 4. Teams demo their Rube Goldberg machine (15 minutes)
 
-
 Resources
 ---------
 - [Spike Prime Resources](https://education.lego.com/en-us/product-resources/spike-prime/downloads/building-instructions/)
+- Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
