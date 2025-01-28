@@ -132,7 +132,7 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
 5. Lab Demo
 
-### Module 2: Mushrooms and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
+### Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
 In this session we will discuss how to design
 lessons for professional development and how
 to become a leader in your school. We will complete
@@ -345,7 +345,7 @@ This will be developed in several stages:
    guests.
 
 The course culminates in a public mini-conference where you will lead
-a 45 minute workshop with one teammate. The audience for the conference will
+a 60 minute workshop with one teammate. The audience for the conference will
 be STEM teachers (your peers and others like you), Adelphi faculty and staff,
 MIXI alums, friends from the doctoral program in education at Fordham University, 
 and high school students invited to attend.
@@ -354,9 +354,9 @@ and high school students invited to attend.
 
 - demonstrate a deep knowledge of one of the techniques of the maker lab and steam education
 - address a hard pedagogical problem, related to your academic subject 
-  (i.e. aligns with standards and goals of the field)
-- design a workshop that is engaging and effective at meeting your goals
-- organize and present an effective session
+  (i.e. aligns with standards and goals of the field) Explicitly identify where this workshop could "fit" in the grades 7-12 curriculum 
+- design a workshop that is engaging and effective at meeting your goals 
+- organize and present an effective session applying the principles of learning 
 
 <a class="d-block btn btn-primary btn-block fs-3" href="/courses/maker2/conference-2024.html">
 See the 2024 STEAM Mini Conference Program</a>
@@ -374,6 +374,7 @@ For the pitch, focus on:
 
 - why your idea is innovative and creative
 - the hard problem it addresses in your field
+- where this type of learning could take place in your curriculum (be specific)
 - that it is feasible and good match for your skills, our facilities, and the time/budget restrictions
 
 **In your portfolio:**
@@ -410,7 +411,7 @@ same as you will the live conference presentation.
 
 #### Workshop
 You will present your workshop and be observed by course
-instructors and other Adelphi faculty who attend. In addition
+instructors and other Adelphi faculty, school partners, K12 students, Fordham doctoral students and other guests who attend. In addition
 to the quality of your lesson and the materials your produce,
 we are evaluating you on the effectiveness of your presentation
 and ability to perform as an instructional leader and coach.
