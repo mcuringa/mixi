@@ -122,7 +122,7 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 #### Readings (before class)
 - Papert, S. (1999, March 29). [Child Psychologist Jean Piaget](https://content.time.com/time/subscriber/article/0,33009,990617,00.html). _Time_. 
 - Valente, J. A., & Blikstein, P. (2019). [Maker Education: Where Is the Knowledge Construction?](https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf) _Constructivist Foundations_, _14_(3), Article 3.
-- Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
+- (optional) Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
 
 #### Agenda
 1. Introductions
