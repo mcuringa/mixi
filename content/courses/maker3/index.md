@@ -201,6 +201,17 @@ workshop as well as their material list and budget are due.
 #### Readings due
 - Student readings 1 (TBD)
 
+### Module 6: Workshop Studio (Mar 11 - Mar 18)
+This will be a full lab, working session to prepare materials
+and methods for the full rehearsal and final show.
+
+#### Readings due
+- [student readings 2]
+
+#### Agenda
+1. Reading Discussion
+2. Lab work on workshops
+   
 ### Module 7: Workshop Rehearsal (April 29 - May 6)
 This is the final run through of the demo. Each
 team will run their workshop for a group of students
@@ -213,19 +224,6 @@ refine their workshop based on the experience.
 </div><div class="col-12 col-md-6">
 {% md %}
 
-
-
-
-### Module 6: Workshop Studio (Mar 11 - Mar 18)
-This will be a full lab, working session to prepare materials
-and methods for the full rehearsal and final show.
-
-#### Readings due
-- [student readings 2]
-
-#### Agenda
-1. Reading Discussion
-2. Lab work on workshops
 
 ### Module 8: Mini-Conference May 13
 The mini-conference will be held on
