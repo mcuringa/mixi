@@ -190,9 +190,10 @@ _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4
 - Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). Designing professional development that works. _Educational Leadership_, _57_(8), 28-33
 
 #### Agenda
-1. Reading Discussion
-2. Mycelium Lab
+1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU)
+2. Reading Discussion
 3. Sign up for article presentations
+4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
 
 
 ### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
