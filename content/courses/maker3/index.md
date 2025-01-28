@@ -132,6 +132,27 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
 5. Lab Demo
 
+### Module 2: Mushrooms and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
+In this session we will discuss how to design
+lessons for professional development and how
+to become a leader in your school. We will complete
+a lab that explores biological rather than mechanical/digital
+making.
+
+<img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art">
+_[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art)_
+
+#### Readings due
+- Martinez, S. L., & Stager, G. (2019). [Teaching (Chapter 5)](https://drive.google.com/file/d/1xIwfkHnIx48D8hmxivhMrhiMswwHpxnt/view?usp=drive_link) in _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. 
+- Loeng, S. (2023). Pedagogy and andragogy in comparison – Conceptions and perspectives. Andragoška spoznanja/Studies in _Adult Education and Learning_, _1_(1-14). <https://doi.org/10.4312/as/11482>
+- Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). Designing professional development that works. _Educational Leadership_, _57_(8), 28-33
+
+#### Agenda
+1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU) What Makes a TedTalk so Inviting? 
+2. Reading Discussion and synthesizing an instructional framework for adult learning
+3. Sign up for article presentations
+4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
+
 ### Module 3: Play, Creativity, & Workshop Brainstorming (Feb 25 - March 4)
 The success of this course depends on each
 class member developing new skills, and iterating
@@ -150,6 +171,24 @@ ready to make a pitch for an extraordinary workshop.
 - Blikstein, P., & Worsley, M. (2016). Children are not hackers. In K. Peppler, E. Halverson, & Y. B. Kafai (Eds.), _Makeology: Makerspaces as Learning Environments_. Routledge.
 - Wilson, H. E., Song, H., Johnson, J., Presley, L., & Olson, K. (2021). [Effects of transdisciplinary STEAM lessons on student critical and creative thinking.](https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true)
   _The Journal of Educational Research_, _114_(5), 445–457.
+
+### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
+
+In this module we discuss how STEAM and Maker Education fits in with 
+movements to change and advance school-based learning. In addition, 
+we will hear formal pitches from everyone for their final workshop (see details below).
+
+#### Readings due
+- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). 
+  _The Journal of the Learning Sciences_, _6_(4), 417–427.
+- Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link). 
+  _Technology, Pedagogy and Education_, _28_(3), 317–328.
+- Bullock, E. (2017). [Only STEM Can Save Us? Examining Race, Place, and STEM Education as Property](https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing).
+  _Educational Studies_, _53_(6), 628–641.
+
+#### Agenda
+- Reading Discussion
+- Pitches
 
 ### Module 5: Workshop Critique (March 25 - April 1)
 In this session pairs will present their proposed
@@ -174,45 +213,7 @@ refine their workshop based on the experience.
 </div><div class="col-12 col-md-6">
 {% md %}
 
-### Module 2: Mushrooms and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
-In this session we will discuss how to design
-lessons for professional development and how
-to become a leader in your school. We will complete
-a lab that explores biological rather than mechanical/digital
-making.
 
-<img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art">
-_[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art)_
-
-#### Readings due
-- Martinez, S. L., & Stager, G. (2019). [Teaching (Chapter 5)](https://drive.google.com/file/d/1xIwfkHnIx48D8hmxivhMrhiMswwHpxnt/view?usp=drive_link) in _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. 
-- Loeng, S. (2023). Pedagogy and andragogy in comparison – Conceptions and perspectives. Andragoška spoznanja/Studies in _Adult Education and Learning_, _1_(1-14). <https://doi.org/10.4312/as/11482>
-- Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). Designing professional development that works. _Educational Leadership_, _57_(8), 28-33
-
-#### Agenda
-1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU) What Makes a TedTalk so Inviting? 
-2. Reading Discussion and synthesizing an instructional framework for adult learning
-3. Sign up for article presentations
-4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
-
-
-### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
-
-In this module we discuss how STEAM and Maker Education fits in with 
-movements to change and advance school-based learning. In addition, 
-we will hear formal pitches from everyone for their final workshop (see details below).
-
-#### Readings due
-- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). 
-  _The Journal of the Learning Sciences_, _6_(4), 417–427.
-- Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link). 
-  _Technology, Pedagogy and Education_, _28_(3), 317–328.
-- Bullock, E. (2017). [Only STEM Can Save Us? Examining Race, Place, and STEM Education as Property](https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing).
-  _Educational Studies_, _53_(6), 628–641.
-
-#### Agenda
-- Reading Discussion
-- Pitches
 
 
 ### Module 6: Workshop Studio (Mar 11 - Mar 18)
