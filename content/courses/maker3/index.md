@@ -55,6 +55,7 @@ The student will be able to:
 **Instructor:**
 
 - [Matthew X. Curinga](http://matt.curinga.com), <mcuringa@adelphi.edu>
+- [Tracy Hogan](hogan@adelphi.edu)
 
 **Class dates:** Tuesday January 23 - Tuesday May 15
 
