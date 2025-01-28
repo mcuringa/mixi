@@ -4,6 +4,7 @@ title: "Maker Lab 3: Catapult Lab"
 author:
     - "Matthew X. Curinga"
     - "Tracy Hogan"
+    - "test"
 sidenav: "maker3-nav.html"
 css: "css/blueprint.css"
 au_img: "au-white.svg"
