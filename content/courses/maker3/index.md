@@ -71,7 +71,7 @@ Class Schedule
 | Module | Date       | Topic                                                 | Section 1 | Section 2 |
 |--------|------------|-------------------------------------------------------|-----------|-----------|
 | 1      | Jan 28     | Robotics, Creativity, & Roots of Maker Education      | Jan 28    | Feb 4     |
-| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks | Feb 11    | Feb 18    |
+| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks | Feb 11    | Feb 11    |
 | 3      | Feb 25     | Workshop Brainstorming                                | Feb 25    | Mar 4     |
 | 4      | Mar 11     | Pitch                                                 | Mar 11    | Mar 18    |
 | 5      | Mar 25     | Workshop Critique                                     | Mar 25    | Apr 1     |
@@ -118,11 +118,16 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 #### Readings (before class)
 - Papert, S. (1999, March 29). [Child Psychologist Jean Piaget](https://content.time.com/time/subscriber/article/0,33009,990617,00.html). _Time_. 
 - Valente, J. A., & Blikstein, P. (2019). [Maker Education: Where Is the Knowledge Construction?](https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf) _Constructivist Foundations_, _14_(3), Article 3.
+- (optional) Resnick, M., Ocko, S., & Papert, S. (1988). [Lego, Logo, and Design](http://dailypapert.com/wp-content/uploads/2021/03/LEGO-Logo.-and-Design-Resnick-Ocko-Papert.pdf). _Children’s Environments Quarterly_, _5_(4), 14–18.
+- FIRST LEGO League (Director). (2021, October 5). [About FIRST LEGO League](https://www.youtube.com/watch?v=kkN08bDv9EI) [Video recording] [03:45]. 
+- Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
+
 
 #### Agenda
 1. Introductions
 2. About the School Lab
 3. Discuss Readings
+4. Intro to LEGO robotics
 4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
 5. Lab Demo
 {% endcard %}
@@ -130,7 +135,8 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 
 {% card %}
 
-### Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 18)
+### Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 11)
+<p class="text-danger fw-bold">Note: both sections meet on Feb 11!</p>
 In this session we will discuss how to design
 lessons for professional development and how
 to become a leader in your school. We will complete

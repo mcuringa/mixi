@@ -57,9 +57,8 @@ The Challenge
 - use at least 1 LEGO sensors and 1 LEGO motors
 - program the motor and sensor
 - design a system that "works" but is also fun and novel
-- combine LEGO and non-LEGO parts
 - each system must have at least 2 major components
-- each team member must be the lead designer for at least one component
+- **extinguish a birthday candle at the end of your machine's run**
 
 Prior activities
 ----------------
