@@ -141,7 +141,7 @@ section {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.js"></script>
 
 <script>
 
@@ -215,25 +215,32 @@ document.querySelectorAll(".next").forEach(button => {
   button.addEventListener("click", scrollDown);
 });
 
+window.addEventListener("wheel", _.debounce(onMouseWheel, 100,{
+    leading: false
+}));
 
-window.addEventListener("wheel", (e) => {
+function onMouseWheel(e) {
   if (e.deltaY > 0) {
     scrollDown();
   } else {
     scrollUp();
   }
-});
+}
 
 // Prevent scroll in .about from triggering the main scroll
 document.querySelectorAll(".about").forEach(aboutSection => {
-  aboutSection.addEventListener("wheel", (e) => {
-    const buffer = 0.2;
-    let atTop = aboutSection.scrollTop <= aboutSection.clientHeight * buffer;
-    let atBottom = aboutSection.scrollTop >= (aboutSection.scrollHeight - aboutSection.clientHeight * (1 + buffer));
-
-    e.stopPropagation();
-  }, { passive: false });
+  aboutSection.addEventListener("wheel", _.debounce(onMouseWheel1, 100,{
+    leading: false
+  }));
 });
+
+function onMouseWheel1(e) {
+  const buffer = 0.2;
+  let atTop = aboutSection.scrollTop <= aboutSection.clientHeight * buffer;
+  let atBottom = aboutSection.scrollTop >= (aboutSection.scrollHeight - aboutSection.clientHeight * (1 + buffer));
+  e.stopPropagation();
+}
+
 
 // add swipe for mobile (left/right)
 function isTouch() {
