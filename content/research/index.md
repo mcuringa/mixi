@@ -154,6 +154,27 @@ section {
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.10/lodash.js"></script>
 
 <script>
+gsap.registerPlugin(ScrollTrigger);
+
+const header = document.querySelector(".MainNav");
+const panels = gsap.utils.toArray(".panel");
+let currentPanel = 0;
+
+function jumpToURL() {
+  const target = window.location.hash;
+  if (!target || target == "") {
+    return;
+  }
+  for(let i = 0; i < panels.length; i++) {
+    const p = panels[i];
+    const id = p.id;
+    if(id == target) {
+      activatePanel(i, "down");
+      break;
+    }
+  }
+}
+
 
 function updateURL(id) {
   const newURL = `${window.location.pathname}#${id}`;
@@ -161,12 +182,6 @@ function updateURL(id) {
     history.pushState(null, null, newURL);
   }
 }
-
-gsap.registerPlugin(ScrollTrigger);
-
-const header = document.querySelector(".MainNav");
-const panels = gsap.utils.toArray(".panel");
-let currentPanel = 0;
 
 function scrollDown() {
   if (currentPanel == 0) {
@@ -195,7 +210,9 @@ function activatePanel(index, direction) {
     last = panels[index -1];
     last.classList.add("hidden");
   }
-
+  
+  const id = panel.id;
+  updateURL(id);
   const title = panel.querySelector(".title .inner");
   const about = panel.querySelector(".about .inner");
 
@@ -257,23 +274,8 @@ function isTouch() {
   return 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 }
 
-// gsap.registerPlugin(Draggable);
 
-// Draggable.create(".about", {
-//   // if (!isTouch()) {
-//   //   return;
-//   // }
-//   type: "x",
-//   bounds: document.querySelector(".about"),
-//   onDragEnd: function () {
-//     const direction = this.getDirection();
-//     if (direction === "left") {
-//       scrollDown()
-//     } else if (direction === "right") {
-//       scrollUp();
-//     }
-//   }
-// });
+document.addEventListener("DOMContentLoaded", jumpToURL);
 
 
 </script>
