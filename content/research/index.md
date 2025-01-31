@@ -162,6 +162,7 @@ let currentPanel = 0;
 
 function jumpToURL() {
   const target = window.location.hash;
+  console.log("target", target);
   if (!target || target == "") {
     return;
   }
