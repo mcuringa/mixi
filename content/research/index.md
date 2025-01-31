@@ -161,15 +161,20 @@ const panels = gsap.utils.toArray(".panel");
 let currentPanel = 0;
 
 function jumpToURL() {
-  const target = window.location.hash;
+  let target = window.location.hash;
   console.log("target", target);
+  const panels = document.querySelectorAll(".panel");
   if (!target || target == "") {
     return;
+  }
+  if(target[0] == "#") {
+    target = target.substring(1);
   }
   for(let i = 0; i < panels.length; i++) {
     const p = panels[i];
     const id = p.id;
     if(id == target) {
+      currentPanel = i;
       activatePanel(i, "down");
       break;
     }
@@ -213,7 +218,7 @@ function activatePanel(index, direction) {
   }
   
   const id = panel.id;
-  updateURL(id);
+  // updateURL(id);
   const title = panel.querySelector(".title .inner");
   const about = panel.querySelector(".about .inner");
 
@@ -276,7 +281,6 @@ function isTouch() {
 }
 
 
-document.addEventListener("DOMContentLoaded", jumpToURL);
 
 
 </script>
