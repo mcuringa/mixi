@@ -63,7 +63,7 @@ The Challenge
 Prior activities
 ----------------
 Before the lab, teams have been formed and members have been asked to review online
-examples of rube goldberg machines.
+examples of rube goldberg machines, and given a general overview of LEGO Prime Spike.
 
 Stock Materials
 ---------------
@@ -106,4 +106,4 @@ Timeline:
 Resources
 ---------
 - [Spike Prime Resources](https://education.lego.com/en-us/product-resources/spike-prime/downloads/building-instructions/)
-- Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
+- [NYC FIRST Robotics](https://www.nycfirst.org/)

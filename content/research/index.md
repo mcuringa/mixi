@@ -173,9 +173,14 @@ function jumpToURL() {
   for(let i = 0; i < panels.length; i++) {
     const p = panels[i];
     const id = p.id;
+    let dir = "down";
+    if(id < currentPanel) {
+      dir = "up";
+    }
     if(id == target) {
       currentPanel = i;
-      activatePanel(i, "down");
+      const directions = 
+      activatePanel(i, dir);
       break;
     }
   }
@@ -218,7 +223,7 @@ function activatePanel(index, direction) {
   }
   
   const id = panel.id;
-  // updateURL(id);
+  updateURL(id);
   const title = panel.querySelector(".title .inner");
   const about = panel.querySelector(".about .inner");
 
@@ -281,6 +286,8 @@ function isTouch() {
 }
 
 
+// window.addEventListener('hashchange', jumpToURL);
 
+jumpToURL();
 
 </script>
