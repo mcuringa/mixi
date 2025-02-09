@@ -141,7 +141,7 @@ In this session we will discuss how to design
 lessons for professional development and how
 to become a leader in your school. We will complete
 a lab that explores biological rather than mechanical/digital
-making.
+making. [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit#slide=id.p19)
 
 <img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art">
 _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art)_
