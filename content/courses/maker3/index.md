@@ -141,7 +141,7 @@ In this session we will discuss how to design
 lessons for professional development and how
 to become a leader in your school. We will complete
 a lab that explores biological rather than mechanical/digital
-making. [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit#slide=id.p19)
+making. [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing)
 
 <img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art">
 _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art)_
@@ -152,10 +152,13 @@ _[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4
   _Andragoška spoznanja/Studies in Adult Education and Learning_, _1_(1-14). 
 - Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). [Designing professional development that works](https://outlier.uchicago.edu/computerscience/OS4CS/landscapestudy/resources/Birman-Desimone-Porter-and-Garet-2000.pdf). _Educational Leadership_, _57_(8), 28-33
 
+#### Resources
+- [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing)
+
 #### Agenda
 1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU): What Makes a TedTalk so Inviting? 
 2. Reading Discussion and synthesizing an instructional framework for adult learning
-3. Sign up for article presentations
+3. Sign up for article presentations [[google docs](https://docs.google.com/spreadsheets/d/11QyvgZvtxn4M61BnzcpryiphDf8AVf3ych5oe06MD-8/edit?usp=sharing)]
 4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
 
 {% endcard %}
