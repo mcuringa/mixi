@@ -3,27 +3,81 @@ layout: main
 ---
 {%include blog-nav.html%}
 
+{% assign sticky_posts = "" | split: "" %}
+{% assign all_posts = "" | split: "" %}
+
+{% for post in site.posts %}
+  {% if post.tags contains "sticky" %}
+    {% assign sticky_posts = sticky_posts | push: post %}
+  {% else %}
+    {% assign all_posts = all_posts | push: post %}
+  {% endif %}
+{% endfor %}
+
+
+{% assign total_posts = all_posts.size %}
+{% assign per_page = paginator.per_page %}
+{% assign total_pages = total_posts | divided_by: per_page %}
+{% assign extra_posts = total_posts | modulo: per_page %}
+{% if extra_posts > 0 %}
+  {% assign total_pages = total_pages | plus: 1 %}
+{% endif %}
+
+{% assign page_index = paginator.page | minus: 1 | times: per_page %}
+{% assign page_posts = all_posts | slice: page_index, per_page %}
+
+
 <div class="container mt-4">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-        {% for post in paginator.posts %}
-        <div class="col">
-            <div class="card h-100">
-                <a href="{{ post.url }}">
-                    {% if post.image %}
-                    <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
-                    {% endif %}
-                    <div class="card-body">
-                        <p class="card-text">
-                            <small class="text-muted">{{ post.date | date: "%m.%d.%Y" }} </small>
-                        </p>
-                        <h5 class="card-title">
-                            <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
-                        </h5>
-                        <p class="card-text">{{ post.excerpt }}</p>
-                    </div>
-                </a>
+
+{% if paginator.page  == 1 %}
+    <h2>Featured news</h2>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mb-3 pb-3 border-bottom border-primary border-2">
+        {% for post in sticky_posts %}
+            <div class="col">
+                <div class="card h-100">
+                    <a href="{{ post.url }}">
+                        {% if post.image %}
+                        <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+                        {% endif %}
+                        <div class="card-body">
+                            <p class="card-text">
+                                <small class="text-muted">{{ post.date | date: "%m.%d.%Y" }} </small>
+                            </p>
+                            <h5 class="card-title">
+                                <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
+                            </h5>
+                            <p class="card-text">{{ post.excerpt }}</p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </div>
+        {% endfor %}
+    </div>
+{% endif %}
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        {% for post in page_posts %}
+            {% if post.tags contains "sticky" %}
+                {% continue %}
+            {% else %}
+                <div class="col">
+                    <div class="card h-100">
+                        <a href="{{ post.url }}">
+                            {% if post.image %}
+                            <img src="/assets/images/blog/{{ post.image }}" class="card-img-top" alt="{{ post.title }}">
+                            {% endif %}
+                            <div class="card-body">
+                                <p class="card-text">
+                                    <small class="text-muted">{{ post.date | date: "%m.%d.%Y" }} </small>
+                                </p>
+                                <h5 class="card-title">
+                                    <a href="{{ post.url }}" class="text-decoration-none text-dark">{{ post.title }}</a>
+                                </h5>
+                                <p class="card-text">{{ post.excerpt }}</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            {% endif %}
         {% endfor %}
     </div>
 </div>
