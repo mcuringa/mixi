@@ -186,7 +186,7 @@ ready to make a pitch for an extraordinary workshop.
 {% endcard %}
 
 {% card %}
-### Module 4: STEAM & School Culture, Pitches (Feb 11 - Feb 24)
+### Module 4: STEAM & School Culture, Pitches (Mar 11 - Mar 18)
 
 In this module we discuss how STEAM and Maker Education fits in with 
 movements to change and advance school-based learning. In addition, 
@@ -208,15 +208,23 @@ we will hear formal pitches from everyone for their final workshop (see details 
 
 {% card %}
 ### Module 5: Workshop Critique (March 25 - April 1)
-In this session pairs will present their proposed
-workshop and run a demo of the core component(s).
-They will receive feedback from the class and instructors.
+In this session, anyone who has not yet pitched their workshop will present.
+There will be time for everyone to find a partner or team for the final project
+and discuss a preliminary plan for their workshop.
 
 After considering this feedback, the final draft of their
-workshop as well as their material list and budget are due.
+workshop as well as their material list and budget are due
+in one week.
 
-#### Readings due
-- Student readings 1 (TBD)
+#### Section 001 Readings (for class on Mar 25)
+- Rouse, R., & Rouse, A. G. (2022). [Taking the maker movement to school: A systematic review of preK-12 school-based makerspace research](https://doi.org/10.1016/j.edurev.2021.100413). 
+  _Educational Research Review_, _35_, 100413.
+- Mater, N., Daher, W., & Mahamid, F. (2023). [The Effect of STEAM Activities Based on Experiential Learning on Ninth Graders' Mental Motivation](https://doi.org/10.3390/ejihpe13070091).
+  _European journal of investigation in health, psychology and education_, _13_(7), 1229–1244.
+
+
+#### Section 002 Readings (for class on Apr 1)
+- TBD
 
 {% endcard %}
 
