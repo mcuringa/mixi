@@ -221,10 +221,12 @@ in one week.
   _Educational Research Review_, _35_, 100413.
 - Mater, N., Daher, W., & Mahamid, F. (2023). [The Effect of STEAM Activities Based on Experiential Learning on Ninth Graders' Mental Motivation](https://doi.org/10.3390/ejihpe13070091).
   _European journal of investigation in health, psychology and education_, _13_(7), 1229–1244.
+- Kijima, R., Yang-Yoshihara, M., & Maekawa, M. S. (2021). [Using design thinking to cultivate the next generation of female STEAM thinkers](https://doi.org/10.1186/s40594-021-00271-6). _International Journal of STEM Education_, _8_(1), 14.
 
 
 #### Section 002 Readings (for class on Apr 1)
-- TBD
+- Quigley, C. F., Herro, D., & Jamil, F. M. (2017). [Developing a Conceptual Model of STEAM Teaching Practices](https://onlinelibrary-wiley-com.adelphi.idm.oclc.org/doi/epdf/10.1111/ssm.12201). _School Science and Mathematics_, _117_(1–2), 1–12.
+
 
 {% endcard %}
 
@@ -412,7 +414,7 @@ For the pitch, focus on:
 
 #### Critique
 For the critique, your team will present the first draft of your lesson. This will not be
-the full 45 minute session, but you will walk us through the key aspects of your workshop.
+the full 60 minute session, but you will walk us through the key aspects of your workshop.
 For items that are not ready (because they need to be built or ordered), we can role play
 and use low fidelity prototypes.
 
@@ -438,7 +440,14 @@ same as you will the live conference presentation.
 
 #### Workshop
 You will present your workshop and be observed by course
-instructors and other Adelphi faculty, school partners, K12 students, Fordham doctoral students and other guests who attend. In addition
+instructors and other Adelphi faculty, school partners, K12 students,
+Fordham doctoral students and other guests who attend. In addition
 to the quality of your lesson and the materials your produce,
 we are evaluating you on the effectiveness of your presentation
 and ability to perform as an instructional leader and coach.
+
+
+#### Workshop evaluation
+
+Your workshop, and all of the materials produced for it,
+represent your 
