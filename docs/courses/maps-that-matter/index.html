@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title>Maps That Matter</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- uncomment as needed
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="topNavBar" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Degrees</a>
+                <a class="nav-link link-light active" href="/courses">Courses</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="https://adelphi-ed-tech.github.io/au-courses//" alt="" class="header d-print-none">
+    <div class="p-4"><style>
+.maker-img { max-width: 100%; width: 600px; padding: 1em;}
+.no-clear { clear: none !important; }
+h1, h2, h3 { clear: both; }
+
+</style>
+
+<h1 class="page-title">
+Maps That Matter: Exploring Inequality and Place with Code
+</h1>
+
+<p><strong>First Year Seminar: GEN 110-025 - Fall 2024</strong><br />
+<strong>4 credits</strong></p>
+
+<p><strong>Key words:</strong> spatial justice, computer programming, critical cartography, python, US census, CS0</p>
+
+<h2 id="description">Description</h2>
+<p><img src="../img/fys-maps.jpg" class="d-block img-fluid" alt="3 maps of long island" /></p>
+
+<p class="fs-4">
+<p>In this course, we will ask questions about digitally-mediated mapping - how it shapes and can reshape our 
+understanding of our lives, places, and communities. Using school segregation on Long Island and New York City as 
+a case study, we will explore questions like:</p>
+
+<ul>
+  <li>How do digitally-mediated maps shape our understanding of the world?</li>
+  <li>How have history, culture, and inequality shaped place, space, and maps?</li>
+  <li>How can we use technology to build new maps that embody new ways of thinking about our communities?</li>
+</ul>
+
+<p>This first-year seminar is also designed to acclimatize you to academic life at the university. We will 
+explicitly practice reading texts critically, writing about our ideas in a scholarly conversation, designing new 
+projects that reflect intentional thought, and utilizing university resources.</p>
+
+
+
+
+</p>
+
+<h2 id="course-goals">Course Goals</h2>
+<p><img src="img/dog.png" class="maker-img float-md-end d-sm-block img-fluid" alt="schemata for a robotic dog" />
+The students will be able to:</p>
+
+<p>Engage in an academic conversation generally.</p>
+
+<ul>
+  <li>
+    <p>By reading critically, recognizing and understanding the underlying questions, implications, connections, and 
+significance of ideas and information in college-level texts (literary and new media)</p>
+  </li>
+  <li>
+    <p>By articulating and expressing their own beliefs and arguments in writing, orally, and in design</p>
+  </li>
+</ul>
+
+<p>Demonstrate responsible computational skills with respect to digitally-mediated maps by: 
+Exploring maps as texts and data, understanding the data processing, narrative, and social, cultural, and political history that underlie digital map representations. 
+Using basic coding and technologies to create a digital map that reflects an issue of interest to them.</p>
+
+<h2 class="no-clear">Class Information</h2>
+<p><strong>Instructors:</strong></p>
+
+<ul>
+  <li>Dr. Suraj Uttamchandani, &lt;suttamchandani@adelphi.edu &gt;</li>
+  <li><a href="http://matt.curinga.com">Dr. Matthew X. Curinga</a>, <a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a></li>
+</ul>
+
+<p><strong>Class dates:</strong> 8/26/24 - 12/17/24<br />
+<strong>Class meetings:</strong> MW 2:25 pm - 03:40 pm</p>
+
+<p><strong>Office hours:</strong></p>
+
+<ul>
+  <li>Tuesday 3pm-5pm, Brooklyn Campus</li>
+  <li><em>office hours by appointment</em></li>
+</ul>
+
+<p><strong>Class roster:</strong> <a href="https://docs.google.com/spreadsheets/d/1B8ZZe3VW4FtDiNOnjHGIbB07t99LyW9LeJLuBWkZBX8/edit?usp=drive_link">google docs</a></p>
+
+<h2 id="required-textbook">Required Textbook</h2>
+<p><em>There is no required textbook for this course. Course readings will be made available through this course website.</em></p>
+
+<h2 id="class-schedule">Class Schedule</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Module</th>
+      <th>Date</th>
+      <th>Topic</th>
+      <th>Section 1</th>
+      <th>Section 2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Jan 28</td>
+      <td>Robotics, Creativity, &amp; Roots of Maker Education</td>
+      <td>Jan 28</td>
+      <td>Feb 4</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Feb 11</td>
+      <td>Mushrooms and Deconstructing Instructional Frameworks</td>
+      <td>Feb 11</td>
+      <td>Feb 11</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Feb 25</td>
+      <td>Workshop Brainstorming</td>
+      <td>Feb 25</td>
+      <td>Mar 4</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Mar 11</td>
+      <td>Pitch</td>
+      <td>Mar 11</td>
+      <td>Mar 18</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>Mar 25</td>
+      <td>Workshop Critique</td>
+      <td>Mar 25</td>
+      <td>Apr 1</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>Apr 8</td>
+      <td>Studio Session</td>
+      <td>Apr 8</td>
+      <td>Apr 15</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>Apr 29</td>
+      <td>Workshop Rehearsal</td>
+      <td>Apr 29</td>
+      <td>May 6</td>
+    </tr>
+    <tr>
+      <td><strong>8</strong></td>
+      <td><strong>May 13</strong></td>
+      <td><strong>Conference</strong></td>
+      <td><strong>May 13</strong></td>
+      <td><strong>May 13</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>This course is organized into 8 2-week modules. Each module consists of an in-person
+meeting in the Maker Lab and an online week. If you are in <strong>section 001</strong> you will
+meet in person for the section 1 dates, above. Likewise for <strong>section 002</strong>.</p>
+
+<p><strong>Everyone will meet for a final public conference on May 13.</strong></p>
+
+<p>This is a hybrid course with some in-person meetings and some online meetings. Mostly, we will
+meet in-person every other week, but see the schedule above for details. Online weeks will be
+oriented around completing course readings and working independently or in teams on assignments.
+There will not be synchronous Zoom meetings for online weeks.</p>
+
+<p>In-person classes will feature discussions of course readings, group working sessions, and
+maker lab activities. Towards the end of the term we will focus on developing your STEAM
+workshops.</p>
+
+<p><em>You <strong>must</strong> complete the readings for the current module before your the in-person meeting for your section.</em></p>
+
+<h2 id="class-meetings">Class Meetings</h2>
+<section class="d-flex flex-wrap justify-content-between">
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-1-roots--robots-jan-28---feb-4">Module 1: Roots &amp; Robots (Jan 28 - Feb 4)</h3>
+<p>In our first 2 weeks we will read and talk about the roots
+of maker and STEAM education, and reflect on the goals
+of maker ed while advancing our own skills in with the
+tools of the maker lab using LEGO Robotics. Mindstorm
+robots are the direct descendent of Seymour Papert’s
+groundbreaking Constructionist research at MIT, beginning
+with the LOGO programming language and LOGO Turtle.</p>
+
+<p><img src="img/turtle.jpg" class="d-block img-fluid" alt="Papert presents his LOGO turtle robot" /></p>
+
+<p><em>Seymour Papert presenting his LOGO Turtle robot <a href="https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg">via Wikimedia</a></em></p>
+
+<h4 id="readings-before-class">Readings (before class)</h4>
+<ul>
+  <li>Papert, S. (1999, March 29). <a href="https://content.time.com/time/subscriber/article/0,33009,990617,00.html">Child Psychologist Jean Piaget</a>. <em>Time</em>.</li>
+  <li>Valente, J. A., &amp; Blikstein, P. (2019). <a href="https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf">Maker Education: Where Is the Knowledge Construction?</a> <em>Constructivist Foundations</em>, <em>14</em>(3), Article 3.</li>
+  <li>(optional) Resnick, M., Ocko, S., &amp; Papert, S. (1988). <a href="http://dailypapert.com/wp-content/uploads/2021/03/LEGO-Logo.-and-Design-Resnick-Ocko-Papert.pdf">Lego, Logo, and Design</a>. <em>Children’s Environments Quarterly</em>, <em>5</em>(4), 14–18.</li>
+  <li>FIRST LEGO League (Director). (2021, October 5). <a href="https://www.youtube.com/watch?v=kkN08bDv9EI">About FIRST LEGO League</a> [Video recording] [03:45].</li>
+  <li>Nickolaus Hines. (2022, October 10). <a href="https://coolmaterial.com/feature/rube-goldberg-machines/">10 Brilliant Rube Goldberg Machine Examples</a>. <em>Cool Material</em>. (check out some of the videos in preparation for our lab)</li>
+</ul>
+
+<h4 id="agenda">Agenda</h4>
+<ol>
+  <li>Introductions</li>
+  <li>About the School Lab</li>
+  <li>Discuss Readings</li>
+  <li>Intro to LEGO robotics</li>
+  <li>Rube Goldberg LEGO Lab [<a href="/courses/maker3/rube.html">details</a>]</li>
+  <li>Lab Demo</li>
+</ol>
+</div></div>
+
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-2-mycelium-and-deconstructing-instructional-frameworks-feb-11---feb-11">Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 11)</h3>
+<p class="text-danger fw-bold">Note: both sections meet on Feb 11!</p>
+<p>In this session we will discuss how to design
+lessons for professional development and how
+to become a leader in your school. We will complete
+a lab that explores biological rather than mechanical/digital
+making. <a href="https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing">Slide Deck</a></p>
+
+<p><img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art" />
+<em><a href="https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art">Mycelium Art from Musée Magazine</a></em></p>
+
+<h4 id="readings-due">Readings due</h4>
+<ul>
+  <li>Martinez, S. L., &amp; Stager, G. (2019). <a href="https://drive.google.com/file/d/1xIwfkHnIx48D8hmxivhMrhiMswwHpxnt/view?usp=drive_link">Teaching (Chapter 5)</a> in <em>Invent to learn: Making, tinkering, and engineering in the classroom</em>. Constructing Modern Knowledge Press.</li>
+  <li>Loeng, S. (2023). <a href="https://drive.google.com/file/d/1mFUOp6y4szBKibPc2liV3vztsDWT71g5/view?usp=drive_link">Pedagogy and andragogy in comparison – Conceptions and perspectives</a>.
+<em>Andragoška spoznanja/Studies in Adult Education and Learning</em>, <em>1</em>(1-14).</li>
+  <li>Birman, B. F., Desimone, L., Porter, A. C., &amp; Garet, M. S. (2000). <a href="https://outlier.uchicago.edu/computerscience/OS4CS/landscapestudy/resources/Birman-Desimone-Porter-and-Garet-2000.pdf">Designing professional development that works</a>. <em>Educational Leadership</em>, <em>57</em>(8), 28-33</li>
+</ul>
+
+<h4 id="resources">Resources</h4>
+<ul>
+  <li><a href="https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing">Slide Deck</a></li>
+</ul>
+
+<h4 id="agenda">Agenda</h4>
+<ol>
+  <li><a href="https://www.youtube.com/watch?v=OcdumFcGdfU">Deconstructing a TedTalk</a>: What Makes a TedTalk so Inviting?</li>
+  <li>Reading Discussion and synthesizing an instructional framework for adult learning</li>
+  <li>Sign up for article presentations [<a href="https://docs.google.com/spreadsheets/d/11QyvgZvtxn4M61BnzcpryiphDf8AVf3ych5oe06MD-8/edit?usp=sharing">google docs</a>]</li>
+  <li>Lab Demo: <a href="https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi">Grow Bio</a></li>
+</ol>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-3-play-creativity--workshop-brainstorming-feb-25---march-4">Module 3: Play, Creativity, &amp; Workshop Brainstorming (Feb 25 - March 4)</h3>
+<p>The success of this course depends on each
+class member developing new skills, and iterating
+many times over their workshop ideas until they are
+polished enough for a public demonstration.
+The readings for this session focus on creativity
+and play, and we will actively work on exercising
+our own creativity and work to design playful learning
+experiences.
+In this session we will think about the creative process, 
+help set our own learning goals for the semester, and get 
+ready to make a pitch for an extraordinary workshop.</p>
+
+<h4 id="readings-due">Readings due</h4>
+<ul>
+  <li>Gallup. (2020). <a href="https://www.gallup.com/file/education/267449/Creativity%20in%20Learning.pdf">Creativity in learning: Understand the value of creativity in learning and how to enable it in the classroom by leveraging the full potential of technology</a>. <em>Gallup</em>.</li>
+  <li>Blikstein, P., &amp; Worsley, M. (2016). <a href="http://beyondbitsandatoms.org/readings/blikstein2015children.pdf">Children are not hackers</a>. In K. Peppler, E. Halverson, &amp; Y. B. Kafai (Eds.), <em>Makeology: Makerspaces as Learning Environments</em>. Routledge.</li>
+  <li>Wilson, H. E., Song, H., Johnson, J., Presley, L., &amp; Olson, K. (2021). <a href="https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true">Effects of transdisciplinary STEAM lessons on student critical and creative thinking.</a> [AU link]
+<em>The Journal of Educational Research</em>, <em>114</em>(5), 445–457.</li>
+</ul>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-4-steam--school-culture-pitches-feb-11---feb-24">Module 4: STEAM &amp; School Culture, Pitches (Feb 11 - Feb 24)</h3>
+
+<p>In this module we discuss how STEAM and Maker Education fits in with 
+movements to change and advance school-based learning. In addition, 
+we will hear formal pitches from everyone for their final workshop (see details below).</p>
+
+<h4 id="readings-due">Readings due</h4>
+<ul>
+  <li>Papert, S. (1997). <a href="https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1">Why School Reform is Impossible</a>. [AU link] 
+<em>The Journal of the Learning Sciences</em>, <em>6</em>(4), 417–427.</li>
+  <li>Godhe, A.-L., Lilja, P., &amp; Selwyn, N. (2019). <a href="https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link">Making sense of making: Critical issues in the integration of maker education into schools</a>. 
+<em>Technology, Pedagogy and Education</em>, <em>28</em>(3), 317–328.</li>
+  <li>Bullock, E. (2017). <a href="https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing">Only STEM Can Save Us? Examining Race, Place, and STEM Education as Property</a>.
+<em>Educational Studies</em>, <em>53</em>(6), 628–641.</li>
+</ul>
+
+<h4 id="agenda">Agenda</h4>
+<ul>
+  <li>Reading Discussion</li>
+  <li>Pitches</li>
+</ul>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-5-workshop-critique-march-25---april-1">Module 5: Workshop Critique (March 25 - April 1)</h3>
+<p>In this session pairs will present their proposed
+workshop and run a demo of the core component(s).
+They will receive feedback from the class and instructors.</p>
+
+<p>After considering this feedback, the final draft of their
+workshop as well as their material list and budget are due.</p>
+
+<h4 id="readings-due">Readings due</h4>
+<ul>
+  <li>Student readings 1 (TBD)</li>
+</ul>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-6-workshop-studio-mar-11---mar-18">Module 6: Workshop Studio (Mar 11 - Mar 18)</h3>
+<p>This will be a full lab, working session to prepare materials
+and methods for the full rehearsal and final show.</p>
+
+<h4 id="readings-due">Readings due</h4>
+<ul>
+  <li>[student readings 2]</li>
+</ul>
+
+<h4 id="agenda">Agenda</h4>
+<ol>
+  <li>Reading Discussion</li>
+  <li>Lab work on workshops</li>
+</ol>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-7-workshop-rehearsal-april-29---may-6">Module 7: Workshop Rehearsal (April 29 - May 6)</h3>
+<p>This is the final run through of the demo. Each
+team will run their workshop for a group of students
+and instructors. All materials must be 100% ready
+for this demo. Teams will have the opportunity to
+refine their workshop based on the experience.</p>
+</div></div>
+
+<div class="card my-2" style="width: 740px;max-width: 100%"><div class="card-body"><h3 id="module-8-mini-conference-may-13">Module 8: Mini-Conference May 13</h3>
+<p>The mini-conference will be held on
+the 7th floor of Adelphi-St. Francis, from 5pm-8pm.
+Students from both sections must attend on May 13. You should
+plan to be on campus by 4:30 on May 13 in order
+to prepare your materials.</p>
+
+<ul>
+  <li>schedule (TBD)</li>
+  <li>friends, family, and colleagues welcome (sign-up TBD)</li>
+</ul>
+</div></div>
+
+</section>
+
+<hr />
+
+<h2 id="grading--assignments">Grading &amp; Assignments</h2>
+<div class="row">
+<div class="col-12 col-md-6">
+<table>
+  <thead>
+    <tr>
+      <th>Assignment</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Participation &amp; Attendance</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Article presentation</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Pitch</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Critique</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Demo</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Final Presentation</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="submitting-portfolio-assignments">Submitting portfolio assignments</h3>
+
+<p>Everyone should have an online portfolio that they began
+in <em>Maker 1: Design Lab</em>. If you do not, you can create a new
+one in Google Sites. See assignment details for what you
+should submit in your portfolio.</p>
+
+<h3 id="participation--attendance">Participation &amp; attendance</h3>
+
+<p>One of the tenets of this class is that learning is more vibrant when we work on it together.
+Collectively, we will work to develop new understandings of the potential and challenges
+of maker education. In our labs, we will work to design and test new curricular projects.
+<em>This cannot happen if you do not attend class, are not prepared, or arrive late.</em></p>
+
+<p>You will be given two participation grades, and each time it will be the average
+of the instructor’s assessment and your self-assessment. The self-assessment is
+straightforward, you will assign a numeric grade (0-15 for participation 1, 0-10 for participation 2)
+and a brief statement explaining your criteria. Your criteria will not exactly match
+my criteria, as we all value different aspects of learning. Here are the things I
+am looking for:</p>
+
+<ul>
+  <li><strong>Preparation:</strong> You have completed the assigned readings and are ready to discuss them.</li>
+  <li><strong>Respect:</strong> You are actively engaged in the class discussion and activities, including
+listening to others and sharing your own ideas. In team projects, you respect deadlines
+and meeting times, and don’t add to the stress and workload of your teammates.</li>
+  <li><strong>Risk taking:</strong> In some ways, deep learning is always uncomfortable. Full participation
+means you are willing to take risks and make mistakes. It also means that you go beyond
+the minimum requirements and shared materials to help us push boundaries together.
+You will approach projects with an open mind and try to recognize your own
+biases and preconceptions.</li>
+  <li><strong>Attendance is required for all in person classes</strong>. The only excused absences
+are in keeping with the University’s policy: illness or other documented emergency.</li>
+  <li><strong>Work/school obligations are not an excuse for absence or lateness.</strong> This
+includes any coaching, club, professional development, proctoring, or other
+obligations.</li>
+  <li><strong>Attendance grading:</strong>
+    <ul>
+      <li>for each lateness less than 10 minutes you will lose 1 point on your final grade</li>
+      <li>for each absence or lateness more than 10 minutes you will lose 2 points on your final grade</li>
+      <li>if you miss more than 3 of the total 8 in person classes, you may be asked to withdraw
+and repeat this course</li>
+      <li>The final “mini conference” on Tuesday May 13 is absolutely mandatory.
+Please make any arrangements necessary to be present for this meeting.</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<div class="col-12 col-md-6"><img src="img/soldering.png" class="d-block img-fluid" alt="soldering workstation" /></div>
+</div>
+
+<h3 id="article-presentation">Article Presentation</h3>
+<p>The first four modules have instructor assigned readings. The next 3 modules will have
+student assigned readings. Working with a partner, you will choose an academic article
+related to our course topics and assign it for reading. Your team will be responsible
+for leading a discussion on the article your assigned. You will be graded on a 
+<strong>portfolio entry</strong> where you indicate the following:</p>
+
+<ul>
+  <li>why you chose the article and its relevance</li>
+  <li>a summary of the article and discussion of how it related to the course</li>
+  <li>notes/questions for leading the discussion</li>
+  <li>a reflection on the article and discussion to the class</li>
+  <li><em>each team member will complete the portfolio portion independently</em></li>
+</ul>
+
+<div class="row">
+<div class="col-12 col-md-6"><img src="img/workbench.png" class="d-block img-fluid" alt="a maker's workstation" /></div>
+<div class="col-12 col-md-6">
+<h3 id="steam-workshop">STEAM Workshop</h3>
+<p>The major outcome of this studio course is the professional
+development STEAM workshop that you create with your partner.
+This will be developed in several stages:</p>
+
+<ol>
+  <li><strong>Pitch:</strong> everyone pitches their own workshop idea. Only after
+your pitch is approved by the instructors can it be considered
+for a final workshop.</li>
+  <li><strong>Critique:</strong> you and your partner will present a more fleshed out
+concept for a workshop to the class and instructors for feedback.
+You will demonstrate/prototype core aspects of the lesson.</li>
+  <li><strong>Demo:</strong> you and your partner will do a full demonstration of your workshop
+prior to the public conference. All materials and procedures should be
+ready for this demo. You will be able to fine-tune your workshop after
+the demo.</li>
+  <li><strong>Public presentation:</strong> you present your workshop at the STEAM mini-confernce
+to an audience of peers, faculty, professional colleagues, and NYC high school
+guests.</li>
+</ol>
+
+<p>The course culminates in a public mini-conference where you will lead
+a 60 minute workshop with one teammate. The audience for the conference will
+be STEM teachers (your peers and others like you), Adelphi faculty and staff,
+MIXI alums, friends from the doctoral program in education at Fordham University, 
+and high school students invited to attend.</p>
+
+<p><strong>Workshop requirements:</strong></p>
+
+<ul>
+  <li>demonstrate a deep knowledge of one of the techniques of the maker lab and steam education</li>
+  <li>address a hard pedagogical problem, related to your academic subject 
+(i.e. aligns with standards and goals of the field) Explicitly identify where this workshop could “fit” in the grades 7-12 curriculum</li>
+  <li>design a workshop that is engaging and effective at meeting your goals</li>
+  <li>organize and present an effective session applying the principles of learning</li>
+</ul>
+
+<p><a class="d-block btn btn-primary btn-block fs-3" href="/courses/maker2/conference-2024.html">
+See the 2024 STEAM Mini Conference Program</a></p>
+
+</div> </div>
+
+<p><img src="img/wood-blocks.png" class="maker-img float-end d-block img-fluid" alt="sketch of wooden froebel blocks" /></p>
+
+<h4 id="workshop-pitch">Workshop Pitch</h4>
+<p>Although this is a pair project, everyone will design their
+own workshop pitch. The pitch will be a 5 minute presentation
+where you share your idea for a great workshop. After hearing
+and discussing all of the pitches, we will form teams of 2.</p>
+
+<p>For the pitch, focus on:</p>
+
+<ul>
+  <li>why your idea is innovative and creative</li>
+  <li>the hard problem it addresses in your field</li>
+  <li>where this type of learning could take place in your curriculum (be specific)</li>
+  <li>that it is feasible and good match for your skills, our facilities, and the time/budget restrictions</li>
+</ul>
+
+<p><strong>In your portfolio:</strong></p>
+
+<ul>
+  <li>write a brief (300 word) pitch for your workshop</li>
+  <li>link or embed any presentations materials you created</li>
+  <li>reflect on the pitch based on feedback from the class/instructors</li>
+</ul>
+
+<h4 id="critique">Critique</h4>
+<p>For the critique, your team will present the first draft of your lesson. This will not be
+the full 45 minute session, but you will walk us through the key aspects of your workshop.
+For items that are not ready (because they need to be built or ordered), we can role play
+and use low fidelity prototypes.</p>
+
+<p><strong>In your portfolio:</strong> (after the critique)</p>
+
+<ul>
+  <li>submit a revised plan for your workshop</li>
+  <li>a complete list of materials
+    <ul>
+      <li>indicate what you will be using that is on-hand in the lab</li>
+      <li>a list of materials to order with the quantity, cost, and link to where to purchase</li>
+      <li>a total budget for materials</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="demo">Demo</h4>
+<p>The demo is a rehearsal for your live presentation. You must have
+all materials prepared and ready. You will lead the demo the
+same as you will the live conference presentation.</p>
+
+<p><strong>In your portfolio:</strong> (after the demo)</p>
+
+<ul>
+  <li>final lesson plan for the workshop</li>
+  <li>final workshop title and abstract</li>
+  <li>reflection on changes/refinements and outstanding items</li>
+  <li>photos/videos/artifacts documenting your demo workshop</li>
+</ul>
+
+<h4 id="workshop">Workshop</h4>
+<p>You will present your workshop and be observed by course
+instructors and other Adelphi faculty, school partners, K12 students, Fordham doctoral students and other guests who attend. In addition
+to the quality of your lesson and the materials your produce,
+we are evaluating you on the effectiveness of your presentation
+and ability to perform as an instructional leader and coach.</p>
+</div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    179 Livingston Street<br>
+                    Brooklyn, NY 11238<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+
+</body>
+</html>

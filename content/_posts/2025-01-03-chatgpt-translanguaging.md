@@ -19,7 +19,7 @@ event:
   description: Roundtable paper presentation at AAAL 2025 with Rebecca Curinga, Aaron Hung, and Matt Curinga.
 categories: [Events]
 author: "matt curinga"
-tags: ["LLM", "AI", "linguistics", "translanguaging", "AAAL", "chatgpt", "sticky"]
+tags: ["LLM", "AI", "linguistics", "translanguaging", "AAAL", "chatgpt"]
 ---
 
 MIXI researchers Matt Curinga and Aaron Hung team up with Matt's sister,

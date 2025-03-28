@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-03-20T11:11:30-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">MIXI at AERA 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/" rel="alternate" type="text/html" title="MIXI at AERA 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/"><![CDATA[<div class="lead">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-03-28T13:28:10-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Open Data Week: Mapping colocated schools in NYC</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/" rel="alternate" type="text/html" title="Open Data Week: Mapping colocated schools in NYC" /><published>2025-03-07T11:00:00-05:00</published><updated>2025-03-07T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/"><![CDATA[<div class="lead">
+<p>Matt Curinga and Liz de Freitas along with student researchers Gabriella Deninno,
+Akbota Zhumabaikyzy, and Claire Filipek. Present their work at 
+<a href="https://2025.open-data.nyc/">NYC Open Data Week 2025</a>.</p>
+
+</div>
+<p><a href="https://data.mixi.nyc/nyc-colac-plurality.html">
+<img src="/assets/images/blog/colo-pluralities.png" class="img-fluid d-block" alt="map showing colcated schools in Manhattan with differenct colors indicating the racial plurality in each school" />
+</a></p>
+
+<p>Colocated schools are not unique to New York City, but they are very much a part
+of daily life of NYC schools. More than 70% of high schools and the majority
+of students in grades 9-12 attend a colocated school. We will discuss
+some of the recent history of the small schools and charter movement
+that has increased colocations in NYC; as well as our theoretical grounding
+in spatial justice, critical cartography, and the politics of aesthetics
+and digital media.</p>
+
+<p>For this talk, we use our open source <code class="language-plaintext highlighter-rouge">nycschools</code> python
+library to access the most recent NYCPS Demographic Snapshot,
+combined with the NYC Open Data school location record to identify
+which schools share a location. This avoids relying on Department
+of Buildings records or trying to match schools by address.</p>
+
+<p>We run statistical analysis to determine that colocated schools
+are more likely to have higher percentages of Black, Latine students;
+and higher rates of students living in poverty.</p>
+
+<p>We also discuss some of the challenges of visualizing geospatial
+data where multiple data points share the same location. To address
+this concern, we demonstrate a technique using radial clusters
+around central campus points that allow both an overview of the
+data as well as the ability to zoom to each data point. We end our
+talk with optional workshops where you can get help getting started
+programming Python with school and Census data.</p>
+
+<!-- include event.html -->
+
+<div class="event mb-4" data-start="2025-03-23T17:00:00">
+    <h4>Event Details <a class="text-muted" href="https://2025.open-data.nyc/event/visualizing-nyc-school-colocations/"><i class="bi bi-link"></i></a></h4>
+    <a class="d-block" href="https://2025.open-data.nyc/event/visualizing-nyc-school-colocations/">
+        <div class="ms-4"><i class="bi bi-megaphone-fill"></i> Open Data Week: Mapping colocated schools in NYC</div>
+        <div class="ms-4"><i class="bi bi-calendar2-heart-fill"></i> Sunday, March
+            23, 2025 at 05:00 PM</div>
+        <div class="ms-4"><i class="bi bi-map-fill"></i> Virtual, NYC
+</div>
+    </a>
+</div>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><strong>Open Data Week Presentation</strong>
+    <ul>
+      <li><a href="https://2025.open-data.nyc/event/visualizing-nyc-school-colocations/">Event Page</a></li>
+      <li><a href="https://docs.google.com/presentation/d/1S-2ToL5iRSfs_asLT2CV4mxOEhaNgy-FByNTwan7x-4/edit?usp=sharing">Slides</a></li>
+      <li>[<strong>Recording</strong>] (TBD)</li>
+    </ul>
+  </li>
+  <li><code class="language-plaintext highlighter-rouge">nycschools</code> free open source software python library [<a href="https://github.com/adelphi-ed-tech/nycschools">code</a>] 
+ [<a href="https://adelphi-ed-tech.github.io/nycschools/">docs</a>]</li>
+  <li><code class="language-plaintext highlighter-rouge">maptools</code> free open source software python library [<a href="https://github.com/mcuringa/cartopy">code</a>]</li>
+  <li>Colocation Data &amp; Charts [<a href="https://colab.research.google.com/drive/1Sskg7_I1BRxhG4r6VLENbkat4_pVfNmh?usp=sharing">Colab Notebook</a>]</li>
+  <li>Colocation Plurality [<a href="https://data.mixi.nyc/nyc-colac-plurality.html">Map</a>] [<a href="https://colab.research.google.com/drive/16gvkcRpnkmbegcJ7d-gbicOmVX5Gletd?usp=sharing">Colab Notebook</a>]</li>
+  <li>Census and other Maps [<a href="https://nyc-open-data-school-colocations.netlify.app/">Maps</a>] 
+[<a href="https://colab.research.google.com/drive/1fyvx47SMoQR2e8bWOyUWMg3YRPKscKwt?usp=sharing">Colab Notebook</a>]</li>
+</ul>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="Open Data" /><category term="Open Data Week" /><category term="mapping" /><category term="NYC schools" /><category term="colocations" /><category term="spatial justice" /><category term="sticky" /><summary type="html"><![CDATA[MIXI researchers and students present their work on mapping "colocated" schools at NYC Open Data Week]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MIXI at AERA 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/" rel="alternate" type="text/html" title="MIXI at AERA 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/"><![CDATA[<div class="lead">
 <p>Matt Curinga and Liz de Freitas will be at AEAR 2025 in Denver, Colorado to present research from several
 MIXI projects. We are also going to host and <b class="fw-bold">Adelphi Happy Hour</b> with information about
 our new <a href="/degrees">PhD in Learning Sciences</a> and its funded scholarships.</p>
@@ -141,7 +206,7 @@ Denver, CO 80202-5107<br />
 United States</p>
 
 <p><strong>When:</strong>
-Friday, March 25, 2025, 10:15 AM - 11:15 AM [<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=ChatGPT%20Translanguaging%20for%20multilingual%20learners&amp;dates=20250325T101500Z/20250325T111500Z&amp;details=Roundtable%20paper%20presentation%20at%20AAAL%202025%20with%20Rebecca%20Curinga,%20Aaron%20Hung,%20and%20Matt%20Curinga.&amp;location=Sheraton%20Denver%20Downtown%20Hotel%201550%20Court%20Place%20Denver,%20CO%2080202-5107%20United%20States%20%0A&amp;ctz=America/Denver">add to gcal</a>]</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="LLM" /><category term="AI" /><category term="linguistics" /><category term="translanguaging" /><category term="AAAL" /><category term="chatgpt" /><category term="sticky" /><summary type="html"><![CDATA[Matt Curinga and Aaron Hung team up with Matt's sister, Dr. Rebecca Curinga from CUNY to present their research on translanguaging with GPT-3 at AAAL 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applications now open for MIXI STEAM and NYC Teaching Fellows</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/" rel="alternate" type="text/html" title="Applications now open for MIXI STEAM and NYC Teaching Fellows" /><published>2024-12-05T11:00:00-05:00</published><updated>2024-12-05T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/"><![CDATA[<div class="d-flex flex-row">
+Friday, March 25, 2025, 10:15 AM - 11:15 AM [<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=ChatGPT%20Translanguaging%20for%20multilingual%20learners&amp;dates=20250325T101500Z/20250325T111500Z&amp;details=Roundtable%20paper%20presentation%20at%20AAAL%202025%20with%20Rebecca%20Curinga,%20Aaron%20Hung,%20and%20Matt%20Curinga.&amp;location=Sheraton%20Denver%20Downtown%20Hotel%201550%20Court%20Place%20Denver,%20CO%2080202-5107%20United%20States%20%0A&amp;ctz=America/Denver">add to gcal</a>]</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="LLM" /><category term="AI" /><category term="linguistics" /><category term="translanguaging" /><category term="AAAL" /><category term="chatgpt" /><summary type="html"><![CDATA[Matt Curinga and Aaron Hung team up with Matt's sister, Dr. Rebecca Curinga from CUNY to present their research on translanguaging with GPT-3 at AAAL 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applications now open for MIXI STEAM and NYC Teaching Fellows</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/" rel="alternate" type="text/html" title="Applications now open for MIXI STEAM and NYC Teaching Fellows" /><published>2024-12-05T11:00:00-05:00</published><updated>2024-12-05T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/"><![CDATA[<div class="d-flex flex-row">
     <img src="/assets/images/spray-paint.jpg" alt="student spray painting a stencil bird" class="d-none d-md-block me-4" />
     <div>
         <img src="/assets/images/blog/spray-paint-hz.jpg" alt="student spray painting a stencil bird" class="d-block d-md-none img-fluid mb-4" />
@@ -218,24 +283,4 @@ educator in NYC Public Schools and as a teaching artist with
 and other NYC community organizations.</p>
 
 <p>Eric and Matt are working together to design tech-infused art projects, including
-a new wearable fashion project…more details soon.</p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="art" /><category term="murals" /><category term="design lab" /><summary type="html"><![CDATA[Muralist and teaching artist Eric Miles joining MIXI faculty to teach the Design Lab]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Steam mini conference</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-conference/" rel="alternate" type="text/html" title="Steam mini conference" /><published>2024-05-08T12:00:00-04:00</published><updated>2024-05-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-conference</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-conference/"><![CDATA[<p><img src="/assets/images/blog/steam-mini-24.png" alt="2024 steam mini conference" class="my-2 d-block img-fluid" /></p>
-
-<p>The Students of the Master’s of Arts in STEAM Teaching and Learning 
-present the 2024 STEAM MINI Conference.</p>
-
-<p>We invite you for <strong>exciting</strong> workshops, <strong>stimulating</strong> conversation, 
-and <strong>original</strong> games for learning.</p>
-
-<p>Followed by a celebratory reception.</p>
-
-<div class="text-center fw-bold">
-
-<p><a href="https://adelphi-ed-tech.github.io/au-courses/maker3/conference.html">See the tentative program here.</a></p>
-
-<p>Tuesday May 14 ~ 5pm-8pm<br />
-Adelphi NYC Campus @ St. Francis College<br />
-179 Livingston Street, 7th Floor<br />
-Free and Open Admissions ~ Registration Required\</p>
-
-
-</div>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="Conference" /><category term="steam" /><category term="maker ed" /><category term="micro:bit" /><category term="paper circuits" /><category term="chibitronics" /><category term="chaos theory" /><category term="games for learning" /><category term="reception" /><summary type="html"><![CDATA[STEAM MINI Conference '24, May 14 @ MIXI]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//mini-conference.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//mini-conference.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+a new wearable fashion project…more details soon.</p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="art" /><category term="murals" /><category term="design lab" /><summary type="html"><![CDATA[Muralist and teaching artist Eric Miles joining MIXI faculty to teach the Design Lab]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
