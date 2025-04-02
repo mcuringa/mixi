@@ -4,6 +4,7 @@ title: "Maker Lab 3: School Lab"
 author:
     - "Matthew X. Curinga"
     - "Tracy Hogan"
+links: h2,h3
 ---
 <style>
 .maker-img { max-width: 100%; width: 600px; padding: 1em;}
@@ -60,6 +61,9 @@ The student will be able to:
 - _office hours by appointment_
 
 **Class roster:** [google docs](https://docs.google.com/spreadsheets/d/1B8ZZe3VW4FtDiNOnjHGIbB07t99LyW9LeJLuBWkZBX8/edit?usp=drive_link)
+
+**Student signup:** [[google docs](https://docs.google.com/spreadsheets/d/11QyvgZvtxn4M61BnzcpryiphDf8AVf3ych5oe06MD-8/edit?usp=sharing)]
+<small>for article presentations, workshop teams, workshop materials</small>
 
 Required Textbook
 -----------------
@@ -231,7 +235,7 @@ in one week.
 {% endcard %}
 
 {% card %}
-### Module 6: Workshop Studio (Mar 11 - Mar 18)
+### Module 6: Workshop Studio (April 8 - April 15)
 This will be a full lab, working session to prepare materials
 and methods for the full rehearsal and final show.
 
@@ -242,6 +246,11 @@ and methods for the full rehearsal and final show.
 1. Reading Discussion
 2. Lab work on workshops
 
+#### Section 001 Readings (for class on Apr 8)
+- Rueda, A., Rosen, C., & Crúz-Mena, J. (2024). [Let science be told: A review of ideas for storytelling in science communication](https://turia.uv.es/index.php/Metode/article/view/26522). _Metode Science Studies Journal_, 151–157.
+
+
+
 {% endcard %}
 
 {% card %}
@@ -251,6 +260,8 @@ team will run their workshop for a group of students
 and instructors. All materials must be 100% ready
 for this demo. Teams will have the opportunity to
 refine their workshop based on the experience.
+
+
 
 {% endcard %}
 
