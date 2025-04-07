@@ -42,10 +42,10 @@ to study technical topics.
 This program does not lead to New York State teaching certification. Many of the 
 students _are_ interested in K-12 teaching and either work in the field or have an 
 undergraduate degree with initial certification. In this case, this Master's will 
-count towards permanent, professional certification in New York State. For example, 
-if you did your undergraduate degree in math education with an initial license. You 
-will be eligible for professional certification upon completion of this Master's.
-
+count towards permanent, professional certification in New York State (in your area
+of initial certification). For example, if you did your undergraduate degree in math 
+education with an initial license. You will be eligible for professional certification 
+upon completion of this Master's.
 
 Some students have also used this degree to pursue certification as an 
 **Educational Technology Specialist** via the 
@@ -53,6 +53,21 @@ Some students have also used this degree to pursue certification as an
 While the course of study meets all of the NYS 
 requirements, all of the specific certification requirements are the responsibility 
 of the student, and New York State, not Adelphi decides on granting certification.
+
+<h2 id="new-students" class="mt-3">New Students</h2>
+Welcome to the program! If you have been accepted, and paid your
+deposit, your are ready to gain access to your Adelphi accounts.
+
+Here are the steps:
+
+1. [Lookup your Adelphi username using SSN](https://class.adelphi.edu/account_tools/username.php)
+   [_or with your adelphi id, start here_](https://class.adelphi.edu/account_tools/id.php)
+2. [Set your password](https://portal.adelphi.edu/retrieve-password/)
+3. [Log into ecampus](https://ecampus.adelphi.edu/)
+   - This is the student portal
+   - Check email
+   - Search and register for classes
+   - View and pay bill, etc
 
 <h2 id="plan-of-study" class="mt-3">Plan of Study</h2>
 
@@ -229,6 +244,8 @@ The following show sample plans of study.
     </div>
   </div>
 </div>
+
+
 
 <h2 id="thesis" class="mt-3">Educational Technology Integrated Thesis Project</h2>
 
