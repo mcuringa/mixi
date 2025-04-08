@@ -249,6 +249,7 @@ and methods for the full rehearsal and final show.
 #### Section 001 Readings (for class on Apr 8)
 - Rueda, A., Rosen, C., & Crúz-Mena, J. (2024). [Let science be told: A review of ideas for storytelling in science communication](https://turia.uv.es/index.php/Metode/article/view/26522). _Metode Science Studies Journal_, 151–157.
 - Härkki, T., Seitamaa-Hakkarainen, P., Vartiainen, H., Saarinen, A., & Hakkarainen, K. (2023). [Non-linear maker pedagogy in Finnish craft education](https://journals.oslomet.no/index.php/techneA/article/view/4998). _Techne Series: Research in Sloyd Education and Craft Science A_, 3_0_(1), 1-17.
+- Vecchione, A. (2020). [Makerspace culture and its impact on learning](https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1157&context=lib_facpubs). In E. Kroski (Ed.), *Makerspaces in practice* (pp. 53–61). ALA Editions.
 
 
 {% endcard %}
