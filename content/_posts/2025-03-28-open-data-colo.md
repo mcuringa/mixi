@@ -15,7 +15,7 @@ event:
     Virtual, NYC
 categories: [Events]
 author: "matt curinga"
-tags: ["Open Data", "Open Data Week", "mapping", "NYC schools", "colocations", "spatial justice", "sticky"]
+tags: ["Open Data", "Open Data Week", "mapping", "NYC schools", "colocations", "spatial justice"]
 ---
 
 <div class="lead">

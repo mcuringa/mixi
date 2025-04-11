@@ -18,17 +18,17 @@
   key: hung
   title: Associate Professor
   dept: College of Education and Health Sciences
-# - name: Craig Carson
-#   key: carson
-#   title: Associate Professor & Assoc Dean
-#   dept: English, Honors College, Arts & Sciences
-- name: Cindy Maguire
-  key: maguire
-  title: Associate Professor
-  dept: Communications, Arts & Sciences
-- name: Hannah Allen
-  key: allen
-  title: Associate Professor
-  dept: Art and Art History, Arts & Sciences
+- name: Craig Carson
+  key: carson
+  title: Associate Professor & Assoc Dean
+  dept: Honors College, English, Arts & Sciences
+# - name: Cindy Maguire
+#   key: maguire
+#   title: Associate Professor
+#   dept: Communications, Arts & Sciences
+# - name: Hannah Allen
+#   key: allen
+#   title: Associate Professor
+#   dept: Art and Art History, Arts & Sciences
 
 
