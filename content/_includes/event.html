@@ -1,0 +1,14 @@
+{% assign event = page.event %}
+{% assign title = event.title | default: page.title %}
+{% assign url = event.url | default: page.url %}
+
+
+<div class="event mb-4" data-start='{{ event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
+    <h4>Event Details <a class="text-muted" href="{{ url }}"><i class="bi bi-link"></i></a></h4>
+    <a class="d-block" href="{{ url }}">
+        <div class="ms-4"><i class="bi bi-megaphone-fill"></i> {{ title }}</div>
+        <div class="ms-4"><i class="bi bi-calendar2-heart-fill"></i> {{ event.start | date: "%A, %B
+            %d, %Y at %I:%M %p" }}</div>
+        <div class="ms-4"><i class="bi bi-map-fill"></i> {{ event.location }}</div>
+    </a>
+</div>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-04-07T20:53:29-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Open Data Week: Mapping colocated schools in NYC</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/" rel="alternate" type="text/html" title="Open Data Week: Mapping colocated schools in NYC" /><published>2025-03-07T11:00:00-05:00</published><updated>2025-03-07T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/"><![CDATA[<div class="lead">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-04-11T16:34:49-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Open Data Week: Mapping colocated schools in NYC</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/" rel="alternate" type="text/html" title="Open Data Week: Mapping colocated schools in NYC" /><published>2025-03-07T11:00:00-05:00</published><updated>2025-03-07T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/open-data-colo/"><![CDATA[<div class="lead">
 <p>Matt Curinga and Liz de Freitas along with student researchers Gabriella Deninno,
 Akbota Zhumabaikyzy, and Claire Filipek. Present their work at 
 <a href="https://2025.open-data.nyc/">NYC Open Data Week 2025</a>.</p>
@@ -63,7 +63,38 @@ programming Python with school and Census data.</p>
   <li>Colocation Plurality [<a href="https://data.mixi.nyc/nyc-colac-plurality.html">Map</a>] [<a href="https://colab.research.google.com/drive/16gvkcRpnkmbegcJ7d-gbicOmVX5Gletd?usp=sharing">Colab Notebook</a>]</li>
   <li>Census and other Maps [<a href="https://nyc-open-data-school-colocations.netlify.app/">Maps</a>] 
 [<a href="https://colab.research.google.com/drive/1fyvx47SMoQR2e8bWOyUWMg3YRPKscKwt?usp=sharing">Colab Notebook</a>]</li>
-</ul>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="Open Data" /><category term="Open Data Week" /><category term="mapping" /><category term="NYC schools" /><category term="colocations" /><category term="spatial justice" /><category term="sticky" /><summary type="html"><![CDATA[MIXI researchers and students present their work on mapping "colocated" schools at NYC Open Data Week]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MIXI at AERA 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/" rel="alternate" type="text/html" title="MIXI at AERA 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/"><![CDATA[<div class="lead">
+</ul>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="Open Data" /><category term="Open Data Week" /><category term="mapping" /><category term="NYC schools" /><category term="colocations" /><category term="spatial justice" /><category term="sticky" /><summary type="html"><![CDATA[MIXI researchers and students present their work on mapping "colocated" schools at NYC Open Data Week]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//open-data25.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Adelphi Learning Sciences reception at AERA 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/area25-reception/" rel="alternate" type="text/html" title="Adelphi Learning Sciences reception at AERA 2025" /><published>2025-03-07T11:00:00-05:00</published><updated>2025-03-07T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/area25-reception</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/area25-reception/"><![CDATA[<style>
+.flier {
+    background: url('/assets/images/blog/dark-purple-texture.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    border-radius: 8px;
+    padding: 3em;
+    text-shadow: 1px 1px 2px darkblue;
+}
+</style>
+
+<div class="">
+
+
+<h1 class="text-center mb-3">Learn about Adelphi's<br />new 
+<a class="" href="/degrees">PhD in Learning Sciences</a></h1>
+<p class="fs-2 mt-5">
+If you're going to be in Denver for the 2025 AERA Conference, 
+join us at <b>Full Frame Beer</b> on Wednesday to have a drink, 
+enjoy some food, and learn more about our new  doctoral program 
+and current MIXI research projects.
+</p>
+<img class="mx-auto d-block img-fluid" src="/assets/images/blog/full-frame.jpg" alt="tables and bar" />
+<hr />
+<p class="fs-3"><b>When:</b> Wednesday April 23, 7pm-9pm</p>
+<p class="fs-3"><b>Where:</b> Full Frame Beer, <a class="text-white" href="https://maps.app.goo.gl/WEnuLWQ1VZJHECEcA"><i class="bi bi-geo-alt-fill"></i> 1139 20th St</a></p>
+<p class="fs-3"><b>RSVP:</b> Please sign up below</p>
+
+<iframe class="embed-responsive" src="https://docs.google.com/forms/d/e/1FAIpQLScK9jsgMxaZtnLVQpu2L5ZwXmcA_Xsd7U0U9ntY5lEcqN2Ihw/viewform?embedded=true" width="100%" height="689" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+
+</div>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="Learning Sciences" /><category term="AERA" /><category term="party" /><category term="Denver" /><category term="sticky" /><summary type="html"><![CDATA[Join us for the Adelphi Learning Sciences reception at AERA 2025 in Denver!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//mixi-denver.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//mixi-denver.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MIXI at AERA 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/" rel="alternate" type="text/html" title="MIXI at AERA 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/aera-2025/"><![CDATA[<div class="lead">
 <p>Matt Curinga and Liz de Freitas will be at AEAR 2025 in Denver, Colorado to present research from several
 MIXI projects. We are also going to host and <b class="fw-bold">Adelphi Happy Hour</b> with information about
 our new <a href="/degrees">PhD in Learning Sciences</a> and its funded scholarships.</p>
@@ -273,14 +304,4 @@ closely with MIXI faculty.
   <li>opportunities to collaborate and publish with MIXI researches</li>
 </ul>
 
-<p><strong><a href="https://www.adelphi.edu/news/adelphi-introduces-learning-sciences-doctoral-program/">Read the full press release here!</a></strong></p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="phd" /><category term="learning sciences" /><category term="research" /><category term="funding" /><summary type="html"><![CDATA[PhD in Learning Sciences is Live! 🚀 Reviewing applications for fully funded doc students to begin Fall 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//ls-soldering.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//ls-soldering.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Muralist Eric Miles joins MIXI faculty</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/eric-miles/" rel="alternate" type="text/html" title="Muralist Eric Miles joins MIXI faculty" /><published>2024-05-12T12:00:00-04:00</published><updated>2024-05-12T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/eric-miles</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/eric-miles/"><![CDATA[<p><img src="/assets/images/blog/mural.jpg" alt="Be the Change mural being installed at BRIC" class="my-2 d-block img-fluid" /></p>
-
-<p>Teaching artist and muralist <a href="https://www.groundswell.nyc/people/eric-miles">Eric Miles</a>
-is going to co-teach the <a href="/courses/design-lab">Design Lab</a> 
-with Dr. Curinga this summer. Eric brings a wealth of experience as an art
-educator in NYC Public Schools and as a teaching artist with
-<a href="https://bricartsmedia.org/">BRIC</a>, <a href="https://www.groundswell.nyc/">Groundswell</a>,
-and other NYC community organizations.</p>
-
-<p>Eric and Matt are working together to design tech-infused art projects, including
-a new wearable fashion project…more details soon.</p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="art" /><category term="murals" /><category term="design lab" /><summary type="html"><![CDATA[Muralist and teaching artist Eric Miles joining MIXI faculty to teach the Design Lab]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//mural-th.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p><strong><a href="https://www.adelphi.edu/news/adelphi-introduces-learning-sciences-doctoral-program/">Read the full press release here!</a></strong></p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="phd" /><category term="learning sciences" /><category term="research" /><category term="funding" /><summary type="html"><![CDATA[PhD in Learning Sciences is Live! 🚀 Reviewing applications for fully funded doc students to begin Fall 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//ls-soldering.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//ls-soldering.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
