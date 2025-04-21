@@ -252,8 +252,8 @@ and methods for the full rehearsal and final show.
 - Vecchione, A. (2020). [Makerspace culture and its impact on learning](https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1157&context=lib_facpubs). In E. Kroski (Ed.), *Makerspaces in practice* (pp. 53–61). ALA Editions.
 
 #### Section 002 Readings (for class on Apr 22)
-- Mejias, S., Thompson, N., Sedas, R. M., Rosin, M., Soep, E., Peppler, K., Roche, J., Wong, J., Hurley, M., Bell, P., & Bevan, B. (2021). [The trouble with STEAM and why we use it anyway](https://drive.google.com/file/d/1nE2SEDOIBmkQynaJvp0xj1pkkPOmPLYG/view?usp=drive_link). _Science Education_, _105_(2), 209–231. https://doi.org/10.1002/sce.21605
-- Esref, A., & Cevat, E. (2021). [The effect of phenomenon-based learning approach on students metacognitive awareness](https://files.eric.ed.gov/fulltext/EJ1296934.pdf). _Educational Research and Reviews_, _16_(5), 181–188. https://doi.org/10.5897/ERR2021.4139
+- Mejias, S., Thompson, N., Sedas, R. M., Rosin, M., Soep, E., Peppler, K., Roche, J., Wong, J., Hurley, M., Bell, P., & Bevan, B. (2021). [The trouble with STEAM and why we use it anyway](https://drive.google.com/file/d/1nE2SEDOIBmkQynaJvp0xj1pkkPOmPLYG/view?usp=drive_link). _Science Education_, _105_(2), 209–231. <https://doi.org/10.1002/sce.21605>
+- Esref, A., & Cevat, E. (2021). [The effect of phenomenon-based learning approach on students metacognitive awareness](https://files.eric.ed.gov/fulltext/EJ1296934.pdf). _Educational Research and Reviews_, _16_(5), 181–188. <https://doi.org/10.5897/ERR2021.4139>
 
 
 
