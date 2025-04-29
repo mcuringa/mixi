@@ -58,8 +58,7 @@ author: "mxc"
                 <b>Adelphi University's</b> MIXI Institute brings together a diverse group of researchers, artists, scientists, 
                 educators, and various kinds of creative practitioners. We work across the 
                 boundaries of science, art, technology and mathematics, to generate new understandings 
-                about STEM practices and STEM education. Founded in 2020, MIXI is housed within the 
-                Brooklyn Center campus of Adelphi University. 
+                about STEM.
             </div>
         </div>
     </div>
