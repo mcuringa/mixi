@@ -2,7 +2,9 @@
 layout: main
 ---
 
-<div class="container">
+{% assign container = page.container | default: "container" %}
+
+<div class="{{container}}">
 <h1 class="page-title">{{page.title}}</h1>
 <small class="fw-bold">
 {{page.date | date: "%B %-d, %Y"}} 
