@@ -19,7 +19,6 @@ tags:
   - AERA
   - Denver
   - local brewery
-  - sticky
 ---
 
 <style>
