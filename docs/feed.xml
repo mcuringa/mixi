@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-05-08T14:13:30-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Steam mini conference 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/" rel="alternate" type="text/html" title="Steam mini conference 2025" /><published>2025-05-03T12:00:00-04:00</published><updated>2025-05-03T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/"><![CDATA[<!-- load _data/ -->
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-05-13T15:02:45-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Steam mini conference 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/" rel="alternate" type="text/html" title="Steam mini conference 2025" /><published>2025-05-03T12:00:00-04:00</published><updated>2025-05-03T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/"><![CDATA[<!-- load _data/ -->
 <div class="fs-3 border-bottom mb-4">
 <p>The Students of the Master’s of Arts in STEAM Teaching and Learning 
 present the 2025 STEAM MINI Conference.</p>
@@ -37,6 +37,17 @@ Free and Open Admissions ~ Registration Required<br />
 <div class="row">
     <div class="col-12 col-md-6">
         <h2>Session 1: 5:15-6:15pm</h2>
+        
+
+        <div class="card m-2" style="width: 600px; max-width: 100%;">
+        <div class="card-body">
+            <h3 class="card-title">Engineering for Earthquakes – Designing Resilient Structures</h3>
+            <h5 class="card-title text-gray">Presented by Frank, Mark &amp; Graeme</h5>
+            <p class="card-text"><p>In this interactive engineering challenge, teams will design and build structures using limited materials, each representing a real earthquake-prone location: Tokyo, Port-au-Prince, San Francisco, Santiago, or Athens. After building, teams will test their structures on a shake table to see which can withstand the strongest quake. The most resilient design wins! Participants will also vote on superlatives such as Most Culturally Relevant, Most Artistic, and Most Resourceful. This workshop combines science, creativity, and global awareness in a fun, collaborative setting.</p>
+</p>
+        </div>
+        </div>
+
         
 
         <div class="card m-2" style="width: 600px; max-width: 100%;">
@@ -117,6 +128,17 @@ Free and Open Admissions ~ Registration Required<br />
 
         <div class="card m-2" style="width: 600px; max-width: 100%;">
         <div class="card-body">
+            <h3 class="card-title">Smart Composting Bin: Build a Mini Monitoring System</h3>
+            <h5 class="card-title text-gray">Presented by Lydia &amp; Shereen </h5>
+            <p class="card-text"><p>In this hands-on STEAM workshop, educators will participate in a structured community project to build a mini smart composting bin using micro: bit technology and basic sensors to monitor temperature and moisture levels. Participants will explore the science behind composting, learn simple coding, and discover how IoT tools can make environmental science engaging and data driven. This session supports NGSS-aligned, project-based classroom learning.</p>
+</p>
+        </div>
+        </div>
+
+        
+
+        <div class="card m-2" style="width: 600px; max-width: 100%;">
+        <div class="card-body">
             <h3 class="card-title">Wind Turbines</h3>
             <h5 class="card-title text-gray">Presented by Maia &amp; Sophia C</h5>
             <p class="card-text"><p>During this workshop, participants will design and build a functional windmill with a greater electrical output than the standard model and that is more visually appealing. Participants will alter the windmill by designing new windmill blades. Participants will learn ways to reduce human impact on the environment, 3D design, aspects of the engineering and design process, and how to create interdisciplinary solutions to real-world problems.</p>
@@ -139,9 +161,9 @@ Free and Open Admissions ~ Registration Required<br />
 
         <div class="card m-2" style="width: 600px; max-width: 100%;">
         <div class="card-body">
-            <h3 class="card-title">Smart Composting Bin: Build a Mini Monitoring System</h3>
-            <h5 class="card-title text-gray">Presented by Lydia &amp; Shereen </h5>
-            <p class="card-text"><p>In this hands-on STEAM workshop, educators will participate in a structured community project to build a mini smart composting bin using micro: bit technology and basic sensors to monitor temperature and moisture levels. Participants will explore the science behind composting, learn simple coding, and discover how IoT tools can make environmental science engaging and data driven. This session supports NGSS-aligned, project-based classroom learning.</p>
+            <h3 class="card-title">Hands-On Security: Create Your OWN 2FA System </h3>
+            <h5 class="card-title text-gray">Presented by Kadiesha &amp; Myrtho</h5>
+            <p class="card-text"><p>This hands-on STEAM workshop engages students in designing, programming, and prototyping a functional digital lock system using Micro Bit microcontrollers, breadboards, and logic gates. Students will apply computational thinking by creating custom logic tables and designing circuits that simulate real-world digital security systems. Through repetitive design and debugging, students will deepen their understanding of Boolean logic, and develop practical skills in physical computing and problem-solving. This project combines computer science, engineering design, and creativity, encouraging students to take ownership of their learning and “unlock” their own unique innovations.</p>
 </p>
         </div>
         </div>
