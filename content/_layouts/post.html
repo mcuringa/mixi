@@ -7,7 +7,7 @@ layout: main
 <div class="{{container}}">
 <h1 class="page-title">{{page.title}}</h1>
 <small class="fw-bold">
-{{page.date | date: "%B %-d, %Y"}} 
+Published {{page.date | date: "%B %-d, %Y"}} 
 {% for cat in page.categories %}
 <a class="border-3 border-black border-start ps-1 pe-1" href="/category/{{cat | downcase}}">{{ cat }}</a>
 {% endfor %}

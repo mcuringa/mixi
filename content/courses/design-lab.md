@@ -43,11 +43,11 @@ sessions:
      readings: "-"
 
 ---
-<h4 class="muted d-block text-center">Summer 2024</h4>
+<h4 class="muted d-block text-center">Summer 2025</h4>
 <h1 class="border-bottom border-4 border-black">Maker Lab 1: Design Lab</h1>
 <div class="container mx-auto border-bottom border-2 border-black pt-2">
    <p>
-      <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, sewing, scratch, hard fun
+      <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, murals, collage, micro:bit, raspberry pi, hard fun
    </p>
    <p class="fw-bold">STEAM Teaching and Learning ESM 501, 3 credits</p>
 </div>
@@ -55,35 +55,35 @@ sessions:
 <div class="container mx-auto row border-bottom border-2 border-black mt-3 pt-2">
 <div class="col-md-6 col-xl-4">
 
-{% capture md %}
+{% md %}
 
 <p class="text-muted fw-bold">Instructors:</p>
 
-- Matthew X. Curinga [<mcuringa@adelphi.edu>] 
-- Eric Miles [<emiles@adelphi.edu>]
+- [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>] 
+- [Eric Miles](https://www.milemarkerarts.com/) [<emiles@adelphi.edu>]
 
 <p class="text-muted fw-bold">Materials:</p>
 There are no required textbooks for this course. All course materials
-will be provided at class meetings.
+will linked to through this site. For some library resources, you will
+need to be logged into your Adelphi account.
 
-{% endcapture %}
+{% endmd %}
 
-{{ md | markdownify }}
 </div>
 
 <div class="col-md-6">
-{% capture md %}
+{% md %}
 <p class="text-muted fw-bold">Meetings:</p>
 
-- Monday & Wednesday, 4pm-7pm
-- Saturday (6/8 & 6/15), 10am-4pm
+- Monday-Friday, June 16-June 27
+  - Section 001: 9am-12noon
+  - Section 002: 1pm-4pm
 
 <p class="text-muted fw-bold">Location:</p>
 [Adelphi Brooklyn Center](https://maps.app.goo.gl/hoyDaxxm8MHbjjCeA)
 Room 7122 (7th floor maker lab)
-{% endcapture %}
+{% endmd %}
 
-{{ md | markdownify }}
 </div>
 </div>
 
@@ -99,7 +99,7 @@ foundational literature and hands on studio culture with a focus on
 creativity and learning.</p>
 </div>
 <div class="col-md-6">
-{% capture md %}
+{% md %}
 <h4>Goals</h4>
 
 1. Students will explore and analyze foundational and contemporary theories and
@@ -117,24 +117,21 @@ creativity and learning.</p>
    demonstrating the role of play, risk-taking and experimentation in making and 
    creating in MakerEd and STEAM environments.
 
-{% endcapture %}
+{% endmd %}
 
-{{ md | markdownify }}
 </div>
 </div>
 
 <div class="container">
-{% capture md %}
+{%  md %}
 <h2>Class schedule</h2>
 This is an intensive, summer course where we squeeze a full semester's worth of
-work into two weeks! Weekday classes run from 4pm-7pm, and our two Saturday sessions
-will run from 10am-4pm. In addition to class meetings, you will need to spend time
+work into two weeks! In addition to class meetings, you will need to spend time
 outside of class in the maker lab, and arrange time to complete your museum visits.
 
 **Readings listed below are due for that class session, including our first meeting.**
 Please come to class prepared to discuss the readings.
-{% endcapture %}
-{{ md | markdownify }}
+{% endmd %}
 
 <table>
 <tr>
@@ -153,17 +150,28 @@ Please come to class prepared to discuss the readings.
 {% endfor %}
 </table>
 
+<h2>Software</h2>
+Student are encourgaed to bring a laptop to each class meeting. If you do not have a laptop,
+you will be able to borrow one. You will not be able to complete class assignments using
+a phone, table/iPad, or Chromebook. If you are using a work laptop, please make sure
+that you have permission to install software.
+
+**Required software:**
+
+- [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
+- [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
+- [Discord](https://discordapp.com/) <small>_chat--install on your phone and laptop_</small>
+
 
 <h2>Readings</h2>
 
 {% capture md %}
-Cartiere, C., & Zebracki, M. (Eds.). (2015). Introduction. In _The Everyday Practice of Public Art: Art, Space, and Social Inclusion_. Routledge. [[pdf](httpshttps://drive.google.com/file/d/1dpRKiztomJbAf3C3gOSMFsg47y1mGyPP/view?usp=drive_link)]
 
 Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
 
 Forensic Architecture, & Poitras, L. (Directors). (2019). [Triple Chaser](https://forensic-architecture.org/investigation/triple-chaser/) [Documentary, Short]. Praxis Films.
 
-Gee, J. P. (2003). What video games have to teach us about learning and literacy. _Computers in Entertainment_, _1_(1), 20. [[adelphi libraries](https://dl-acm-org.adelphi.idm.oclc.org/doi/abs/10.1145/950566.950595)]
+Keh, A. (2025, May 18). [Times Sq. Sculpture Prompts Racist Backlash. To Some, That’s the Point](https://www.nytimes.com/2025/05/18/nyregion/times-square-black-woman-statue.html). _The New York Times_. 
 
 Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge. [[pdf](https://drive.google.com/file/d/1Lrl-N94ytbukzsrUpeJN3yuJTuOI9bSg/view?usp=drive_link)]
 
@@ -175,13 +183,9 @@ Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Int
 
 Greene, M. (1977). The Artistic-Aesthetic and Curriculum. Curriculum Inquiry, 6(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
 
-O’Brien, K. C. (2021). Fibre Artists and Outsider Algorithms: Rethinking Ethnomathematics Through Contemporary Craft. _For the Learning of Mathematics_, _41_(1), 8–13. [[pdf](https://drive.google.com/file/d/1SCbf62q4r79iYqMdNb9vw7RHSTn2LhU_/view?usp=drive_link)]
-
 Papert, S. (1991). Situating constructionism. In I. Harel & S. Papert (Eds.), _Constructionism_ (pp. 1–10). Praeger. [[mit.edu](https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf)]
 
 Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor, ME. Bangor Daily News.
-
-Runco, M. A., & Jaeger, G. J. (2012). The Standard Definition of Creativity. _Creativity Research Journal_, _24_(1), 92–96. [[pdf](https://drive.google.com/file/d/1Lyi8RErUoKnhA6ISvoIT3LDRNNSfxEqD/view?usp=drive_link)]
 
 {% endcapture %}
 
