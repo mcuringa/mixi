@@ -10,36 +10,44 @@ header-img: /courses/img/mixi-spray.jpg
 header-img-alt: "stencil art MIXI"
 sessions:
    - number: 1
-     title: "STEAM & Maker Ed"
-     date: "Mon, Jun 3"
-     readings: "Martinez & Stager; Runco & Jaeger"
+     title: "Art & Education"
+     date: "Mon, Jun 16"
+     readings: "Greene; Key"
    - number: 2
-     title: "Public Art / Public Pedagogy"
-     date: "Wed, Jun 5"
-     readings: "Cartier & Zebracki; Low & Proietti"
+     title: "Critical Pedagogy"
+     date: "Tues, Jun 17"
+     readings: "Friere, Ch 2"
    - number: 3
-     title: "Fashion & Wearables Studio"
-     date: "Sat, Jun 8"
-     readings: "Cipolla; O'Brien"
+     title: "Critical Thinking"
+     date: "Wed, Jun 18"
+     readings: "Delpit Ch 7"
+   - number: "-"
+     title: "<i>No Class - Optional Field Trip</i>"
+     date: "Thurs, Jun 19"
+     readings: "Noddings; Ladson-Billing"
    - number: 4
-     title: "Curriculum Design"
-     date: "Mon, Jun 10"
-     readings: "Noddings"
+     title: "Curriculum"
+     date: "Fri, Jun 20"
+     readings: "Noddings; Ladson-Billing"
    - number: 5
-     title: "Constructionism & Hard Fun"
-     date: "Wed, Jun 12"
-     readings: "Papert (1991 & 2002)"
+     title: "Constructionism"
+     date: "Mon, Jun 23"
+     readings: "Martinez & Stager; Papert"
    - number: 6
-     title: "Scratch Story Games"
-     date: "Sat, Jun 15"
-     readings: "Gee; Game Play"
+     title: "Maker Education"
+     date: "Tues, Jun 24"
+     readings: "Cipolla"
    - number: 7
      title: "Aesthetics & Politics"
-     date: "Mon, Jun 17"
-     readings: "Greene; Forensic Architecture"
+     date: "Wed, Jun 25"
+     readings: "Low & Proietti"
    - number: 8
-     title: "Final Studio"
-     date: "Thurs, Jun 20"
+     title: "Studio/Workshop"
+     date: "Thurs, Jun 26"
+     readings: "-"
+   - number: 9
+     title: "Final Studio/Show"
+     date: "Fri, Jun 27"
      readings: "-"
 
 ---
@@ -57,33 +65,33 @@ sessions:
 
 {% md %}
 
-<p class="text-muted fw-bold">Instructors:</p>
+<div class="text-muted fw-bold">Instructors:</div>
 
 - [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>] 
 - [Eric Miles](https://www.milemarkerarts.com/) [<emiles@adelphi.edu>]
 
-<p class="text-muted fw-bold">Materials:</p>
-There are no required textbooks for this course. All course materials
-will linked to through this site. For some library resources, you will
-need to be logged into your Adelphi account.
+<div class="text-muted fw-bold">Meetings:</div>
+
+- Monday-Friday, June 16-June 27
+  - Section 001: 9am-12noon
+  - Section 002: 1pm-4pm
+
+<div class="text-muted fw-bold">Location:</div>
+[Adelphi Brooklyn Center](https://maps.app.goo.gl/hoyDaxxm8MHbjjCeA)
+Room 7122 (7th floor maker lab)
 
 {% endmd %}
 
 </div>
 
 <div class="col-md-6">
-{% md %}
-<p class="text-muted fw-bold">Meetings:</p>
-
-- Monday-Friday, June 16-June 27
-  - Section 001: 9am-12noon
-  - Section 002: 1pm-4pm
-
-<p class="text-muted fw-bold">Location:</p>
-[Adelphi Brooklyn Center](https://maps.app.goo.gl/hoyDaxxm8MHbjjCeA)
-Room 7122 (7th floor maker lab)
-{% endmd %}
-
+<div class="text-muted fw-bold">Materials:</div>
+<p>
+There are no required textbooks for this course. All course materials
+will linked to through this site and are available in the course
+reader. All required software is Free and Open Source Software (FOSS), other
+software services are free to use or available through your Adelphi account.
+</p>
 </div>
 </div>
 
@@ -122,12 +130,28 @@ creativity and learning.</p>
 </div>
 </div>
 
+
+
 <div class="container">
 {%  md %}
+<h2>Software</h2>
+Student are encouraged to bring a laptop to each class meeting. If you do not have a laptop,
+you will be able to borrow one. You will not be able to complete class assignments using
+a phone, tablet/iPad, or Chromebook. If you are using a work laptop, please make sure
+that you have permission to install software.
+
+**Required software:**
+
+- [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
+- [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
+- [Discord](https://discordapp.com/) <small>_chat--install on your phone and laptop_</small>
+
 <h2>Class schedule</h2>
 This is an intensive, summer course where we squeeze a full semester's worth of
 work into two weeks! In addition to class meetings, you will need to spend time
 outside of class in the maker lab, and arrange time to complete your museum visits.
+There are also readings and museum visits that must be completed on your own time.
+Please plan your schedule so that you can accommodate all of the course requirements.
 
 **Readings listed below are due for that class session, including our first meeting.**
 Please come to class prepared to discuss the readings.
@@ -136,9 +160,9 @@ Please come to class prepared to discuss the readings.
 <table>
 <tr>
    <th>#</th>
-   <th>date</th>
-   <th>topic</th>
-   <th>readings</th>
+   <th>Date</th>
+   <th>Topic</th>
+   <th>Readings</th>
 </tr>
 {% for session in page.sessions %}
 <tr>
@@ -150,26 +174,17 @@ Please come to class prepared to discuss the readings.
 {% endfor %}
 </table>
 
-<h2>Software</h2>
-Student are encourgaed to bring a laptop to each class meeting. If you do not have a laptop,
-you will be able to borrow one. You will not be able to complete class assignments using
-a phone, table/iPad, or Chromebook. If you are using a work laptop, please make sure
-that you have permission to install software.
-
-**Required software:**
-
-- [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
-- [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
-- [Discord](https://discordapp.com/) <small>_chat--install on your phone and laptop_</small>
-
-
 <h2>Readings</h2>
 
 {% capture md %}
 
 Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
 
+Delpit, L. (2012). _Multiplication Is for White People: Raising Expectations for Other People’s Children_. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. 
+
 Forensic Architecture, & Poitras, L. (Directors). (2019). [Triple Chaser](https://forensic-architecture.org/investigation/triple-chaser/) [Documentary, Short]. Praxis Films.
+
+Freire, P. (1971). _Pedagogy of the Oppressed_ (M. B. Ramos, Trans., Chapter 2). Herder and Herder.
 
 Keh, A. (2025, May 18). [Times Sq. Sculpture Prompts Racist Backlash. To Some, That’s the Point](https://www.nytimes.com/2025/05/18/nyregion/times-square-black-woman-statue.html). _The New York Times_. 
 
@@ -181,7 +196,7 @@ Martinez, S. L., & Stager, G. (2013).Chapter 1: An Insanely Brief and Incomplete
 
 Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215. [[pdf](https://drive.google.com/file/d/1dUgpl9_18ybk9AvPX-ohRRq-df_jZtmh/view?usp=drive_link)]
 
-Greene, M. (1977). The Artistic-Aesthetic and Curriculum. Curriculum Inquiry, 6(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
+Greene, M. (1977). The Artistic-Aesthetic and Curriculum. _Curriculum Inquiry_, _6_(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
 
 Papert, S. (1991). Situating constructionism. In I. Harel & S. Papert (Eds.), _Constructionism_ (pp. 1–10). Praeger. [[mit.edu](https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf)]
 
@@ -197,17 +212,16 @@ Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor
 Assignments
 ------------
 
-Assignment            | Due Date | Points
-----------------------|----------|--------
-Participation         | Ongoing  | 10
-Artist's Journal      | Ongoing  | 10
-Museum Visits         | Ongoing  | 10
-Public Art Encounters | Ongoing  | 10
-Reading responses     | Ongoing  | 10
-Maker Lesson          | June 15  | 10
-Maker Vest            | June 12  | 15
-Scratch Story Game    | June 19  | 15
-Online Portfolio      | June 19  | 10
+Assignment            | Due Date      | Points
+----------------------|----------     |--------
+Participation         | June 20 & 27  | 10
+Artist's Journal      | Ongoing       | 10
+Museum Visits         | Ongoing       | 10
+Public Art Encounters | Ongoing       | 10
+Reading responses     | Ongoing       | 10
+Maker Lesson          | June 23       | 15
+Online Portfolio      | June 27       | 15
+Mural Panel           | June 27       | 20
 {% endcapture %}
 {{ md | markdownify }}
 </div>
@@ -234,19 +248,23 @@ To get full participation points:
 4. **Maintain the lab.** We are all responsible for maintaining the maker lab, closet,
    and our materials. Help us set up, help keep things clean and organized, help
    us put things away.
-5. **Be bold.** This is a class about creativity and making. We want you to take risks,
+5. **Be bold.** This is a class about creativity and "making". We want you to take risks,
    to try new things. _This is not an easy thing!_ 
 6. **Be kind and respectful.** We love a spirited debate, strong opinions, and
    learning new things from each other. But those practices only work if we
    offer our respect to the other participants and assume they are operating
    in good faith, too.
-7. **Communicate.** Read your emails. Post on Discord. Talk to your partners.
+7. **Keep an open mind.** Disagree with the instructors and other students
+   _after_ fully attempting, engaging, and considering the materials and context.\
+   Try first, argue later.
+8. **Communicate.** Read your emails. Post on Discord. Talk to your partners.
    Let the instructors know if there's a problem or question. Tell us how to
    make things better.
 
-On the last day of class, please share with the instructors (via Direct Message
-on Discord) a photo of a 1-page reflection of your participation from your
-journal.
+You will reflect on your participation in your artist's journal.
+
+- Upload a photo of your week 1 reflection here
+- Upload a photo of your week 2 reflection here
 
 ### Artist's Journal
 Everyone will keep an artist's journal during this course
@@ -259,6 +277,22 @@ but for the purpose of this course, try it out with an open mind.
 To "grade" your journal, you will upload photos of key pages to 
 your online portfolio and post a brief (300-500 word) reflection 
 about how you used it, and what you thought of the journal.
+
+### Public Art Encounters
+New York is full of public art: famous sculptures, big shows, 
+street art, hidden and half forgotten works, and more. 
+You will document at least 3 public art works that you 
+encounter. At least one of these should be "sanctioned"
+work and at least one should be "unsanctioned" work.
+
+Document your encounter in your journal with at least
+one sketch of each work, and notes on the context,
+your experience, and thoughts on the work. Further
+document your encounter with photos and videos. Consider
+things like the medium of the work, the scale (aka size),
+the materials, when it was created, how it was funded (or not).
+
+Upload your documentation to your online portfolio.
 
 ### Museum Visits
 You will visit (at least) 3 museums outside of course hours. Each visit
@@ -278,17 +312,30 @@ You _must_ visit at least one of the following "STEM" museums:
 - [Museum of the Moving Image](http://www.movingimage.us/)
 - [American Museum of Natural History](https://www.amnh.org/)
 
-You can use your library card (New York, Brooklyn, or Queens) to get free
+You can use your library card (New York, Brooklyn, or Queens) to get a free
 [culture pass](https://www.culturepass.nyc/) to many museums in the city.
 Even if you can't take advantage during our short course, it is a great
-resource.
+resource. [IDNYC](https://www.nyc.gov/site/idnyc/card/how-to-apply.page)
+is another great resource for museum and other cultural access in NYC,
+and it can double as a library card.
 
 The instructors will post other interesting museum exhibits and events
 on Discord as well as invitations to join us for informal, optional fieldtrips
 during the course. You can also check out the [NYC Arts Calendar](https://www.nyc-arts.org/)
 for further ideas and events.
 
+If you join us for the optional Juneteenth field trip, it will count as
+one of the museum visits _and_ the public art encounters. Bring your
+notebook.
 
+{% endcapture %}
+
+{{ left_col | markdownify }}
+
+</div>
+<div class="col-md-6">
+
+{% capture right_col %}
 ### Maker Lesson
 You will read the New York State and professional standards
 for your content area (Math, Biology, Physics, Comp Sci, etc.)
@@ -321,109 +368,15 @@ The lesson will be evaluated on the following criteria:
 - integration with maker and STEAM learning
 - viability of the lesson in a classroom setting
 
-_Optionally add your lesson plan to your portfolio._
-
-{% endcapture %}
-
-{{ left_col | markdownify }}
-
-</div>
-<div class="col-md-6">
-
-{% capture right_col %}
-### Public Art Encounters
-New York is full of public art: famous sculptures, big shows, 
-street art, hidden and half forgotten works, and more. 
-You will document at least 3 public art works that you 
-encounter. At least one of these should be "sanctioned"
-work and at least one should be "unsanctioned" work.
-
-Document your encounter in your journal with at least
-one sketch of each work, and notes on the context,
-your experience, and thoughts on the work. Further
-document your encounter with photos and videos. Consider
-things like the medium of the work, the scale (aka size),
-the materials, when it was created, how it was funded (or not).
-
-Upload your documentation to your online portfolio.
+_Add your lesson plan to your portfolio to submit it._
 
 ### Reading Responses
-For each reading, you will write a "reading response" in
-your journal prior to the class session (except for the first
-meeting -- we will write them in class). Your response **must**
-include a 150 word summary of the reading, it should also include
-notes, questions, reference to key passages, and your thoughts.
+Use your notebook while completing the course readings:
 
-Reading responses will be checked by the instructors at the
-start of each class. For some sessions you will read your
-response aloud or share with a partner.
-
-### Maker Vest
-We are all going to make a vest. Working from patterns provided,
-you will design your own vest, cut the fabric, and sew it together.
-You will design an embroidery or patch for your name, and also
-a decorative design for the back of the vest. The vests will include
-"wearable" technologies powered by Adafruit Qt Py microcontrollers.
-Your technology integration can be playful, aesthetic, or functional.
-
-In addition to the patch and tech, you will must also design and 3D
-print an element for your vest. This could be a button, a zipper pull,
-a buckle, or something else.
-
-We will begin working on the vests during our first Saturday session,
-but you will need to spend time outside of class to complete the project.
-
-To submit your vest, create a page to showcase it on your portfolio.
-Add photos of the vest (in stages as you construct it), supplement
-it with videos, sketches, digital diagrams, 3D models, etc. Upload
-these to your portfolio, along with a reflection of your process,
-what you learned, what you think of your final piece, and how
-this project fits into your understanding of maker education.
-
-Your vest will be evaluated on:
-
-- the quality of your craft
-- the innovations found in your design (don't just copy something your found online)
-- the demonstration your ability with the tools of the maker lab:
-  - microcomputer
-  - circuits
-  - 3D design and printing
-
-
-### Scratch Story Game
-The [Scratch](https://scratch.mit.edu/) programming language is
-many students' first introduction to computer science and computer
-programming. Scratch is the direct descendent of the Logo programming;
-Seymour Papert's constructionist programming language.
-
-For this project you will work in a **team of two** to design,
-code, and test a "story game" in Scratch. You will create
-original art for your game as vector graphics, create a 
-compelling narrative to drive the game, and incorporate
-puzzles, challenges, and other interactive elements.
-
-Your will build your game on top of our Scratch game platform
-which will make provide basic mechanics such as keeping
-track of active scenes, inventory, score, etc. You will not just
-create a game, but a game-for-learning (aka _serious game_)
-that incorporates elements of our STEAM content areas.
-
-To complete this assignment, you publish your game
-on Scratch. Each team member will also submit a reflection
-on their portfolio site that describes the content areas
-addressed, the theory behind the game (why is it fun? who is it for?
-how does it _teach_?). Also discuss the development and game
-testing process. Finish your reflection with ways that you could
-improve the game.
-
-Your game will be evaluated on:
-
-- **Risk & Creativity:** does your game try to do something new?
-- **Fun:** how well does it work as a game?
-- **Story:** does the story make sense? are the characters compelling? does the player make real choices?
-- **Art & Design:** does the game visually and aesthetically enhance the learning and story goals? are the developers able to create a polished look and feel?
-- **Programming:** do the developers demonstrate understanding of key CS concepts such as loops, conditionals, variables, events, functions, and parallelism? do they understand key Scratch concepts such as sprites, costumes, and backdrops?
-- **Learning:** does the game teach something? is it _worth_ teaching? are the "play" and "learning" elements integrated?
+- take notes
+- write down quotes/citations
+- note sections to discuss
+- write a couple
 
 ### Online Portfolio
 You will create an online portfolio that will be used throughout
@@ -445,6 +398,35 @@ to achieve a consistent and professional design and user experience,
 the quality of your content (well edited writing, thoughtful images, 
 clear audio, etc), and the overall creativity and originality of your site.
 
+### Mural Panel
+We are going to design and produce a mural during this course. The mural will be
+designed for a place in Adelphi's new New York City center, which is under construction
+at 459 5th Avenue in midtown Manhattan.
+
+The mural will combine traditional arts with some electronic/digital
+elements. Under the direction of teaching artist Eric Miles, we will
+co-design themes, content, and a style for the mural. The mural will
+be divided into sections, where teams of 3 students are responsible
+for their own panel. Every panel will incorporate a unifying motif
+that connects it to neighboring panels and the entire work.
+
+As a project based "studio" course, the major project will be your
+team's contribution to the mural panel. The instructors will giver you
+feedback on your work at many points during the course. You will
+work through the design process in many steps, including:
+
+- initial paper collage on the first day
+- digital design prototype your team's panel
+- sketches and partial work for critique
+- the final panel
+- the integrated mural
+
+Each panel must include:
+
+- printed material that is incorporated into your panel
+- paint, stencil, sketch, etching, or other construction directly on the panel
+- a digital electronics element (LEDs, video, audio, sensor interaction, etc)
+
 {% endcapture %}
 
 {{ right_col | markdownify }}
@@ -452,467 +434,113 @@ clear audio, etc), and the overall creativity and originality of your site.
 </div>
 </div>
 
-
 <hr class="mt-4 pt-4">
+## Resources:
+<div style="column-count: 2; column-gap: 2rem;">
+
+{% md %}
+**Software:**
+  - **Multimedia Production/Editing**
+    - [Inkscape](https://inkscape.org/)
+      <small>vector graphics</small>
+    - [Krita](https://krita.org/en/)
+      <small>photos & raster graphics</small>
+    - [GIMP](https://www.gimp.org/)
+      <small>photos & raster graphics</small>
+    - [Audacity](https://www.audacityteam.org/)
+      <small>sound editing</small>
+    - [OBS Studio](https://obsproject.com/)
+      <small>Screen recording/screencasting</small>
+    - [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve/)
+      <small>video editing</small>
+    - [Canva](https://www.canva.com/)
+      <small>online design/page layout tool</small>
+    - [Figma](https://www.figma.com/)
+      <small>online prototyping/UX design tool</small>
+- **Programming**
+   - [micro:bit makecode](https://makecode.microbit.org/)
+      <small>web-based block programming for micro:bit</small>
+   - [VS Code](https://code.visualstudio.com/)
+     <small>general cross platform code editor</small>
+- **Makerlab equipment**
+   - [Bambu Studio](https://bambulab.com/en/download/studio)
+     <small>software to prepare prints</small>
+   - [Cricut Design Space](https://design.cricut.com/)
+     <small>for cutting stencils/stickers</small>
+   - [Embird](https://www.embird.net/)
+     <small>for embroidery</small>
+- **CAD/3D design/3D printing**
+   - [Tinkercad](https://www.tinkercad.com/)
+     <small>web based CAD/3D design</small>
+   - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
+     <small>free for students</small>
+   - [Blender](https://www.blender.org/)
 
 
-<div class="container wide-container">
+**Photos and drawings:**
+  - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
+    <small>the multimedia from Wikipedia and more</small>
+  - [Pexels](https://www.pexels.com/)
+  - [Pixabay](https://pixabay.com/)
+  - [Unsplash](https://unsplash.com/)
+  - [Vecteezy](https://www.vecteezy.com/)
+  - [OpenClipart](https://openclipart.org/)
 
-<h2>Session 1: STEAM & Maker Ed</h2>
-<strong>Mon, Jun 3, 4pm-7pm</strong>
+**Music/Sound Effects:**
+  - [FreeSound](https://freesound.org/)
+  - [FMA Free Music Archive](https://freemusicarchive.org/)
+  - [Audionautix](https://audionautix.com/)
+  - [Bensound](https://www.bensound.com/free-music-for-videos)
+  - [ccMixter](http://dig.ccmixter.org/)
+  - [Incompetech](https://incompetech.com/)
+  - [Pixabay](https://pixabay.com/)
 
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-0 col-xl-4">
-<img src="/courses/img/qt-bread.png" alt="QT Py board connected to a breadboard with a red LED" class="img-fluid d-none d-xl-block mb-2">
-</div>
-<div class="col-md-6 col-xl-4">
+**Free Video/Stock Video:**
+  - [Vimeo Creative Commons](https://vimeo.com/creativecommons)
+  - [YouTube Creative Commons](https://www.youtube.com/creativecommons)
+  - [Pexels Video](https://www.pexels.com/videos/)
+  - [Pixabay Video](https://pixabay.com/videos/)
+  - [Videezy](https://www.videezy.com/)
+  - [Videvo](https://www.videvo.net/)
+  - [Coverr](https://coverr.co/)
+  - [Mixkit](https://mixkit.co/)
 
-{% capture md %}
-In our **first meeting** we will get to know each other, a feeling
-for the main goals of the class, and start to play around with
-some of the tools and methods we will be using in this summer
-course. We will make sure that everyone has their online
-portfolio up and running, and that everyone has started their
-artist's journal.
+**Fonts:**
+  - [Google Fonts](https://fonts.google.com/)
+  - [DaFont](https://www.dafont.com/)
+  - [Font Squirrel](https://www.fontsquirrel.com/)
 
-**Goals:**
+**Icons:**
+  - [Font Awesome](https://fontawesome.com/)
+  - [Flaticon](https://www.flaticon.com/)
+  - [Icons8](https://icons8.com/)
+  - [Noun Project](https://thenounproject.com/)
+  - [Bootstrap Icons](https://icons.getbootstrap.com/)
+  - [Heroicons](https://heroicons.com/)
 
-- Understand the goals of the course
-- Get to know each other and the instructors
-- Develop basic vector graphic design skills
-- Cut stencils with the Cricut
-- Begin an online portfolio
+**3D Models**
+  - [Thingiverse](https://www.thingiverse.com/)
+  - [MyMiniFactory](https://www.myminifactory.com/)
 
-**Agenda:**
+**AI Generated:**
+  - [Midjourney](https://www.midjourney.com/)
+  - [DALL-E via ChatGPT](https://chatgpt.com/)
+  - [Stable Diffusion](https://stablediffusionweb.com/)
+  - [Google ImageFX](https://labs.google/fx/tools/image-fx)
+  - [Leonardo](https://leonardo.ai/)
 
-1. Welcome
-2. Reading discussion
-3. Cricut Stencils & Spray Paint
-4. Google Sites & Online Portfolis
-5. Journal Design / Site Design
-{% endcapture %}
-
-{{ md | markdownify }}
-</div>
-
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-**Due:**
-
-- **Read**
-  - Martinez, S. L., & Stager, G. (2013).Chapter 1: An Insanely Brief and Incomplete History of Making. In _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. [[pdf](https://drive.google.com/file/d/1eruhyafUFMLE6FSbMVg_PiEbP6O6q5IM/view?usp=drive_link)] [[epub](https://drive.google.com/file/d/1a5LxUAptVrHX7f8zwU92nxBl6qb8SUej/view?usp=drive_link)]
-  - Runco, M. A., & Jaeger, G. J. (2012). The Standard Definition of Creativity. _Creativity Research Journal_, _24_(1), 92–96. [[pdf](https://drive.google.com/file/d/1Lyi8RErUoKnhA6ISvoIT3LDRNNSfxEqD/view?usp=drive_link)]
-- Join Discord (see email for invite)
-- Install:
-  - [Discord](https://discordapp.com/) <small>_on your phone and computer_</small>
-  - [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
-  - [GIMP](https://www.gimp.org/) or [Krita](https://krita.org/en/) <small>_photos & raster graphics_</small>
-
-**Resources:**
-
-- Tutorials/Docs:
-  - [Essential Inkscape](https://www.linkedin.com/learning/inkscape-essential-training-9975138) [<small>sign in with your adelphi account for free access</small>]
+**Tutorials/Docs:**
+  - [Janome MB-4S](https://www.janome.com/machines/embroidery/mb-4s/) 
+    <small>_our embroidery machine_</small>
+  - [Bambu X1 3D Printer Manual](https://wiki.bambulab.com/en/x1/manual)
+    <small>printer manual</small>
+  - [Essential Inkscape](https://www.linkedin.com/learning/inkscape-essential-training-9975138) <small>sign in with your adelphi account for free access</small>
+  - [Tinkercad Learning](https://www.tinkercad.com/learn)
   - [Google Sites](https://support.google.com/a/users/answer/9282722)
 
-- Fonts:
-   - [Google Fonts](https://fonts.google.com/)
-   - [DaFont](https://www.dafont.com/)
-   - [Font Squirrel](https://www.fontsquirrel.com/)
-- Images (vector and raster):
-   - [Pexels](https://www.pexels.com/)
-   - [Pixabay](https://pixabay.com/)
-   - [Unsplash](https://unsplash.com/)
-
-
-{% endcapture %}
-
-{{ md | markdownify }}
+{% endmd %}
 </div>
 
-</div>
 
-<h2>Session 2: Public Art / Public Pedagogy</h2>
-<strong>Wed, Jun 5, 4pm-7pm</strong>
 
-<div class="row mb-2">
-   <div class="col-md-6 col-xl-5 d-flex align-items-center">
-      <div>
-         <p>
-            <b>Field Trip:</b> We are going to meet at 4pm
-            at <a href="https://bricartsmedia.org/">BRIC Arts Media House</a>
-            in Brooklyn on 647 Fulton St, Brooklyn, NY 11217.
-         </p>
-         <p>
-            At BRIC, we will get a gallery tour (including a mural designed by Prof. Eric Miles)
-            and a tour of their media facilities and studios. After the tour, we will walk
-            back to the Brooklyn Center, stopping at several public art sites along the way.
-         </p>
-         <p><b>Meet outside of BRIC at 3:55. Please don't be late.</b></p>
-      </div>
-   </div>
-   <div class="col-md-6">
-      <a href="https://maps.app.goo.gl/1RHro14fjiUM3arD9"><img src="/courses/img/bric-map.png" alt="map of BRIC at Fulton and Rockwell" class="img-fluid"></a>
-   </div>
-</div>
 
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-6 col-xl-4">
-
-{% capture md %}
-
-**Goals:**
-
-- Investigate BRIC as an institution fostering public art and a site of informal learning
-- Become familiar with various types of public art
-- Develop skills in analyzing and describing works of art
-- Design basic circuits that power LEDs
-
-**Agenda:**
-
-1. 4-5pm: BRIC Tour
-2. 5-6pm: Public Art Walk
-3. 5-7pm: Class/lab
-   - reading discussion
-   - paper circuits for journals
-{% endcapture %}
-
-{{ md | markdownify }}
-</div>
-
-<div class="col-md-6">
-{% capture md %}
-**Due:**
-
-- **Readings**
-- Cartiere, C., & Zebracki, M. (Eds.). (2015). Introduction. In _The Everyday Practice of Public Art: Art, Space, and Social Inclusion_. Routledge. [[pdf](https://drive.google.com/file/d/1dpRKiztomJbAf3C3gOSMFsg47y1mGyPP/view?usp=drive_link)]
-- Low, B., & Proietti, M. (2021). Dissensus, Street Art and School Change. _International Journal of Art & Design Education_, _40_(1), 7–19. [[AU Libraries Online](https://onlinelibrary-wiley-com.adelphi.idm.oclc.org/doi/full/10.1111/jade.12319)] [[pdf](https://drive.google.com/file/d/1_fl8Q3q0ZLvOxZh_qKdVo9VZFP_JP0U1/view?usp=drive_link)]
-{% endcapture %}
-
-{{ md | markdownify }}
-</div></div>
-
-
-<h2>Session 3: Fashion & Wearables Studio</h2>
-<strong>Sat, Jun 8, 10am-4pm</strong>
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-5">
-<img src="/courses/img/patch2.png" alt="mixi lab embroidered patch" class="img-fluid d-block mb-2">
-
-{% capture md %}
-
-**We are going to sew our vests.** In this session we will learn 
-basic sewing skills, how to design for and operate the robot 
-controlled embroidery machine, and think about ways to integrate 
-"wearable" technology into our designs for function and aesthetics.
-
-The bulk of our day will be spent actually constructing our vests.
-We will have stations where you can design, sew, embroider,
-and work on electronic/wearable components. During the week
-we (later) we will also specifically work on 3D printing elements
-for the vest. By the end of the day, you will have the basic
-vest completed, and will have another week to revise and polish it.
-
-**Side quest:** If you have clothes at home that you want to patch, 
-fix a zipper, add a pocket, replace a button, etc, bring them in. 
-We will have time durning lunch and after class to work on these 
-projects too!
-
-{% endcapture %}
-
-{{ md | markdownify }}
-</div>
-
-<div class="col-md-7 col-xl-4">
-{% capture md %}
-
-**Goals:**
-
-- Learn how to operate a sewing machine
-- Consider fashion as a form of public art
-- Design for computer-controlled embroidery
-- Design clothes with wearable electronics
-- Use board computer (Qt Py) to control and power LEDs
-
-**Agenda:**
-
-1. 10am-10:30: Reading Discussion
-2. 10:30-11am: Fashion and Design Talk
-2. 11-12pm: Patterns, materials, sketches
-3. 12-12:45pm: Lunch
-4. 12:45-4pm: Sewing, embroidery, and and wearable studio
-
-**Due:**
-
-- **Read**
-  - Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
-   - O’Brien, K. C. (2021). Fibre Artists and Outsider Algorithms: Rethinking Ethnomathematics Through Contemporary Craft. _For the Learning of Mathematics_, _41_(1), 8–13. [[pdf](https://drive.google.com/file/d/1SCbf62q4r79iYqMdNb9vw7RHSTn2LhU_/view?usp=drive_link)]
-- Post (_before class_) photos of vests, embroidered logos, 
-  employee name badges, wearable fashion, etc. to Discord thread
-
-- **Resources**
-  - [Cricut Design Space](https://design.cricut.com/) <small>_for stencils_</small>
-  - [Janome MB-4S](https://www.janome.com/machines/embroidery/mb-4s/) <small>_our embroidery machine_</small>
-  - [Embird](https://www.embird.net/) <small>_for embroidery_</small>
-
-
-{% endcapture %}
-{{ md | markdownify }}
-
-</div></div>
-
-<h2>Session 4: Curriculum Design</h2>
-<strong>Mon, Jun 10, 4pm-7pm</strong>
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-Today we will look at the **curriculum standards** in
-Math, Sciences, Computing, and Art. Working from
-these standards, we will begin to develop lessons
-that teach something challenging and important
-to the content area, but incorporate STEAM
-principles that integrate art, play, and creativity.
-
-
-**Goals:**
-
-- Become familiar with finding and reading content standards
-- Understand the basic elements for a "lesson plan"
-- Develop own criteria for evaluating lessons
-- Understand the basic principles of planning for diverse 
-  learners and learners with disabilities
-- Understand the basic principles of planning for 
-  students who are still developing academic English skills
-
-**Agenda:**
-
-1. Reading discussion
-2. Curriculum review & discussion
-3. Lesson plan search
-4. Lesson design and sharing
-
-{% endcapture %}
-{{ md | markdownify }}
-</div>
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-**Due:**
-
-- **Read**
-  - Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge. [[pdf](https://drive.google.com/file/d/1Lrl-N94ytbukzsrUpeJN3yuJTuOI9bSg/view?usp=drive_link)]
-   - Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215. [[pdf](https://drive.google.com/file/d/1dUgpl9_18ybk9AvPX-ohRRq-df_jZtmh/view?usp=drive_link)]
-
-**Resources:**
-
-- **Standards**
-- [NY State Learning Standards](https://www.nysed.gov/standards-instruction/nys-p-12-learning-standards-content-area)
-  - [Art](https://www.nysed.gov/standards-instruction/computer-science-and-digital-fluency)
-  - [Computer Science](https://www.nysed.gov/standards-instruction/arts)
-  - [Math](https://www.nysed.gov/standards-instruction/mathematics)
-  - [Science](https://www.nysed.gov/standards-instruction/science)
-- [ISTE Computational Thinking](https://www.nysed.gov/standards-instruction/computer-science-and-digital-fluency)
-- [NCTM Math Standards & Positions](https://www.nctm.org/standardspositions/)
-- [NSTA Science Standards](https://www.nsta.org/science-standards)
-- **Lesson Plans**
-- [NYSED Engage NY](https://www.nysed.gov/curriculum-instruction/engageny)
-- [CDC nerd academy](https://www.cdc.gov/scienceambassador/nerdacademy/)
-- [NIH](https://www.nibib.nih.gov/research-programs/BEAMS-challenge)
-- [NASA](https://science.nasa.gov/learn/lessons-and-activities/#hds-sidebar-nav-31)
-- [NOAA](https://www.noaa.gov/education)
-{% endcapture %}
-{{ md | markdownify }}
-</div></div>
-
-
-
-<h2>Session 5: Constructionism & Hard Fun</h2>
-<strong>Wed, Jun 12</strong>
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-In this class we will talk read a couple of papers by Seymour Papert
-that will help us think about how people learn, and how we can
-design effective learning experiences. As we work together on our
-various maker projects, we will have the opportunity to test
-Papert's hypotheses with our own experiences.
-
-In addition to discussion Papert, we will spend time this session
-working with the 3D printers, learning how to operate them,
-where to find ready-made 3D models, and how to modify and
-design our own 3D models using Tinkercad.
-
-
-**Goals:**
-
-- Deepen our knowledge of the theoretical foundations of
-  Constructionism and maker education
-- Learn the basics of 3D printing from design to print
-- Find 3D models online
-- Create 3D models with Tinkercad
-
-**Agenda:**
-
-1. Reading discussion
-2. Curriculum review & discussion
-3. Lesson plan search
-4. Lesson design and sharing
-
-{% endcapture %}
-{{ md | markdownify }}
-</div>
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-**Due:**
-
-- **Read**
-  - Papert, S. (1991). Situating constructionism. In I. Harel & S. Papert (Eds.), _Constructionism_ (pp. 1–10). Praeger. [[mit.edu](https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf)]
-  - Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor, ME. Bangor Daily News.
-- Create an account on [Tinkercad](https://www.tinkercad.com/)
-- Create a 3D model of your name. Post a screenshot to Discord. 
-
-**Resources:**
-
-- [Tinkercad Learning](https://www.tinkercad.com/learn)
-- [Thingiverse](https://www.thingiverse.com/) <small>_open/remixable 3D models_</small>
-- [Bambu Studio](https://bambulab.com/en/download/studio)
-  <small>software to prepare prints</small>
-- [Bambu X1 3D Printer Manual](https://wiki.bambulab.com/en/x1/manual)
-  <small>printer manual</small>
-
-{% endcapture %}
-{{ md | markdownify }}
-</div></div>
-
-
-
-<h2>Session 6: Scratch Story Hackathon</h2>
-<strong>Sat, Jun 15, 10am-4pm</strong>
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-
-[Scratch](https://scratch.mit.edu/) is the direct descendent of the Logo programming;
-the programming language developed by Seymour Papert and his colleagues at MIT in
-order to teach computer programming and mathematics. Scratch is often the first
-introduction to computer science and programming in U.S. schools. Although it can
-be used effectively by young children, it is a complete and powerful programming
-language. Berkeley's [Beauty and Joy of Computing](https://bjc.berkeley.edu/) course
-famously uses Snap! (a variant of Scratch) to teach computer science to non-majors
-at the college level. Many high schools use Scratch or Snap to teach the
-[AP Computer Science Principles](https://apcentral.collegeboard.org/courses/ap-computer-science-principles/course) course.
-
-Working in teams of 2, we are going to write our own unique Scratch story games. In this
-session you will learn how our story game platform works, and will have go through the
-entire game development cycle, including creating the narrative, learning content, art,
-code, and play testing/prototyping. By the end of the day, each team _must_ have a fully
-working prototype. You will have until the end of the term for finish working on your game
-with your partner.
-
-**Goals:**
-
-- Learn computer programming fundamentals
-- Design an original, creative story game
-- Understand elements of games and play for learning
-- Integrate educational content into a game
-- Write a compelling story
-- Design original art for a game
-
-| Morning    |                         | Afternoon  |                           |
-|------------|-------------------------|------------|---------------------------|
-| 10-10:30   | Design Thinking         | 12:30-1:30 | Lunch                     |
-| 10:30-11   | Story Pitches and Teams | 1:30-3     | Studio                    |
-| 11-11:30   | Scratch Basics          | 3-4        | Play&nbsp;Testing         |
-| 11:30-12:30| Game Design             |            |    
-
-
-{% endcapture %}
-{{ md | markdownify }}
-</div>
-<div class="StoryGame col-md-6 col-xl-8">
-{% capture md %}
-**Due:**
-
-- **Read:** 
-- Gee, J. P. (2003). What video games have to teach us about learning and literacy. 
-  _Computers in Entertainment_, _1_(1), 20. 
-  [[adelphi libraries](https://dl-acm-org.adelphi.idm.oclc.org/doi/abs/10.1145/950566.950595)]
-- **Play:** Spend at least one hour playing a "story game."\
-  Some will be text only or mostly text, some will be more visual (like comics/manga),\
-  others will play more like video games.\
-  Some of these games are free, some are cheap, some are more expensive.\
-  Some work on mobile, others require Windows or Mac (or a game console). \
-  Choose one that looks engaging to you and meets your budget, platform, and time requirements.\
-  Feel free to play more than one game!\
-  Here are some places to look:
-  - [Zork](https://classicreload.com/zork-i.html) <small>_early text adventure game_</small>
-  - [Doki Doki Literature Club](https://teamsalvato.itch.io/ddlc) <small>_famous anime style game_</small>
-  - [Ace Attorney](https://www.ace-attorney.com/) <small>_popular visual novel series_</small>
-  - itch.io [[visual novel](https://itch.io/games/genre-visual-novel)]
-    [[interactive fiction](https://itch.io/games/tag-interactive-fiction)] <small>_browser, platform. free/paid_</small>
-  - [STEAM: visual novel](https://store.steampowered.com/tags/en/Visual%20Novel/)
-  - [The best visual novels on PC](https://www.pcgamer.com/the-best-visual-novels-on-pc/). (2022) _PC Gamer_
-  - [25 best interactive fiction games](https://www.pcmag.com/picks/the-20-best-interactive-story-games). (2020). _PC Mag_
-
-**Resources:**
-
-- [Scratch Story Game Docs](story-game-docs.html)
-
-- **Image and Audio Resources**
-- [Audacity](https://www.audacityteam.org/) <small>install audacity for sound editing</small>
-- [Free CC Sound Effects](https://freesound.org/)
-- [Free CC Music](https://freemusicarchive.org/)
-- [Free CC Images](https://unsplash.com/)
-- [Free CC Vector Art](https://www.vecteezy.com/)
-
-
-- **Learning Scratch**
-- [Scratch Tutorials](https://scratch.mit.edu/tips)
-- [Scratch Wiki](https://en.scratch-wiki.info/wiki/Scratch_Wiki_Home)
-
-
-{% endcapture %}
-{{ md | markdownify }}
-</div></div>
-
-
-
-<h2>Session 7: Aesthetics & Politics</h2>
-<strong>Mon, Jun 17, 4pm-7pm</strong>
-<div class="row border-bottom border-3 border-dark mb-2">
-<div class="col-md-6">
-<img src="/courses/img/triple-chaser.jpg" alt="computer vision highlights a triple chaser tear gas canister ©︎ forensic architecture"
-     class="img-fluid d-block">
-
-</div>
-<div class="col-md-6 col-xl-4">
-{% capture md %}
-Integrating art into teaching and learning can make complex
-subjects more approachable; can welcome excluded groups
-into STEM fields; and can make learning more engaging.
-
-**Art**, though, is more powerful than a more effective
-pedagogical approach. In this session we talk (more) about
-the interaction of art, politics, and aesthetics.
-
-**Due:**
-
-- **Read**
-  - Greene, M. (1977). The Artistic-Aesthetic and Curriculum. Curriculum Inquiry, 6(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
-- **Watch:** [Triple Chaser](https://forensic-architecture.org/investigation/triple-chaser/)
-
-{% endcapture %}
-{{ md | markdownify }}
-</div></div>
-
-
-<h2>Session 8: Final Studio</h2>
-<strong>Thursday, Jun 20</strong>
-<div class="text-container fw-bold bg-dark text-light border rounded p-2 mb-4">
-<p class="text-danger">Date change</p>
-It's our last class. We will have an open studio
-working session where you can finish projects,
-test your prototypes with others, get feedback
-from friends, instructors, and guests, and
-celebrate your work this summer.
-</div>
-
-</div> <!-- end wide container -->
