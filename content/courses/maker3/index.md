@@ -463,8 +463,3 @@ to the quality of your lesson and the materials your produce,
 we are evaluating you on the effectiveness of your presentation
 and ability to perform as an instructional leader and coach.
 
-
-#### Workshop evaluation
-
-Your workshop, and all of the materials produced for it,
-represent your 
