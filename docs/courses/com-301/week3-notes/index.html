@@ -185,14 +185,14 @@ that control their appearance.</p>
 
 <p><strong>Tag based selectors:</strong> match all elements of a given type (<em>all</em> the links, headers, etc)</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">p</span> <span class="p">{</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="no">red</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="nx">red</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 <p>This makes the text of all paragraphs <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> red.</p>
 
 <p><strong>Class based selectors:</strong> match all elements with a given class. <code class="language-plaintext highlighter-rouge">class</code> is an html attribute of all tags.</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.MapPoint</span> <span class="p">{</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="no">lavender</span><span class="p">;</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nx">lavender</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 <p>This makes the background of all elements with the class <code class="language-plaintext highlighter-rouge">MapPoint</code> lavender. Your HTML would look like this:</p>
@@ -205,7 +205,7 @@ that control their appearance.</p>
 <ul>
   <li><strong>id based selectors:</strong> match a single element with a given id
     <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nf">#pageHeader</span> <span class="p">{</span>
-      <span class="nl">background-color</span><span class="p">:</span> <span class="no">lightblue</span><span class="p">;</span>
+      <span class="nl">background-color</span><span class="p">:</span> <span class="nx">lightblue</span><span class="p">;</span>
   <span class="p">}</span>
 </code></pre></div>    </div>
     <p>This makes the background of the element with the id <code class="language-plaintext highlighter-rouge">myElement</code> light blue.</p>
@@ -218,7 +218,7 @@ that control their appearance.</p>
   </li>
   <li><strong>combining selectors:</strong> you can combine selectors to match elements that have both a tag and a class, or a tag and an id.
     <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  <span class="nc">.MapPoint</span> <span class="nt">h1</span> <span class="p">{</span>
-      <span class="nl">color</span><span class="p">:</span> <span class="no">blue</span><span class="p">;</span>
+      <span class="nl">color</span><span class="p">:</span> <span class="nx">blue</span><span class="p">;</span>
   <span class="p">}</span>
 </code></pre></div>    </div>
     <p>This will make the text for all <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> tags <em>inside</em> a <code class="language-plaintext highlighter-rouge">.MapPoint</code> class blue. <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code> tags outside of <code class="language-plaintext highlighter-rouge">.MapPoint</code> will not be affected.</p>
@@ -280,8 +280,8 @@ there is a very flexible system called <a href="https://developer.mozilla.org/en
 set a colored background. This CSS makes a black
 background with white text:</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.MapPoint</span> <span class="nt">h1</span> <span class="p">{</span>
-    <span class="nl">background-color</span><span class="p">:</span> <span class="no">black</span><span class="p">;</span>
-    <span class="nl">color</span><span class="p">:</span> <span class="no">white</span><span class="p">;</span>
+    <span class="nl">background-color</span><span class="p">:</span> <span class="nx">black</span><span class="p">;</span>
+    <span class="nl">color</span><span class="p">:</span> <span class="nx">white</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -290,7 +290,7 @@ is a little bit trickier because you need to know the “path” to the image. F
 that you put the image in the same folder on your
 website that has your .css stylesheet. In this example, the image is called “campus.png”:</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.MapPoint</span> <span class="p">{</span>
-    <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('campus.png')</span><span class="p">;</span>
+    <span class="nl">background-image</span><span class="p">:</span> <span class="nf">url</span><span class="p">(</span><span class="s2">'campus.png'</span><span class="p">);</span>
 <span class="p">}</span>
 </code></pre></div></div>
 
@@ -303,8 +303,8 @@ many different ways to control the background image in CSS. You can control the 
 MapPoints, you can add a new class to your HTML
 like this: <code class="language-plaintext highlighter-rouge">&lt;div class="MapPoint campus" data-lat="40.7128" data-lon="-74.0060"&gt;</code>. Then you can set the background for just that class in your CSS:</p>
 <div class="language-css highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nc">.MapPoint</span> <span class="nc">.campus</span> <span class="p">{</span>
-    <span class="nl">background-image</span><span class="p">:</span> <span class="sx">url('campus.png')</span><span class="p">;</span>
-    <span class="nl">background-size</span><span class="p">:</span> <span class="n">cover</span><span class="p">;</span>
+    <span class="nl">background-image</span><span class="p">:</span> <span class="nf">url</span><span class="p">(</span><span class="s2">'campus.png'</span><span class="p">);</span>
+    <span class="nl">background-size</span><span class="p">:</span> <span class="nb">cover</span><span class="p">;</span>
 <span class="p">}</span>
 </code></pre></div></div>
 

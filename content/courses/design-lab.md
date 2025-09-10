@@ -180,7 +180,7 @@ Please come to class prepared to discuss the readings.
 
 Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
 
-Delpit, L. (2012). _Multiplication Is for White People: Raising Expectations for Other People’s Children_. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. 
+Delpit, L. (2012). _Multiplication Is for White People: Raising Expectations for Other People’s Children_. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. [[pdf](https://drive.google.com/file/d/1iYJLyEYAGf3knQ--4k60imqJ60dUaUvs/view?usp=drive_link)]
 
 Forensic Architecture, & Poitras, L. (Directors). (2019). [Triple Chaser](https://forensic-architecture.org/investigation/triple-chaser/) [Documentary, Short]. Praxis Films.
 
