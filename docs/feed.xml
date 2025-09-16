@@ -1,16 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-09-10T01:20:39-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Announcing Maps @ MIXI</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/" rel="alternate" type="text/html" title="Announcing Maps @ MIXI" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/map-club</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/"><![CDATA[<div class="lead">
-<p>We are please to announce the brand new <strong>Maps @ MIXI</strong> critical cartography club.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-09-16T15:26:30-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Announcing Maps @ MIXI</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/" rel="alternate" type="text/html" title="Announcing Maps @ MIXI" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/map-club</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/"><![CDATA[<style>
+.Harbor {
+  background-image: url("/assets/images/blog/harbor-bg2.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+}
+</style>
+
+<div class="Harbor p-3 rounded">
+
+<img src="/assets/images/blog/maps-mixi-title.png" alt="maps @ mixi" class="img-fluid mb-3 d-block mx-auto" />
+<!-- <img src="/assets/images/blog/harbor-bg.png" alt="maps @ mixi" class="img-fluid mb-3 d-block mx-auto"> -->
+
+<div class="lead">
+<p>We are pleased to announce the brand new <strong>Maps @ MIXI</strong> critical cartography club.
 The club is a fun, informal place to talk about and make maps, share your work,
 check out interesting parts of NYC on club outings, and learn new geospatial skills.</p>
 
 <p>During our weekly meetings we will participate in informal workshops,
-work on our own and collaborative projects, hear from guest speakers,
-share resources, and head off site on to explore the city, gather data, 
+work on your own and collaborative projects, hear from guest speakers,
+share resources, and head off site to explore the city, gather data, 
 and test our maps.</p>
 
 <p><em>We will also have snacks.</em></p>
 
 </div>
+
 
 <div class="row">
     <div class="col-12 col-md-6">
@@ -34,11 +49,251 @@ and test our maps.</p>
 
     </div>
 </div>
+<h3 id="questions-not-yet-frequent-asked">Questions (not yet frequent asked)</h3>
+
+<ul>
+  <li><strong>Do I have to come to all meetings?</strong> No! Come when you can. Drop in for a single meeting or come every week.</li>
+  <li><strong>Can I bring a friend?</strong> Please do, but we have to add their name to the list for the front desk. Send us an email or have them sign up.</li>
+  <li><strong>I’m not a student, but I like maps. Can I come?</strong> Our priority is for students, but we want to be open to the larger community. Send us an email (<a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a>)</li>
+  <li><strong>Do I need my laptop?</strong> No, but you might want it. We can help you get it set up for GIS work at home.</li>
+  <li><strong>What software will we use?</strong> That depends on what the club wants to do. Our focus is FOSS (Free and Open Source Software) and we use Python (Pandas, GeoPandas, Pygris, etc), QGIS, and OSM in a lot of our work. We are also meeting in our maker lab, so we will have the chance to design and build some GIS hardware, too, if we need it.</li>
+  <li><strong>I’m in high school and this sounds great…can I come?</strong> Probably, but please have a teacher or staff from your school send us an email.</li>
+  <li><strong>Will I have to pay for field trips?</strong> No, we will cover the costs for student members.</li>
+  <li><strong>Can I come late or leave early?</strong> Yes, it’s not class.</li>
+</ul>
+
+
+<hr />
 
 <div class="mx-auto d-flex mt-2 align-items-center" style="max-width: 600px;">
 <img src="https://assets.mofoprod.net/static/foundation_cms/_images/primary-nav-wordmark-logo.a5c4e02afa67.svg" alt="Mozilla Foundation" style="height: 2em;" class="d-block pe-2" />
 <p class="p-0 m-0">Maps @ MIXI is supported by the <a href="https://foundation.mozilla.org">Mozilla Foundation</a> as part of their responsible computing challenge.</p>
-</div>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="GIS" /><category term="cartography" /><category term="mapping" /><category term="spatial justice" /><category term="responsible computing" /><category term="mozilla" /><category term="public" /><category term="sticky" /><summary type="html"><![CDATA[The MIXI team is launching a new, open-to-all, map/GIS/cartography club with weekly meetings at Adelphi NYC in Brooklyn.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Steam mini conference 2025May 13 @ Adelphi NYC Campus</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/" rel="alternate" type="text/html" title="Steam mini conference 2025May 13 @ Adelphi NYC Campus" /><published>2025-05-03T12:00:00-04:00</published><updated>2025-05-03T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/"><![CDATA[<!-- load _data/ -->
+</div>
+</div>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="GIS" /><category term="cartography" /><category term="mapping" /><category term="spatial justice" /><category term="responsible computing" /><category term="mozilla" /><category term="public" /><category term="sticky" /><summary type="html"><![CDATA[The MIXI team is launching a new, open-to-all, map/GIS/cartography club with weekly meetings at Adelphi NYC in Brooklyn.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pizza map: QGIS basics</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/" rel="alternate" type="text/html" title="Pizza map: QGIS basics" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/"><![CDATA[<div class="fs-2">
+<p>In our next <strong>Maps @ MIXI</strong> meeting we’ll take a look at the basics of
+working with geospatial data and creating map in QGIS, a free and open-source
+desktop GIS application.</p>
+
+</div>
+
+<p>We’ll look at:</p>
+
+<ul>
+  <li>installing QGIS and useful plugins</li>
+  <li>adding basemaps</li>
+  <li>importing data from OpenStreetMap</li>
+  <li>editing the rows (the locations on the map) and columns (the attributes) for our data</li>
+  <li>adding custom data fields</li>
+  <li>exporting our map to an interactive web map using Leaflet</li>
+</ul>
+
+<p>For my map, I’m making a guide to the pizza places near my apartment on the Prospect Heights/Crown Heights border in Brooklyn. There’s a lot we can do with just the core functionality (and no programming).</p>
+
+<p>You can see the final version of the map online, here: <strong><a href="https://data.mixi.nyc/ph-pizza-map/">https://data.mixi.nyc/ph-pizza-map/</a></strong></p>
+
+<p><img src="/assets/images/blog/pizza/qgis.png" alt="The pizza map in QGIS" class="img-fluid d-block" /></p>
+
+<hr />
+
+<h1 id="install-qgis">Install QGIS</h1>
+<p>QGIS is a free and open-source geographic information system (GIS) that allows users to create, edit, visualize, analyze, and publish maps and other geospatial information.</p>
+
+<p>Follow the instructions <a href="https://qgis.org/download/">https://qgis.org/download/</a> to install it for your platform. It works on Linux, Mac, and Windows.</p>
+
+<hr />
+
+<h1 id="installenable-quickmapservices-to-choose-a-basemap">Install/enable QuickMapServices to choose a basemap</h1>
+<p>The QuickMapServices plugin provides a lot of different “basemaps”. These let you see and add on top of
+OpenStreetMap, Google Maps, satellite images, and the very useful CartoDB basemaps.</p>
+
+<h2 id="1-install-quickmapservices">1. Install QuickMapServices</h2>
+<ul>
+  <li>In QGIS: <code class="language-plaintext highlighter-rouge">Plugins → Manage and Install Plugins…</code>
+    <ul>
+      <li>Search <strong>QuickMapServices</strong> → <strong>Install</strong>.</li>
+      <li>On some platforms, it may already be installed by default.</li>
+    </ul>
+  </li>
+  <li>After install:<br />
+<code class="language-plaintext highlighter-rouge">Web → QuickMapServices → Settings → More services → Get contributed pack</code>.</li>
+</ul>
+
+<h2 id="2-add-basemaps">2. Add Basemaps</h2>
+<p>Follow these instructions to add a basemap later ro your project.
+You can add more than one and toggle them on/off as needed in the Layers panel (left side).</p>
+
+<ul>
+  <li>Go to <code class="language-plaintext highlighter-rouge">Web → QuickMapServices → [Provider]</code>.</li>
+  <li>Common options:
+    <ul>
+      <li><strong>Carto</strong> → Positron (Light), Dark Matter (Dark)</li>
+      <li><strong>Google</strong> → Satellite, Hybrid, Roads, Labels</li>
+      <li><strong>OSM</strong> → Standard, Humanitarian</li>
+      <li><strong>ESRI</strong> → World Imagery, Topographic</li>
+    </ul>
+  </li>
+</ul>
+
+<hr />
+
+<h1 id="import-osm-points-into-qgis-using-quickosm">Import OSM Points into QGIS using QuickOSM</h1>
+
+<h2 id="1-install-the-plugin">1. Install the Plugin</h2>
+<ul>
+  <li>Go to <strong>Plugins → Manage and Install Plugins…</strong></li>
+  <li>Search for <strong>QuickOSM</strong> and click <strong>Install</strong>.</li>
+</ul>
+
+<h2 id="2-open-quickosm">2. Open QuickOSM</h2>
+<ul>
+  <li>In the QGIS menu, go to <strong>Vector → QuickOSM → QuickOSM…</strong></li>
+</ul>
+
+<h2 id="3-build-your-query">3. Build Your Query</h2>
+<ol>
+  <li>Choose “Quick Query” in the left panel</li>
+  <li><strong>Key</strong>: <code class="language-plaintext highlighter-rouge">amenity</code></li>
+  <li><strong>Value</strong>: <code class="language-plaintext highlighter-rouge">pizza</code> (or restaurant, school, etc.)</li>
+  <li><strong>In</strong>: select <code class="language-plaintext highlighter-rouge">Canvas Extent</code>, this searches the active area of the open map. Zoom/pan to change the search area
+  before running the query.</li>
+  <li>Click <strong>Run Query</strong>
+<img src="/assets/images/blog/pizza/quick-osm.png" alt="QuickOSM query dialog" class="img-fluid d-block" /></li>
+</ol>
+
+<h2 id="4-explore-the-results">4. Explore the Results</h2>
+<ul>
+  <li>If any results were found, you will have a new layer on your map</li>
+  <li>The point layer will appear in the <strong>Layers Panel</strong> (named something like <code class="language-plaintext highlighter-rouge">amenity_pizza</code>)</li>
+  <li>Right-click the layer and choose <strong>Show Labels</strong> to see the names of the places<br />
+(If nothing shows up, you may have to adjust the label settings in the <strong>Layer Properties → Labels</strong> to choose <code class="language-plaintext highlighter-rouge">name</code>.)</li>
+</ul>
+
+<hr />
+
+<h1 id="working-with-attribute-data-in-qgis">Working with Attribute Data in QGIS</h1>
+<p>We imported all of the data about our “amenities” that was available from OpenStreetMap.
+This includes all kinds of stuff (street address, website, open hours, etc). It also includes
+several “ID” fields. For our simple web map, we just want a <strong>name</strong> and a <strong>description</strong>
+of the place. We can delete all of the  other fields except for <strong>name</strong>.</p>
+
+<p>We can edit the data table to delete any places we <em>don’t</em> want to include in our map.
+Once we have just the points we need, we can edit the names and add our own descriptions.</p>
+
+<h2 id="1-open-the-attribute-table">1. Open the Attribute Table</h2>
+<ul>
+  <li>Right-click a vector layer → <strong>Open Attribute Table</strong>.</li>
+  <li>This shows all the fields (columns) and records (rows).</li>
+</ul>
+
+<h2 id="2-delete-unwanted-fields">2. Delete Unwanted Fields</h2>
+<ol>
+  <li>In the attribute table, click the <strong>Pencil icon</strong> (Toggle Editing Mode).</li>
+  <li>Click the <strong>Delete Field</strong> button (trash can icon).</li>
+  <li>Select the fields (columns) you don’t need → <strong>OK</strong>.</li>
+  <li>Save edits (disk icon) and turn off editing.</li>
+</ol>
+
+<h2 id="3-add-a-new-field">3. Add a New Field</h2>
+<ol>
+  <li>Attribute table → <strong>Toggle Editing Mode</strong>.</li>
+  <li>Click the <strong>New Field</strong> button (plus icon).</li>
+  <li>Choose:
+    <ul>
+      <li><strong>Name</strong>: field name (e.g., <code class="language-plaintext highlighter-rouge">description</code>).</li>
+      <li><strong>Type</strong>: Text, Integer, Decimal, Date, etc.</li>
+      <li><strong>Length / Precision</strong> if needed.</li>
+    </ul>
+  </li>
+  <li>Click <strong>OK</strong> → the new field is added as a column.</li>
+</ol>
+
+<h2 id="4-edit-attributes">4. Edit Attributes</h2>
+<ul>
+  <li><strong>Edit cell values</strong>:
+    <ul>
+      <li>Toggle editing → click into a cell → type a new value.</li>
+    </ul>
+  </li>
+  <li><strong>Delete rows (features)</strong>:
+    <ol>
+      <li>Select one or more rows.</li>
+      <li>Click the <strong>Delete Selected Features</strong> button.</li>
+    </ol>
+  </li>
+  <li><strong>Edit feature properties</strong>:
+    <ul>
+      <li>Use the <strong>Identify Features</strong> tool on the map → edit values in the form popup.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="5-save-changes">5. Save Changes</h2>
+<ul>
+  <li>After editing fields or rows, always click <strong>Save Edits</strong> (disk icon).</li>
+  <li>Then toggle off editing mode to finish.</li>
+</ul>
+
+<hr />
+
+<h1 id="export-qgis-maps-to-htmlleaflet-with-qgis2web">Export QGIS Maps to HTML/Leaflet with qgis2web</h1>
+<p>This plugin allows you to export your QGIS project as an interactive web map using <a href="https://leafletjs.com/">Leaflet</a>.
+Leaflet is one of the most popular JavaScript libraries for programming and publishing interactive maps. Your map
+will probably work fine if you just choose “Leaflet” and choose export.</p>
+
+<h2 id="1-install-qgis2web">1. Install qgis2web</h2>
+<ul>
+  <li>In QGIS: <code class="language-plaintext highlighter-rouge">Plugins → Manage and Install Plugins…</code></li>
+  <li>Search for <strong>qgis2web</strong> → <strong>Install</strong>.</li>
+</ul>
+
+<h2 id="2-configure-layers">2. Configure Layers</h2>
+<ul>
+  <li>Style each layer (fill, outline, labels) the way you want it to appear.</li>
+  <li>Enable/disable labels in the <strong>Layer Properties → Labels</strong> tab.</li>
+</ul>
+
+<h2 id="3-export">3. Export</h2>
+<ul>
+  <li>Go to: <code class="language-plaintext highlighter-rouge">Web → qgis2web → Create web map…</code></li>
+  <li>Choose <strong>Leaflet</strong>.</li>
+  <li>Check these tabs:
+    <ul>
+      <li><strong>Layers and Groups</strong> → select which layers to include.</li>
+      <li><strong>Appearance</strong> → popups, tooltips, zoom/scale controls.</li>
+      <li><strong>Export</strong> → pick an output folder.</li>
+      <li><strong>Settings</strong> → use EPSG:4326 for web.</li>
+    </ul>
+  </li>
+  <li>Click <strong>Export</strong>.</li>
+</ul>
+
+<h2 id="4-result">4. Result</h2>
+<ul>
+  <li>A folder is created with:
+    <ul>
+      <li><code class="language-plaintext highlighter-rouge">index.html</code> (your map)</li>
+      <li>Leaflet JS + CSS</li>
+      <li>Your data as GeoJSON</li>
+    </ul>
+  </li>
+  <li>You should be able to open <code class="language-plaintext highlighter-rouge">index.html</code> by double clicking it. Otherwise, open your browser (Chrome, Firefox, Safari, etc) and File → Open File → select <code class="language-plaintext highlighter-rouge">index.html</code>.</li>
+  <li>Eventually we can host published maps on the <a href="https://mixi.nyc">mixi website</a> or on <a href="https://pages.github.com/">GitHub Pages</a>.</li>
+</ul>
+
+<hr />
+
+<h1 id="make-it-better">Make it better</h1>
+<p>Obviously this tutorial doesn’t cover everything. With a little more work you can:</p>
+
+<ul>
+  <li>add a title and description to your map (very easy!)</li>
+  <li>add custom points that aren’t in OSM (maybe using Google or Bing basemaps to help find them)</li>
+  <li>run custom queries in QuickOSM to search by name or other field</li>
+  <li>add a color guide to distinguish different types of places</li>
+  <li>add icons instead of simple dots as map markers</li>
+  <li>add HTML styled text and photos the popups</li>
+  <li>embed your leaflet in a web page with other content</li>
+</ul>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="GIS" /><category term="qgis" /><category term="osm" /><category term="foss" /><category term="leaflet" /><category term="tutorial" /><category term="mapping" /><category term="maps-at-mixi" /><summary type="html"><![CDATA[In our next meeting we dive into QGIS. I make a map of pizza places, you can make a map of anything you want!]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//pizza/thumb.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//pizza/thumb.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Steam mini conference 2025May 13 @ Adelphi NYC Campus</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/" rel="alternate" type="text/html" title="Steam mini conference 2025May 13 @ Adelphi NYC Campus" /><published>2025-05-03T12:00:00-04:00</published><updated>2025-05-03T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/steam-mini-2025/"><![CDATA[<!-- load _data/ -->
 <div class="fs-3 border-bottom mb-4">
 <p>The Students of the Master’s of Arts in STEAM Teaching and Learning 
 present the 2025 STEAM MINI Conference.</p>
@@ -448,31 +703,4 @@ Denver, CO 80202-5107<br />
 United States</p>
 
 <p><strong>When:</strong>
-Friday, March 25, 2025, 10:15 AM - 11:15 AM [<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=ChatGPT%20Translanguaging%20for%20multilingual%20learners&amp;dates=20250325T101500Z/20250325T111500Z&amp;details=Roundtable%20paper%20presentation%20at%20AAAL%202025%20with%20Rebecca%20Curinga,%20Aaron%20Hung,%20and%20Matt%20Curinga.&amp;location=Sheraton%20Denver%20Downtown%20Hotel%201550%20Court%20Place%20Denver,%20CO%2080202-5107%20United%20States%20%0A&amp;ctz=America/Denver">add to gcal</a>]</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="LLM" /><category term="AI" /><category term="linguistics" /><category term="translanguaging" /><category term="AAAL" /><category term="chatgpt" /><summary type="html"><![CDATA[Matt Curinga and Aaron Hung team up with Matt's sister, Dr. Rebecca Curinga from CUNY to present their research on translanguaging with GPT-3 at AAAL 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Applications now open for MIXI STEAM and NYC Teaching Fellows</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/" rel="alternate" type="text/html" title="Applications now open for MIXI STEAM and NYC Teaching Fellows" /><published>2024-12-05T11:00:00-05:00</published><updated>2024-12-05T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/readi-teaching-fellows/"><![CDATA[<div class="d-flex flex-row">
-    <img src="/assets/images/spray-paint.jpg" alt="student spray painting a stencil bird" class="d-none d-md-block me-4" />
-    <div>
-        <img src="/assets/images/blog/spray-paint-hz.jpg" alt="student spray painting a stencil bird" class="d-block d-md-none img-fluid mb-4" />
-<p>MIXI, along with our colleague’s in <a href="https://www.adelphi.edu/program/graduate/special-education/">Special Education</a>,
-were awarded a $1.244M work force development grant from the State University of New York
-for their <strong>R<sup>2</sup>E<sup>2</sup>ADI (Recruiting and Retaining Educators for Equity, Diversity, and Inclusion)</strong>
-project. The grant supports the recruitment of outstanding applicants to become teachers in high needs teaching areas, 
-and to their training in Adelphi’s programs as they develop the knowledge and practice to 
-become innovative educators and powerful advocates for public school students in New York City.</p>
-
-<p>For MIXI, this build on our existing relationship with the <a href="https://www.nycteachingfellows.org/">NYC Teaching Fellows</a>,
-expanding on our cohort of science educators to include Math and Computer Science. Adelphi is the first
-and only Teaching Fellows partner to offer a CS certification program.</p>
-
-<p><strong>Applications are now open for the 2025 cohort</strong>. Teaching Fellows complete an intensive summer training
-program, including 3 graduate courses at Adelphi and field-based practicum with NYC Schools. They earn
-a summer stipend and will be certified to teach in New York City Public Schools in Fall 2025, where they
-begin as full time teachers in with NYC Public Schools. Adelphi Teaching Fellows complete the
-<a href="/degrees/#STEAM">Master’s in STEAM Teaching and Learning</a> at the Adelphi NYC campus over the 
-course of two years, with full tuition funding supported through the grant.<br />
-<strong>Apply through Teaching Fellows and indicate Adelphi as your first choice for the Master’s.</strong></p>
-
-    </div>
-</div>
-<p><a href="https://nycteachingfellows.org/" class="d-block btn btn-primary mt-4"><i class="bi bi-box-arrow-up-right"></i> Visit Teaching Fellows to learn more and apply.</a></p>
-
-<p>Contact <a href="mailto:hogan@adelphi.edu">Dr. Tracy Hogan</a> for more information.</p>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="grant" /><category term="steam" /><category term="funded master&apos;s" /><category term="NYCPS" /><category term="teaching fellows" /><summary type="html"><![CDATA[Funded through a $1.24M grant from SUNY, applications are now open for NYC Teaching Fellows to become STEM educators trained through Adelphi's STEAM Master's.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//readi.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//readi.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+Friday, March 25, 2025, 10:15 AM - 11:15 AM [<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=ChatGPT%20Translanguaging%20for%20multilingual%20learners&amp;dates=20250325T101500Z/20250325T111500Z&amp;details=Roundtable%20paper%20presentation%20at%20AAAL%202025%20with%20Rebecca%20Curinga,%20Aaron%20Hung,%20and%20Matt%20Curinga.&amp;location=Sheraton%20Denver%20Downtown%20Hotel%201550%20Court%20Place%20Denver,%20CO%2080202-5107%20United%20States%20%0A&amp;ctz=America/Denver">add to gcal</a>]</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="LLM" /><category term="AI" /><category term="linguistics" /><category term="translanguaging" /><category term="AAAL" /><category term="chatgpt" /><summary type="html"><![CDATA[Matt Curinga and Aaron Hung team up with Matt's sister, Dr. Rebecca Curinga from CUNY to present their research on translanguaging with GPT-3 at AAAL 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
