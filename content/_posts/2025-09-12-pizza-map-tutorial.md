@@ -114,7 +114,7 @@ Once we have just the points we need, we can edit the names and add our own desc
 ## 2. Delete Unwanted Fields
 1. In the attribute table, click the **Pencil icon** (Toggle Editing Mode).
 2. Click the **Delete Field** button (trash can icon).
-3. Select the fields (columns) you don’t need → **OK**.
+3. Select the fields (columns) you don’t need → **OK**. _Don't delete `fid` -- QGIS needs it._
 4. Save edits (disk icon) and turn off editing.
 
 ## 3. Add a New Field
@@ -159,7 +159,8 @@ will probably work fine if you just choose "Leaflet" and choose export.
 - Go to: `Web → qgis2web → Create web map…`  
 - Choose **Leaflet**.  
 - Check these tabs:
-  - **Layers and Groups** → select which layers to include.  
+  - **Layers and Groups** → select which layers to include (I chose Positron for the base layer, and Pizzeria for the point data).
+  - **Fields** → choose which fields to include in the popups (I chose `name` and `desc`). Mark `fid` as **hidden**.
   - **Appearance** → popups, tooltips, zoom/scale controls.  
   - **Export** → pick an output folder.  
   - **Settings** → use EPSG:4326 for web.  

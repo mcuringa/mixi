@@ -234,7 +234,7 @@ Once we have just the points we need, we can edit the names and add our own desc
 <ol>
   <li>In the attribute table, click the <strong>Pencil icon</strong> (Toggle Editing Mode).</li>
   <li>Click the <strong>Delete Field</strong> button (trash can icon).</li>
-  <li>Select the fields (columns) you don’t need → <strong>OK</strong>.</li>
+  <li>Select the fields (columns) you don’t need → <strong>OK</strong>. <em>Don’t delete <code class="language-plaintext highlighter-rouge">fid</code> – QGIS needs it.</em></li>
   <li>Save edits (disk icon) and turn off editing.</li>
 </ol>
 
@@ -303,7 +303,8 @@ will probably work fine if you just choose “Leaflet” and choose export.</p>
   <li>Choose <strong>Leaflet</strong>.</li>
   <li>Check these tabs:
     <ul>
-      <li><strong>Layers and Groups</strong> → select which layers to include.</li>
+      <li><strong>Layers and Groups</strong> → select which layers to include (I chose Positron for the base layer, and Pizzeria for the point data).</li>
+      <li><strong>Fields</strong> → choose which fields to include in the popups (I chose <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">desc</code>). Mark <code class="language-plaintext highlighter-rouge">fid</code> as <strong>hidden</strong>.</li>
       <li><strong>Appearance</strong> → popups, tooltips, zoom/scale controls.</li>
       <li><strong>Export</strong> → pick an output folder.</li>
       <li><strong>Settings</strong> → use EPSG:4326 for web.</li>

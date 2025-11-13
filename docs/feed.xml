@@ -1,4 +1,43 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-09-16T15:26:30-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Announcing Maps @ MIXI</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/" rel="alternate" type="text/html" title="Announcing Maps @ MIXI" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/map-club</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/"><![CDATA[<style>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2025-11-13T12:04:51-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Digitize Your Park!Mapping for Local Communities</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/beta-at-mixi/" rel="alternate" type="text/html" title="Digitize Your Park!Mapping for Local Communities" /><published>2025-11-13T11:00:00-05:00</published><updated>2025-11-13T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/beta-at-mixi</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/beta-at-mixi/"><![CDATA[<div class="fs-3 mb-4 row border-bottom">
+<div class="col-12 col-md-6">
+
+<img src="/assets/images/blog/beta-parks.png" alt="Green park with a bench and betanyc" class="img-fluid mb-3" />
+</div>
+<div class="col">
+<p>Put your local park on the map! Discover how to leverage digital
+literacy to promote healthy, community centered stewardship
+of open-space data. See how we use free online tools like
+<a href="https://www.openstreetmap.org">OpenStreetMap</a> (a wiki map of the world), 
+<a href="https://www.mapillary.com/">Mapillary</a> (a global
+map of street-level imagery), and more to spotlight local
+community spaces. Presented by <a href="https://beta.nyc">BetaNYC</a>, the co-organizers of
+<a href="https://opendataweek.nyc/">Open Data Week</a>, School of Data, CityCamp NYC, and more
+amazing civic tech events. Come learn how to grow your
+network and enhance your digital and data literacy!</p>
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-12 col-md-4">
+<p><strong>November 20th, 5pm-6pm</strong><br />
+Adelphi NYC Campus @ St. Francis College<br />
+MIXI Maker Lab, 7th Floor<br />
+<a href="https://maps.app.goo.gl/ZzBPVTijnwUdiGo27">179 Livingston Street</a><br />
+Brooklyn, NY 11201<br />
+Free and Open Admissions ~ Registration Required<br />
+<small>Please bring a photo ID for the front desk</small></p>
+
+<p><a href="/blog/map-club/"><strong>Hosted by Maps @ MIXI</strong></a>, a critical cartography and data
+visualization club that’s open to all! Keep up to date with us
+by signing up for our mailing list at <strong><a href="https://bit.ly/mixi-map-club">https://bit.ly/mixi-map-club</a></strong></p>
+
+</div>
+<div class="col-3">
+<p><img src="/assets/images/blog/maps-at-mixi.png" alt="maps at mixi" class="img-fluid rounded" /></p>
+
+</div>
+</div>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="beta" /><category term="civic tech" /><category term="maps" /><category term="cartography" /><category term="open data" /><category term="miximaps" /><category term="parks" /><category term="public" /><category term="free" /><category term="sticky" /><summary type="html"><![CDATA[BetaNYC presents a mapping for public parks workshop at Maps @ MIXI]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//beta-tease.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//beta-tease.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Announcing Maps @ MIXI</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/" rel="alternate" type="text/html" title="Announcing Maps @ MIXI" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/map-club</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/map-club/"><![CDATA[<style>
 .Harbor {
   background-image: url("/assets/images/blog/harbor-bg2.png");
   background-repeat: no-repeat;
@@ -49,7 +88,7 @@ and test our maps.</p>
 
     </div>
 </div>
-<h3 id="questions-not-yet-frequent-asked">Questions (not yet frequent asked)</h3>
+<h3 id="questions-not-yet-frequently-asked">Questions (not yet frequently asked)</h3>
 
 <ul>
   <li><strong>Do I have to come to all meetings?</strong> No! Come when you can. Drop in for a single meeting or come every week.</li>
@@ -69,7 +108,7 @@ and test our maps.</p>
 <img src="https://assets.mofoprod.net/static/foundation_cms/_images/primary-nav-wordmark-logo.a5c4e02afa67.svg" alt="Mozilla Foundation" style="height: 2em;" class="d-block pe-2" />
 <p class="p-0 m-0">Maps @ MIXI is supported by the <a href="https://foundation.mozilla.org">Mozilla Foundation</a> as part of their responsible computing challenge.</p>
 </div>
-</div>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="GIS" /><category term="cartography" /><category term="mapping" /><category term="spatial justice" /><category term="responsible computing" /><category term="mozilla" /><category term="public" /><category term="sticky" /><summary type="html"><![CDATA[The MIXI team is launching a new, open-to-all, map/GIS/cartography club with weekly meetings at Adelphi NYC in Brooklyn.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pizza map: QGIS basics</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/" rel="alternate" type="text/html" title="Pizza map: QGIS basics" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/"><![CDATA[<div class="fs-2">
+</div>]]></content><author><name>matt curinga</name></author><category term="News" /><category term="GIS" /><category term="cartography" /><category term="mapping" /><category term="spatial justice" /><category term="responsible computing" /><category term="mozilla" /><category term="maps-at-mixi" /><category term="public" /><category term="sticky" /><summary type="html"><![CDATA[The MIXI team is launching a new, open-to-all, map/GIS/cartography club with weekly meetings at Adelphi NYC in Brooklyn.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//harbor.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Pizza map: QGIS basics</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/" rel="alternate" type="text/html" title="Pizza map: QGIS basics" /><published>2025-09-08T12:00:00-04:00</published><updated>2025-09-08T12:00:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/pizza-map-tutorial/"><![CDATA[<div class="fs-2">
 <p>In our next <strong>Maps @ MIXI</strong> meeting we’ll take a look at the basics of
 working with geospatial data and creating map in QGIS, a free and open-source
 desktop GIS application.</p>
@@ -189,7 +228,7 @@ Once we have just the points we need, we can edit the names and add our own desc
 <ol>
   <li>In the attribute table, click the <strong>Pencil icon</strong> (Toggle Editing Mode).</li>
   <li>Click the <strong>Delete Field</strong> button (trash can icon).</li>
-  <li>Select the fields (columns) you don’t need → <strong>OK</strong>.</li>
+  <li>Select the fields (columns) you don’t need → <strong>OK</strong>. <em>Don’t delete <code class="language-plaintext highlighter-rouge">fid</code> – QGIS needs it.</em></li>
   <li>Save edits (disk icon) and turn off editing.</li>
 </ol>
 
@@ -258,7 +297,8 @@ will probably work fine if you just choose “Leaflet” and choose export.</p>
   <li>Choose <strong>Leaflet</strong>.</li>
   <li>Check these tabs:
     <ul>
-      <li><strong>Layers and Groups</strong> → select which layers to include.</li>
+      <li><strong>Layers and Groups</strong> → select which layers to include (I chose Positron for the base layer, and Pizzeria for the point data).</li>
+      <li><strong>Fields</strong> → choose which fields to include in the popups (I chose <code class="language-plaintext highlighter-rouge">name</code> and <code class="language-plaintext highlighter-rouge">desc</code>). Mark <code class="language-plaintext highlighter-rouge">fid</code> as <strong>hidden</strong>.</li>
       <li><strong>Appearance</strong> → popups, tooltips, zoom/scale controls.</li>
       <li><strong>Export</strong> → pick an output folder.</li>
       <li><strong>Settings</strong> → use EPSG:4326 for web.</li>
@@ -626,7 +666,7 @@ discourse and debates about school segregation. These cybernetic ideas were part
 theories of race relations, whereby information theory generated a new image of urban space, race, and population. 
 We show how the concept of racial entropy was used to naturalize school segregation as a “self-organizing” emergent 
 tendency that arises across communities.</p>
-</blockquote>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="AERA" /><category term="AI" /><category term="mapping" /><category term="school segregation" /><category term="LUAC" /><category term="spatial justice" /><category term="sticky" /><summary type="html"><![CDATA[Matt Curinga and Liz de Freitas will be at AERA 2025 in Denver, Colorado to present research from several MIXI projects, and to host the Adelphi Happy Hour.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/" rel="alternate" type="text/html" title="de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/"><![CDATA[<!-- Elizabeth de Freitas, Plenary Speaker. More than human mathematics and the speculative power of mathematics. The 27th ICMI STUDY: Mathematics Education and the Socio-Ecological, Ateneo de Manila University, Jan 22-25, 2025 
+</blockquote>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="AERA" /><category term="AI" /><category term="mapping" /><category term="school segregation" /><category term="LUAC" /><category term="spatial justice" /><summary type="html"><![CDATA[Matt Curinga and Liz de Freitas will be at AERA 2025 in Denver, Colorado to present research from several MIXI projects, and to host the Adelphi Happy Hour.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/" rel="alternate" type="text/html" title="de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/"><![CDATA[<!-- Elizabeth de Freitas, Plenary Speaker. More than human mathematics and the speculative power of mathematics. The 27th ICMI STUDY: Mathematics Education and the Socio-Ecological, Ateneo de Manila University, Jan 22-25, 2025 
 2. Elizabeth de Freitas, presenter & co-organizer of the TWG on Embodied and Material Studies of Mathematical Behaviour. Congress for European Research in Mathematics Education, Bolzano, Italy. Feb 4-8, 2025. 
 3. Elizabeth de Freitas & Nathalie Sinclair, Invited Speaker. Sense and distortion in Colonial Baroque mathematics. Department of History and Philosophy of Mathematical Sciences, Federal Institute of Technology (ETH Zurich). Feb 19, 2025  -->
 
@@ -688,19 +728,4 @@ at the <a href="https://ethz.ch/en.html">Federal Institute of Technology (ETH Zu
 </div>
 
 <p><strong>Where:</strong>  ETH Zurich, Zurich, Switzerland<br />
-<strong>When:</strong> Feb 19, 2025</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="conference" /><category term="mathematics" /><category term="embodied learning" /><category term="new materialism" /><summary type="html"><![CDATA[Dr. Elizabeth de Freitas and Dr. Nathalie Sinclair will present an invited address, _Sense and distortion in Colonial Baroque mathematics_ at the Department of History and Philosophy of Mathematical Sciences, ETH Zurich.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//ezh.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//ezh.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">ChatGPT Translanguaging for multilingual learners</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/chatgpt-translanguaging/" rel="alternate" type="text/html" title="ChatGPT Translanguaging for multilingual learners" /><published>2025-01-03T11:00:00-05:00</published><updated>2025-01-03T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/chatgpt-translanguaging</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/chatgpt-translanguaging/"><![CDATA[<p>MIXI researchers Matt Curinga and Aaron Hung team up with Matt’s sister,
-<a href="https://www.csi.cuny.edu/campus-directory/rebecca-curinga">Dr. Rebecca Curinga from CUNY</a>
-to present their research on translanguaging with GPT-3 at AAAL 2025.</p>
-
-<p><strong>Paper Abstract.</strong> This study investigated the hypothesis that ChatGPT can work as an effective bilingual “tutor” for multilingual learners. Since its release, ChatGPT has captured both public and academic interest and concern with its ability to create naturalistic language. The current version, GPT-4o, is both multilingual and multimodal (i.e., it reads and generates images; works in speech-to-text and text-to-speech modes). It is trained on dozens of natural languages, and “fluent” in more than 20. We are interested in the ways GPT-4 operates across languages, not as software that supports dozens of monolingual versions or for machine translation, but as a multilingual “speaker” that employs multiple languages to communicate.</p>
-
-<p>Research in translanguaging suggests that multilingual students learn more effectively when they draw on their full linguistic resources when engaging with academic content. This study uses a translanguaging and raciolinguistics approach to interrogate a series of conversations between ChatGPT and the researchers. These dialogs were generated via the real-time “voice-chat” mode available on the mobile app where the user speaks (rather than types) their prompts, and the software responds through audio rather than writing. ChatGPT creates text transcripts used for further analysis. Researchers framed conversations around a hypothetical case of a multilingual learner preparing for the New York State English Regents Exam. This assessment, specifically, has been noted as an obstacle for high school graduation and further study for multilingual students. Bilingual conversations were created using identical initial conditions in English-Spanish and English-Mandarin Chinese. We report on the specific prompts used to elicit bilingual, translanguaging behavior from ChatGPT. Analysis attends to the ways that ChatGPT’s language mirrors and diverges from expert bilingual teachers, in terms of language structure, functional uses, and cultural appropriateness across languages. Findings discuss the circumstances where ChatGPT can be an effective tutor, despite differences from human tutors’ language.</p>
-
-<p><strong>Where:</strong><br />
-<a href="https://maps.app.goo.gl/CrTFMe9piYcCVEMq6">Sheraton Denver Downtown Hotel</a><br />
-1550 Court Place<br />
-Denver, CO 80202-5107<br />
-United States</p>
-
-<p><strong>When:</strong>
-Friday, March 25, 2025, 10:15 AM - 11:15 AM [<a href="https://www.google.com/calendar/render?action=TEMPLATE&amp;text=ChatGPT%20Translanguaging%20for%20multilingual%20learners&amp;dates=20250325T101500Z/20250325T111500Z&amp;details=Roundtable%20paper%20presentation%20at%20AAAL%202025%20with%20Rebecca%20Curinga,%20Aaron%20Hung,%20and%20Matt%20Curinga.&amp;location=Sheraton%20Denver%20Downtown%20Hotel%201550%20Court%20Place%20Denver,%20CO%2080202-5107%20United%20States%20%0A&amp;ctz=America/Denver">add to gcal</a>]</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="LLM" /><category term="AI" /><category term="linguistics" /><category term="translanguaging" /><category term="AAAL" /><category term="chatgpt" /><summary type="html"><![CDATA[Matt Curinga and Aaron Hung team up with Matt's sister, Dr. Rebecca Curinga from CUNY to present their research on translanguaging with GPT-3 at AAAL 2025.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aaal.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<strong>When:</strong> Feb 19, 2025</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="conference" /><category term="mathematics" /><category term="embodied learning" /><category term="new materialism" /><summary type="html"><![CDATA[Dr. Elizabeth de Freitas and Dr. Nathalie Sinclair will present an invited address, _Sense and distortion in Colonial Baroque mathematics_ at the Department of History and Philosophy of Mathematical Sciences, ETH Zurich.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//ezh.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//ezh.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
