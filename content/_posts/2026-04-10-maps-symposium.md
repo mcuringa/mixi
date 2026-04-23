@@ -3,7 +3,7 @@ layout: post
 container: "container-xl"
 title:  "Maps @ MIXI: Presents an Evening of Critical Cartography and Spatial Justice"
 image:  "harbor.png"
-excerpt: "Maps @ MIXI presents 2 artists, researchers, and activists exploring issues of spatial justice in NYC"
+excerpt: "Maps @ MIXI presents 2 artists, researchers, and activists exploring issues of spatial justice in NYC. Artist Alex Wolfe will share his work from walking and photographing the route of the the proposed Interborough Express. Housing expert and preservationist Adam Brodheim discusses his use of open data streams to examine loss of housing due to changes in housing density. The event is free and open to the public."
 date: 2026-04-10 12:00:00 -0400
 event:
   name: "Evening of spatial justice"
@@ -12,7 +12,6 @@ event:
   location: >
     April 20th, 5:30pm-7:30pm
     Adelphi NYC Campus @ St. Francis College
-    MIXI Maker Lab, 7th Floor
     179 Livingston Street
     Brooklyn, NY 11201
   description: Maps @ MIXI lecture.
@@ -58,7 +57,7 @@ Alex Wolfe is a writer and artist from Iowa, based in New York City. His work ex
 ## Where Housing Being Lost in New York City: Examining invisible spatial change in NYC’s apartment density
 #### Adam Brodheim
 
-Despite being known for its dynamism, much of NYC’s built environment remains unchanged, with many buildings over a century old. However, on the inside, buildings have had remarkable transformations: from rowhouses to apartment buildings and apartment buildings turned back into rowhouse; and from upper-class apartment houses to single-room-occupancy hotels (and then back again). Nearly 100,000 units of housing have been lost to these and similar phenomena. This presentation looks at how combining data from the first half of the twentieth century and today can tell a story of the changing nature of New York City’s neighborhoods.
+Despite being known for its dynamism, much of NYC’s built environment remains unchanged, with many buildings over a century old. However, on the inside, buildings have had remarkable transformations: from rowhouses to apartment buildings and apartment buildings turned back into rowhouses; and from upper-class apartment houses to single-room-occupancy hotels (and then back again). Nearly 100,000 units of housing have been lost to these and similar phenomena. This presentation looks at how combining data from the first half of the twentieth century and today can tell a story of the changing nature of New York City’s neighborhoods.
 
 Adam Brodheim is a historic preservationist who works on housing policy for New York City. He serves on Manhattan Community Board 7 where he co-chairs the Preservation Committee. He holds a BA from Harvard University and a Master’s in Historic Preservation from Columbia University.
 
@@ -82,7 +81,6 @@ Register for the event at:\
 
 **Monday April 20th, 5:30pm-7:30pm**\
 Adelphi NYC Campus @ St. Francis College\
-MIXI Maker Lab, 7th Floor\
 [179 Livingston Street](https://maps.app.goo.gl/ZzBPVTijnwUdiGo27)\
 Brooklyn, NY 11201\
 <small>_Please bring a photo ID for the front desk_</small>
