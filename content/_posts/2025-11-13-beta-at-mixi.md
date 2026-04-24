@@ -18,7 +18,7 @@ event:
   description: STEAM student workshops.
 categories: [Events]
 author: "matt curinga"
-tags: ["beta", "civic tech", "maps", "cartography", "open data", "miximaps", "parks", "public", "free", "sticky"]
+tags: ["beta", "civic tech", "maps", "cartography", "open data", "miximaps", "parks", "public", "free"]
 ---
 
 

@@ -2,7 +2,7 @@
 layout: post
 container: "container-xl"
 title:  "MIXI Lecture 06: Embodied STEM Learning: Place, Border, Being"
-image:  "harbor.png"
+image:  "cells-tease.jpg"
 excerpt: "This symposium will be an opportunity to investigate ideas, theories, and examples in research, concerning current challenges and potential developments in embodied learning, broadly conceived; with lectures from Drs. Jasmine Ma of NYU and David Deliema from U. Minnesota."
 date: 2026-04-23 12:30:00 -0400
 event:
@@ -29,15 +29,15 @@ tags: ["mixi lecture", "embodied learning", "STEM", "learning science","public",
     This lecture series is hosted by MIXI, Adelphi University’s  interdisciplinary collaborative research and practice institute,  pursuing innovative projects that critically remix practices from  science, art, mathematics, cultural studies, and pedagogy.
     </p>
   </div>
-<div class="col text-upper">
+<div class="col text-upper border border-rounded p-3" style="background-color:#e2ecf4">
 
 {% md %}
 
 <p><i class="text-primary bi bi-calendar2-heart-fill"></i> Monday May 7, 2026 @ 5:30pm</p>
 <p><i class="text-primary bi bi-map-fill"></i> hybrid, face-to-face (if you can!) and online</p>
-<p><i class="text-primary bi bi-fire"></i> free & open to all,
+<p class="mb-0"><i class="text-primary bi bi-fire"></i> free & open to all,
 <a href="https://forms.gle/DepRE6nuVsct8kog7">[RSVP here]</a><br>
-virtual attendance details shared after registration</p>
+<small>virtual attendance details shared after registration</small></p>
 
 {% endmd %}
 
@@ -74,6 +74,7 @@ virtual attendance details shared after registration</p>
 </div>
 <div class="row mt-3">
 <div class="col-12 col-md-6">
+<img src="/assets/images/blog/jasmine.jpg" class="float-start m-2" style="max-width: 250px;" alt="Jasmine Y. Ma">
 {% md %}
 Jasmine Y. Ma (she/her) is a learning scientist who moonlights as Associate Professor of Mathematics Education and Urban Education at New York University. Her scholarship and collaborations take her within and across contexts that are in- and out-of-school, professional and decidedly unprofessional, formally and incidentally educational. Her work begins with the understanding that typical ways learning is studied and designed for, especially in schools, systematically benefits some and marginalizes others. She is concerned with how to better conceptualize learning as deeply situated in local, sociomaterial, sociohistorical, and political contexts, especially at the interactional level. Her recent work includes an investigation of expansive theories of embodiment in learning, and the science identity work of adult and youth participants in an out-of-school mobile science lab. Ma is currently Past-President of the International Society of the Learning Sciences and co-Editor-in-Chief of Cognition and Instruction.
 
@@ -81,6 +82,7 @@ Jasmine Y. Ma (she/her) is a learning scientist who moonlights as Associate Prof
 
 </div>
 <div class="col">
+<img src="/assets/images/blog/david-deliema.jpg" class="float-start m-2" style="max-width: 250px;" alt="David DeLiema">
 {% md %}
 David DeLiema (he/him), a learning scientist at University of Minnesota's Department of Educational Psychology, studies the conversations, designs, and processes that shape how learning emerges from moments of impasse. In research-practice partnerships that foreground the knowledge and voices of teachers, students, and parents, his research examines cognitive and psychological processes in the context of social interaction, technology-rich settings, play-based activities, and embodied movement. His work aims to provoke reflection on the open-ended, power-laden, and everyday nature of turning impasses into learning.
 {% endmd %}
