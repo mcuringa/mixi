@@ -33,7 +33,7 @@ tags: ["mixi lecture", "embodied learning", "STEM", "learning science","public",
 
 {% md %}
 
-<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Monday May 7, 2026 @ 5:30pm</p>
+<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Thursday May 7, 2026 @ 5:30pm</p>
 <p><i class="text-primary bi bi-map-fill"></i> hybrid, face-to-face (if you can!) and online</p>
 <p class="mb-0"><i class="text-primary bi bi-fire"></i> free & open to all,
 <a href="https://forms.gle/DepRE6nuVsct8kog7">[RSVP here]</a><br>
@@ -88,5 +88,5 @@ David DeLiema (he/him), a learning scientist at University of Minnesota's Depart
 {% endmd %}
 </div>
 </div>
-
+<p class="fw-bold fs-5">Note: this lecture is taking place at the brand new <a href="/about">Adelphi University Manhattan Center</a>, located at 529 5th Avenue.</p>
 </div>
