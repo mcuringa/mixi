@@ -1,4 +1,59 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2026-04-24T12:10:02-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">MIXI Lecture 06: Embodied STEM Learning: Place, Border, Being</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment/" rel="alternate" type="text/html" title="MIXI Lecture 06: Embodied STEM Learning: Place, Border, Being" /><published>2026-04-23T12:30:00-04:00</published><updated>2026-04-23T12:30:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment/"><![CDATA[<div class="Bodies p-3">
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://adelphi-ed-tech.github.io/au-courses//feed.xml" rel="self" type="application/atom+xml" /><link href="https://adelphi-ed-tech.github.io/au-courses//" rel="alternate" type="text/html" /><updated>2026-05-14T10:41:50-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//feed.xml</id><title type="html">MIXI: Manhattan Instittue for STEM and the Imagination</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">MIXI Lecture 07: Biodesign Futures</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/bio-design/" rel="alternate" type="text/html" title="MIXI Lecture 07: Biodesign Futures" /><published>2026-05-14T09:30:00-04:00</published><updated>2026-05-14T09:30:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/bio-design</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/bio-design/"><![CDATA[<div class="p-3">
+<img src="/assets/images/blog/bdc-header.png" class="d-block mx-auto img-fluid mb-2" alt="green sketch" />
+<div class="row mb-4 mt-3">
+  <div class="col-12 col-md-8">
+    <p class="text-justify fs-4">
+    This lecture series is hosted by MIXI, Adelphi University’s  interdisciplinary collaborative research and practice institute, 
+    pursuing innovative projects that critically remix practices from  science, art, mathematics, cultural studies, and pedagogy.
+    </p>
+  </div>
+<div class="col text-upper border border-rounded p-3" style="background-color:#e2ecf4">
+
+<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Thursday June 4, 2026 @ 6pm</p>
+<p><i class="text-primary bi bi-map-fill"></i> hybrid, face-to-face (if you can!) and online</p>
+<p class="mb-0"><i class="text-primary bi bi-fire"></i> free &amp; open to all,
+<a href="https://forms.gle/rJ1zeJfw9XH4Q4EaA">[RSVP here]</a><br />
+<small>virtual attendance details shared after registration</small></p>
+
+
+</div>
+</div>
+
+<h2 class="text-mixi-blue">Biodesign Futures: Teaching, Making, and Thinking Across Biology, Art, and Design</h2>
+<h4>Paul Rubery</h4>
+
+<img src="/assets/images/blog/rubery.png" class="float-start m-2" style="max-width: 300px;" alt="Paul Rubery" />
+
+<p class="fs-5">
+As biotechnology becomes embedded in everyday
+life there is a growing need for thinkers who can work
+across disciplines and critically engage with its
+impact. The Biodesign Challenge is an international
+initiative at the intersection of art, design, and
+biotechnology, bringing together artists, designers,
+and scientists to explore new ways of understanding
+and shaping the role of biotech in society.
+</p>
+
+
+<p class="fs-5">
+Join us in conversation with the Executive Director of
+the Biodesign Challenge (BDC) to discuss what it is,
+how it works, and why it matters while opening a
+broader discussion about biodesign and education.
+</p>
+
+<div class="text-mixi-blue">
+<p>Paul holds a Ph.D. in Art History, Theory &amp; Criticism from Stony Brook University. His research
+interests include adaptive educational systems, artistic responses to anthropogenic climate
+change, and the phenomenology of science. As a nonprofit administrator, Rubery aims to
+extend access to STEAM education and to advance the critical discourse around
+biotechnology. He has published in <em>Journal of Visual Culture</em>, <em>Media-N</em>, and <em>Continental
+Philosophy Review</em>.</p>
+
+</div>
+
+</div>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="mixi lecture" /><category term="biodesign" /><category term="STEM" /><category term="art" /><category term="public" /><category term="free" /><category term="sticky" /><summary type="html"><![CDATA[Paul Rubery, Executive Director of the Biodesign Challenge, shares insights on biodesign, art, science, and education.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//bdc-teaser.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//bdc-teaser.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">MIXI Lecture 06: Embodied STEM Learning: Place, Border, Being</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment/" rel="alternate" type="text/html" title="MIXI Lecture 06: Embodied STEM Learning: Place, Border, Being" /><published>2026-04-23T12:30:00-04:00</published><updated>2026-04-23T12:30:00-04:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/stem-embodiment/"><![CDATA[<div class="Bodies p-3">
 <img src="/assets/images/blog/cells.jpg" class="d-block mx-auto img-fluid mb-2" alt="cell mitosis" />
 <div class="row mb-4 mt-3">
   <div class="col-12 col-md-8">
@@ -808,18 +863,4 @@ discourse and debates about school segregation. These cybernetic ideas were part
 theories of race relations, whereby information theory generated a new image of urban space, race, and population. 
 We show how the concept of racial entropy was used to naturalize school segregation as a “self-organizing” emergent 
 tendency that arises across communities.</p>
-</blockquote>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="AERA" /><category term="AI" /><category term="mapping" /><category term="school segregation" /><category term="LUAC" /><category term="spatial justice" /><summary type="html"><![CDATA[Matt Curinga and Liz de Freitas will be at AERA 2025 in Denver, Colorado to present research from several MIXI projects, and to host the Adelphi Happy Hour.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025</title><link href="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/" rel="alternate" type="text/html" title="de Freitas co-organizes TWG on embodiment in mathematics at CERME 2025" /><published>2025-01-04T11:00:00-05:00</published><updated>2025-01-04T11:00:00-05:00</updated><id>https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025</id><content type="html" xml:base="https://adelphi-ed-tech.github.io/au-courses//blog/cerme-2025/"><![CDATA[<!-- Elizabeth de Freitas, Plenary Speaker. More than human mathematics and the speculative power of mathematics. The 27th ICMI STUDY: Mathematics Education and the Socio-Ecological, Ateneo de Manila University, Jan 22-25, 2025 
-2. Elizabeth de Freitas, presenter & co-organizer of the TWG on Embodied and Material Studies of Mathematical Behaviour. Congress for European Research in Mathematics Education, Bolzano, Italy. Feb 4-8, 2025. 
-3. Elizabeth de Freitas & Nathalie Sinclair, Invited Speaker. Sense and distortion in Colonial Baroque mathematics. Department of History and Philosophy of Mathematical Sciences, Federal Institute of Technology (ETH Zurich). Feb 19, 2025  -->
-
-<p class="fs-3">
-<p>Dr. Elizabeth de Freitas is a presenter and co-organizer of the Thematic Working Group 29:
-<strong>Embodied and Material Studies of Mathematical Behaviour</strong>, as part of 
-<a href="https://www.cerme14.it/">CERME 14</a>: the 14th Congress of the European Society for Research in Mathematics Education.</p>
-
-</p>
-
-<p><img src="/assets/images/blog/erme.png" class="img-fluid d-block" alt="European Society for Research in Mathematics Education" /></p>
-
-<p><strong>Where:</strong>  Free University of Bozen-Bolzano, Bolzano, Italy<br />
-<strong>When:</strong> Feb 4-8, 2025</p>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="conference" /><category term="mathematics" /><category term="embodied learning" /><category term="new materialism" /><summary type="html"><![CDATA[Dr. Elizabeth de Freitas is a presenter and co-organizer of the Thematic Working Group 29: Embodied and Material Studies of Mathematical Behaviour.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//cerme14.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//cerme14.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+</blockquote>]]></content><author><name>matt curinga</name></author><category term="Events" /><category term="AERA" /><category term="AI" /><category term="mapping" /><category term="school segregation" /><category term="LUAC" /><category term="spatial justice" /><summary type="html"><![CDATA[Matt Curinga and Liz de Freitas will be at AERA 2025 in Denver, Colorado to present research from several MIXI projects, and to host the Adelphi Happy Hour.]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" /><media:content medium="image" url="https://adelphi-ed-tech.github.io/au-courses//aera.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
