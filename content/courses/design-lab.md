@@ -178,6 +178,8 @@ Please come to class prepared to discuss the readings.
 
 {% capture md %}
 
+Blikstein, P. (2018). Maker Movement in Education: History and Prospects. In M. J. De Vries (Ed.), _Handbook of Technology Education_ (pp. 419–437). Springer International Publishing. <https://doi.org/10.1007/978-3-319-44687-5_33>
+
 Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
 
 Delpit, L. (2012). _Multiplication Is for White People: Raising Expectations for Other People’s Children_. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. [[pdf](https://drive.google.com/file/d/1iYJLyEYAGf3knQ--4k60imqJ60dUaUvs/view?usp=drive_link)]
@@ -186,11 +188,10 @@ Forensic Architecture, & Poitras, L. (Directors). (2019). [Triple Chaser](https:
 
 Freire, P. (1971). _Pedagogy of the Oppressed_ (M. B. Ramos, Trans., Chapter 2). Herder and Herder.
 
-Keh, A. (2025, May 18). [Times Sq. Sculpture Prompts Racist Backlash. To Some, That’s the Point](https://www.nytimes.com/2025/05/18/nyregion/times-square-black-woman-statue.html). _The New York Times_. 
+Fishman, E. (2026, May 20). [For the Obama Center, Mark Bradford Paints a Fierce and Luminous Chicago](https://www.nytimes.com/2026/05/20/arts/design/obama-presidential-center-mark-bradford-chicago-art.html). _The New York Times_. 
 
 Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge. [[pdf](https://drive.google.com/file/d/1Lrl-N94ytbukzsrUpeJN3yuJTuOI9bSg/view?usp=drive_link)]
 
-Low, B., & Proietti, M. (2021). Dissensus, Street Art and School Change. _International Journal of Art & Design Education_, _40_(1), 7–19. [[AU Libraries Online](https://onlinelibrary-wiley-com.adelphi.idm.oclc.org/doi/full/10.1111/jade.12319)] [[pdf](https://drive.google.com/file/d/1_fl8Q3q0ZLvOxZh_qKdVo9VZFP_JP0U1/view?usp=drive_link)]
 
 Martinez, S. L., & Stager, G. (2013).Chapter 1: An Insanely Brief and Incomplete History of Making. In _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. [[pdf](https://drive.google.com/file/d/1eruhyafUFMLE6FSbMVg_PiEbP6O6q5IM/view?usp=drive_link)] [[epub](https://drive.google.com/file/d/1a5LxUAptVrHX7f8zwU92nxBl6qb8SUej/view?usp=drive_link)]
 
@@ -198,7 +199,7 @@ Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Int
 
 Greene, M. (1977). The Artistic-Aesthetic and Curriculum. _Curriculum Inquiry_, _6_(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
 
-Papert, S. (1991). Situating constructionism. In I. Harel & S. Papert (Eds.), _Constructionism_ (pp. 1–10). Praeger. [[mit.edu](https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf)]
+Rancière, J. (2004). Artistic Regimes and the Shortcomings of the Notion of Modernity. In The Politics of Aesthetics (pp. 22–23).
 
 Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor, ME. Bangor Daily News.
 
@@ -212,16 +213,16 @@ Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor
 Assignments
 ------------
 
-Assignment            | Due Date      | Points
-----------------------|----------     |--------
-Participation         | June 20 & 27  | 10
-Artist's Journal      | Ongoing       | 10
-Museum Visits         | Ongoing       | 10
-Public Art Encounters | Ongoing       | 10
-Reading responses     | Ongoing       | 10
-Maker Lesson          | June 23       | 15
-Online Portfolio      | June 27       | 15
-Mural Panel           | June 27       | 20
+Assignment            | Due Date        | Points
+----------------------|----------       |--------
+Participation         | Jun 26 & Jul 2  | 10
+Artist's Journal      | Ongoing         | 10
+Museum Visits         | Ongoing         | 10
+Public Art Encounters | Ongoing         | 10
+Reading responses     | Ongoing         | 10
+Maker Lesson          | Jun 29          | 15
+Online Portfolio      | Jul 2           | 15
+Mural Panel           | Jul 2           | 20
 {% endcapture %}
 {{ md | markdownify }}
 </div>
