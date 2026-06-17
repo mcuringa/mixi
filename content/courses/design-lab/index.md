@@ -451,7 +451,9 @@ work through the design process in many steps, including:
      <small>software to prepare prints</small>
    - [Cricut Design Space](https://design.cricut.com/)
      <small>for cutting stencils/stickers</small>
-   - For the Roland viny cutter and XTool laser engraver/cutter
+   - [Roland CutStudio](https://www.rolanddga.com/products/cutstudio)
+     <small>for cutting vinyl</small>
+   - For the XTool laser engraver/cutter
      you will work with instructors and staff
 
 - **CAD/3D design/3D printing**
@@ -526,39 +528,3 @@ work through the design process in many steps, including:
 </div>
 
 
-
-
-Class Sessions
-==============
-
-S1 Monday June 22: Maker Education
------------------------------------
-We will get to know each other a little bit and talk about
-the goals and themes of the design lab. We will have time
-to answer any questions. We will talk about the two readings
-and how they inform our class. Come prepared with questions,
-comments, and ideas for the reading discussion.
-
-During the studio time, we will distribute the blank artists
-journal. You will start experimenting with the tools of
-the maker space as you start designing your journal.
-
-1. Welcome and Introductions (ice breaker poll), 30 minutes
-2. Reading Discussion, 30 minutes
-3. Studio Time (90 minutes)
-   - Eric's table: collage and spray painting
-   - Matt's table: Cricut stencils, stickers, and portfolio sites
-
-Key skills:
-
-- finding and installing fonts
-- finding suitable art online
-- scaling, cropping, and combining images
-- Cricut Design Studio
-- Cricut "Pring and Cut"
-- spray paint techniques
-
-
-S2 Tuesday June 23: Critical Pedagogy
--------------------------------------
-1. Reading Discussion, 30 minutes

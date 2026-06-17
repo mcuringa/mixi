@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title>Design Lab Class Meetings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- uncomment as needed
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="topNavBar" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Degrees</a>
+                <a class="nav-link link-light active" href="/courses">Courses</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="/courses/img/mixi-spray.jpg" alt="stencil art MIXI" class="header d-print-none">
+    <div class="p-4"><h1 id="class-sessions">Class Sessions</h1>
+
+<h2 id="s1-monday-june-22-maker-education">S1 Monday June 22: Maker Education</h2>
+<p>We will get to know each other a little bit and talk about
+the goals and themes of the design lab. We will have time
+to answer any questions. We will talk about the two readings
+and how they inform our class. Come prepared with questions,
+comments, and ideas for the reading discussion.</p>
+
+<p>During the studio time, we will distribute the blank artists
+journal. You will start experimenting with the tools of
+the maker space as you start designing your journal.</p>
+
+<ol>
+  <li>Welcome and Introductions (ice breaker poll) (30 minutes)</li>
+  <li>Reading Discussion (30 minutes)</li>
+  <li>Studio Time (90 minutes)
+    <ul>
+      <li>Eric’s table: collage and spray painting</li>
+      <li>Matt’s table: Cricut stencils, stickers, and portfolio sites</li>
+    </ul>
+  </li>
+</ol>
+
+<p><strong>Key skills:</strong></p>
+
+<ul>
+  <li>finding and installing fonts</li>
+  <li>finding suitable art online</li>
+  <li>scaling, cropping, and combining images</li>
+  <li>Cricut Design Studio</li>
+  <li>Cricut “Print and Cut”</li>
+  <li>Roland vinyl cutter</li>
+  <li>spray paint techniques</li>
+  <li>collage</li>
+  <li>google sites</li>
+</ul>
+
+<p><strong>Materials:</strong></p>
+
+<ul>
+  <li>digital and physical image banks for collage</li>
+  <li>other collage materials (magazines, newspapers, maps, menus, wrapping paper, etc.)</li>
+  <li>sticker sheets</li>
+  <li>vinyl sheets and rolls</li>
+  <li>laminate sheets</li>
+  <li>cutting &amp; weeding tools</li>
+  <li>spray paint</li>
+  <li>spray paint booth, craft paper, cardboard</li>
+  <li>glue</li>
+  <li>brushes</li>
+</ul>
+
+<h2 id="s2-tuesday-june-23-critical-pedagogy">S2 Tuesday June 23: Critical Pedagogy</h2>
+<p>We are going to get a lot of work done on the collages today,
+with an eye for how we conceive of a living geography. We discuss
+one of the key works that has influenced the maker education movement,
+in Paulo Freire’s <em>Pedagogy of the Oppressed</em>. We will begin
+the discussion with some students reading from their journal.</p>
+
+<p>We will have a more open studio than day one where we continue to 
+cut, glue, paint, print, etc. By the end of the day everyone should 
+have cut something with a Cricut or Roland
+and spray painted <em>something</em>.</p>
+
+<ol>
+  <li>Reading Discussion (30 minutes)</li>
+  <li>Studio (2½ hours)</li>
+</ol>
+
+<p><em>Same materials as day 1</em></p>
+
+<h2 id="s3-wednesday-june-24-art--the-public">S3 Wednesday June 24: Art &amp; the Public</h2>
+<p>Today we will talk about “art”, the role it plays
+in our society, and how it interacts with the public.
+We will discuss the Fishman article about Mark Bradford’s work for the 
+Obama Presidential Center. During the studio, we will work
+to finish our collages, but also take some time to form groups
+for the final project and begin to sketch initial ideas.</p>
+
+<ol>
+  <li>Reading Discussion (30 minutes)</li>
+  <li>Studio (60 minutes)</li>
+  <li>Collage showcase and crit</li>
+  <li>Group formation and project brainstorming (30 minutes)</li>
+</ol>
+
+<h2 id="s4-thursday-june-25-critical-thinking">S4 Thursday June 25: Critical Thinking</h2>
+<p>We will discuss critical thinking in terms of
+Lisa Delpit’s chapter on “picking up the broom”. We will also
+start to talk about curriculum design and lesson planning. Before
+the end of the session, everyone should have a good idea of the
+topic and format for their “maker lesson” assignment.</p>
+
+<p>During our studio time, we will begin working in teams on the final
+panel. Teams should consider if they want to engrave or cut anything
+with the laser cutter, as we will be working with this equipment during
+day 5.</p>
+
+<ol>
+  <li>Reading Discussion (30 minutes)</li>
+  <li>Introduction to Curriculum Design (30 minutes)</li>
+  <li>Lesson plan exploration (60 minutes)</li>
+  <li>Studio (60 minutes)</li>
+</ol>
+
+<p><strong>Materials:</strong></p>
+
+<ul>
+  <li>various lesson plan templates</li>
+  <li>curriculum standards (NYS, Common Core, professional organizations, etc.)</li>
+</ul>
+
+<h2 id="s5-friday-june-26-curriculum">S5 Friday June 26: Curriculum</h2>
+<p>We will continue our discussion of schools, curricula, and equity
+as we look at two key thinkers in the field: Nell Noddings
+and Gloria Ladson-Billings. We will try to incorporate their
+ideas into our own lesson plan designs, as we take first steps
+towards designing our own maker lessons.</p>
+
+<p>During the studio, we will do a workshop on using the laser cutter,
+which can be used to engrave materials (directly on panels or
+on other materials like wood, acrylic, paper, etc). It can also
+be used to make precise cuts following vector paths (like those
+created in Inkscape).</p>
+
+<ol>
+  <li>Reading Discussion (30 minutes)</li>
+  <li>Lesson Planning (60 minutes)</li>
+  <li>Laser cutting (30 minutes)</li>
+  <li>Studio (60 minutes)</li>
+</ol>
+
+<p><strong>Materials:</strong></p>
+
+<ul>
+  <li>laser cutting materials</li>
+  <li>laser cut samples</li>
+</ul>
+
+<p><strong>Key skills:</strong></p>
+<ul>
+  <li>vector design in Inkscape
+    <ul>
+      <li>bezier curves</li>
+      <li>vector path operations (union, difference, intersection, etc.)</li>
+      <li>converting raster images to vectors</li>
+    </ul>
+  </li>
+  <li>preparing raster images for engraving
+    <ul>
+      <li>contrast, brightness, and threshold adjustments</li>
+    </ul>
+  </li>
+  <li>XTool
+    <ul>
+      <li>safety!!! (don’t cut any materials that are not approved for laser cutting)</li>
+      <li>measuring thickness of materials</li>
+      <li>selecting materials</li>
+      <li>choosing power and speed</li>
+      <li>choosing dithering options</li>
+      <li>engraving vs cutting</li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    529 5th Ave<br>
+                    New York, NY 10173<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', links);
+</script>
+
+
+</body>
+</html>
