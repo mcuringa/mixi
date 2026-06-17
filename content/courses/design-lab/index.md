@@ -10,7 +10,7 @@ header-img: /courses/img/mixi-spray.jpg
 header-img-alt: "stencil art MIXI"
 
 ---
-<h4 class="muted d-block text-center">Summer 2025</h4>
+<h4 class="muted d-block text-center">Summer 2026</h4>
 <h1 class="border-bottom border-4 border-black">Maker Lab 1: Design Lab</h1>
 <div class="container mx-auto border-bottom border-2 border-black pt-2">
    <p>
