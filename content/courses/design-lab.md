@@ -8,47 +8,6 @@ author:
 syllabus_footer: true
 header-img: /courses/img/mixi-spray.jpg
 header-img-alt: "stencil art MIXI"
-sessions:
-   - number: 1
-     title: "Art & Education"
-     date: "Mon, Jun 16"
-     readings: "Greene; Key"
-   - number: 2
-     title: "Critical Pedagogy"
-     date: "Tues, Jun 17"
-     readings: "Friere, Ch 2"
-   - number: 3
-     title: "Critical Thinking"
-     date: "Wed, Jun 18"
-     readings: "Delpit Ch 7"
-   - number: "-"
-     title: "<i>No Class - Optional Field Trip</i>"
-     date: "Thurs, Jun 19"
-     readings: "Noddings; Ladson-Billing"
-   - number: 4
-     title: "Curriculum"
-     date: "Fri, Jun 20"
-     readings: "Noddings; Ladson-Billing"
-   - number: 5
-     title: "Constructionism"
-     date: "Mon, Jun 23"
-     readings: "Martinez & Stager; Papert"
-   - number: 6
-     title: "Maker Education"
-     date: "Tues, Jun 24"
-     readings: "Cipolla"
-   - number: 7
-     title: "Aesthetics & Politics"
-     date: "Wed, Jun 25"
-     readings: "Low & Proietti"
-   - number: 8
-     title: "Studio/Workshop"
-     date: "Thurs, Jun 26"
-     readings: "-"
-   - number: 9
-     title: "Final Studio/Show"
-     date: "Fri, Jun 27"
-     readings: "-"
 
 ---
 <h4 class="muted d-block text-center">Summer 2025</h4>
@@ -72,13 +31,13 @@ sessions:
 
 <div class="text-muted fw-bold">Meetings:</div>
 
-- Monday-Friday, June 16-June 27
+- Monday-Friday, June 22-July 2
   - Section 001: 9am-12noon
   - Section 002: 1pm-4pm
 
 <div class="text-muted fw-bold">Location:</div>
-[Adelphi Brooklyn Center](https://maps.app.goo.gl/hoyDaxxm8MHbjjCeA)
-Room 7122 (7th floor maker lab)
+[Adelphi Manhattan Campus](https://maps.app.goo.gl/2ckow8RVobnkLHGfA)
+Third Floor Maker Lab
 
 {% endmd %}
 
@@ -88,9 +47,12 @@ Room 7122 (7th floor maker lab)
 <div class="text-muted fw-bold">Materials:</div>
 <p>
 There are no required textbooks for this course. All course materials
-will linked to through this site and are available in the course
-reader. All required software is Free and Open Source Software (FOSS), other
-software services are free to use or available through your Adelphi account.
+will linked to through this site and readings are available in the course
+reader. All required software is Free and Open Source Software (FOSS) or no-cost
+commercial software.<br>
+
+There may be fees associated with the museum visits.
+
 </p>
 </div>
 </div>
@@ -111,26 +73,24 @@ creativity and learning.</p>
 <h4>Goals</h4>
 
 1. Students will explore and analyze foundational and contemporary theories and
-   approaches of MakerEd and STEAM texts and respond through a series of written,
+   approaches of Maker Ed and STEAM texts and respond through a series of written,
    audio and video prompts.
-2. Students will engage conceptual, aesthetic, and practical aspects of MakerEd and
+2. Students will engage conceptual, aesthetic, and practical aspects of M akerEd and
    STEAM through the generation and production of a series of material and digital 
    prototyping and final projects. This includes creative problem-solving, 
    collaboration and critical inquiry as they 'make' with others. Both processes and 
    final work will be included in student-created digital portfolios.
-3. Students will analyze and evaluate the role of MakerEd and STEAM theories and 
+3. Students will analyze and evaluate the role of Maker Ed and STEAM theories and 
    practices in educational settings through a final interactive online zine that 
    curates their learning across the course.value
 4. Students will have fun and experience joy in learning, understanding and 
    demonstrating the role of play, risk-taking and experimentation in making and 
-   creating in MakerEd and STEAM environments.
+   creating in Maker Ed and STEAM environments.
 
 {% endmd %}
 
 </div>
 </div>
-
-
 
 <div class="container">
 {%  md %}
@@ -157,32 +117,34 @@ Please plan your schedule so that you can accommodate all of the course requirem
 Please come to class prepared to discuss the readings.
 {% endmd %}
 
-<table>
-<tr>
-   <th>#</th>
-   <th>Date</th>
-   <th>Topic</th>
-   <th>Readings</th>
-</tr>
-{% for session in page.sessions %}
-<tr>
-   <td>{{ session.number }}</td>
-   <td>{{ session.date }}</td>
-   <td>{{ session.title }}</td>
-   <td>{{ session.readings }}</td>
-</tr>
-{% endfor %}
-</table>
+
 
 <h2>Readings</h2>
+{% md %}
 
-{% capture md %}
+**Reading Schedule:**
+
+- **Mon, Jun 22:** Martinez & Stager;Blikstein
+- **Tue, Jun 23:** Freire
+- **Wed, Jun 24:** Fishman
+- **Thu, Jun 25:** Delpit
+- **Fri, Jun 26:** Noddings; Ladson-Billing
+- **Mon, Jun 29:** Greene
+- **Tue, Jun 30:** Ranciere
+- **Wed, Jul 1:** Cipolla
+- **Thu, Jul 2:** -
+
+**Bibliography:**
+{% endmd %}
+<div class="apa mx-0 mb-3 text-container">
+
+{% md %}
 
 Blikstein, P. (2018). Maker Movement in Education: History and Prospects. In M. J. De Vries (Ed.), _Handbook of Technology Education_ (pp. 419–437). Springer International Publishing. <https://doi.org/10.1007/978-3-319-44687-5_33>
 
-Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282. [[pdf](https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link)]
+Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. _Women’s Studies_, _48_(3), 261–282.
 
-Delpit, L. (2012). _Multiplication Is for White People: Raising Expectations for Other People’s Children_. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. [[pdf](https://drive.google.com/file/d/1iYJLyEYAGf3knQ--4k60imqJ60dUaUvs/view?usp=drive_link)]
+Delpit, L. (2012). Picking up the broom: demanding critical thinking (Chapter 2). In _Multiplication Is for White People: Raising Expectations for Other People’s Children_. The New Press.
 
 Forensic Architecture, & Poitras, L. (Directors). (2019). [Triple Chaser](https://forensic-architecture.org/investigation/triple-chaser/) [Documentary, Short]. Praxis Films.
 
@@ -190,26 +152,21 @@ Freire, P. (1971). _Pedagogy of the Oppressed_ (M. B. Ramos, Trans., Chapter 2).
 
 Fishman, E. (2026, May 20). [For the Obama Center, Mark Bradford Paints a Fierce and Luminous Chicago](https://www.nytimes.com/2026/05/20/arts/design/obama-presidential-center-mark-bradford-chicago-art.html). _The New York Times_. 
 
-Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge. [[pdf](https://drive.google.com/file/d/1Lrl-N94ytbukzsrUpeJN3yuJTuOI9bSg/view?usp=drive_link)]
+Greene, M. (1977). The Artistic-Aesthetic and Curriculum. _Curriculum Inquiry_, _6_(4), 283–296.
 
+Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge.
 
-Martinez, S. L., & Stager, G. (2013).Chapter 1: An Insanely Brief and Incomplete History of Making. In _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. [[pdf](https://drive.google.com/file/d/1eruhyafUFMLE6FSbMVg_PiEbP6O6q5IM/view?usp=drive_link)] [[epub](https://drive.google.com/file/d/1a5LxUAptVrHX7f8zwU92nxBl6qb8SUej/view?usp=drive_link)]
+Martinez, S. L., & Stager, G. (2013). Chapter 1: An Insanely Brief and Incomplete History of Making. In _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press.
 
-Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215. [[pdf](https://drive.google.com/file/d/1dUgpl9_18ybk9AvPX-ohRRq-df_jZtmh/view?usp=drive_link)]
-
-Greene, M. (1977). The Artistic-Aesthetic and Curriculum. _Curriculum Inquiry_, _6_(4), 283–296. [[pdf](https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link)]
+Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215.
 
 Rancière, J. (2004). Artistic Regimes and the Shortcomings of the Notion of Modernity. In The Politics of Aesthetics (pp. 22–23).
 
-Papert, S. (2002). [Hard Fun](maker3/hard-fun.html). _Bangor Daily News_. Bangor, ME. Bangor Daily News.
+{% endmd %}
 
-{% endcapture %}
-
-<div class="apa mx-0 mb-3 text-container">
-{{ md | markdownify }}
 </div>
 
-{% capture md %}
+{% md %}
 Assignments
 ------------
 
@@ -223,8 +180,7 @@ Reading responses     | Ongoing         | 10
 Maker Lesson          | Jun 29          | 15
 Online Portfolio      | Jul 2           | 15
 Mural Panel           | Jul 2           | 20
-{% endcapture %}
-{{ md | markdownify }}
+{% endmd %}
 </div>
 
 <div class="wide-container row">
@@ -295,48 +251,6 @@ the materials, when it was created, how it was funded (or not).
 
 Upload your documentation to your online portfolio.
 
-### Museum Visits
-You will visit (at least) 3 museums outside of course hours. Each visit
-must be at least one hour long. You must keep journal entries for each
-visit that log the museum, the date and time of the visit, and key
-exhibitions or works that you engaged with. You should also document
-your visit with sketches, photos, and videos. You will create an
-entry on your online portfolio for each visit. Your entries
-should reflect on the visit in terms of course readings and discussions,
-including considering how the museums work as public pedagogy, the learning
-design, the aesthetic experience, politics of the museum, etc.
-
-You _must_ visit at least one of the following "STEM" museums:
-
-- [New York Hall of Science](https://nysci.org/)
-- [MoMath: Museum of Mathematics](https://momath.org/)
-- [Museum of the Moving Image](http://www.movingimage.us/)
-- [American Museum of Natural History](https://www.amnh.org/)
-
-You can use your library card (New York, Brooklyn, or Queens) to get a free
-[culture pass](https://www.culturepass.nyc/) to many museums in the city.
-Even if you can't take advantage during our short course, it is a great
-resource. [IDNYC](https://www.nyc.gov/site/idnyc/card/how-to-apply.page)
-is another great resource for museum and other cultural access in NYC,
-and it can double as a library card.
-
-The instructors will post other interesting museum exhibits and events
-on Discord as well as invitations to join us for informal, optional fieldtrips
-during the course. You can also check out the [NYC Arts Calendar](https://www.nyc-arts.org/)
-for further ideas and events.
-
-If you join us for the optional Juneteenth field trip, it will count as
-one of the museum visits _and_ the public art encounters. Bring your
-notebook.
-
-{% endcapture %}
-
-{{ left_col | markdownify }}
-
-</div>
-<div class="col-md-6">
-
-{% capture right_col %}
 ### Maker Lesson
 You will read the New York State and professional standards
 for your content area (Math, Biology, Physics, Comp Sci, etc.)
@@ -379,6 +293,87 @@ Use your notebook while completing the course readings:
 - note sections to discuss
 - write a couple
 
+{% endcapture %}
+
+{{ left_col | markdownify }}
+
+</div>
+<div class="col-md-6">
+
+{% md %}
+### Museum Visits
+You will visit (at least) 3 museums outside of course hours. Each visit
+must be at least one hour long. You must keep journal entries for each
+visit that logs the museum, the date and time of the visit, and key
+exhibitions or works that you engaged with. You should also document
+your visit with sketches, photos, and videos. You will create an
+entry on your online portfolio for each visit. Your entries
+should reflect on the visit in terms of course readings and discussions,
+including considering how the museums work as public pedagogy, the learning
+design, the aesthetic experience, politics of the museum, etc.
+
+You can use your library card (New York, Brooklyn, or Queens) to get a free
+[culture pass](https://www.culturepass.nyc/) to many museums in the city.
+Even if you can't take advantage during our short course, it is a great
+resource. [IDNYC](https://www.nyc.gov/site/idnyc/card/how-to-apply.page)
+is another great resource for museum and other cultural access in NYC,
+and it can double as a library card.
+
+The instructors will post other interesting museum exhibits and events
+on Discord as well as invitations to join us for informal, optional field trips
+during the course. You can also check out the [NYC Arts Calendar](https://www.nyc-arts.org/)
+for further ideas and events.
+
+##### STEM Museums
+You _must_ visit at least one of the following "STEM" museums:
+
+- [New York Hall of Science](https://nysci.org/)
+- [MoMath: Museum of Mathematics](https://momath.org/)
+- [Museum of the Moving Image](http://www.movingimage.us/)
+- [American Museum of Natural History](https://www.amnh.org/)
+- [Liberty Science Center](https://lsc.org/)
+
+##### Art Museums
+To dive deeper into our study of art, creativity, and aesthetics, you should
+visit an art museum. You can hit one of the "big" ones (Met, MoMA) or look
+for a place you haven't visited yet.
+
+- [The Metropolitan Museum of Art (The Met)](https://www.metmuseum.org)
+- [The Met Cloisters](https://www.metmuseum.org/visit/plan-your-visit/met-cloisters)
+- [Museum of Modern Art (MoMA)](https://www.moma.org)
+- [MoMA PS1](https://www.momaps1.org)
+- [Solomon R. Guggenheim Museum](https://www.guggenheim.org)
+- [The Frick Collection](https://www.frick.org)
+- [New Museum](https://www.newmuseum.org)
+- [Brooklyn Museum](https://www.brooklynmuseum.org)
+- [Whitney Museum of American Art](https://whitney.org)
+- [The Morgan Library & Museum](https://www.themorgan.org)
+- [Cooper Hewitt, Smithsonian Design Museum](https://www.cooperhewitt.org)
+- [Museum of Arts and Design (MAD)](https://madmuseum.org)
+- [International Center of Photography (ICP)](https://www.icp.org)
+- [El Museo del Barrio](https://www.elmuseo.org)
+- [The Noguchi Museum](https://www.noguchi.org/museum)
+- [Asia Society Museum](https://asiasociety.org/new-york)
+
+
+##### Living geographies and museums
+New York has many museums that might help inform our
+study of "living geographies". Consider visiting one of these museums:
+
+- [Museum of the City of New York](https://www.mcny.org/)
+- [Museum of the American Indian](https://americanindian.si.edu/)
+- [Museum of Chinese in America](https://www.mocanyc.org/)
+- [The Tenement Museum](https://www.tenement.org/)
+- [The Jewish Museum](https://thejewishmuseum.org/)
+- [Weeksville Brooklyn](https://www.weeksvillesociety.org/)
+- [The New-York Historical Society](https://www.nyhistory.org/)
+- [The Transit Museum](https://www.transitmuseum.org/)
+
+##### Museum Field Trip
+We will host an optional field trip on Sunday,
+June 28 where we will visit the Museum of the City of New York
+and El Museo del Barrio.
+
 ### Online Portfolio
 You will create an online portfolio that will be used throughout
 the Master's in STEAM Teaching and Learning. While the portfolio
@@ -399,20 +394,16 @@ to achieve a consistent and professional design and user experience,
 the quality of your content (well edited writing, thoughtful images, 
 clear audio, etc), and the overall creativity and originality of your site.
 
-### Mural Panel
-We are going to design and produce a mural during this course. The mural will be
-designed for a place in Adelphi's new New York City center, which is under construction
-at 459 5th Avenue in midtown Manhattan.
+### Living Geographies Panel
+You are going to work in a team of 3 or 4 students to create a panel
+for a group art exhibit around the theme: Living Geographies of New York.
 
-The mural will combine traditional arts with some electronic/digital
-elements. Under the direction of teaching artist Eric Miles, we will
-co-design themes, content, and a style for the mural. The mural will
-be divided into sections, where teams of 3 students are responsible
-for their own panel. Every panel will incorporate a unifying motif
-that connects it to neighboring panels and the entire work.
+Your panel will combine traditional arts with some methods and techniques
+of the maker lab. Under the direction of teaching artist Eric Miles, we will
+co-design themes, content, and a style for the exhibit. 
 
 As a project based "studio" course, the major project will be your
-team's contribution to the mural panel. The instructors will giver you
+team's contribution to the exhibit. The instructors will giver you
 feedback on your work at many points during the course. You will
 work through the design process in many steps, including:
 
@@ -420,17 +411,9 @@ work through the design process in many steps, including:
 - digital design prototype your team's panel
 - sketches and partial work for critique
 - the final panel
-- the integrated mural
+- the integrated exhibit
 
-Each panel must include:
-
-- printed material that is incorporated into your panel
-- paint, stencil, sketch, etching, or other construction directly on the panel
-- a digital electronics element (LEDs, video, audio, sensor interaction, etc)
-
-{% endcapture %}
-
-{{ right_col | markdownify }}
+{% endmd %}
 
 </div>
 </div>
@@ -468,15 +451,17 @@ Each panel must include:
      <small>software to prepare prints</small>
    - [Cricut Design Space](https://design.cricut.com/)
      <small>for cutting stencils/stickers</small>
-   - [Embird](https://www.embird.net/)
-     <small>for embroidery</small>
+   - For the Roland viny cutter and XTool laser engraver/cutter
+     you will work with instructors and staff
+
 - **CAD/3D design/3D printing**
    - [Tinkercad](https://www.tinkercad.com/)
+     <small>web based CAD/3D design</small>
+   - [Onshape](https://www.onshape.com/)
      <small>web based CAD/3D design</small>
    - [Fusion 360](https://www.autodesk.com/products/fusion-360/overview)
      <small>free for students</small>
    - [Blender](https://www.blender.org/)
-
 
 **Photos and drawings:**
   - [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page)
@@ -531,8 +516,6 @@ Each panel must include:
   - [Leonardo](https://leonardo.ai/)
 
 **Tutorials/Docs:**
-  - [Janome MB-4S](https://www.janome.com/machines/embroidery/mb-4s/) 
-    <small>_our embroidery machine_</small>
   - [Bambu X1 3D Printer Manual](https://wiki.bambulab.com/en/x1/manual)
     <small>printer manual</small>
   - [Essential Inkscape](https://www.linkedin.com/learning/inkscape-essential-training-9975138) <small>sign in with your adelphi account for free access</small>
@@ -545,3 +528,37 @@ Each panel must include:
 
 
 
+Class Sessions
+==============
+
+S1 Monday June 22: Maker Education
+-----------------------------------
+We will get to know each other a little bit and talk about
+the goals and themes of the design lab. We will have time
+to answer any questions. We will talk about the two readings
+and how they inform our class. Come prepared with questions,
+comments, and ideas for the reading discussion.
+
+During the studio time, we will distribute the blank artists
+journal. You will start experimenting with the tools of
+the maker space as you start designing your journal.
+
+1. Welcome and Introductions (ice breaker poll), 30 minutes
+2. Reading Discussion, 30 minutes
+3. Studio Time (90 minutes)
+   - Eric's table: collage and spray painting
+   - Matt's table: Cricut stencils, stickers, and portfolio sites
+
+Key skills:
+
+- finding and installing fonts
+- finding suitable art online
+- scaling, cropping, and combining images
+- Cricut Design Studio
+- Cricut "Pring and Cut"
+- spray paint techniques
+
+
+S2 Tuesday June 23: Critical Pedagogy
+-------------------------------------
+1. Reading Discussion, 30 minutes
