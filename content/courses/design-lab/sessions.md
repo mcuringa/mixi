@@ -5,8 +5,8 @@ author:
     - "Matthew X. Curinga"
     - "Eric Miles"
 syllabus_footer: false
-header-img: /courses/img/mixi-spray.jpg
-header-img-alt: "stencil art MIXI"
+header-img: /courses/img/crown-heights-panel.jpg
+header-img-alt: "artistic map and timeline of Crown Heights, Brooklyn
 
 ---
 
@@ -137,7 +137,8 @@ created in Inkscape).
 - laser cut samples
 
 **Key skills:**
-- vector design in Inkscape\
+
+- vector design in Inkscape
     - bezier curves
     - vector path operations (union, difference, intersection, etc.)
     - converting raster images to vectors

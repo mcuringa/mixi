@@ -6,15 +6,15 @@ author:
     - "Matthew X. Curinga"
     - "Eric Miles"
 syllabus_footer: true
-header-img: /courses/img/mixi-spray.jpg
-header-img-alt: "stencil art MIXI"
+header-img: /courses/img/crown-heights-panel.jpg
+header-img-alt: "artistic map and timeline of Crown Heights, Brooklyn"
 
 ---
 <h4 class="muted d-block text-center">Summer 2026</h4>
 <h1 class="border-bottom border-4 border-black">Maker Lab 1: Design Lab</h1>
 <div class="container mx-auto border-bottom border-2 border-black pt-2">
    <p>
-      <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, murals, collage, micro:bit, raspberry pi, hard fun
+      <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, geography, collage, micro:bit, raspberry pi, qtpy, hard fun
    </p>
    <p class="fw-bold">STEAM Teaching and Learning ESM 501, 3 credits</p>
 </div>
@@ -51,7 +51,7 @@ will linked to through this site and readings are available in the course
 reader. All required software is Free and Open Source Software (FOSS) or no-cost
 commercial software.<br>
 
-There may be fees associated with the museum visits.
+<i>There may be fees associated with the museum visits.</i>
 
 </p>
 </div>
@@ -75,7 +75,7 @@ creativity and learning.</p>
 1. Students will explore and analyze foundational and contemporary theories and
    approaches of Maker Ed and STEAM texts and respond through a series of written,
    audio and video prompts.
-2. Students will engage conceptual, aesthetic, and practical aspects of M akerEd and
+2. Students will engage conceptual, aesthetic, and practical aspects of Maker Ed and
    STEAM through the generation and production of a series of material and digital 
    prototyping and final projects. This includes creative problem-solving, 
    collaboration and critical inquiry as they 'make' with others. Both processes and 
@@ -104,7 +104,7 @@ that you have permission to install software.
 
 - [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
 - [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
-- [Discord](https://discordapp.com/) <small>_chat--install on your phone and laptop_</small>
+- [Discord](https://discordapp.com/) <small>_chat_--install on your phone and laptop</small>
 
 <h2>Class schedule</h2>
 This is an intensive, summer course where we squeeze a full semester's worth of
@@ -113,8 +113,6 @@ outside of class in the maker lab, and arrange time to complete your museum visi
 There are also readings and museum visits that must be completed on your own time.
 Please plan your schedule so that you can accommodate all of the course requirements.
 
-**Readings listed below are due for that class session, including our first meeting.**
-Please come to class prepared to discuss the readings.
 {% endmd %}
 
 
@@ -122,9 +120,14 @@ Please come to class prepared to discuss the readings.
 <h2>Readings</h2>
 {% md %}
 
+[**All readings are available in the course reader.**](https://drive.google.com/file/d/1n5Va-4S9Ip1hnRF4BBJMOzV6CbbgKw4X/view?usp=drive_link)
+
+_Readings listed below are due for that class session, including our first meeting._\
+Please come to class prepared to discuss the readings.
+
 **Reading Schedule:**
 
-- **Mon, Jun 22:** Martinez & Stager;Blikstein
+- **Mon, Jun 22:** Martinez & Stager; Blikstein
 - **Tue, Jun 23:** Freire
 - **Wed, Jun 24:** Fishman
 - **Thu, Jun 25:** Delpit
@@ -218,16 +221,49 @@ To get full participation points:
    Let the instructors know if there's a problem or question. Tell us how to
    make things better.
 
-You will reflect on your participation in your artist's journal.
+You will reflect on your participation in your artist's journal. Write a little
+bit about your accomplishments, goals, and things your would like to improve
+in how you engage with the course.
 
-- Upload a photo of your week 1 reflection here
-- Upload a photo of your week 2 reflection here
+Post your reflections to your portfolio. You are welcome to make these pages
+only visible to the instructors, but you can also think of this as a public,
+personal reflection like you might find in a blog post.
+
+### Online Portfolio
+You will create an online portfolio that will be used throughout
+the Master's in STEAM Teaching and Learning. While the portfolio
+will house many of your assignments, you are also responsible for
+designing a site that reflects your identity as a maker and educator.
+
+The portfolios will be created using Google Sites with your Adelphi
+email account. You will be responsible for maintaining the site
+permissions and making sure that it is available to the instructors
+and other students in the class, and that some aspects (at least)
+are fully public. Everyone is encouraged to use Google Sites, but
+if you have a strong preference for another platform, you
+can use it once you have instructor approval.
+
+Your portfolio will be evaluated on how well you demonstrate your 
+ability to use the features of your online platform, you ability
+to achieve a consistent and professional design and user experience, 
+the quality of your content (well edited writing, thoughtful images, 
+clear audio, etc), and the overall creativity and originality of your site.
+
+_Check out these examples:_
+
+---------------- |----------------
+[Gillian Hagen](https://sites.google.com/mail.adelphi.edu/gillians-digital-field-journal?pli=1&authuser=2) | [Emilia Hogg](https://sites.google.com/mail.adelphi.edu/emiliahogg/home)
+[Chuhyon Corwin](https://sites.google.com/mail.adelphi.edu/ccorwin/home) | [Rob Perrone](https://sites.google.com/mail.adelphi.edu/robertperrone/home?authuser=1)
+[Anika Bristol ](https://sites.google.com/view/anikab-esm-portfolio/home) | [Milo Roth ](https://sites.google.com/view/miloroth-portfolio/home)
+[Rob Schwartz](https://sites.google.com/view/robschwartz/home) | [Marco Suarez ](https://sites.google.com/mail.adelphi.edu/marco-suarezs-digital-portfoli/home)
+[Mike Gerber](https://sites.google.com/view/portfoliomg0924000/home) | [Erika Lanfranchi](https://sites.google.com/view/erikalanfranchi/home)
+[Alicia Minervini](https://sites.google.com/mail.adelphi.edu/aminz/home?pli=1&authuser=2) | [Maggie McGowan](https://sites.google.com/mail.adelphi.edu/maggie-mcgowan/home?pli=1&authuser=2)
 
 ### Artist's Journal
 Everyone will keep an artist's journal during this course
 (and after, we hope). The Journal is a place for you to record
 thoughts, plan designs, sketch ideas, and reflect. There will
-be some "assigned" journal entries (see below), but mostly
+be some "assigned" journal entries (see above and below), but mostly
 it is meant for your own benefit. Journaling might not be for you...
 but for the purpose of this course, try it out with an open mind.
 
@@ -245,7 +281,7 @@ work and at least one should be "unsanctioned" work.
 Document your encounter in your journal with at least
 one sketch of each work, and notes on the context,
 your experience, and thoughts on the work. Further
-document your encounter with photos and videos. Consider
+document your encounter with photos and/or videos. Consider
 things like the medium of the work, the scale (aka size),
 the materials, when it was created, how it was funded (or not).
 
@@ -284,14 +320,6 @@ The lesson will be evaluated on the following criteria:
 - viability of the lesson in a classroom setting
 
 _Add your lesson plan to your portfolio to submit it._
-
-### Reading Responses
-Use your notebook while completing the course readings:
-
-- take notes
-- write down quotes/citations
-- note sections to discuss
-- write a couple
 
 {% endcapture %}
 
@@ -374,26 +402,6 @@ We will host an optional field trip on Sunday,
 June 28 where we will visit the Museum of the City of New York
 and El Museo del Barrio.
 
-### Online Portfolio
-You will create an online portfolio that will be used throughout
-the Master's in STEAM Teaching and Learning. While the portfolio
-will house many of your assignments, you are also responsible for
-designing a site that reflects your identity as a maker and educator.
-
-The portfolios will be created using Google Sites with your Adelphi
-email account. You will be responsible for maintaining the site
-permissions and making sure that it is available to the instructors
-and other students in the class, and that some aspects (at least)
-are fully public. Everyone is encouraged to use Google Sites, but
-if you have a strong preference for another platform, you
-can use it once you have instructor approval.
-
-Your portfolio will be evaluated on how well you demonstrate your 
-ability to use the features of your online platform, you ability
-to achieve a consistent and professional design and user experience, 
-the quality of your content (well edited writing, thoughtful images, 
-clear audio, etc), and the overall creativity and originality of your site.
-
 ### Living Geographies Panel
 You are going to work in a team of 3 or 4 students to create a panel
 for a group art exhibit around the theme: Living Geographies of New York.
@@ -412,6 +420,16 @@ work through the design process in many steps, including:
 - sketches and partial work for critique
 - the final panel
 - the integrated exhibit
+
+
+### Reading Responses
+Use your journal while completing the course readings:
+
+- take notes
+- write down quotes/citations
+- note sections to discuss
+- write a paragraph or two reflecting on the reading
+- **this must be your own work entirely, using AI for these responses is a violation of the academic integrity policy**
 
 {% endmd %}
 
@@ -507,8 +525,13 @@ work through the design process in many steps, including:
   - [Heroicons](https://heroicons.com/)
 
 **3D Models**
+  - [Printables](https://www.printables.com/)
+  - [Cults](https://cults3d.com/en)
+  - [Yeggi](https://www.yeggi.com/)
+  - [MakerWorld](https://makerworld.com/en)
   - [Thingiverse](https://www.thingiverse.com/)
   - [MyMiniFactory](https://www.myminifactory.com/)
+  - _(also designs inside of Bambu Studio)_
 
 **AI Generated:**
   - [Midjourney](https://www.midjourney.com/)
