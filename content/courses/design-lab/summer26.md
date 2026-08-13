@@ -10,10 +10,8 @@ header-img: /courses/img/crown-heights-panel.jpg
 header-img-alt: "artistic map and timeline of Crown Heights, Brooklyn"
 
 ---
-<h1 class="page-title">Maker Lab 1: Design Lab</h1>
-<h4 class="muted d-block">Fall 2026</h4>
-
-## Introduction
+<h4 class="muted d-block text-center">Summer 2026</h4>
+<h1 class="border-bottom border-4 border-black">Maker Lab 1: Design Lab</h1>
 <div class="container mx-auto border-bottom border-2 border-black pt-2">
    <p>
       <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, geography, collage, micro:bit, raspberry pi, qtpy, hard fun
@@ -33,9 +31,9 @@ header-img-alt: "artistic map and timeline of Crown Heights, Brooklyn"
 
 <div class="text-muted fw-bold">Meetings:</div>
 
-- Wednesday, 5pm-7pm
-- STEAM Lab, Adelphi Manhattan Campus, 3rd Floor
-- Dates: 
+- Monday-Friday, June 22-July 2
+  - Section 001: 9am-12noon
+  - Section 002: 1pm-4pm
 
 <div class="text-muted fw-bold">Location:</div>
 [Adelphi Manhattan Campus](https://maps.app.goo.gl/2ckow8RVobnkLHGfA)
@@ -94,11 +92,9 @@ creativity and learning.</p>
 </div>
 </div>
 
-## Books, Software, & Expenses
-
-<div class="container mx-auto row mt-3">
+<div class="container">
 {%  md %}
-
+<h2>Software</h2>
 Student are encouraged to bring a laptop to each class meeting. If you do not have a laptop,
 you will be able to borrow one. You will not be able to complete class assignments using
 a phone, tablet/iPad, or Chromebook. If you are using a work laptop, please make sure
@@ -109,56 +105,15 @@ that you have permission to install software.
 - [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
 - [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
 - [Discord](https://discordapp.com/) <small>_chat_--install on your phone and laptop</small>
+
+<h2>Class schedule</h2>
+This is an intensive, summer course where we squeeze a full semester's worth of
+work into two weeks! In addition to class meetings, you will need to spend time
+outside of class in the maker lab, and arrange time to complete your museum visits.
+There are also readings and museum visits that must be completed on your own time.
+Please plan your schedule so that you can accommodate all of the course requirements.
+
 {% endmd %}
-</div>
-
-## Class schedule
-
-<div class="container mx-auto row mt-3">
-
-This course meets in person in our STEAM Lab every other week. When we are not
-working in the lab, we will focus on readings, design and planning, group work,
-out of class activities (museum visits, public art encounters, etc.), and
-open time in the lab.
-
-
-
-<div class="container-fluid bg-white border rounded-3 shadow-sm p-3 mb-4">
-
-  <div class="row fw-bold border-bottom py-2">
-    <div class="col-1">Session</div>
-    <div class="col-2">Date</div>
-    <div class="col-3">Lab</div>
-    <div class="col-2">Readings</div>
-    <div class="col-3">Assignments</div>
-    <div class="col-1 text-center">Mode</div>
-  </div>
-
-  {% for meeting in site.data.courses.design-lab-meetings %}
-  <div class="row border-bottom py-2 {% cycle '', 'bg-body-tertiary' %}">
-    <div class="col-1">{{ meeting.session }}</div>
-    <div class="col-2">{{ meeting.date }}</div>
-    <div class="col-3">{{ meeting.lab }}</div>
-    <div class="col-2">{{ meeting.readings }}</div>
-    <div class="col-3">{{ meeting.assignments }}</div>
-    <div class="col-1 text-center">
-    {% case meeting.mode %}
-      {% when "in class" %}
-        <i class="bi bi-tools text-primary" title="In Class/Lab"></i>
-        <i class="bi bi-flask text-danger" title="In Class/Lab"></i>
-      {% when "asynchronous" %}
-        <i class="bi bi-clock-history" title="Asynchronous Online"></i>
-        <i class="bi bi-laptop text-success" title="Asynchronous Online"></i>
-      {% when "show" %}
-        <i class="bi bi-person-arms-up text-info" title="STEAM Conference in person"></i>
-        <i class="bi bi-projector text-info" title="STEAM Conference in person"></i>
-    {% endcase %}
-    </div>
-  </div>
-  {% endfor %}
-
-</div>
-</div>
 
 
 
@@ -170,11 +125,17 @@ open time in the lab.
 _Readings listed below are due for that class session, including our first meeting._\
 Please come to class prepared to discuss the readings.
 
-**Schedule:**
+**Reading Schedule:**
 
-
-
-
+- **Mon, Jun 22:** Martinez & Stager; Blikstein
+- **Tue, Jun 23:** Freire
+- **Wed, Jun 24:** Fishman
+- **Thu, Jun 25:** Delpit
+- **Fri, Jun 26:** Noddings; Ladson-Billing
+- **Mon, Jun 29:** Greene
+- **Tue, Jun 30:** Ranciere
+- **Wed, Jul 1:** Cipolla
+- **Thu, Jul 2:** -
 
 **Bibliography:**
 {% endmd %}
@@ -202,7 +163,7 @@ Martinez, S. L., & Stager, G. (2013). Chapter 1: An Insanely Brief and Incomplet
 
 Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215.
 
-Rancière, J. (2004). Artistic Regimes and the Shortcomings of the Notion of Modernity. In _The Politics of Aesthetics_ (pp. 22–23).
+Rancière, J. (2004). Artistic Regimes and the Shortcomings of the Notion of Modernity. In The Politics of Aesthetics (pp. 22–23).
 
 {% endmd %}
 
