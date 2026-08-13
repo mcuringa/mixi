@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title>Design Lab</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- uncomment as needed
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="topNavBar" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Degrees</a>
+                <a class="nav-link link-light active" href="/courses">Courses</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="/courses/img/mixi-spray.jpg" alt="stencil art MIXI" class="header d-print-none">
+    <div class="p-4"><h4 class="muted d-block text-center">Summer 2026</h4>
+<h1 class="border-bottom border-4 border-black">Maker Lab 1: Design Lab</h1>
+<div class="container mx-auto border-bottom border-2 border-black pt-2">
+   <p>
+      <strong>Keywords:</strong> art, aesthetics, politics, creativity, design, STEAM, maker education, murals, collage, micro:bit, raspberry pi, hard fun
+   </p>
+   <p class="fw-bold">STEAM Teaching and Learning ESM 501, 3 credits</p>
+</div>
+
+<div class="container mx-auto row border-bottom border-2 border-black mt-3 pt-2">
+<div class="col-md-6 col-xl-4">
+
+<div class="text-muted fw-bold">Instructors:</div>
+
+<ul>
+  <li><a href="https://matt.curinga.com">Matthew X. Curinga</a> [<a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a>]</li>
+  <li><a href="https://www.milemarkerarts.com/">Eric Miles</a> [<a href="mailto:emiles@adelphi.edu">emiles@adelphi.edu</a>]</li>
+</ul>
+
+<div class="text-muted fw-bold">Meetings:</div>
+
+<ul>
+  <li>Monday-Friday, June 22-July 3
+    <ul>
+      <li>Section 001: 9am-12noon</li>
+      <li>Section 002: 1pm-4pm</li>
+    </ul>
+  </li>
+</ul>
+
+<div class="text-muted fw-bold">Location:</div>
+<p><a href="https://maps.app.goo.gl/hoyDaxxm8MHbjjCeA">Adelphi Brooklyn Center</a>
+Room 7122 (7th floor maker lab)</p>
+
+
+</div>
+
+<div class="col-md-6">
+<div class="text-muted fw-bold">Materials:</div>
+<p>
+There are no required textbooks for this course. All course materials
+will linked to through this site and are available in the course
+reader. All required software is Free and Open Source Software (FOSS), other
+software services are free to use or available through your Adelphi account.
+</p>
+</div>
+</div>
+
+<div class="container mx-auto row mt-3">
+<div class="col-md-4">
+
+
+<p class="lead"><b style="font-weight: bold">In the Design Lab</b> 
+students encounter the big ideas in Maker Education and STEAM as
+well as the practices of the maker lab. Emphasis is placed on
+engagement in and critique of the practice of “making” through
+foundational literature and hands on studio culture with a focus on
+creativity and learning.</p>
+</div>
+<div class="col-md-6">
+<h4>Goals</h4>
+
+<ol>
+  <li>Students will explore and analyze foundational and contemporary theories and
+approaches of MakerEd and STEAM texts and respond through a series of written,
+audio and video prompts.</li>
+  <li>Students will engage conceptual, aesthetic, and practical aspects of MakerEd and
+STEAM through the generation and production of a series of material and digital 
+prototyping and final projects. This includes creative problem-solving, 
+collaboration and critical inquiry as they ‘make’ with others. Both processes and 
+final work will be included in student-created digital portfolios.</li>
+  <li>Students will analyze and evaluate the role of MakerEd and STEAM theories and 
+practices in educational settings through a final interactive online zine that 
+curates their learning across the course.value</li>
+  <li>Students will have fun and experience joy in learning, understanding and 
+demonstrating the role of play, risk-taking and experimentation in making and 
+creating in MakerEd and STEAM environments.</li>
+</ol>
+
+
+</div>
+</div>
+
+<div class="container">
+<h2>Software</h2>
+<p>Student are encouraged to bring a laptop to each class meeting. If you do not have a laptop,
+you will be able to borrow one. You will not be able to complete class assignments using
+a phone, tablet/iPad, or Chromebook. If you are using a work laptop, please make sure
+that you have permission to install software.</p>
+
+<p><strong>Required software:</strong></p>
+
+<ul>
+  <li><a href="https://inkscape.org/">Inkscape</a> <small><em>vector graphics</em></small></li>
+  <li><a href="https://krita.org/en/">Krita</a> and (optional) <a href="https://www.gimp.org/">GIMP</a> <small><em>photos &amp; raster graphics</em></small></li>
+  <li><a href="https://discordapp.com/">Discord</a> <small><em>chat–install on your phone and laptop</em></small></li>
+</ul>
+
+<h2>Class schedule</h2>
+<p>This is an intensive, summer course where we squeeze a full semester’s worth of
+work into two weeks! In addition to class meetings, you will need to spend time
+outside of class in the maker lab, and arrange time to complete your museum visits.
+There are also readings and museum visits that must be completed on your own time.
+Please plan your schedule so that you can accommodate all of the course requirements.</p>
+
+<p><strong>Readings listed below are due for that class session, including our first meeting.</strong>
+Please come to class prepared to discuss the readings.</p>
+
+
+<table>
+<tr>
+   <th>#</th>
+   <th>Date</th>
+   <th>Topic</th>
+   <th>Readings</th>
+</tr>
+
+<tr>
+   <td>1</td>
+   <td>Mon, Jun 16</td>
+   <td>Art &amp; Education</td>
+   <td>Greene; Key</td>
+</tr>
+
+<tr>
+   <td>2</td>
+   <td>Tues, Jun 17</td>
+   <td>Critical Pedagogy</td>
+   <td>Friere, Ch 2</td>
+</tr>
+
+<tr>
+   <td>3</td>
+   <td>Wed, Jun 18</td>
+   <td>Critical Thinking</td>
+   <td>Delpit Ch 7</td>
+</tr>
+
+<tr>
+   <td>-</td>
+   <td>Thurs, Jun 19</td>
+   <td><i>No Class - Optional Field Trip</i></td>
+   <td>Noddings; Ladson-Billing</td>
+</tr>
+
+<tr>
+   <td>4</td>
+   <td>Fri, Jun 20</td>
+   <td>Curriculum</td>
+   <td>Noddings; Ladson-Billing</td>
+</tr>
+
+<tr>
+   <td>5</td>
+   <td>Mon, Jun 23</td>
+   <td>Constructionism</td>
+   <td>Martinez &amp; Stager; Papert</td>
+</tr>
+
+<tr>
+   <td>6</td>
+   <td>Tues, Jun 24</td>
+   <td>Maker Education</td>
+   <td>Cipolla</td>
+</tr>
+
+<tr>
+   <td>7</td>
+   <td>Wed, Jun 25</td>
+   <td>Aesthetics &amp; Politics</td>
+   <td>Low &amp; Proietti</td>
+</tr>
+
+<tr>
+   <td>8</td>
+   <td>Thurs, Jun 26</td>
+   <td>Studio/Workshop</td>
+   <td>-</td>
+</tr>
+
+<tr>
+   <td>9</td>
+   <td>Fri, Jun 27</td>
+   <td>Final Studio/Show</td>
+   <td>-</td>
+</tr>
+
+</table>
+
+<h2>Readings</h2>
+
+
+
+<div class="apa mx-0 mb-3 text-container">
+
+<p>Cipolla, C. (2019). Build It Better: Tinkering in Feminist Maker Pedagogy. <em>Women’s Studies</em>, <em>48</em>(3), 261–282. [<a href="https://drive.google.com/file/d/1WN-fviW3BUMc5LHqz39bH2Z8YVf9o0AG/view?usp=drive_link">pdf</a>]</p>
+
+<p>Delpit, L. (2012). <em>Multiplication Is for White People: Raising Expectations for Other People’s Children</em>. (Chapter 7: Picking up the broom: demanding critical thinking) The New Press. [<a href="https://drive.google.com/file/d/1iYJLyEYAGf3knQ--4k60imqJ60dUaUvs/view?usp=drive_link">pdf</a>]</p>
+
+<p>Forensic Architecture, &amp; Poitras, L. (Directors). (2019). <a href="https://forensic-architecture.org/investigation/triple-chaser/">Triple Chaser</a> [Documentary, Short]. Praxis Films.</p>
+
+<p>Freire, P. (1971). <em>Pedagogy of the Oppressed</em> (M. B. Ramos, Trans., Chapter 2). Herder and Herder.</p>
+
+<p>Keh, A. (2025, May 18). <a href="https://www.nytimes.com/2025/05/18/nyregion/times-square-black-woman-statue.html">Times Sq. Sculpture Prompts Racist Backlash. To Some, That’s the Point</a>. <em>The New York Times</em>.</p>
+
+<p>Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. <em>In White Teachers / Diverse Classrooms (2nd ed.)</em>. Routledge. [<a href="https://drive.google.com/file/d/1Lrl-N94ytbukzsrUpeJN3yuJTuOI9bSg/view?usp=drive_link">pdf</a>]</p>
+
+<p>Low, B., &amp; Proietti, M. (2021). Dissensus, Street Art and School Change. <em>International Journal of Art &amp; Design Education</em>, <em>40</em>(1), 7–19. [<a href="https://onlinelibrary-wiley-com.adelphi.idm.oclc.org/doi/full/10.1111/jade.12319">AU Libraries Online</a>] [<a href="https://drive.google.com/file/d/1_fl8Q3q0ZLvOxZh_qKdVo9VZFP_JP0U1/view?usp=drive_link">pdf</a>]</p>
+
+<p>Martinez, S. L., &amp; Stager, G. (2013).Chapter 1: An Insanely Brief and Incomplete History of Making. In <em>Invent to learn: Making, tinkering, and engineering in the classroom</em>. Constructing Modern Knowledge Press. [<a href="https://drive.google.com/file/d/1eruhyafUFMLE6FSbMVg_PiEbP6O6q5IM/view?usp=drive_link">pdf</a>] [<a href="https://drive.google.com/file/d/1a5LxUAptVrHX7f8zwU92nxBl6qb8SUej/view?usp=drive_link">epub</a>]</p>
+
+<p>Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. <em>Theory Into Practice</em>, <em>52</em>(3), 210–215. [<a href="https://drive.google.com/file/d/1dUgpl9_18ybk9AvPX-ohRRq-df_jZtmh/view?usp=drive_link">pdf</a>]</p>
+
+<p>Greene, M. (1977). The Artistic-Aesthetic and Curriculum. <em>Curriculum Inquiry</em>, <em>6</em>(4), 283–296. [<a href="https://drive.google.com/file/d/1o7dbDPtNlDjv3Z29JsXR9DKMIbRJZyI4/view?usp=drive_link">pdf</a>]</p>
+
+<p>Papert, S. (1991). Situating constructionism. In I. Harel &amp; S. Papert (Eds.), <em>Constructionism</em> (pp. 1–10). Praeger. [<a href="https://web.media.mit.edu/~calla/web_comunidad/Reading-En/situating_constructionism.pdf">mit.edu</a>]</p>
+
+<p>Papert, S. (2002). <a href="maker3/hard-fun.html">Hard Fun</a>. <em>Bangor Daily News</em>. Bangor, ME. Bangor Daily News.</p>
+
+
+</div>
+
+
+
+<h2 id="assignments">Assignments</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>Assignment</th>
+      <th>Due Date</th>
+      <th>Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Participation</td>
+      <td>June 20 &amp; 27</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Artist’s Journal</td>
+      <td>Ongoing</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Museum Visits</td>
+      <td>Ongoing</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Public Art Encounters</td>
+      <td>Ongoing</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Reading responses</td>
+      <td>Ongoing</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>Maker Lesson</td>
+      <td>June 23</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Online Portfolio</td>
+      <td>June 27</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>Mural Panel</td>
+      <td>June 27</td>
+      <td>20</td>
+    </tr>
+  </tbody>
+</table>
+
+</div>
+
+<div class="wide-container row">
+<div class="col-md-6">
+
+
+
+
+<h3 id="participation">Participation</h3>
+<p>A <em>class</em> is a place where we study together. Your
+participation will help make this a great class.</p>
+
+<p>To get full participation points:</p>
+
+<ol>
+  <li><strong>Attend every class session.</strong> This is a short course and there
+are no excused absences outside of medical exemptions with a doctor’s
+note, modification from the Student Access Office, or
+a religious holiday.</li>
+  <li><strong>Don’t be late. Don’t leave early.</strong></li>
+  <li><strong>Do the readings.</strong> Come to class prepared to discuss the readings.
+If it’s obvious that you didn’t do the readings, or made little effort
+to engage with or try to understand them, you will lose participation points.</li>
+  <li><strong>Maintain the lab.</strong> We are all responsible for maintaining the maker lab, closet,
+and our materials. Help us set up, help keep things clean and organized, help
+us put things away.</li>
+  <li><strong>Be bold.</strong> This is a class about creativity and “making”. We want you to take risks,
+to try new things. <em>This is not an easy thing!</em></li>
+  <li><strong>Be kind and respectful.</strong> We love a spirited debate, strong opinions, and
+learning new things from each other. But those practices only work if we
+offer our respect to the other participants and assume they are operating
+in good faith, too.</li>
+  <li><strong>Keep an open mind.</strong> Disagree with the instructors and other students
+<em>after</em> fully attempting, engaging, and considering the materials and context.<br />
+Try first, argue later.</li>
+  <li><strong>Communicate.</strong> Read your emails. Post on Discord. Talk to your partners.
+Let the instructors know if there’s a problem or question. Tell us how to
+make things better.</li>
+</ol>
+
+<p>You will reflect on your participation in your artist’s journal.</p>
+
+<ul>
+  <li>Upload a photo of your week 1 reflection here</li>
+  <li>Upload a photo of your week 2 reflection here</li>
+</ul>
+
+<h3 id="artists-journal">Artist’s Journal</h3>
+<p>Everyone will keep an artist’s journal during this course
+(and after, we hope). The Journal is a place for you to record
+thoughts, plan designs, sketch ideas, and reflect. There will
+be some “assigned” journal entries (see below), but mostly
+it is meant for your own benefit. Journaling might not be for you…
+but for the purpose of this course, try it out with an open mind.</p>
+
+<p>To “grade” your journal, you will upload photos of key pages to 
+your online portfolio and post a brief (300-500 word) reflection 
+about how you used it, and what you thought of the journal.</p>
+
+<h3 id="public-art-encounters">Public Art Encounters</h3>
+<p>New York is full of public art: famous sculptures, big shows, 
+street art, hidden and half forgotten works, and more. 
+You will document at least 3 public art works that you 
+encounter. At least one of these should be “sanctioned”
+work and at least one should be “unsanctioned” work.</p>
+
+<p>Document your encounter in your journal with at least
+one sketch of each work, and notes on the context,
+your experience, and thoughts on the work. Further
+document your encounter with photos and videos. Consider
+things like the medium of the work, the scale (aka size),
+the materials, when it was created, how it was funded (or not).</p>
+
+<p>Upload your documentation to your online portfolio.</p>
+
+<h3 id="museum-visits">Museum Visits</h3>
+<p>You will visit (at least) 3 museums outside of course hours. Each visit
+must be at least one hour long. You must keep journal entries for each
+visit that log the museum, the date and time of the visit, and key
+exhibitions or works that you engaged with. You should also document
+your visit with sketches, photos, and videos. You will create an
+entry on your online portfolio for each visit. Your entries
+should reflect on the visit in terms of course readings and discussions,
+including considering how the museums work as public pedagogy, the learning
+design, the aesthetic experience, politics of the museum, etc.</p>
+
+<p>You <em>must</em> visit at least one of the following “STEM” museums:</p>
+
+<ul>
+  <li><a href="https://nysci.org/">New York Hall of Science</a></li>
+  <li><a href="https://momath.org/">MoMath: Museum of Mathematics</a></li>
+  <li><a href="http://www.movingimage.us/">Museum of the Moving Image</a></li>
+  <li><a href="https://www.amnh.org/">American Museum of Natural History</a></li>
+</ul>
+
+<p>You can use your library card (New York, Brooklyn, or Queens) to get a free
+<a href="https://www.culturepass.nyc/">culture pass</a> to many museums in the city.
+Even if you can’t take advantage during our short course, it is a great
+resource. <a href="https://www.nyc.gov/site/idnyc/card/how-to-apply.page">IDNYC</a>
+is another great resource for museum and other cultural access in NYC,
+and it can double as a library card.</p>
+
+<p>The instructors will post other interesting museum exhibits and events
+on Discord as well as invitations to join us for informal, optional fieldtrips
+during the course. You can also check out the <a href="https://www.nyc-arts.org/">NYC Arts Calendar</a>
+for further ideas and events.</p>
+
+<p>If you join us for the optional Juneteenth field trip, it will count as
+one of the museum visits <em>and</em> the public art encounters. Bring your
+notebook.</p>
+
+
+
+</div>
+<div class="col-md-6">
+
+
+
+
+<h3 id="maker-lesson">Maker Lesson</h3>
+<p>You will read the New York State and professional standards
+for your content area (Math, Biology, Physics, Comp Sci, etc.)
+as well as the Art Standards. You will create your own lesson
+plan that addresses one of the standards from your content
+area and one of the art standards. Your lesson must incorporate
+key ideas of maker education and STEAM learning. The instructors
+will provide links to sample lesson plans as well as example templates
+for creating a lesson plan.</p>
+
+<p>Plan a lesson for a 45 minute class.</p>
+
+<p>At the very least, your lesson plan
+must include the following items:</p>
+
+<ul>
+  <li>a brief narrative describing what happens before and after this lesson</li>
+  <li>learning goals and standards covered in the lesson</li>
+  <li>materials list</li>
+  <li>a timeline of activities</li>
+  <li>how the lesson will be assessed</li>
+  <li>any instructor created materials (slides, handouts, examples)</li>
+</ul>
+
+<p>You will submit your lesson as a Google Doc shared with the instructors,
+with links to all external materials and resources.</p>
+
+<p>The lesson will be evaluated on the following criteria:</p>
+
+<ul>
+  <li>creativity of the lesson</li>
+  <li>alignment with standards</li>
+  <li>integration with maker and STEAM learning</li>
+  <li>viability of the lesson in a classroom setting</li>
+</ul>
+
+<p><em>Add your lesson plan to your portfolio to submit it.</em></p>
+
+<h3 id="reading-responses">Reading Responses</h3>
+<p>Use your notebook while completing the course readings:</p>
+
+<ul>
+  <li>take notes</li>
+  <li>write down quotes/citations</li>
+  <li>note sections to discuss</li>
+  <li>write a couple</li>
+</ul>
+
+<h3 id="online-portfolio">Online Portfolio</h3>
+<p>You will create an online portfolio that will be used throughout
+the Master’s in STEAM Teaching and Learning. While the portfolio
+will house many of your assignments, you are also responsible for
+designing a site that reflects your identity as a maker and educator.</p>
+
+<p>The portfolios will be created using Google Sites with your Adelphi
+email account. You will be responsible for maintaining the site
+permissions and making sure that it is available to the instructors
+and other students in the class, and that some aspects (at least)
+are fully public. Everyone is encouraged to use Google Sites, but
+if you have a strong preference for another platform, you
+can use it once you have instructor approval.</p>
+
+<p>Your portfolio will be evaluated on how well you demonstrate your 
+ability to use the features of your online platform, you ability
+to achieve a consistent and professional design and user experience, 
+the quality of your content (well edited writing, thoughtful images, 
+clear audio, etc), and the overall creativity and originality of your site.</p>
+
+<h3 id="mural-panel">Mural Panel</h3>
+<p>We are going to design and produce a mural during this course. The mural will be
+designed for a place in Adelphi’s new New York City center, which is under construction
+at 459 5th Avenue in midtown Manhattan.</p>
+
+<p>The mural will combine traditional arts with some electronic/digital
+elements. Under the direction of teaching artist Eric Miles, we will
+co-design themes, content, and a style for the mural. The mural will
+be divided into sections, where teams of 3 students are responsible
+for their own panel. Every panel will incorporate a unifying motif
+that connects it to neighboring panels and the entire work.</p>
+
+<p>As a project based “studio” course, the major project will be your
+team’s contribution to the mural panel. The instructors will giver you
+feedback on your work at many points during the course. You will
+work through the design process in many steps, including:</p>
+
+<ul>
+  <li>initial paper collage on the first day</li>
+  <li>digital design prototype your team’s panel</li>
+  <li>sketches and partial work for critique</li>
+  <li>the final panel</li>
+  <li>the integrated mural</li>
+</ul>
+
+<p>Each panel must include:</p>
+
+<ul>
+  <li>printed material that is incorporated into your panel</li>
+  <li>paint, stencil, sketch, etching, or other construction directly on the panel</li>
+  <li>a digital electronics element (LEDs, video, audio, sensor interaction, etc)</li>
+</ul>
+
+
+
+</div>
+</div>
+
+<hr class="mt-4 pt-4" />
+
+<h2 id="resources">Resources:</h2>
+<div style="column-count: 2; column-gap: 2rem;">
+
+<p><strong>Software:</strong></p>
+<ul>
+  <li><strong>Multimedia Production/Editing</strong>
+    <ul>
+      <li><a href="https://inkscape.org/">Inkscape</a>
+<small>vector graphics</small></li>
+      <li><a href="https://krita.org/en/">Krita</a>
+<small>photos &amp; raster graphics</small></li>
+      <li><a href="https://www.gimp.org/">GIMP</a>
+<small>photos &amp; raster graphics</small></li>
+      <li><a href="https://www.audacityteam.org/">Audacity</a>
+<small>sound editing</small></li>
+      <li><a href="https://obsproject.com/">OBS Studio</a>
+<small>Screen recording/screencasting</small></li>
+      <li><a href="https://www.blackmagicdesign.com/products/davinciresolve/">DaVinci Resolve</a>
+<small>video editing</small></li>
+      <li><a href="https://www.canva.com/">Canva</a>
+<small>online design/page layout tool</small></li>
+      <li><a href="https://www.figma.com/">Figma</a>
+<small>online prototyping/UX design tool</small></li>
+    </ul>
+  </li>
+  <li><strong>Programming</strong>
+    <ul>
+      <li><a href="https://makecode.microbit.org/">micro:bit makecode</a>
+ <small>web-based block programming for micro:bit</small></li>
+      <li><a href="https://code.visualstudio.com/">VS Code</a>
+<small>general cross platform code editor</small></li>
+    </ul>
+  </li>
+  <li><strong>Makerlab equipment</strong>
+    <ul>
+      <li><a href="https://bambulab.com/en/download/studio">Bambu Studio</a>
+<small>software to prepare prints</small></li>
+      <li><a href="https://design.cricut.com/">Cricut Design Space</a>
+<small>for cutting stencils/stickers</small></li>
+      <li><a href="https://www.embird.net/">Embird</a>
+<small>for embroidery</small></li>
+    </ul>
+  </li>
+  <li><strong>CAD/3D design/3D printing</strong>
+    <ul>
+      <li><a href="https://www.tinkercad.com/">Tinkercad</a>
+<small>web based CAD/3D design</small></li>
+      <li><a href="https://www.autodesk.com/products/fusion-360/overview">Fusion 360</a>
+<small>free for students</small></li>
+      <li><a href="https://www.blender.org/">Blender</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Photos and drawings:</strong></p>
+<ul>
+  <li><a href="https://commons.wikimedia.org/wiki/Main_Page">Wikimedia Commons</a>
+<small>the multimedia from Wikipedia and more</small></li>
+  <li><a href="https://www.pexels.com/">Pexels</a></li>
+  <li><a href="https://pixabay.com/">Pixabay</a></li>
+  <li><a href="https://unsplash.com/">Unsplash</a></li>
+  <li><a href="https://www.vecteezy.com/">Vecteezy</a></li>
+  <li><a href="https://openclipart.org/">OpenClipart</a></li>
+</ul>
+
+<p><strong>Music/Sound Effects:</strong></p>
+<ul>
+  <li><a href="https://freesound.org/">FreeSound</a></li>
+  <li><a href="https://freemusicarchive.org/">FMA Free Music Archive</a></li>
+  <li><a href="https://audionautix.com/">Audionautix</a></li>
+  <li><a href="https://www.bensound.com/free-music-for-videos">Bensound</a></li>
+  <li><a href="http://dig.ccmixter.org/">ccMixter</a></li>
+  <li><a href="https://incompetech.com/">Incompetech</a></li>
+  <li><a href="https://pixabay.com/">Pixabay</a></li>
+</ul>
+
+<p><strong>Free Video/Stock Video:</strong></p>
+<ul>
+  <li><a href="https://vimeo.com/creativecommons">Vimeo Creative Commons</a></li>
+  <li><a href="https://www.youtube.com/creativecommons">YouTube Creative Commons</a></li>
+  <li><a href="https://www.pexels.com/videos/">Pexels Video</a></li>
+  <li><a href="https://pixabay.com/videos/">Pixabay Video</a></li>
+  <li><a href="https://www.videezy.com/">Videezy</a></li>
+  <li><a href="https://www.videvo.net/">Videvo</a></li>
+  <li><a href="https://coverr.co/">Coverr</a></li>
+  <li><a href="https://mixkit.co/">Mixkit</a></li>
+</ul>
+
+<p><strong>Fonts:</strong></p>
+<ul>
+  <li><a href="https://fonts.google.com/">Google Fonts</a></li>
+  <li><a href="https://www.dafont.com/">DaFont</a></li>
+  <li><a href="https://www.fontsquirrel.com/">Font Squirrel</a></li>
+</ul>
+
+<p><strong>Icons:</strong></p>
+<ul>
+  <li><a href="https://fontawesome.com/">Font Awesome</a></li>
+  <li><a href="https://www.flaticon.com/">Flaticon</a></li>
+  <li><a href="https://icons8.com/">Icons8</a></li>
+  <li><a href="https://thenounproject.com/">Noun Project</a></li>
+  <li><a href="https://icons.getbootstrap.com/">Bootstrap Icons</a></li>
+  <li><a href="https://heroicons.com/">Heroicons</a></li>
+</ul>
+
+<p><strong>3D Models</strong></p>
+<ul>
+  <li><a href="https://www.thingiverse.com/">Thingiverse</a></li>
+  <li><a href="https://www.myminifactory.com/">MyMiniFactory</a></li>
+</ul>
+
+<p><strong>AI Generated:</strong></p>
+<ul>
+  <li><a href="https://www.midjourney.com/">Midjourney</a></li>
+  <li><a href="https://chatgpt.com/">DALL-E via ChatGPT</a></li>
+  <li><a href="https://stablediffusionweb.com/">Stable Diffusion</a></li>
+  <li><a href="https://labs.google/fx/tools/image-fx">Google ImageFX</a></li>
+  <li><a href="https://leonardo.ai/">Leonardo</a></li>
+</ul>
+
+<p><strong>Tutorials/Docs:</strong></p>
+<ul>
+  <li><a href="https://www.janome.com/machines/embroidery/mb-4s/">Janome MB-4S</a> 
+<small><em>our embroidery machine</em></small></li>
+  <li><a href="https://wiki.bambulab.com/en/x1/manual">Bambu X1 3D Printer Manual</a>
+<small>printer manual</small></li>
+  <li><a href="https://www.linkedin.com/learning/inkscape-essential-training-9975138">Essential Inkscape</a> <small>sign in with your adelphi account for free access</small></li>
+  <li><a href="https://www.tinkercad.com/learn">Tinkercad Learning</a></li>
+  <li><a href="https://support.google.com/a/users/answer/9282722">Google Sites</a></li>
+</ul>
+
+</div>
+
+</div>
+    
+    <hr>
+    <div class="container mx-auto mt-4 pt-4">
+        <h3 id="adelphi-university-services-policies-and-regulations">Adelphi University Services, Policies, and Regulations</h3>
+
+<h4 id="student-access-office-and-disability-accommodation">Student Access Office and Disability Accommodation</h4>
+
+<p>If you have a disability that may significantly impact your ability to carry out assigned 
+coursework, please contact the <a href="https://www.adelphi.edu/access-office/">Student Access Office (SAO)</a>
+at <tel>(516) 877-3806</tel> or send an email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. The staff will review your concerns and 
+determine, with you, appropriate and necessary accommodations. Please allow for a reasonable time frame for 
+requesting ASL interpreters or transcription services.</p>
+
+<p>Reasonable accommodations are available in online classes for students with a documented 
+disability. Please note that due to the nature of online courses, some accommodations approved 
+for on campus classes may not apply. If you have a disability that may significantly impact your 
+ability to carry out assigned coursework, please contact the SAO at <tel>(516) 877-3806</tel> or send an 
+email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. We will review your request and determine with you appropriate and 
+necessary accommodations.</p>
+
+<h4 id="university-libraries">University Libraries</h4>
+<p>The Adelphi University Libraries provides education, information resources, services and spaces that advance teaching, learning, research and creative activity. The Libraries provide semester-long support to assist with research assignment development, skills assessment, research readiness and more. Our goal is to equip learners with the information literacy skills necessary to become effective lifelong consumers of information. For more information visit the <a href="https://www.adelphi.edu/libraries/">Libraries homepage</a>
+or <a href="https://www.adelphi.edu/libraries/contacts-get-help/">contact us</a> for help.</p>
+
+<h4 id="student-counseling-center">Student Counseling Center</h4>
+
+<p>The Student Counseling Center (SCC) provides confidential and professional virtual mental health 
+counseling services, resources, and referrals to support the academic and personal success, health, 
+and well-being of Adelphi students without additional charge. Counselors are available to help 
+students cope with a variety of stressors and personal issues that may interfere with their academic 
+and personal experiences. The SCC also supports students who may be feeling suicidal or in crisis. To 
+schedule an appointment, call (516) 877-3646 or email scc@adelphi.edu. If you need immediate 
+assistance, walk-in services are available during the fall and spring semesters Monday-Friday, 9:00 a.
+m.–5:00 p.m. Additional information can also be found at <scc.adelphi.edu>.</scc.adelphi.edu></p>
+
+<p>Need support when the SCC is not available? For 24/7 emergency counseling, referral, or assistance, please contact:</p>
+
+<ul>
+  <li>Long Island Crisis Center: <tel>(516) 679-1111</tel></li>
+  <li>National Suicide Prevention Lifeline: 988</li>
+  <li>Crisis Text Line: Text PAWS to 741741</li>
+  <li>Adelphi Office of Public Safety:
+    <ul>
+      <li>Off campus: <tel>(516) 877-3511</tel></li>
+      <li>On campus: Extension 5 on any campus phone</li>
+      <li>911 (for immediate health-related emergency)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="center-for-academic-support-and-enrichment-formerly-the-learning-and-writing-centers">Center for Academic Support and Enrichment (formerly the Learning and Writing Centers)</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Website: <a href="http://adelphi.edu/case">http://adelphi.edu/case</a></td>
+      <td>Email: <a href="mailto:CASE@adelphi.edu">CASE@adelphi.edu</a></td>
+    </tr>
+    <tr>
+      <td>Phone: <tel>(516) 877-3200</tel></td>
+      <td>Location: Nexus 132</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The Center for Academic Support and Enrichment (CASE) offers programs and services—like individual 
+tutoring in writing and subjects across the curriculum, small group study sessions, academic coaching 
+and targeted workshops—that help students explore, deepen and extend their classroom learning. Support 
+programming focuses on establishing foundational skills and techniques of studentship, like time 
+management and note-taking. Enrichment services develop higher-order critical thinking skills and 
+problem solving skills inherent in both abstractions and applications of curricular study. Contact us 
+via email, phone or via <a href="https://login.adelphi.edu/cas/login?service=https%3A%2F%2Fportal.adelphi.edu%2F">eCampus</a> 
+to review our full slate of real-time (in person and remote) and 
+asynchronous services. These are included in your tuition, so you’ve already bought them! Don’t miss 
+out on the opportunity to supercharge your college experience. Many services require reservations, 
+especially late in the semester. Reserve a spot on our scheduling portal and/or join the self-directed 
+virtual <a href="https://moodle.adelphi.edu/course/view.php?id=102830&amp;notifyeditingon=1">CASE LAB</a>. 
+Get on the CASE, and take your Adelphi experience to the next level.</p>
+
+<h3 id="generative-ai-genai-usage-policy">Generative AI (GenAI) Usage Policy</h3>
+
+<p><strong>Definition of GenAI:</strong></p>
+
+<p>Generative AI refers to a class of artificial intelligence techniques that create new content, such as text, images, or music, by learning patterns from existing data. These models use machine learning algorithms to generate novel outputs based on input data.<br />
+ChatGPT is the best known example of GenAI, along with Microsoft Copilot and Google Gemini, but tools like Quillbot and Grammarly also use GenAI technologies.</p>
+
+<p><strong>Students’ Responsibility:</strong></p>
+
+<p>Students must ensure they understand the tools they are using to complete course assignments. By handing in work, students are accepting responsibility for following all University and course policies concerning academic integrity and will be reported for violations.<br />
+Turnitin’s AI detection software returns a score reflecting the percentage of text that is likely to have been generated by AI—it does not determine whether that text was generated by tools like ChatGPT from a prompt or by tools like Grammarly from existing text. Therefore, students who regularly use Grammarly and similar tools should ask permission from the instructor beforehand and should save versions of their work by using Google Docs or by enabling MS Word’s version history feature. Doing so will provide a record of each stage in the process of completing the assignment.</p>
+
+<h3 id="the-adelphi-honor-code">The Adelphi Honor Code</h3>
+<p>“The University is an academic community devoted to the pursuit of knowledge. Fundamental to this pursuit is academic
+integrity. In joining the Adelphi community I accept the University’s Statement of Academic Integrity and pledge to
+uphold the principles of honesty and civility embodied in it. I will conduct myself in accordance with ideals of truth
+and honesty and I will forthrightly oppose actions which would violate these ideals.”</p>
+
+<h3 id="code-of-academic-integrity">Code of Academic Integrity</h3>
+<p>The <a href="https://www.adelphi.edu/policies/academic-integrity/">Code of Academic Integrity </a> 
+prohibits behavior that can broadly be described as lying, cheating, or stealing.
+<a href="https://www.adelphi.edu/conduct/academic-dishonesty/">Academic dishonesty</a> or 
+violations of the Code of Academic Integrity include, but are not limited to, the following:</p>
+
+<ol>
+  <li>Fabricating data or citations</li>
+  <li>Collaborating in areas not approved by the professor</li>
+  <li>Unauthorized multiple submission of one’s own work</li>
+  <li>Sabotage of others’ work, including library vandalism or manipulation</li>
+  <li>Plagiarism</li>
+  <li>The creation of unfair advantage</li>
+  <li>The facilitation of dishonesty</li>
+  <li>Tampering with or falsifying records</li>
+  <li>Cheating</li>
+  <li>Other forms of academic dishonesty</li>
+</ol>
+
+<p>Copying and pasting from any source into your assignments or exams without quotation marks, citations and references,
+constitutes plagiarism. Students are expected to produce and submit original work and to cite all sources appropriately.
+Unauthorized collaboration on any work, or the presentation of someone else’s work as your own, is plagiarism. Content
+generated by an Artificial Intelligence third-party service or site (AI-generated content, e.g. ChatGPT) without
+attribution or authorization is also a form of plagiarism. Unless explicitly stated, artificial intelligence-based
+technologies, such as ChatGPT or word mixing software, cannot be used to generate responses (partial or otherwise) for
+student assignments or exams.</p>
+
+<p>If you are unsure about what plagiarism or another form of academic dishonesty are, please reach out to me to discuss it
+as soon as possible. An allegation of an academic integrity violation of this section may be referred for further review
+and could result in disciplinary action.</p>
+
+<h3 id="student-course-evaluations">Student Course Evaluations</h3>
+<p>During the last two weeks of the class, you will receive notification, via email and eCampus, that the course evaluation
+is available for your input electronically. Your feedback is valuable and students are strongly encouraged to respond.
+Please be assured that your responses are anonymous and the results will not be available to the instructor until after
+course grades have been submitted after the semester ends.</p>
+
+<h3 id="religious-observance-policy">Religious Observance Policy</h3>
+<p>Adelphi University welcomes diversity in its community and respects various religious observances. Students who
+anticipate being absent due to their religious observance are required by Adelphi University to notify their professors
+at the start of the semester. This will allow faculty to take these observances into consideration in light of their
+course exam and assignment schedules. Students absent from class, clinical experiences, practice, labs, etc. on those
+days, after prior notice to the professor, will not be penalized for any exam or assignment deadline missed because of
+those absences. Students must contact the instructor to work out suitable arrangements for make-ups or other
+satisfaction of academic requirements. 
+<a href="https://www.adelphi.edu/policies/absence-policy/">Adelphi’s Exam/Assignment Absence Policy can be viewed here</a>.</p>
+
+<h3 id="attendance-policy">Attendance Policy</h3>
+<p>Only students who are registered for courses, and whose name appears on the Official Class Roster may attend courses at
+the University. Adelphi students make a commitment to be active participants in their educational program; class
+attendance is an integral part of this commitment. Students are expected to be present promptly at the beginning of each
+class period, unless prevented by illness or by other compelling cause. In the event of such absence, students may
+request that faculty members be notified by the Office of Academic Services and Retention. Students are responsible for
+learning course content and completing coursework missed through absences.</p>
+
+    </div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    529 5th Ave<br>
+                    New York, NY 10173<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', links);
+</script>
+
+
+</body>
+</html>
