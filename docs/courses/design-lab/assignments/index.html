@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- uncomment as needed
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="topNavBar" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Degrees</a>
+                <a class="nav-link link-light active" href="/courses">Courses</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="" alt="" class="header d-print-none">
+    <div class="p-4"><style>
+body {
+    opacity: 1;
+    animation: none;
+}
+</style>
+
+<h1 class="page-title">Maker Lab 1: Design Lab</h1>
+<nav class="navbar navbar-expand-md navbar-light bg-light border rounded px-3 mb-4" aria-label="Design Lab sections">
+  <span class="navbar-brand fw-bold">Fall 2026</span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#designLabNav" aria-controls="designLabNav" aria-expanded="false" aria-label="Toggle Design Lab navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="designLabNav">
+    <div class="navbar-nav">
+      <a class="nav-link" href="/courses/design-lab/">Introduction</a>
+      <a class="nav-link" href="/courses/design-lab/materials/">Books, Software, &amp; Expenses</a>
+      <a class="nav-link" href="/courses/design-lab/schedule/">Class Schedule</a>
+      <a class="nav-link active" aria-current="page" href="/courses/design-lab/assignments/">Assignments</a>
+      <a class="nav-link" href="/courses/design-lab/resources/">Docs & Resources</a>
+      <a class="nav-link" href="/courses/design-lab/policy/">Policies</a>
+    </div>
+  </div>
+</nav>
+
+
+<h2 id="assignments">Assignments</h2>
+
+<div class="wide-container row border-bottom border-2 border-black pt-2">
+<div class="col-md-6">
+
+
+
+
+<h3 id="participation-10-points">Participation (10 points)</h3>
+<p>A <em>class</em> is a place where we study together. Your
+participation will help make this a great class.</p>
+
+<p>To get full participation points:</p>
+
+<ol>
+  <li><strong>Attend every class session.</strong> This is a short course and there
+are no excused absences outside of medical exemptions with a doctor’s
+note, modification from the Student Access Office, or
+a religious holiday.</li>
+  <li><strong>Don’t be late. Don’t leave early.</strong></li>
+  <li><strong>Do the readings.</strong> Come to class prepared to discuss the readings.
+If it’s obvious that you didn’t do the readings, or made little effort
+to engage with or try to understand them, you will lose participation points.</li>
+  <li><strong>Maintain the lab.</strong> We are all responsible for maintaining the maker lab, closet,
+and our materials. Help us set up, help keep things clean and organized, help
+us put things away.</li>
+  <li><strong>Be bold.</strong> This is a class about creativity and “making”. We want you to take risks,
+to try new things. <em>This is not an easy thing!</em></li>
+  <li><strong>Be kind and respectful.</strong> We love a spirited debate, strong opinions, and
+learning new things from each other. But those practices only work if we
+offer our respect to the other participants and assume they are operating
+in good faith, too.</li>
+  <li><strong>Keep an open mind.</strong> Disagree with the instructors and other students
+<em>after</em> fully attempting, engaging, and considering the materials and context.<br />
+Try first, argue later.</li>
+  <li><strong>Communicate.</strong> Read your emails. Post on Discord. Talk to your partners.
+Let the instructors know if there’s a problem or question. Tell us how to
+make things better.</li>
+</ol>
+
+<p>You will reflect on your participation in your artist’s journal. Write a little
+bit about your accomplishments, goals, and things your would like to improve
+in how you engage with the course.</p>
+
+<p>Post your reflections to your portfolio. You are welcome to make these pages
+only visible to the instructors, but you can also think of this as a public,
+personal reflection like you might find in a blog post.</p>
+
+<h3 id="collage-15-points">Collage (15 points)</h3>
+
+<h3 id="online-portfolio-15-points">Online Portfolio (15 points)</h3>
+<p>You will create an online portfolio that will be used throughout
+the Master’s in STEAM Teaching and Learning. While the portfolio
+will house many of your assignments, you are also responsible for
+designing a site that reflects your identity as a maker and educator.</p>
+
+<p>The portfolios will be created using Google Sites with your Adelphi
+email account. You will be responsible for maintaining the site
+permissions and making sure that it is available to the instructors
+and other students in the class, and that some aspects (at least)
+are fully public. Everyone is encouraged to use Google Sites, but
+if you have a strong preference for another platform, you
+can use it once you have instructor approval.</p>
+
+<p>Your portfolio will be evaluated on how well you demonstrate your 
+ability to use the features of your online platform, you ability
+to achieve a consistent and professional design and user experience, 
+the quality of your content (well edited writing, thoughtful images, 
+clear audio, etc), and the overall creativity and originality of your site.</p>
+
+<p><em>Check out these examples:</em></p>
+
+<table>
+  <tbody>
+    <tr>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/gillians-digital-field-journal?pli=1&amp;authuser=2">Gillian Hagen</a></td>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/emiliahogg/home">Emilia Hogg</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/ccorwin/home">Chuhyon Corwin</a></td>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/robertperrone/home?authuser=1">Rob Perrone</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sites.google.com/view/anikab-esm-portfolio/home">Anika Bristol </a></td>
+      <td><a href="https://sites.google.com/view/miloroth-portfolio/home">Milo Roth </a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sites.google.com/view/robschwartz/home">Rob Schwartz</a></td>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/marco-suarezs-digital-portfoli/home">Marco Suarez </a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sites.google.com/view/portfoliomg0924000/home">Mike Gerber</a></td>
+      <td><a href="https://sites.google.com/view/erikalanfranchi/home">Erika Lanfranchi</a></td>
+    </tr>
+    <tr>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/aminz/home?pli=1&amp;authuser=2">Alicia Minervini</a></td>
+      <td><a href="https://sites.google.com/mail.adelphi.edu/maggie-mcgowan/home?pli=1&amp;authuser=2">Maggie McGowan</a></td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="artists-journal-5-points">Artist’s Journal (5 points)</h3>
+<p>Everyone will keep an artist’s journal during this course
+(and after, we hope). The Journal is a place for you to record
+thoughts, plan designs, sketch ideas, and reflect. There will
+be some “assigned” journal entries (see above and below), but mostly
+it is meant for your own benefit. Journaling might not be for you…
+but for the purpose of this course, try it out with an open mind.</p>
+
+<p>To “grade” your journal, you will upload photos of key pages to 
+your online portfolio and post a brief (300-500 word) reflection 
+about how you used it, and what you thought of the journal.</p>
+
+<h3 id="public-art-encounters-5-points">Public Art Encounters (5 points)</h3>
+<p>New York is full of public art: famous sculptures, big shows, 
+street art, hidden and half forgotten works, and more. 
+You will document at least 3 public art works that you 
+encounter. At least one of these should be “sanctioned”
+work and at least one should be “unsanctioned” work.</p>
+
+<p>Document your encounter in your journal with at least
+one sketch of each work, and notes on the context,
+your experience, and thoughts on the work. Further
+document your encounter with photos and/or videos. Consider
+things like the medium of the work, the scale (aka size),
+the materials, when it was created, how it was funded (or not).</p>
+
+<p>Upload your documentation to your online portfolio.</p>
+
+<h3 id="maker-lesson-design-15-points">Maker Lesson Design (15 points)</h3>
+<p>You will read the New York State and professional standards
+for your content area (Math, Biology, Physics, Comp Sci, etc.)
+as well as the Art Standards. You will create your own lesson
+plan that addresses one of the standards from your content
+area and one of the art standards. Your lesson must incorporate
+key ideas of maker education and STEAM learning. The instructors
+will provide links to sample lesson plans as well as example templates
+for creating a lesson plan.</p>
+
+<p>Plan a lesson for a 45 minute class.</p>
+
+<p>At the very least, your lesson plan
+must include the following items:</p>
+
+<ul>
+  <li>a brief narrative describing what happens before and after this lesson</li>
+  <li>learning goals and standards covered in the lesson</li>
+  <li>materials list</li>
+  <li>a timeline of activities</li>
+  <li>how the lesson will be assessed</li>
+  <li>any instructor created materials (slides, handouts, examples)</li>
+</ul>
+
+<p>You will submit your lesson as a Google Doc shared with the instructors,
+with links to all external materials and resources.</p>
+
+<p>The lesson will be evaluated on the following criteria:</p>
+
+<ul>
+  <li>creativity of the lesson</li>
+  <li>alignment with standards</li>
+  <li>integration with maker and STEAM learning</li>
+  <li>viability of the lesson in a classroom setting</li>
+</ul>
+
+<p><em>Add your lesson plan to your portfolio to submit it.</em></p>
+
+
+
+</div>
+<div class="col-md-6">
+
+<h3 id="museum-visits-5-points">Museum Visits (5 points)</h3>
+<p>You will visit (at least) 3 museums outside of course hours. Each visit
+must be at least one hour long. You must keep journal entries for each
+visit that logs the museum, the date and time of the visit, and key
+exhibitions or works that you engaged with. You should also document
+your visit with sketches, photos, and videos. You will create an
+entry on your online portfolio for each visit. Your entries
+should reflect on the visit in terms of course readings and discussions,
+including considering how the museums work as public pedagogy, the learning
+design, the aesthetic experience, politics of the museum, etc.</p>
+
+<p>You can use your library card (New York, Brooklyn, or Queens) to get a free
+<a href="https://www.culturepass.nyc/">culture pass</a> to many museums in the city.
+Even if you can’t take advantage during our short course, it is a great
+resource. <a href="https://www.nyc.gov/site/idnyc/card/how-to-apply.page">IDNYC</a>
+is another great resource for museum and other cultural access in NYC,
+and it can double as a library card.</p>
+
+<p>The instructors will post other interesting museum exhibits and events
+on Discord as well as invitations to join us for informal, optional field trips
+during the course. You can also check out the <a href="https://www.nyc-arts.org/">NYC Arts Calendar</a>
+for further ideas and events.</p>
+
+<h5 id="stem-museums">STEM Museums</h5>
+<p>You <em>must</em> visit at least one of the following “STEM” museums:</p>
+
+<ul>
+  <li><a href="https://nysci.org/">New York Hall of Science</a></li>
+  <li><a href="https://momath.org/">MoMath: Museum of Mathematics</a></li>
+  <li><a href="http://www.movingimage.us/">Museum of the Moving Image</a></li>
+  <li><a href="https://www.amnh.org/">American Museum of Natural History</a></li>
+  <li><a href="https://lsc.org/">Liberty Science Center</a></li>
+</ul>
+
+<h5 id="art-museums">Art Museums</h5>
+<p>To dive deeper into our study of art, creativity, and aesthetics, you should
+visit an art museum. You can hit one of the “big” ones (Met, MoMA) or look
+for a place you haven’t visited yet.</p>
+
+<ul>
+  <li><a href="https://www.metmuseum.org">The Metropolitan Museum of Art (The Met)</a></li>
+  <li><a href="https://www.metmuseum.org/visit/plan-your-visit/met-cloisters">The Met Cloisters</a></li>
+  <li><a href="https://www.moma.org">Museum of Modern Art (MoMA)</a></li>
+  <li><a href="https://www.momaps1.org">MoMA PS1</a></li>
+  <li><a href="https://www.guggenheim.org">Solomon R. Guggenheim Museum</a></li>
+  <li><a href="https://www.frick.org">The Frick Collection</a></li>
+  <li><a href="https://www.newmuseum.org">New Museum</a></li>
+  <li><a href="https://www.brooklynmuseum.org">Brooklyn Museum</a></li>
+  <li><a href="https://whitney.org">Whitney Museum of American Art</a></li>
+  <li><a href="https://www.themorgan.org">The Morgan Library &amp; Museum</a></li>
+  <li><a href="https://www.cooperhewitt.org">Cooper Hewitt, Smithsonian Design Museum</a></li>
+  <li><a href="https://madmuseum.org">Museum of Arts and Design (MAD)</a></li>
+  <li><a href="https://www.icp.org">International Center of Photography (ICP)</a></li>
+  <li><a href="https://www.elmuseo.org">El Museo del Barrio</a></li>
+  <li><a href="https://www.noguchi.org/museum">The Noguchi Museum</a></li>
+  <li><a href="https://asiasociety.org/new-york">Asia Society Museum</a></li>
+</ul>
+
+<h5 id="living-geographies-and-museums">Living geographies and museums</h5>
+<p>New York has many museums that might help inform our
+study of “living geographies”. Consider visiting one of these museums:</p>
+
+<ul>
+  <li><a href="https://www.mcny.org/">Museum of the City of New York</a></li>
+  <li><a href="https://americanindian.si.edu/">Museum of the American Indian</a></li>
+  <li><a href="https://www.mocanyc.org/">Museum of Chinese in America</a></li>
+  <li><a href="https://www.tenement.org/">The Tenement Museum</a></li>
+  <li><a href="https://thejewishmuseum.org/">The Jewish Museum</a></li>
+  <li><a href="https://www.weeksvillesociety.org/">Weeksville Brooklyn</a></li>
+  <li><a href="https://www.nyhistory.org/">The New-York Historical Society</a></li>
+  <li><a href="https://www.transitmuseum.org/">The Transit Museum</a></li>
+</ul>
+
+<h5 id="museum-field-trip">Museum Field Trip</h5>
+<p>We will host an optional field trip on Sunday,
+June 28 where we will visit the Museum of the City of New York
+and El Museo del Barrio.</p>
+
+<h3 id="living-geographies-panel-25-points">Living Geographies Panel (25 points)</h3>
+<p>You are going to work in a team of 3 or 4 students to create a panel
+for a group art exhibit around the theme: Living Geographies of New York.</p>
+
+<p>Your panel will combine traditional arts with some methods and techniques
+of the maker lab. Under the direction of teaching artist Eric Miles, we will
+co-design themes, content, and a style for the exhibit.</p>
+
+<p>As a project based “studio” course, the major project will be your
+team’s contribution to the exhibit. The instructors will giver you
+feedback on your work at many points during the course. You will
+work through the design process in many steps, including:</p>
+
+<ul>
+  <li>initial paper collage on the first day</li>
+  <li>digital design prototype your team’s panel</li>
+  <li>sketches and partial work for critique</li>
+  <li>the final panel</li>
+  <li>the integrated exhibit</li>
+</ul>
+
+<h3 id="reading-responses-5-points">Reading Responses (5 points)</h3>
+<p>Use your journal while completing the course readings:</p>
+
+<ul>
+  <li>take notes</li>
+  <li>write down quotes/citations</li>
+  <li>note sections to discuss</li>
+  <li>write a paragraph or two reflecting on the reading</li>
+  <li><strong>this must be your own work entirely, using AI for these responses is a violation of the academic integrity policy</strong></li>
+</ul>
+
+
+</div>
+
+</div>
+
+</div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    529 5th Ave<br>
+                    New York, NY 10173<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', links);
+</script>
+
+
+</body>
+</html>

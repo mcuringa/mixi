@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html class="h-100" lang="en">
+
+<head>
+  <!--
+    /\      | |    | |     | |   (_)
+   /  \   __| | ___| |_ __ | |__  _
+  / /\ \ / _` |/ _ \ | '_ \| '_ \| |
+ / ____ \ (_| |  __/ | |_) | | | | |
+/_/    \_\__,_|\___|_| .__/|_| |_|_|
+                     | |
+                     |_|
+ ______    _   _______        _
+|  ____|  | | |__   __|      | |
+| |__   __| |    | | ___  ___| |__
+|  __| / _` |    | |/ _ \/ __| '_ \
+| |___| (_| |    | |  __/ (__| | | |
+|______\__,_|    |_|\___|\___|_| |_|
+
+-->
+
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link rel="shortcut icon" type="image/ico" href="/assets/images/favicon.ico">
+
+
+  
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<!-- uncomment as needed
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Flip.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Observer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollToPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/Draggable.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/MotionPathPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EaselPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/PixiPlugin.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/TextPlugin.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/EasePack.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/CustomEase.min.js"></script>
+-->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+  <link href="/css/fonts.css" rel="stylesheet">
+  <link href="/css/main.css" rel="stylesheet">
+  
+
+</head>
+
+<body class="d-flex flex-column h-100">
+
+<style>
+:root {
+    --blue-purple: linear-gradient(158deg, rgba(99, 62, 128, .5) 18.75%, 
+                  rgb(0, 111, 203) 56.25%, 
+                  rgba(245, 193, 241, 0.57) 79.6875%);
+}
+
+body {
+    background-image: var(--blue-purple);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+
+.hex1 {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+}
+
+.hex2 {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("/courses/img/grid.png");
+  background-repeat: repeat;
+  background-position-x: -10px;
+  background-position-y: 17px;
+}
+
+
+
+.nav-link {
+    font-weight: bold;
+
+}
+.StoryGame {
+    background-image: url("/courses/img/doki.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 1em;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.Design {
+    background-color: rgba(255, 255, 255, 0.75);
+    position: relative;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 1600px;
+    padding: 0;
+    border-radius: 16px;
+}
+
+.PageTitle {
+    font-size: 40px;
+    font-weight: 900;
+
+}
+
+img.header {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+    max-width: 100%;
+    display: block;
+}
+
+
+.wide-container {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.text-container {
+    max-width: 720px;
+}
+
+</style>
+
+<div class="hex1"></div>
+<div class="hex2"></div>
+<nav class="MainNav bg-dark navbar navbar-expand-md z-1">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img class="d-block d-lg-none" src="/assets/images/mixi-word.png" alt="mixi">
+        </a>
+        <button class="navbar-toggler navbar-dark bg-dark" type="button" data-bs-toggle="collapse"
+            data-bs-target="#topNavBar" aria-controls="topNavBar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="topNavBar" class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="navbar-brand" href="/">
+                    <img class="d-none d-lg-block" src="/assets/images/mixi.png" alt="mixi">
+                </a>
+                <a class="nav-link link-light" href="/about">About</a>
+                <a class="nav-link link-light" href="/people">People</a>
+                <a class="nav-link link-light" href="/research">Research</a>
+                <a class="nav-link link-light active" href="/degrees">Degrees</a>
+                <a class="nav-link link-light active" href="/courses">Courses</a>
+                <a class="nav-link link-light" href="/blog">News</a>
+                <a class="nav-link link-light" href="/events">Events</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="Design container-fluid mx-auto mt-2">
+    <img src="" alt="" class="header d-print-none">
+    <div class="p-4"><style>
+body {
+    opacity: 1;
+    animation: none;
+}
+</style>
+
+<h1 class="page-title">Maker Lab 1: Design Lab</h1>
+<nav class="navbar navbar-expand-md navbar-light bg-light border rounded px-3 mb-4" aria-label="Design Lab sections">
+  <span class="navbar-brand fw-bold">Fall 2026</span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#designLabNav" aria-controls="designLabNav" aria-expanded="false" aria-label="Toggle Design Lab navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="designLabNav">
+    <div class="navbar-nav">
+      <a class="nav-link" href="/courses/design-lab/">Introduction</a>
+      <a class="nav-link" href="/courses/design-lab/materials/">Books, Software, &amp; Expenses</a>
+      <a class="nav-link" href="/courses/design-lab/schedule/">Class Schedule</a>
+      <a class="nav-link" href="/courses/design-lab/assignments/">Assignments</a>
+      <a class="nav-link" href="/courses/design-lab/resources/">Docs & Resources</a>
+      <a class="nav-link active" aria-current="page" href="/courses/design-lab/policy/">Policies</a>
+    </div>
+  </div>
+</nav>
+
+
+<h2 id="class--university-policies-ay-2026-2027">Class &amp; University Policies AY 2026-2027</h2>
+
+</div>
+    
+    <hr>
+    <div class="container mx-auto mt-4 pt-4">
+        <h3 id="adelphi-university-services-policies-and-regulations">Adelphi University Services, Policies, and Regulations</h3>
+
+<h4 id="student-access-office-and-disability-accommodation">Student Access Office and Disability Accommodation</h4>
+
+<p>If you have a disability that may significantly impact your ability to carry out assigned 
+coursework, please contact the <a href="https://www.adelphi.edu/access-office/">Student Access Office (SAO)</a>
+at <tel>(516) 877-3806</tel> or send an email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. The staff will review your concerns and 
+determine, with you, appropriate and necessary accommodations. Please allow for a reasonable time frame for 
+requesting ASL interpreters or transcription services.</p>
+
+<p>Reasonable accommodations are available in online classes for students with a documented 
+disability. Please note that due to the nature of online courses, some accommodations approved 
+for on campus classes may not apply. If you have a disability that may significantly impact your 
+ability to carry out assigned coursework, please contact the SAO at <tel>(516) 877-3806</tel> or send an 
+email to <a href="mailto:sao@adelphi.edu">sao@adelphi.edu</a>. We will review your request and determine with you appropriate and 
+necessary accommodations.</p>
+
+<h4 id="university-libraries">University Libraries</h4>
+<p>The Adelphi University Libraries provides education, information resources, services and spaces that advance teaching, learning, research and creative activity. The Libraries provide semester-long support to assist with research assignment development, skills assessment, research readiness and more. Our goal is to equip learners with the information literacy skills necessary to become effective lifelong consumers of information. For more information visit the <a href="https://www.adelphi.edu/libraries/">Libraries homepage</a>
+or <a href="https://www.adelphi.edu/libraries/contacts-get-help/">contact us</a> for help.</p>
+
+<h4 id="student-counseling-center">Student Counseling Center</h4>
+
+<p>The Student Counseling Center (SCC) provides confidential and professional virtual mental health 
+counseling services, resources, and referrals to support the academic and personal success, health, 
+and well-being of Adelphi students without additional charge. Counselors are available to help 
+students cope with a variety of stressors and personal issues that may interfere with their academic 
+and personal experiences. The SCC also supports students who may be feeling suicidal or in crisis. To 
+schedule an appointment, call (516) 877-3646 or email scc@adelphi.edu. If you need immediate 
+assistance, walk-in services are available during the fall and spring semesters Monday-Friday, 9:00 a.
+m.–5:00 p.m. Additional information can also be found at <scc.adelphi.edu>.</scc.adelphi.edu></p>
+
+<p>Need support when the SCC is not available? For 24/7 emergency counseling, referral, or assistance, please contact:</p>
+
+<ul>
+  <li>Long Island Crisis Center: <tel>(516) 679-1111</tel></li>
+  <li>National Suicide Prevention Lifeline: 988</li>
+  <li>Crisis Text Line: Text PAWS to 741741</li>
+  <li>Adelphi Office of Public Safety:
+    <ul>
+      <li>Off campus: <tel>(516) 877-3511</tel></li>
+      <li>On campus: Extension 5 on any campus phone</li>
+      <li>911 (for immediate health-related emergency)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="center-for-academic-support-and-enrichment-formerly-the-learning-and-writing-centers">Center for Academic Support and Enrichment (formerly the Learning and Writing Centers)</h3>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Website: <a href="http://adelphi.edu/case">http://adelphi.edu/case</a></td>
+      <td>Email: <a href="mailto:CASE@adelphi.edu">CASE@adelphi.edu</a></td>
+    </tr>
+    <tr>
+      <td>Phone: <tel>(516) 877-3200</tel></td>
+      <td>Location: Nexus 132</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The Center for Academic Support and Enrichment (CASE) offers programs and services—like individual 
+tutoring in writing and subjects across the curriculum, small group study sessions, academic coaching 
+and targeted workshops—that help students explore, deepen and extend their classroom learning. Support 
+programming focuses on establishing foundational skills and techniques of studentship, like time 
+management and note-taking. Enrichment services develop higher-order critical thinking skills and 
+problem solving skills inherent in both abstractions and applications of curricular study. Contact us 
+via email, phone or via <a href="https://login.adelphi.edu/cas/login?service=https%3A%2F%2Fportal.adelphi.edu%2F">eCampus</a> 
+to review our full slate of real-time (in person and remote) and 
+asynchronous services. These are included in your tuition, so you’ve already bought them! Don’t miss 
+out on the opportunity to supercharge your college experience. Many services require reservations, 
+especially late in the semester. Reserve a spot on our scheduling portal and/or join the self-directed 
+virtual <a href="https://moodle.adelphi.edu/course/view.php?id=102830&amp;notifyeditingon=1">CASE LAB</a>. 
+Get on the CASE, and take your Adelphi experience to the next level.</p>
+
+<h3 id="generative-ai-genai-usage-policy">Generative AI (GenAI) Usage Policy</h3>
+
+<p><strong>Definition of GenAI:</strong></p>
+
+<p>Generative AI refers to a class of artificial intelligence techniques that create new content, such as text, images, or music, by learning patterns from existing data. These models use machine learning algorithms to generate novel outputs based on input data.<br />
+ChatGPT is the best known example of GenAI, along with Microsoft Copilot and Google Gemini, but tools like Quillbot and Grammarly also use GenAI technologies.</p>
+
+<p><strong>Students’ Responsibility:</strong></p>
+
+<p>Students must ensure they understand the tools they are using to complete course assignments. By handing in work, students are accepting responsibility for following all University and course policies concerning academic integrity and will be reported for violations.<br />
+Turnitin’s AI detection software returns a score reflecting the percentage of text that is likely to have been generated by AI—it does not determine whether that text was generated by tools like ChatGPT from a prompt or by tools like Grammarly from existing text. Therefore, students who regularly use Grammarly and similar tools should ask permission from the instructor beforehand and should save versions of their work by using Google Docs or by enabling MS Word’s version history feature. Doing so will provide a record of each stage in the process of completing the assignment.</p>
+
+<h3 id="the-adelphi-honor-code">The Adelphi Honor Code</h3>
+<p>“The University is an academic community devoted to the pursuit of knowledge. Fundamental to this pursuit is academic
+integrity. In joining the Adelphi community I accept the University’s Statement of Academic Integrity and pledge to
+uphold the principles of honesty and civility embodied in it. I will conduct myself in accordance with ideals of truth
+and honesty and I will forthrightly oppose actions which would violate these ideals.”</p>
+
+<h3 id="code-of-academic-integrity">Code of Academic Integrity</h3>
+<p>The <a href="https://www.adelphi.edu/policies/academic-integrity/">Code of Academic Integrity </a> 
+prohibits behavior that can broadly be described as lying, cheating, or stealing.
+<a href="https://www.adelphi.edu/conduct/academic-dishonesty/">Academic dishonesty</a> or 
+violations of the Code of Academic Integrity include, but are not limited to, the following:</p>
+
+<ol>
+  <li>Fabricating data or citations</li>
+  <li>Collaborating in areas not approved by the professor</li>
+  <li>Unauthorized multiple submission of one’s own work</li>
+  <li>Sabotage of others’ work, including library vandalism or manipulation</li>
+  <li>Plagiarism</li>
+  <li>The creation of unfair advantage</li>
+  <li>The facilitation of dishonesty</li>
+  <li>Tampering with or falsifying records</li>
+  <li>Cheating</li>
+  <li>Other forms of academic dishonesty</li>
+</ol>
+
+<p>Copying and pasting from any source into your assignments or exams without quotation marks, citations and references,
+constitutes plagiarism. Students are expected to produce and submit original work and to cite all sources appropriately.
+Unauthorized collaboration on any work, or the presentation of someone else’s work as your own, is plagiarism. Content
+generated by an Artificial Intelligence third-party service or site (AI-generated content, e.g. ChatGPT) without
+attribution or authorization is also a form of plagiarism. Unless explicitly stated, artificial intelligence-based
+technologies, such as ChatGPT or word mixing software, cannot be used to generate responses (partial or otherwise) for
+student assignments or exams.</p>
+
+<p>If you are unsure about what plagiarism or another form of academic dishonesty are, please reach out to me to discuss it
+as soon as possible. An allegation of an academic integrity violation of this section may be referred for further review
+and could result in disciplinary action.</p>
+
+<h3 id="student-course-evaluations">Student Course Evaluations</h3>
+<p>During the last two weeks of the class, you will receive notification, via email and eCampus, that the course evaluation
+is available for your input electronically. Your feedback is valuable and students are strongly encouraged to respond.
+Please be assured that your responses are anonymous and the results will not be available to the instructor until after
+course grades have been submitted after the semester ends.</p>
+
+<h3 id="religious-observance-policy">Religious Observance Policy</h3>
+<p>Adelphi University welcomes diversity in its community and respects various religious observances. Students who
+anticipate being absent due to their religious observance are required by Adelphi University to notify their professors
+at the start of the semester. This will allow faculty to take these observances into consideration in light of their
+course exam and assignment schedules. Students absent from class, clinical experiences, practice, labs, etc. on those
+days, after prior notice to the professor, will not be penalized for any exam or assignment deadline missed because of
+those absences. Students must contact the instructor to work out suitable arrangements for make-ups or other
+satisfaction of academic requirements. 
+<a href="https://www.adelphi.edu/policies/absence-policy/">Adelphi’s Exam/Assignment Absence Policy can be viewed here</a>.</p>
+
+<h3 id="attendance-policy">Attendance Policy</h3>
+<p>Only students who are registered for courses, and whose name appears on the Official Class Roster may attend courses at
+the University. Adelphi students make a commitment to be active participants in their educational program; class
+attendance is an integral part of this commitment. Students are expected to be present promptly at the beginning of each
+class period, unless prevented by illness or by other compelling cause. In the event of such absence, students may
+request that faculty members be notified by the Office of Academic Services and Retention. Students are responsible for
+learning course content and completing coursework missed through absences.</p>
+
+    </div>
+    
+</main>
+<footer class="footer mt-auto py-3 bg-dark d-print-none z-1">
+    <div class="container">
+        <div class="row d-flex text-white">
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-end">
+                    <img src="/assets/images/au-newyork.png" alt="adelphi university" class="d-block" style="font-size: 32px">
+                </div>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>
+                    <b>MIXI <a href="/"><i class="bi bi-link-45deg"></i> mixi.nyc</a></b><br>
+                    Adelphi University<br>
+                    529 5th Ave<br>
+                    New York, NY 10173<br>
+                </p>
+            </div>
+            <div class="col mb-2 d-flex align-items-center justify-content-center">
+                <p>Contact: <a href="mailto:mcuringa@adelphi.edu" class="fw-bold">mcuringa@adelphi.edu</a></p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+<script src="/js/boot_styles.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', addBootstrapStyles);
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', links);
+</script>
+
+
+</body>
+</html>

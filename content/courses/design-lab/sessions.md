@@ -1,17 +1,10 @@
 ---
-layout: design
-title: "Design Lab Class Meetings"
-author:
-    - "Matthew X. Curinga"
-    - "Eric Miles"
-syllabus_footer: false
-header-img: /courses/img/crown-heights-panel.jpg
-header-img-alt: "artistic map and timeline of Crown Heights, Brooklyn
-
+layout: design-fall-26
+design_lab_section: sessions
 ---
 
 Class Sessions
-==============
+---------------
 
 S1 Monday June 22: Maker Education
 -----------------------------------

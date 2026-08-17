@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-md navbar-light bg-light border rounded px-3 mb-4" aria-label="Design Lab sections">
+  <span class="navbar-brand fw-bold">Fall 2026</span>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#designLabNav" aria-controls="designLabNav" aria-expanded="false" aria-label="Toggle Design Lab navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="designLabNav">
+    <div class="navbar-nav">
+      <a class="nav-link{% if page.design_lab_section == 'introduction' %} active{% endif %}"{% if page.design_lab_section == 'introduction' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/">Introduction</a>
+      <a class="nav-link{% if page.design_lab_section == 'materials' %} active{% endif %}"{% if page.design_lab_section == 'materials' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/materials/">Books, Software, &amp; Expenses</a>
+      <a class="nav-link{% if page.design_lab_section == 'schedule' %} active{% endif %}"{% if page.design_lab_section == 'schedule' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/schedule/">Class Schedule</a>
+      <a class="nav-link{% if page.design_lab_section == 'assignments' %} active{% endif %}"{% if page.design_lab_section == 'assignments' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/assignments/">Assignments</a>
+      <a class="nav-link{% if page.design_lab_section == 'resources' %} active{% endif %}"{% if page.design_lab_section == 'resources' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/resources/">Docs & Resources</a>
+      <a class="nav-link{% if page.design_lab_section == 'policy' %} active{% endif %}"{% if page.design_lab_section == 'policy' %} aria-current="page"{% endif %} href="{{ site.baseurl }}/courses/design-lab/policy/">Policies</a>
+    </div>
+  </div>
+</nav>
