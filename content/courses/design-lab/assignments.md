@@ -50,9 +50,6 @@ Post your reflections to your portfolio. You are welcome to make these pages
 only visible to the instructors, but you can also think of this as a public,
 personal reflection like you might find in a blog post.
 
-### Collage (15 points)
-
-
 ### Online Portfolio (15 points)
 You will create an online portfolio that will be used throughout
 the Master's in STEAM Teaching and Learning. While the portfolio
@@ -153,6 +150,65 @@ _Add your lesson plan to your portfolio to submit it._
 <div class="col-md-6">
 
 {% md %}
+### STEAM Collage (15 points)
+You will use materials provided in class and "found" materials
+that you bring in to create a collage that explores your own
+connections to science, math, and technologies. You are free to
+explore your personal experiences, the big ideas in the field, the
+impacts of STEM on the world, aspects of teaching and learning,
+or other threads that you wish to investigate.
+
+Use this opportunity to explore the expressive power of art and
+creativity. Remember that you are not creating a science poster
+or presentation. Artistic works are open to multiple interpretations,
+incorporate ambiguity, abstractions, beauty, surprise, and novelty.
+They elicit an emotional, sensual, and affective response as much
+as a logical or intellectual one. Take some risks and try something 
+new in this project. 5 of 15 points will be awarded purely for 
+"risk taking" (regardless of the outcome).
+
+_Collage guidelines:_
+
+- consider color carefully: most of your collage should come from
+  a limited color palette; a few accent colors can be used to focus
+  attention
+- unifying elements (repeated patterns, flowing shapes/lanes)
+  help connect the different parts of your collage and lead
+  the viewer through your work
+- do draw or paint directly on your board as needed
+- do (sparingly) incorporate materials available in the lab if
+  they meet your theme
+- do cut stencils for your collage
+- do not (not permitted) print new images for your collage
+- don't cover your entire board with a single background material
+- don't be afraid to leave empty space
+- you _may_ incorporate found items that you bring in, only with
+  instruct permission
+
+
+
+
+
+### Living Geographies Panel (25 points)
+You are going to work in a team of 3 or 4 students to create a panel
+for a group art exhibit around the theme: Living Geographies of New York.
+
+Your panel will combine traditional arts with some methods and techniques
+of the maker lab. Under the direction of teaching artist Eric Miles, we will
+co-design themes, content, and a style for the exhibit. 
+
+As a project based "studio" course, the major project will be your
+team's contribution to the exhibit. The instructors will giver you
+feedback on your work at many points during the course. You will
+work through the design process in many steps, including:
+
+- initial paper collage on the first day
+- digital design prototype your team's panel
+- sketches and partial work for critique
+- the final panel
+- the integrated exhibit
+
+
 ### Museum Visits (5 points)
 You will visit (at least) 3 museums outside of course hours. Each visit
 must be at least one hour long. You must keep journal entries for each
@@ -208,9 +264,7 @@ for a place you haven't visited yet.
 - [Asia Society Museum](https://asiasociety.org/new-york)
 
 
-##### Living geographies and museums
-New York has many museums that might help inform our
-study of "living geographies". Consider visiting one of these museums:
+##### History & Geography
 
 - [Museum of the City of New York](https://www.mcny.org/)
 - [Museum of the American Indian](https://americanindian.si.edu/)
@@ -220,30 +274,6 @@ study of "living geographies". Consider visiting one of these museums:
 - [Weeksville Brooklyn](https://www.weeksvillesociety.org/)
 - [The New-York Historical Society](https://www.nyhistory.org/)
 - [The Transit Museum](https://www.transitmuseum.org/)
-
-##### Museum Field Trip
-We will host an optional field trip on Sunday,
-June 28 where we will visit the Museum of the City of New York
-and El Museo del Barrio.
-
-### Living Geographies Panel (25 points)
-You are going to work in a team of 3 or 4 students to create a panel
-for a group art exhibit around the theme: Living Geographies of New York.
-
-Your panel will combine traditional arts with some methods and techniques
-of the maker lab. Under the direction of teaching artist Eric Miles, we will
-co-design themes, content, and a style for the exhibit. 
-
-As a project based "studio" course, the major project will be your
-team's contribution to the exhibit. The instructors will giver you
-feedback on your work at many points during the course. You will
-work through the design process in many steps, including:
-
-- initial paper collage on the first day
-- digital design prototype your team's panel
-- sketches and partial work for critique
-- the final panel
-- the integrated exhibit
 
 
 ### Reading Responses (5 points)

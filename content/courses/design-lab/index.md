@@ -17,20 +17,18 @@ design_lab_section: introduction
 
 {% md %}
 
-<div class="text-muted fw-bold">Instructors:</div>
+<div class="text-muted fw-bold">Instructor:</div>
 
 - [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>] 
-- [Eric Miles](https://www.milemarkerarts.com/) [<emiles@adelphi.edu>]
+- Office Hours:
+  - Wednesday, 3pm-5pm
+  - Thursday 4pm-6pm
+  - Online: _by appointment_
 
 <div class="text-muted fw-bold">Meetings:</div>
 
-- Wednesday, 5pm-7pm
-- STEAM Lab, Adelphi Manhattan Campus, 3rd Floor
-- Dates: 
-
-<div class="text-muted fw-bold">Location:</div>
-[Adelphi Manhattan Campus](https://maps.app.goo.gl/2ckow8RVobnkLHGfA)
-Third Floor Maker Lab
+- Wednesday, 5pm-7pm and asynchronous online
+- STEAM Lab, [Adelphi Manhattan Campus](https://maps.app.goo.gl/2ckow8RVobnkLHGfA), 3rd Floor, Room 311
 
 {% endmd %}
 

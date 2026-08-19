@@ -15,17 +15,17 @@ that you have permission to install software.
 **Required software:**
 
 - [Inkscape](https://inkscape.org/) <small>_vector graphics_</small>
-- [Krita](https://krita.org/en/) and (optional) [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
+- [GIMP](https://www.gimp.org/) <small>_photos & raster graphics_</small>
 - [Discord](https://discordapp.com/) <small>_chat_--install on your phone and laptop</small>
+- [Cricut Design Space](https://design.cricut.com/) <small>_stickers, stencils, cutting_</small>
 
 
-
-<a href="https://drive.google.com/file/d/1n5Va-4S9Ip1hnRF4BBJMOzV6CbbgKw4X/view?usp=drive_link"><img src="{{site.baseurl}}/courses/design-lab/course-reader.png" class="img-fluid float-end ms-3 mb-3" alt="Course Reader Cover" style="max-width: 300px;"></a>
+<a href="https://drive.google.com/file/d/1wYokkvn26hz4c99K9Dzk9xfulozMMcS8/view?usp=drive_link"><img src="{{site.baseurl}}/courses/design-lab/course-reader.png" class="img-fluid float-end ms-3 mb-3" alt="Course Reader Cover" style="max-width: 300px;"></a>
 
 ### Bibliography
 
 
-[**All readings are available in the course reader.**](https://drive.google.com/file/d/1n5Va-4S9Ip1hnRF4BBJMOzV6CbbgKw4X/view?usp=drive_link)
+[**All readings are available in the course reader.**](https://drive.google.com/file/d/1wYokkvn26hz4c99K9Dzk9xfulozMMcS8/view?usp=drive_link)
 {% endmd %}
 
 <div class="apa text-container">

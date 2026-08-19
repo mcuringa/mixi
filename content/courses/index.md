@@ -35,7 +35,7 @@ body {
     <button type="button" class="course-btn btn-ls btn btn-sm btn-primary" onclick="showCourses('ls')">PhD Learning Sciences</button>
 </div>
 <div class="d-flex flex-wrap mx-auto justify-content-center">
-{% for course in site.data.courses %}
+{% for course in site.data.course_list %}
     <div class="course rounded m-2 mb-4 d-flex flex-column justify-content-between shadow {{course.tags}}">
         {% if course.required == 'false' %}<div class="text-center text-danger fw-bold"><i class="bi bi-stars"></i> elective</div>{% endif %}
         {% if course.url %}
