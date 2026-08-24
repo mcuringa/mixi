@@ -19,7 +19,8 @@ design_lab_section: introduction
 
 <div class="text-muted fw-bold">Instructor:</div>
 
-- [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>] 
+- [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>]
+- Todd Seidman <TBD>
 - Office Hours:
   - Wednesday, 3pm-5pm
   - Thursday 4pm-6pm

@@ -2,10 +2,16 @@
 layout: design-fall-26
 design_lab_section: materials
 ---
+
 ## Books, Software, & Expenses
 
 <div class="container mx-auto mt-3">
 {%  md %}
+- There are no required textbooks for this course. Students should
+  [opt out of the Panther eBundle Course Materials program](https://www.adelphi.edu/one-stop/billing-and-payment/opt-out-programs/).
+- There will be costs associated with musuem visits (typically $0-$30 per museum)
+  and the escape room visits (typically $20-$30 per room).
+- There are no lab fees for consumable materials.
 
 Student are encouraged to bring a laptop to each class meeting. If you do not have a laptop,
 you will be able to borrow one. You will not be able to complete class assignments using
@@ -20,12 +26,12 @@ that you have permission to install software.
 - [Cricut Design Space](https://design.cricut.com/) <small>_stickers, stencils, cutting_</small>
 
 
-<a href="https://drive.google.com/file/d/1wYokkvn26hz4c99K9Dzk9xfulozMMcS8/view?usp=drive_link"><img src="{{site.baseurl}}/courses/design-lab/course-reader.png" class="img-fluid float-end ms-3 mb-3" alt="Course Reader Cover" style="max-width: 300px;"></a>
+<a href="https://drive.google.com/file/d/1UhqhVyENxS6-PPuj4SbHDOEYB3Xe80OT/view?usp=drive_link"><img src="{{site.baseurl}}/courses/design-lab/course-reader.png" class="img-fluid float-end ms-3 mb-3" alt="Course Reader Cover" style="max-width: 300px;"></a>
 
 ### Bibliography
 
 
-[**All readings are available in the course reader.**](https://drive.google.com/file/d/1wYokkvn26hz4c99K9Dzk9xfulozMMcS8/view?usp=drive_link)
+[**All readings are available in the course reader.**](https://drive.google.com/file/d/1UhqhVyENxS6-PPuj4SbHDOEYB3Xe80OT/view?usp=drive_link)
 {% endmd %}
 
 <div class="apa text-container">
@@ -46,11 +52,12 @@ Greene, M. (1977). The Artistic-Aesthetic and Curriculum. _Curriculum Inquiry_, 
 
 Ladson-Billings, G. (2011). “Yes, But How Do We Do It?”: Practicing Culturally Relevant Pedagogy. _In White Teachers / Diverse Classrooms (2nd ed.)_. Routledge.
 
+Lathwesen, C., & Belova, N. (2021). Escape Rooms in STEM Teaching and Learning—Prospective Field or Declining Trend? A Literature Review. _Education Sciences_, _11_(6), 308. <https://doi.org/10.3390/educsci11060308>
+
 Martinez, S. L., & Stager, G. (2013). Chapter 1: An Insanely Brief and Incomplete History of Making. In _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press.
 
 Noddings, N. (2013). Standardized Curriculum and Loss of Creativity. _Theory Into Practice_, _52_(3), 210–215.
 
-Rancière, J. (2004). Artistic Regimes and the Shortcomings of the Notion of Modernity. In _The Politics of Aesthetics_ (pp. 22–23).
 
 {% endmd %}
 </div>

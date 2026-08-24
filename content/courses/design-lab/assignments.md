@@ -10,7 +10,7 @@ design_lab_section: assignments
 <div class="wide-container row border-bottom border-2 border-black pt-2">
 <div class="col-md-6">
 
-{% capture left_col %}
+{% md %}
 
 ### Participation (10 points)
 A _class_ is a place where we study together. Your
@@ -70,15 +70,15 @@ to achieve a consistent and professional design and user experience,
 the quality of your content (well edited writing, thoughtful images, 
 clear audio, etc), and the overall creativity and originality of your site.
 
-_Check out these examples:_
+_See examples from the Summer '26 Design Lab:_
 
----------------- |----------------
-[Gillian Hagen](https://sites.google.com/mail.adelphi.edu/gillians-digital-field-journal?pli=1&authuser=2) | [Emilia Hogg](https://sites.google.com/mail.adelphi.edu/emiliahogg/home)
-[Chuhyon Corwin](https://sites.google.com/mail.adelphi.edu/ccorwin/home) | [Rob Perrone](https://sites.google.com/mail.adelphi.edu/robertperrone/home?authuser=1)
-[Anika Bristol ](https://sites.google.com/view/anikab-esm-portfolio/home) | [Milo Roth ](https://sites.google.com/view/miloroth-portfolio/home)
-[Rob Schwartz](https://sites.google.com/view/robschwartz/home) | [Marco Suarez ](https://sites.google.com/mail.adelphi.edu/marco-suarezs-digital-portfoli/home)
-[Mike Gerber](https://sites.google.com/view/portfoliomg0924000/home) | [Erika Lanfranchi](https://sites.google.com/view/erikalanfranchi/home)
-[Alicia Minervini](https://sites.google.com/mail.adelphi.edu/aminz/home?pli=1&authuser=2) | [Maggie McGowan](https://sites.google.com/mail.adelphi.edu/maggie-mcgowan/home?pli=1&authuser=2)
+- [Kareem Badr](https://sites.google.com/mail.adelphi.edu/kareembadr1)
+- [Darlene Eng](https://sites.google.com/mail.adelphi.edu/darlene-engs-design-lab/home)
+- [Alex Glasser](https://sites.google.com/mail.adelphi.edu/alexglasser)
+- [Farzana Hakim](https://sites.google.com/mail.adelphi.edu/farzana/home)
+- [Aaron-Moses Idowu](https://sites.google.com/mail.adelphi.edu/aaron-moses-idowu/home)
+- [Yash Kulkarni](https://sites.google.com/mail.adelphi.edu/designlabsummer2026kulkarni/home)
+
 
 ### Artist's Journal (5 points)
 Everyone will keep an artist's journal during this course
@@ -108,43 +108,21 @@ the materials, when it was created, how it was funded (or not).
 
 Upload your documentation to your online portfolio.
 
-### Maker Lesson Design (15 points)
-You will read the New York State and professional standards
-for your content area (Math, Biology, Physics, Comp Sci, etc.)
-as well as the Art Standards. You will create your own lesson
-plan that addresses one of the standards from your content
-area and one of the art standards. Your lesson must incorporate
-key ideas of maker education and STEAM learning. The instructors
-will provide links to sample lesson plans as well as example templates
-for creating a lesson plan.
+### Reading Responses (15 points)
+For each of the online weeks there are a set of readings. You should
+write a brief reading response (~300 words) for each week on your
+portfolio. Your response should have a point of view and be interesting
+to read. Think of it as a mini-essay with an original thesis. It should
+connect to the other readings, refer specifically to the texts, and draw
+on your experiences in this and other courses, your own classroom, and
+the world. If something is unclear, confusing, or "wrong" (in your opinion),
+you can say that as well. The online posts will form the basis for our
+in-person discussions.
 
-Plan a lesson for a 45 minute class.
+_If your response sounds like it was written by AI, you will receive zero points
+for that week._
 
-At the very least, your lesson plan
-must include the following items:
-
-- a brief narrative describing what happens before and after this lesson
-- learning goals and standards covered in the lesson
-- materials list
-- a timeline of activities
-- how the lesson will be assessed
-- any instructor created materials (slides, handouts, examples)
-
-You will submit your lesson as a Google Doc shared with the instructors,
-with links to all external materials and resources.
-
-The lesson will be evaluated on the following criteria:
-
-- creativity of the lesson
-- alignment with standards
-- integration with maker and STEAM learning
-- viability of the lesson in a classroom setting
-
-_Add your lesson plan to your portfolio to submit it._
-
-{% endcapture %}
-
-{{ left_col | markdownify }}
+{% endmd %}
 
 </div>
 <div class="col-md-6">
@@ -186,43 +164,48 @@ _Collage guidelines:_
   instruct permission
 
 
+### Escape Room Puzzle (25 points)
+We are going to work together to create an
+educational escape room around a STEM topic. You will
+work in a team of 2-4 students to design a puzzle that
+fits into the overall escape room narrative and aesthetic.
 
+Your puzzle design will show your ability to use the tools
+and processes of the maker lab for educational purposes;
+your ability to translate STEM content into a create,
+game-based learning experience; and your ability to work collaboratively
+with your team to meet your goals and deliver your fully
+working and tested puzzle on time. Your will document
+your creative and design process as part of your journal and
+online portfolio.
 
+### Escape Room Visits (5 points)
+You will visit at least 2 escape rooms outside of class. You can choose
+any escape room that suits your interest and time. Have fun with the
+experience, but also consider the design of the puzzles, the
+overall narrative, the aesthetic experience, and the materials
+required. Reflect on the experience in your journal, including
+any inspiration for your own puzzles and themes. Document your visit
+(without spoilers) on your portfolio.
 
-### Living Geographies Panel (25 points)
-You are going to work in a team of 3 or 4 students to create a panel
-for a group art exhibit around the theme: Living Geographies of New York.
-
-Your panel will combine traditional arts with some methods and techniques
-of the maker lab. Under the direction of teaching artist Eric Miles, we will
-co-design themes, content, and a style for the exhibit. 
-
-As a project based "studio" course, the major project will be your
-team's contribution to the exhibit. The instructors will giver you
-feedback on your work at many points during the course. You will
-work through the design process in many steps, including:
-
-- initial paper collage on the first day
-- digital design prototype your team's panel
-- sketches and partial work for critique
-- the final panel
-- the integrated exhibit
-
+**You must complete the first visit by Oct 1, and the second visit by Nov 1.**
 
 ### Museum Visits (5 points)
-You will visit (at least) 3 museums outside of course hours. Each visit
-must be at least one hour long. You must keep journal entries for each
-visit that logs the museum, the date and time of the visit, and key
-exhibitions or works that you engaged with. You should also document
-your visit with sketches, photos, and videos. You will create an
-entry on your online portfolio for each visit. Your entries
-should reflect on the visit in terms of course readings and discussions,
-including considering how the museums work as public pedagogy, the learning
-design, the aesthetic experience, politics of the museum, etc.
+You will visit (at least) 2 museums outside of course hours: 
+once STEM museum and one art museum. Each visit must be at 
+least one hour long. You must keep journal entries for each 
+visit that logs the museum, the date and time of the visit, and 
+key exhibitions or works that you engaged with. You should also 
+document your visit with sketches, photos, and/or videos. You 
+will create an entry on your online portfolio for each visit. 
+Your entries should reflect on the visit in terms of course 
+readings and discussions, including considering how the museums 
+work as public pedagogy, the learning design, the aesthetic 
+experience, politics of the museum, etc.
 
 You can use your library card (New York, Brooklyn, or Queens) to get a free
 [culture pass](https://www.culturepass.nyc/) to many museums in the city.
-Even if you can't take advantage during our short course, it is a great
+Even if you can't take advantage during this semester, it is a great
 resource. [IDNYC](https://www.nyc.gov/site/idnyc/card/how-to-apply.page)
 is another great resource for museum and other cultural access in NYC,
 and it can double as a library card.
@@ -274,16 +257,6 @@ for a place you haven't visited yet.
 - [Weeksville Brooklyn](https://www.weeksvillesociety.org/)
 - [The New-York Historical Society](https://www.nyhistory.org/)
 - [The Transit Museum](https://www.transitmuseum.org/)
-
-
-### Reading Responses (5 points)
-Use your journal while completing the course readings:
-
-- take notes
-- write down quotes/citations
-- note sections to discuss
-- write a paragraph or two reflecting on the reading
-- **this must be your own work entirely, using AI for these responses is a violation of the academic integrity policy**
 
 {% endmd %}
 

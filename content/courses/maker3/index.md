@@ -15,7 +15,7 @@ h1, h2, h3 { clear: both; }
 
 <h1 class="page-title">Maker Lab 3: School lab</h1>
 
-**STEAM Teaching & Learning ESM 503, Spring 2024**
+**STEAM Teaching & Learning ESM 503, Fall 2026**
 
 **Key words:** STEAM, Maker Lab, Constructionism, 3D printing, laser cutting, LEGO robotics, microbit, arduino
 
@@ -50,44 +50,45 @@ The student will be able to:
 <h2 class="no-clear">Class Information</h2>
 **Instructor:**
 
-- [Matthew X. Curinga](http://matt.curinga.com), <mcuringa@adelphi.edu>
-- Tracy Hogan, <hogan@adelphi.edu>
+- [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>]
+- Office Hours:
+  - Wednesday, 3pm-5pm
+  - Thursday 4pm-6pm
+  - Online: _by appointment_
 
-**Class dates:** Tuesday January 23 - Tuesday May 15
+<div class="text-muted fw-bold">Meetings:</div>
 
-**Office hours:**
-
-- Tuesday 3pm-5pm, Brooklyn Campus
-- _office hours by appointment_
-
-**Class roster:** [google docs](https://docs.google.com/spreadsheets/d/1B8ZZe3VW4FtDiNOnjHGIbB07t99LyW9LeJLuBWkZBX8/edit?usp=drive_link)
-
-**Student signup:** [[google docs](https://docs.google.com/spreadsheets/d/11QyvgZvtxn4M61BnzcpryiphDf8AVf3ych5oe06MD-8/edit?usp=sharing)]
-<small>for article presentations, workshop teams, workshop materials</small>
+- Wednesday, 5pm-7pm and asynchronous online
+- STEAM Lab, [Adelphi Manhattan Campus](https://maps.app.goo.gl/2ckow8RVobnkLHGfA), 3rd Floor, Room 311
+- in person meetings:
+  - September: 2, 16, 30
+  - October: 14, 28
+  - November: 11 (b/c of Thanksgiving, we will schedule an optional studio day)
+  - December: 7 (mini conference)
 
 Required Textbook
 -----------------
-_There is no required textbook for this course. Course readings will be made available through this course website._
+There are no required textbooks for this course. Students should
+[opt out of the Panther eBundle Course Materials program](https://www.adelphi.edu/one-stop/billing-and-payment/opt-out-programs/).
 
 Class Schedule
 --------------
 
-| Module | Date       | Topic                                                 | Section 1 | Section 2 |
-|--------|------------|-------------------------------------------------------|-----------|-----------|
-| 1      | Jan 28     | Robotics, Creativity, & Roots of Maker Education      | Jan 28    | Feb 4     |
-| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks | Feb 11    | Feb 11    |
-| 3      | Feb 25     | Workshop Brainstorming                                | Feb 25    | Mar 4     |
-| 4      | Mar 11     | Pitch                                                 | Mar 11    | Mar 18    |
-| 5      | Mar 25     | Workshop Critique                                     | Mar 25    | Apr 1     |
-| 6      | Apr 8      | Studio Session                                        | Apr 8     | Apr 15    |
-| 7      | Apr 29     | Workshop Rehearsal                                    | Apr 29    | May 6     |
-| **8**  | **May 13** | **Conference**                                        | **May 13**| **May 13**|
+| Module | Date       | Topic                                                 
+|--------|------------|-------------------------------------------------------
+| 1      | Jan 28     | Robotics, Creativity, & Roots of Maker Education      
+| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks 
+| 3      | Feb 25     | Workshop Brainstorming                                
+| 4      | Mar 11     | Pitch                                                 
+| 5      | Mar 25     | Workshop Critique                                     
+| 6      | Apr 8      | Studio Session                                        
+| 7      | Apr 29     | Workshop Rehearsal                                    
+| **8**  | **May 13** | **Conference**                                        
 
 This course is organized into 8 2-week modules. Each module consists of an in-person
-meeting in the Maker Lab and an online week. If you are in **section 001** you will
-meet in person for the section 1 dates, above. Likewise for **section 002**.
+meeting in the Maker Lab and an online week.
 
-**Everyone will meet for a final public conference on May 13.**
+**Everyone must meet for a final public conference on Monday December 7.**
 
 This is a hybrid course with some in-person meetings and some online meetings. Mostly, we will
 meet in-person every other week, but see the schedule above for details. Online weeks will be
@@ -98,14 +99,14 @@ In-person classes will feature discussions of course readings, group working ses
 maker lab activities. Towards the end of the term we will focus on developing your STEAM
 workshops. 
 
-_You **must** complete the readings for the current module before your the in-person meeting for your section._
+_You **must** complete the readings for the current module before our in-person meeting._
 
 
 Class Meetings
 --------------
 <section class="d-flex flex-wrap justify-content-between">
 {% card %}
-### Module 1: Roots & Robots (Jan 28 - Feb 4)
+### Module 1: Roots & Robots
 In our first 2 weeks we will read and talk about the roots
 of maker and STEAM education, and reflect on the goals
 of maker ed while advancing our own skills in with the
@@ -129,11 +130,9 @@ _Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons
 
 #### Agenda
 1. Introductions
-2. About the School Lab
-3. Discuss Readings
-4. Intro to LEGO robotics
-4. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
-5. Lab Demo
+2. Intro to LEGO robotics
+3. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
+4. Lab Demo
 {% endcard %}
 
 
