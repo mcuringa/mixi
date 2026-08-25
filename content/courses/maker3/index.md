@@ -5,6 +5,7 @@ author:
     - "Matthew X. Curinga"
     - "Tracy Hogan"
 links: h2,h3
+syllabus_footer: true
 ---
 <style>
 .maker-img { max-width: 100%; width: 600px; padding: 1em;}
