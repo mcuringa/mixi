@@ -81,8 +81,8 @@ section h4 { background-color: #416165; color: white; }
                 thinking and learning.
             </p>
             <p class="fs-4">
-                Applications are evaluated on a rolling basis for a Fall start. For full consideration,
-                for the 2025 Ammon Scholars, apply by April 15, 2025.<br>
+                Applications are evaluated on a rolling basis for a Fall start. 
+                For priority consideration, apply by February 15.<br>
                 <a href="/blog/ls-open-house/">See the video of our first open house</a>
                 and <a href="/assets/pdf/phd-info.v6.pdf">download our one-page overview.</a>
             </p>
