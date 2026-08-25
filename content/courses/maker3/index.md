@@ -26,7 +26,7 @@ Description
 <p class="fs-4">
 In the “school lab” students are challenged to conceive of and design their own STEAM 
 workshop, which they co-teach for the public as a workshop at the MIXI lab during our 
-Spring STEAM mini conference. To create their workshop, they will practice backwards 
+STEAM mini conference. To create their workshop, they will practice backwards 
 design to develop and execute an effective lesson, including assessments of learning. 
 Developing a specialized workshop allows students to solidify expert-level mastery of 
 specific aspects of the maker lab; teaching these skills to an authentic audience helps 
@@ -53,7 +53,7 @@ The student will be able to:
 - [Matthew X. Curinga](https://matt.curinga.com) [<mcuringa@adelphi.edu>]
 - Office Hours:
   - Wednesday, 3pm-5pm
-  - Thursday 4pm-6pm
+  - Thursday 3:30pm-5:30pm
   - Online: _by appointment_
 
 <div class="text-muted fw-bold">Meetings:</div>
@@ -63,8 +63,8 @@ The student will be able to:
 - in person meetings:
   - September: 2, 16, 30
   - October: 14, 28
-  - November: 11 (b/c of Thanksgiving, we will schedule an optional studio day)
-  - December: 7 (mini conference)
+  - November: 11
+  - December: 9, 17 (mini conference)
 
 Required Textbook
 -----------------
@@ -76,215 +76,109 @@ Class Schedule
 
 | Module | Date       | Topic                                                 
 |--------|------------|-------------------------------------------------------
-| 1      | Jan 28     | Robotics, Creativity, & Roots of Maker Education      
-| 2      | Feb 11     | Mushrooms and Deconstructing Instructional Frameworks 
-| 3      | Feb 25     | Workshop Brainstorming                                
-| 4      | Mar 11     | Pitch                                                 
-| 5      | Mar 25     | Workshop Critique                                     
-| 6      | Apr 8      | Studio Session                                        
-| 7      | Apr 29     | Workshop Rehearsal                                    
-| **8**  | **May 13** | **Conference**                                        
+| 1      | Sep 03     | Robotics, Creativity, & Roots of Maker Education      
+| 2      | Sep 17     | STEAM Teaching
+| 3      | Sep 30     | Design Thinking
+| 4      | Oct 14     | Pitches
+| 5      | Oct 28     | Studio/Materials list
+| 6      | Noc 11     | Workshop Critique
+| 7      | Dec 09     | Rehearsal
+| **8**  | **Dec 17** | **Conference**                                        
 
 This course is organized into 8 2-week modules. Each module consists of an in-person
 meeting in the Maker Lab and an online week.
 
-**Everyone must meet for a final public conference on Monday December 7.**
+**Everyone must meet for a final public conference on Monday December 17.**
 
 This is a hybrid course with some in-person meetings and some online meetings. Mostly, we will
 meet in-person every other week, but see the schedule above for details. Online weeks will be
 oriented around completing course readings and working independently or in teams on assignments.
-There will not be synchronous Zoom meetings for online weeks.
+_There will not be synchronous Zoom meetings for online weeks._
 
 In-person classes will feature discussions of course readings, group working sessions, and
 maker lab activities. Towards the end of the term we will focus on developing your STEAM
-workshops. 
+workshops.
 
 _You **must** complete the readings for the current module before our in-person meeting._
 
 
-Class Meetings
---------------
-<section class="d-flex flex-wrap justify-content-between">
-{% card %}
-### Module 1: Roots & Robots
-In our first 2 weeks we will read and talk about the roots
-of maker and STEAM education, and reflect on the goals
-of maker ed while advancing our own skills in with the
-tools of the maker lab using LEGO Robotics. Mindstorm
-robots are the direct descendent of Seymour Papert's
-groundbreaking Constructionist research at MIT, beginning
-with the LOGO programming language and LOGO Turtle.
+Sessions
+--------
+<div class="row">
+<div class="col-12 col-md-6">
+{% md %}
+### Module 1, Sep 03
 
-<img src="img/turtle.jpg"
-  class="d-block img-fluid" alt="Papert presents his LOGO turtle robot">
+_Read:_
 
-_Seymour Papert presenting his LOGO Turtle robot [via Wikimedia](https://commons.wikimedia.org/wiki/File:Seymour_Papert.jpg)_
-
-#### Readings (before class)
 - Papert, S. (1999, March 29). [Child Psychologist Jean Piaget](https://content.time.com/time/subscriber/article/0,33009,990617,00.html). _Time_. 
-- Valente, J. A., & Blikstein, P. (2019). [Maker Education: Where Is the Knowledge Construction?](https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf) _Constructivist Foundations_, _14_(3), Article 3.
+- (optional) Valente, J. A., & Blikstein, P. (2019). [Maker Education: Where Is the Knowledge Construction?](https://tltlab.org/wp-content/uploads/2019/10/2019.Valente-Blikstein.Constructivist-Foundations.Maker-Education.pdf) _Constructivist Foundations_, _14_(3), Article 3.
 - (optional) Resnick, M., Ocko, S., & Papert, S. (1988). [Lego, Logo, and Design](http://dailypapert.com/wp-content/uploads/2021/03/LEGO-Logo.-and-Design-Resnick-Ocko-Papert.pdf). _Children’s Environments Quarterly_, _5_(4), 14–18.
-- FIRST LEGO League (Director). (2021, October 5). [About FIRST LEGO League](https://www.youtube.com/watch?v=kkN08bDv9EI) [Video recording] [03:45]. 
 - Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
 
+#### Module 2, Sep 17
+_Read:_
 
-#### Agenda
-1. Introductions
-2. Intro to LEGO robotics
-3. Rube Goldberg LEGO Lab [[details](/courses/maker3/rube.html)]
-4. Lab Demo
-{% endcard %}
+- Needles, T. (2025). Part 1: STEAM Fundamentals, In, _Steam power: Infusing art into your stem curriculum_. International Society for Technology in Education. [[Adelpi Library link](https://ebookcentral.proquest.com/lib/adelphi/detail.action?docID=32128117)]
+- Gerstein, J. (2019). Chapter 8: Integrating Maker Experiences into the Curriculum. In _Learning in the making : How to plan, execute, and assess powerful makerspace lessons._ Association for Supervision & Curriculum Development. [[Adelphi Library link](https://ebookcentral.proquest.com/lib/adelphi/reader.action?docID=5879638&ppg=86&c=UERG)]
 
-
-{% card %}
-
-### Module 2: Mycelium and Deconstructing Instructional Frameworks (Feb 11 - Feb 11)
-<p class="text-danger fw-bold">Note: both sections meet on Feb 11!</p>
-In this session we will discuss how to design
-lessons for professional development and how
-to become a leader in your school. We will complete
-a lab that explores biological rather than mechanical/digital
-making. [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing)
-
-<img src="img/mycelium-art.jpg" class="d-block img-fluid" alt="Mycelium mushroom art">
-_[Mycelium Art from Musée Magazine](https://museemagazine.com/features/2020/3/4/mycelium-microcosm-mushrooms-link-science-with-art)_
-
-#### Readings due
-- Martinez, S. L., & Stager, G. (2019). [Teaching (Chapter 5)](https://drive.google.com/file/d/1xIwfkHnIx48D8hmxivhMrhiMswwHpxnt/view?usp=drive_link) in _Invent to learn: Making, tinkering, and engineering in the classroom_. Constructing Modern Knowledge Press. 
-- Loeng, S. (2023). [Pedagogy and andragogy in comparison – Conceptions and perspectives](https://drive.google.com/file/d/1mFUOp6y4szBKibPc2liV3vztsDWT71g5/view?usp=drive_link).
-  _Andragoška spoznanja/Studies in Adult Education and Learning_, _1_(1-14). 
-- Birman, B. F., Desimone, L., Porter, A. C., & Garet, M. S. (2000). [Designing professional development that works](https://outlier.uchicago.edu/computerscience/OS4CS/landscapestudy/resources/Birman-Desimone-Porter-and-Garet-2000.pdf). _Educational Leadership_, _57_(8), 28-33
-
-#### Resources
-- [Slide Deck](https://docs.google.com/presentation/d/152JDNVLAW4QUcAWTjOe-kgIp4iCt4cNDi6jVRTQ4Kfo/edit?usp=sharing)
-
-#### Agenda
-1. [Deconstructing a TedTalk](https://www.youtube.com/watch?v=OcdumFcGdfU): What Makes a TedTalk so Inviting? 
-2. Reading Discussion and synthesizing an instructional framework for adult learning
-3. Sign up for article presentations [[google docs](https://docs.google.com/spreadsheets/d/11QyvgZvtxn4M61BnzcpryiphDf8AVf3ych5oe06MD-8/edit?usp=sharing)]
-4. Lab Demo: [Grow Bio](https://grow.bio/?srsltid=AfmBOoqAcFSiEUDCceDfpy1SfSDfiptP0QkJcme2szLZ_v6daezMA4Fi)
-
-{% endcard %}
-
-{% card %}
-### Module 3: Play, Creativity, & Workshop Brainstorming (Feb 25 - March 4)
-The success of this course depends on each
-class member developing new skills, and iterating
-many times over their workshop ideas until they are
-polished enough for a public demonstration.
-The readings for this session focus on creativity
-and play, and we will actively work on exercising
-our own creativity and work to design playful learning
-experiences.
-In this session we will think about the creative process, 
-help set our own learning goals for the semester, and get 
-ready to make a pitch for an extraordinary workshop.
-
-#### Readings due
-- Gallup. (2020). [Creativity in learning: Understand the value of creativity in learning and how to enable it in the classroom by leveraging the full potential of technology](https://www.gallup.com/file/education/267449/Creativity%20in%20Learning.pdf). _Gallup_.
-- Blikstein, P., & Worsley, M. (2016). [Children are not hackers](http://beyondbitsandatoms.org/readings/blikstein2015children.pdf). In K. Peppler, E. Halverson, & Y. B. Kafai (Eds.), _Makeology: Makerspaces as Learning Environments_. Routledge.
-- Wilson, H. E., Song, H., Johnson, J., Presley, L., & Olson, K. (2021). [Effects of transdisciplinary STEAM lessons on student critical and creative thinking.](https://www-tandfonline-com.adelphi.idm.oclc.org/doi/pdf/10.1080/00220671.2021.1975090?needAccess=true) [AU link]
-  _The Journal of Educational Research_, _114_(5), 445–457.
-
-{% endcard %}
-
-{% card %}
-### Module 4: STEAM & School Culture, Pitches (Mar 11 - Mar 18)
-
-In this module we discuss how STEAM and Maker Education fits in with 
-movements to change and advance school-based learning. In addition, 
-we will hear formal pitches from everyone for their final workshop (see details below).
-
-#### Readings due
-- Papert, S. (1997). [Why School Reform is Impossible](https://www-jstor-org.adelphi.idm.oclc.org/stable/1466781?seq=1). [AU link] 
-  _The Journal of the Learning Sciences_, _6_(4), 417–427.
-- Godhe, A.-L., Lilja, P., & Selwyn, N. (2019). [Making sense of making: Critical issues in the integration of maker education into schools](https://drive.google.com/file/d/1v4_yeGCerrOu-oL4ZydppUhtZ5RoVzU2/view?usp=drive_link). 
-  _Technology, Pedagogy and Education_, _28_(3), 317–328.
-- Bullock, E. (2017). [Only STEM Can Save Us? Examining Race, Place, and STEM Education as Property](https://drive.google.com/file/d/1rPO60csvMHJZV_LuNu5kvJqP380-0LJJ/view?usp=sharing).
-  _Educational Studies_, _53_(6), 628–641.
-
-#### Agenda
-- Reading Discussion
-- Pitches
-
-{% endcard %}
-
-{% card %}
-### Module 5: Workshop Critique (March 25 - April 1)
-In this session, anyone who has not yet pitched their workshop will present.
-There will be time for everyone to find a partner or team for the final project
-and discuss a preliminary plan for their workshop.
-
-After considering this feedback, the final draft of their
-workshop as well as their material list and budget are due
-in one week.
-
-#### Section 001 Readings (for class on Mar 25)
-- Rouse, R., & Rouse, A. G. (2022). [Taking the maker movement to school: A systematic review of preK-12 school-based makerspace research](https://doi.org/10.1016/j.edurev.2021.100413). 
-  _Educational Research Review_, _35_, 100413.
-- Mater, N., Daher, W., & Mahamid, F. (2023). [The Effect of STEAM Activities Based on Experiential Learning on Ninth Graders' Mental Motivation](https://doi.org/10.3390/ejihpe13070091).
-  _European journal of investigation in health, psychology and education_, _13_(7), 1229–1244.
-- Kijima, R., Yang-Yoshihara, M., & Maekawa, M. S. (2021). [Using design thinking to cultivate the next generation of female STEAM thinkers](https://doi.org/10.1186/s40594-021-00271-6). _International Journal of STEM Education_, _8_(1), 14.
+#### Module 3, Sep 30
+_Read:_
+- Bosch, N., Härkki, T., & Seitamaa-Hakkarainen, P. (2025). [Teachers as reflective learning experience designers: Bringing design thinking into school-based design and maker education.](https://www.sciencedirect.com/science/article/pii/S2212868924000643) _International Journal of Child-Computer Interaction_, _43_, 100695. <https://doi.org/10.1016/j.ijcci.2024.100695>
 
 
-#### Section 002 Readings (for class on Apr 1)
-- Quigley, C. F., Herro, D., & Jamil, F. M. (2017). [Developing a Conceptual Model of STEAM Teaching Practices](https://onlinelibrary-wiley-com.adelphi.idm.oclc.org/doi/epdf/10.1111/ssm.12201). _School Science and Mathematics_, _117_(1–2), 1–12.
+_Do:_
 
+Come to class prepared with your topic presentation. 
+You will have exactly 5 minutes to present your topic. See assignment details below.
 
-{% endcard %}
+#### Module 4, Oct 14
+_Do:_
 
-{% card %}
-### Module 6: Workshop Studio (April 8 & April 22)
-This will be a full lab, working session to prepare materials
-and methods for the full rehearsal and final show.
+Come to class prepared to pitch your workshop. Everyone presents your their own pitch (5 minutes + Q&A).
+{% endmd %}
+</div>
+<div class="col-12 col-md-6">
+{% md %}
+#### Module 5, Oct 28
+This will be a full studio session. You and your partner _must_ come to the session
+with a plan for your workshop. You should use the studio time to test out materials
+and techniques (e.g. what settings do you need for the laser cutter? is there a sensor that you can
+use for your micro:bit project?). If there are things you _know_ you will need for this session,
+let the instructors know and we will try to pick it up.
 
-#### Readings due
-- [student readings 2]
+At the end of the studio, you need to create a full material list including quantities, costs, and links.
+Materials that are hard to find or require extra time will be purchased now.
 
-#### Agenda
-1. Reading Discussion
-2. Lab work on workshops
+#### Module 6, Nov 11
+In this session you present your full workshop plan and receive feedback from the class and instructors.
+During studio time you will incorporate feedback and update your workshop plan and materials list. Materials
+will be sent for purchasing at this time.
 
-#### Section 001 Readings (for class on Apr 8)
-- Rueda, A., Rosen, C., & Crúz-Mena, J. (2024). [Let science be told: A review of ideas for storytelling in science communication](https://turia.uv.es/index.php/Metode/article/view/26522). _Metode Science Studies Journal_, 151–157.
-- Härkki, T., Seitamaa-Hakkarainen, P., Vartiainen, H., Saarinen, A., & Hakkarainen, K. (2023). [Non-linear maker pedagogy in Finnish craft education](https://journals.oslomet.no/index.php/techneA/article/view/4998). _Techne Series: Research in Sloyd Education and Craft Science A_, 3_0_(1), 1-17.
-- Vecchione, A. (2020). [Makerspace culture and its impact on learning](https://scholarworks.boisestate.edu/cgi/viewcontent.cgi?article=1157&context=lib_facpubs). In E. Kroski (Ed.), *Makerspaces in practice* (pp. 53–61). ALA Editions.
+#### Module 7, Dec 09
+You will present the core of your workshop and participate in other workshops. We will
+create a schedule where several teams are presenting at the same time. As a participant,
+you will give thoughtful feed back to the presenters. Plan for a 30 minute version of your workshop.
+In terms of supplies, if they are limited or expensive, you can have the entire group work on
+one set of materials.
 
-#### Section 002 Readings (for class on Apr 22)
-- Mejias, S., Thompson, N., Sedas, R. M., Rosin, M., Soep, E., Peppler, K., Roche, J., Wong, J., Hurley, M., Bell, P., & Bevan, B. (2021). [The trouble with STEAM and why we use it anyway](https://drive.google.com/file/d/1nE2SEDOIBmkQynaJvp0xj1pkkPOmPLYG/view?usp=drive_link). _Science Education_, _105_(2), 209–231. <https://doi.org/10.1002/sce.21605>
-- Esref, A., & Cevat, E. (2021). [The effect of phenomenon-based learning approach on students metacognitive awareness](https://files.eric.ed.gov/fulltext/EJ1296934.pdf). _Educational Research and Reviews_, _16_(5), 181–188. <https://doi.org/10.5897/ERR2021.4139>
+At the end of this session you will submit the final title and abstract for your workshop.
+
+#### STEAM Mini Conference, Dec 17
+**You absolutely cannot be late or miss this session. If you need special permission or to make
+plans, do it now.**
+
+The conference will have two simultaneous workshop sessions where participants choose which workshop to attend.
+While you are presenting, you will not be able to attend other sessions. When you are not presenting, you must
+attend one workshop. Come early to get set up your room (we can't all be in the maker lab) and gather
+materials.
+
+{% endmd %}
+</div>
+</div>
 
 
 
-{% endcard %}
-
-{% card %}
-### Module 7: Workshop Rehearsal (April 29 - May 6)
-This is the final run through of the demo. Each
-team will run their workshop for a group of students
-and instructors. All materials must be 100% ready
-for this demo. Teams will have the opportunity to
-refine their workshop based on the experience.
-
-
-
-{% endcard %}
-
-{% card %}
-### Module 8: Mini-Conference May 13
-The mini-conference will be held on
-the 7th floor of Adelphi-St. Francis, from 5pm-8pm.
-Students from both sections must attend on May 13. You should
-plan to be on campus by 4:30 on May 13 in order
-to prepare your materials.
-
-- schedule (TBD)
-- friends, family, and colleagues welcome (sign-up TBD)
-{% endcard %}
-
-</section>
-
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 Grading & Assignments
 ---------------------
@@ -295,7 +189,7 @@ Grading & Assignments
 | Assignment	                |Points
 |-----------------------------|-------
 | Participation & Attendance	|15
-| Article presentation	      |15
+| Topic presentation          |15
 | Pitch	                      |15
 | Critique	                  |15
 | Demo	                      |15
@@ -349,24 +243,23 @@ am looking for:
 <div class="col-12 col-md-6"><img src="img/soldering.png" class="d-block img-fluid" alt="soldering workstation"></div>
 </div>
 
-### Article Presentation
-The first four modules have instructor assigned readings. The next 3 modules will have
-student assigned readings. Working with a partner, you will choose an academic article
-related to our course topics and assign it for reading. Your team will be responsible
-for leading a discussion on the article your assigned. You will be graded on a 
-**portfolio entry** where you indicate the following:
-
-- why you chose the article and its relevance
-- a summary of the article and discussion of how it related to the course
-- notes/questions for leading the discussion
-- a reflection on the article and discussion to the class
-- _each team member will complete the portfolio portion independently_
-
-
 <div class="row">
 <div class="col-12 col-md-6"><img src="img/workbench.png" class="d-block img-fluid" alt="a maker's workstation"></div>
 <div class="col-12 col-md-6">
 {% md %}
+### Topic Presentation
+Before you start designing your workshop, you will identify the area that you want
+to focus on. This will include specific content area, specific STEAM/maker techniques,
+and the specific audience. You will create a 5 minute presentation for class where you
+cover:
+
+1. why this topic matters
+2. a quick summary of scholarly research around teaching this area
+3. STEAM/maker techniques you think are a good fit for teaching
+4. best practices for those techniques (either from scholarship or professional publications)
+5. a biography and list of resources
+
+_Post your presentation in your portfolio._
 
 ### STEAM Workshop
 The major outcome of this studio course is the professional
@@ -379,7 +272,7 @@ This will be developed in several stages:
 2. **Critique:** you and your partner will present a more fleshed out
    concept for a workshop to the class and instructors for feedback.
    You will demonstrate/prototype core aspects of the lesson.
-3. **Demo:** you and your partner will do a full demonstration of your workshop
+3. **Demo:** you and your partner will do a 15 minute demonstration of your workshop
    prior to the public conference. All materials and procedures should be
    ready for this demo. You will be able to fine-tune your workshop after
    the demo.
@@ -388,9 +281,13 @@ This will be developed in several stages:
    guests.
 
 The course culminates in a public mini-conference where you will lead
-a 60 minute workshop with one teammate. The audience for the conference will
+a 60 minute workshop. Workshops will be co-taught (2 per team). If we have an odd number
+of participants, **one group** can have 3 people, or one person can present alone. There
+will be no other teams of 3 or 1.
+
+The audience for the conference will
 be STEM teachers (your peers and others like you), Adelphi faculty and staff,
-MIXI alums, friends from the doctoral program in education at Fordham University, 
+MIXI alums, students in the PhD in Learning Sciences, grad students from other universities, 
 and high school students invited to attend.
 
 **Workshop requirements:**
