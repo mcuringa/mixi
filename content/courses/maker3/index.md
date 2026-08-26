@@ -77,8 +77,8 @@ Class Schedule
 
 | Module | Date       | Topic                                                 
 |--------|------------|-------------------------------------------------------
-| 1      | Sep 03     | Robotics, Creativity, & Roots of Maker Education      
-| 2      | Sep 17     | STEAM Teaching
+| 1      | Sep 02     | Robotics, Creativity, & Roots of Maker Education      
+| 2      | Sep 16     | STEAM Teaching
 | 3      | Sep 30     | Design Thinking
 | 4      | Oct 14     | Pitches
 | 5      | Oct 28     | Studio/Materials list
