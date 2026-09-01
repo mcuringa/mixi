@@ -96,14 +96,20 @@ Readings
 
 **Oct 01: Dewey**
 - "The Influence of Darwinism on Philosophy" (1909) (pp. 33-40)
-- _From_ "How we Think" (1933) (pp. 41-66)
-- "Individuality and Experience" (1926) (pp. 257-265)
 - "Experience, Nature, and Art" (1925) (pp. 266-272)
-- _From_ "Art as Experience "(1934) (sections TBD)
+- "Individuality and Experience" (1926) (pp. 257-265)
+- _From_ "How we Think" (1933) (pp. 41-66)
 
 **Oct 15: Dewey**
+- Dewey, J. (1916). Democracy and Education. Echo Library.
+  - TBD
+- Dewey, J. (with Dewey, J.). (1938). Experience and Education. Free Press.
+  - Part 1: "The Need for a Philosophy of Education"
+  - Part 2: "The Nature of Experience"
+  - Part 5: "The Nature of Freedom"
+- Dewey, J. (1934). "Chapter 3: Having an Experience" (pp. 41-66). In _Art as Experience_. Berkeley Publishing Group.
 - _From_ "Experience and Education" (TBD)
-- _From_ "Democracy and Education" (TBD)
+
 
 **Oct 29: Peirce**
 - "Some Consequences of Four Incapacities"
