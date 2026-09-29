@@ -17,7 +17,7 @@ event:
   description: Maps @ MIXI lecture.
 categories: [Events]
 author: "matt curinga"
-tags: ["spatial justice", "arts", "maps", "cartography", "open data", "responsible computing", "housing", "transit", "mozilla", "free", "reception", "snacks", "sticky"]
+tags: ["spatial justice", "arts", "maps", "cartography", "open data", "responsible computing", "housing", "transit", "mozilla", "free", "reception", "snacks"]
 ---
 <style>
 .Harbor {

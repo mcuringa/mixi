@@ -1,0 +1,76 @@
+---
+layout: post
+container: "container-xl"
+title:  "MIXI Lecture 08: LUAC Book Launch"
+image:  "luac-teaser.png"
+excerpt: "Hear from the authors of Learning Under Algorithmic Conditions and join us for a lively discussion about the future of learning in the age of algorithms."
+date: 2026-09-27 17:30:00 -0400
+event:
+  name: "LUAC Book Launch"
+  start: 2026-11-05T18:00-04:00
+  end: 2026-11-05T21:00-04:00
+  location: >
+    November 5th, 6pm
+    Adelphi Manhattan Campus
+    529 5th Avenue
+    New York, NY 10173
+  description: >
+    Hear from the authors of Learning Under Algorithmic Conditions and join us for a lively discussion about the future of learning in the age of algorithms.
+categories: [Events]
+author: "matt curinga"
+tags: ["mixi lecture", "book launch", "LUAC", "artificial intelligence", "machine learning", "robotics", "snacks", "sticky"]
+---
+
+
+<div class="p-3">
+<img src="/assets/images/blog/luac-header.png" class="d-block mx-auto img-fluid mb-2" alt="alice kettle">
+<div class="row mb-4 mt-3">
+  <div class="col-12 col-md-8">
+    <p class="text-justify fs-4">
+    This lecture series is hosted by MIXI, Adelphi University’s interdisciplinary collaborative research and practice institute, 
+    pursuing innovative projects that critically remix practices from  science, art, mathematics, cultural studies, and pedagogy.
+    </p>
+  </div>
+<div class="col text-upper border border-rounded p-3" style="background-color:#e2ecf4">
+
+{% md %}
+
+<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Thursday November 5, 2026 @ 6pm</p>
+<p><i class="text-primary bi bi-map-fill"></i> hybrid, face-to-face (if you can!) and online</p>
+<p class="mb-0"><i class="text-primary bi bi-fire"></i> free & open to all,
+<a href="https://forms.gle/DxHwfawiHGEBJdgt9" class="fw-bold">RSVP here</a><br>
+<small>virtual attendance details shared after registration</small></p>
+
+{% endmd %}
+
+</div>
+</div>
+
+
+<div class="row">
+  <div class="col-12 col-md-6">
+<img src="https://minnesota-us.imgix.net/covers/9781517920050.jpg" class="img-fluid" alt="LUAC book cover">
+  </div>
+  <div class="col-12 col-md-6">
+<h4>Book launch with editors Elizabeth de Freitas, Matt Curinga, Ezekiel Dixon-Román, Taylor Webb, and special guests</h4>
+<p class="fs-5"><i>
+Authors of the just-launched book come to MIXI to discuss their work and its implications for some of the most urgent and complex issues we face.</i></p>
+{% md %}
+<h5 class="text-mixi-blue fw-bold">Exploring the influence of AI technologies on theories of reason, cognition, learning, and education</h5>
+
+**[_Learning Under Algorithmic Conditions_](https://manifold.umn.edu/projects/defreitas-9781452977508)** presents twenty-seven concise memoranda that collectively chart the shifting terrain of learning in the age of artificial intelligence. Providing historical and philosophical context, this innovative volume features prominent scholars from the fields of media studies, philosophy, and education research, who shed light on how learning has become newly envisioned, machinic, and more-than-human. The contributors unravel various histories of machine intelligence and elucidate the current impact of machine learning technologies on practices of knowledge production. Teeming with theoretical and practical insights, _Learning Under Algorithmic Conditions_ is an interdisciplinary guide for those working across the humanities and social sciences as well as anyone interested in understanding our changing social, political, and technical infrastructures.
+
+<p class="fs-4">
+Join us for presentations from the book authors and an evening of lively conversation, followed by a reception at MIXI.
+</p>
+<div class="">
+<strong>Contributors:</strong> Craig Carson, Adelphi University; Felicity Coleman, University of the Arts London; Ed Dieterle; Shayan Doroudi, UC Irvine; David Gauthier, Utrecht University; Cathrine Hasse, Aarhus University; Talha Can İşsevenler, CUNY; Goda Klumbytė; Robb Lindgren, University of Illinois Urbana-Champaign; Michael Madiao; Henry Neim Osman; Luciana Parisi, Duke University; Carolyn Pedwell, Lancaster University; Arkady Plotnitsky, Purdue University; Julian Quiros, University of Pennsylvania; Sina Rismanchian; Warren Sack, UC Santa Cruz; R. Joshua Scannell, The New School; Gregory J. Seigworth, Millersville University; Rebecca Uliasz, University of Michigan; David Wagner, University of New Brunswick; Ben Williamson, University of Edinburgh.
+</div>
+{% endmd %}
+  </div>
+
+
+
+
+
+
