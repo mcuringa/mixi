@@ -7,8 +7,8 @@ excerpt: "Hear from the authors of Learning Under Algorithmic Conditions and joi
 date: 2026-09-27 17:30:00 -0400
 event:
   name: "LUAC Book Launch"
-  start: 2026-11-05T18:00-04:00
-  end: 2026-11-05T21:00-04:00
+  start: 2026-10-29T18:00-04:00
+  end: 2026-10-29T21:00-04:00
   location: >
     November 5th, 6pm
     Adelphi Manhattan Campus
@@ -35,7 +35,7 @@ tags: ["mixi lecture", "book launch", "LUAC", "artificial intelligence", "machin
 
 {% md %}
 
-<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Thursday November 5, 2026 @ 6pm</p>
+<p><i class="text-primary bi bi-calendar2-heart-fill"></i> Thursday October 29, 2026 @ 6pm ET</p>
 <p><i class="text-primary bi bi-map-fill"></i> hybrid, face-to-face (if you can!) and online</p>
 <p class="mb-0"><i class="text-primary bi bi-fire"></i> free & open to all,
 <a href="https://forms.gle/DxHwfawiHGEBJdgt9" class="fw-bold">RSVP here</a><br>
@@ -52,9 +52,9 @@ tags: ["mixi lecture", "book launch", "LUAC", "artificial intelligence", "machin
 <img src="https://minnesota-us.imgix.net/covers/9781517920050.jpg" class="img-fluid" alt="LUAC book cover">
   </div>
   <div class="col-12 col-md-6">
-<h4>Book launch with editors Elizabeth de Freitas, Matt Curinga, Ezekiel Dixon-Román, Taylor Webb, and special guests</h4>
+<h4>Book launch with editors Elizabeth de Freitas, Matt Curinga, Ezekiel Dixon-Román, and special guests</h4>
 <p class="fs-5"><i>
-Authors of the just-launched book come to MIXI to discuss their work and its implications for some of the most urgent and complex issues we face.</i></p>
+Authors of the just-published book come to MIXI to discuss their work and its implications for some of the most urgent and complex issues we face.</i></p>
 {% md %}
 <h5 class="text-mixi-blue fw-bold">Exploring the influence of AI technologies on theories of reason, cognition, learning, and education</h5>
 
