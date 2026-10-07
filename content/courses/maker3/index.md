@@ -108,7 +108,7 @@ Sessions
 <div class="row">
 <div class="col-12 col-md-6">
 {% md %}
-### Module 1, Sep 03
+### Module 1, Sep 02
 
 _Read:_
 
@@ -117,14 +117,19 @@ _Read:_
 - (optional) Resnick, M., Ocko, S., & Papert, S. (1988). [Lego, Logo, and Design](http://dailypapert.com/wp-content/uploads/2021/03/LEGO-Logo.-and-Design-Resnick-Ocko-Papert.pdf). _Children’s Environments Quarterly_, _5_(4), 14–18.
 - Nickolaus Hines. (2022, October 10). [10 Brilliant Rube Goldberg Machine Examples](https://coolmaterial.com/feature/rube-goldberg-machines/). _Cool Material_. (check out some of the videos in preparation for our lab)
 
-#### Module 2, Sep 17
+_In class:_
+- [LEGO Robotics Rube Goldberg Lab](rube.html)
+
+#### Module 2, Sep 16
 _Read:_
 
 - Needles, T. (2025). Part 1: STEAM Fundamentals, In, _Steam power: Infusing art into your stem curriculum_. International Society for Technology in Education. [[Adelpi Library link](https://ebookcentral.proquest.com/lib/adelphi/detail.action?docID=32128117)]
 - Gerstein, J. (2019). Chapter 8: Integrating Maker Experiences into the Curriculum. In _Learning in the making : How to plan, execute, and assess powerful makerspace lessons._ Association for Supervision & Curriculum Development. [[Adelphi Library link](https://ebookcentral.proquest.com/lib/adelphi/reader.action?docID=5879638&ppg=86&c=UERG)]
 
+
 #### Module 3, Sep 30
 _Read:_
+
 - Bosch, N., Härkki, T., & Seitamaa-Hakkarainen, P. (2025). [Teachers as reflective learning experience designers: Bringing design thinking into school-based design and maker education.](https://www.sciencedirect.com/science/article/pii/S2212868924000643) _International Journal of Child-Computer Interaction_, _43_, 100695. <https://doi.org/10.1016/j.ijcci.2024.100695>
 
 
@@ -141,6 +146,7 @@ Come to class prepared to pitch your workshop. Everyone presents your their own 
 </div>
 <div class="col-12 col-md-6">
 {% md %}
+
 #### Module 5, Oct 28
 This will be a full studio session. You and your partner _must_ come to the session
 with a plan for your workshop. You should use the studio time to test out materials
