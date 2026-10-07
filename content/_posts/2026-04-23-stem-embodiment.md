@@ -17,7 +17,7 @@ event:
   description: This symposium will be an opportunity to investigate ideas, theories, and examples in research, concerning current challenges and potential developments in embodied learning, broadly conceived.
 categories: [Events]
 author: "matt curinga"
-tags: ["mixi lecture", "embodied learning", "STEM", "learning science","public", "free", "reception", "sticky"]
+tags: ["mixi lecture", "embodied learning", "STEM", "learning science","public", "free", "reception"]
 ---
 
 

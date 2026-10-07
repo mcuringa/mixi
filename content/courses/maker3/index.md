@@ -264,7 +264,7 @@ cover:
 2. a quick summary of scholarly research around teaching this area
 3. STEAM/maker techniques you think are a good fit for teaching
 4. best practices for those techniques (either from scholarship or professional publications)
-5. a biography and list of resources
+5. a bibliography and list of resources
 
 _Post your presentation in your portfolio._
 

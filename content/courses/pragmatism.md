@@ -108,7 +108,6 @@ Readings
   - Part 2: "The Nature of Experience"
   - Part 5: "The Nature of Freedom"
 - Dewey, J. (1934). "Chapter 3: Having an Experience" (pp. 41-66). In _Art as Experience_. Berkeley Publishing Group.
-- _From_ "Experience and Education" (TBD)
 
 
 **Oct 29: Peirce**
