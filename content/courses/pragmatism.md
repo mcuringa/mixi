@@ -62,15 +62,15 @@ Date   | Format	    | Topic
 -------|------------|------
 Aug 27 | online   	| Weatherby
 Sep 03 | in person	| West, James
-Sep 10 | online   	| Students 1
+Sep 10 | online   	| -
 Sep 17 | in person	| James
-Sep 24 | online   	| Students 2
+Sep 24 | online   	| Jen & Grace
 Oct 01 | in person	| Dewey
-Oct 08 | online   	| Students 3
+Oct 08 | online   	| Ryan & Salih
 Oct 15 | in person	| Dewey
-Oct 22 | online   	| Research Proposals
-Oct 29 | in person	| Peirce
-Nov 05 | online   	| async research
+Oct 22 | online   	| Nikki & Sultana
+Oct 29 | in person	| LUAC Book Talk
+Nov 05 | online   	| Peirce
 Nov 12 | in person	| working session
 Nov 19 | online   	| writing workshop
 Nov 26 | no class	  | -
@@ -133,6 +133,9 @@ Nishida, N., Inoue, K., Nakayama, H., Bono, M., & Takanashi, K. (2025). **Do Mul
   - Part 2: "The Nature of Experience"
   - Part 5: "The Nature of Freedom"
 
+### Oct 22: Sultana & Nikki
+- TBD
+
 ### Oct 29: MIXI Lecture
 For our in person session this week we will attend
 the [MIXI Lecture 08: LUAC Book Launch](https://mixi.nyc/blog/luac-launch/), which will feature a discussion with the editors of _Learning Under Algorithmic Conditions_.
@@ -148,8 +151,6 @@ Please read these chapters:
 - Chapter 10: Machine Learning Ecologies and Self-Organization by Craig Carson
 - Chapter 13: The Urban Public School as Cybernetic Apparatus by Rebecca Uliasz
 
-
-
 ### Nov 5: Peirce (online or in-person?)
 
 - "Some Consequences of Four Incapacities"
@@ -157,8 +158,6 @@ Please read these chapters:
 - "How to Make Our Ideas Clear"
 - "What Pragmatism Is"
 
-### Nov 12: Sultana & Nikki
-- TBD
 
 - - - -
 
