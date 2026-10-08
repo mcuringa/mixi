@@ -83,34 +83,40 @@ Readings
 
 **[All readings will be shared here on OneDrive](https://adelphiuniversity-my.sharepoint.com/personal/mcuringa_adelphi_edu/_layouts/15/guestaccess.aspx?share=IgAc5cw8r97LRKL4emyxGWehAedUaslSDN1_M4eQ7etgyl4&e=R7Uhj6)**
 
-**Aug 27: Weatherby**
+### Aug 27: Weatherby
+
 - Weatherby, L. (2025). Chapter 1, _Language machines: Cultural AI and the end of remainder humanism._ University of Minnesota Press.
 
-**Sep 03: West & James**
+### Sep 03: West & James
 - West, C. (1989). The Emersonian Prehistory of American Pragmatism. In C. West (Ed.), _The American Evasion of Philosophy: A Genealogy of Pragmatism_ (pp. 9–41). Palgrave Macmillan UK. https://doi.org/10.1007/978-1-349-20415-1_2
 - James, W. (1936). "Does Consciousness Exist?" (pp. 1–38). In _Essays in Radical Empiricism: A pluralistic universe._ Longman, Green, and Co.
 
-**Sep 17: James**
+### Sep 17: James
+
 - James, W. (1936). "A World of Pure Experience?" (pp. 39-93). In _Essays in Radical Empiricism: A pluralistic universe._ Longman, Green, and Co.
 - James, W. (1936). "The Thing and Its Relations" (pp. 94-122). In _Essays in Radical Empiricism: A pluralistic universe._ Longman, Green, and Co.
 
-**Oct 01: Dewey**
+### Oct 01: Dewey
+
 - "The Influence of Darwinism on Philosophy" (1909) (pp. 33-40)
 - "Experience, Nature, and Art" (1925) (pp. 266-272)
 - "Individuality and Experience" (1926) (pp. 257-265)
 - _From_ "How we Think" (1933) (pp. 41-66)
 
-**Oct 15: Dewey**
-- Dewey, J. (1916). Democracy and Education. Echo Library.
-  - TBD
-- Dewey, J. (with Dewey, J.). (1938). Experience and Education. Free Press.
+### Oct 15: Dewey
+
+- Dewey, J. (1934). "[Chapter 3: Having an Experience](https://adelphiuniversity-my.sharepoint.com/personal/mcuringa_adelphi_edu/_layouts/15/guestaccess.aspx?share=IQCXfznaQbsZQqWCqN1Q5vEyAWjGT0lkY8-ah9mINzo1VT8&e=ekLeLf)" (pp. 41-66). In _Art as Experience_. Berkeley Publishing Group.
+- Dewey, J. (1916). [_Democracy and Education_](https://www.gutenberg.org/files/852/852-h/852-h.htm). Echo Library.
+  - [Chapter Eight: Aims in Education](https://www.gutenberg.org/files/852/852-h/852-h.htm#link2HCH0008)
+  - [Chapter Twelve: Thinking in Education](https://www.gutenberg.org/files/852/852-h/852-h.htm#link2HCH0012)
+  - [Chapter Fifteen: Play and Work in the Curriculum](https://www.gutenberg.org/files/852/852-h/852-h.htm#link2HCH0015)
+- Dewey, J. (with Dewey, J.). (1938). [_Experience and Education_](https://adelphiuniversity-my.sharepoint.com/personal/mcuringa_adelphi_edu/_layouts/15/guestaccess.aspx?share=IQBvq_FM5eTlRoHS6mHBclpWAbuB6xnlCOCXwMFBe9K2FOo&e=Org6K2). Free Press.
   - Part 1: "The Need for a Philosophy of Education"
   - Part 2: "The Nature of Experience"
   - Part 5: "The Nature of Freedom"
-- Dewey, J. (1934). "Chapter 3: Having an Experience" (pp. 41-66). In _Art as Experience_. Berkeley Publishing Group.
 
+### Oct 29: Peirce
 
-**Oct 29: Peirce**
 - "Some Consequences of Four Incapacities"
 - "The Fixation of Belief"
 - "How to Make Our Ideas Clear"
