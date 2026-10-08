@@ -96,12 +96,30 @@ Readings
 - James, W. (1936). "A World of Pure Experience?" (pp. 39-93). In _Essays in Radical Empiricism: A pluralistic universe._ Longman, Green, and Co.
 - James, W. (1936). "The Thing and Its Relations" (pp. 94-122). In _Essays in Radical Empiricism: A pluralistic universe._ Longman, Green, and Co.
 
+### Sep 24: Jen & Grace
+<div class="apa">
+{% md %}
+Yadavalli, A., Pimentel, T., Regev, T. I., Wilcox, E. G., & Warstadt, A. (2026). **What Do Prosody and Text Convey? Characterizing How Meaningful Information is Distributed Across Multiple Channels**. In M. Liakata, V. P. Moreira, J. Zhang, & D. Jurgens (Eds.), *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics *(Volume 1: Long Papers) (pp. 23665–23679). Association for Computational Linguistics. https://doi.org/10.18653/v1/2026.acl-long.1085
+
+Shieh, E., Vassel, F.-M., Sugimoto, C. R., & Monroe-White, T. (2026). **Intersectional biases in narratives produced by open-ended prompting of generative language models.** *Nature Communications*, *17*(1), 1243. https://doi.org/10.1038/s41467-025-68004-9
+{% endmd %}
+</div>
+
 ### Oct 01: Dewey
 
 - "The Influence of Darwinism on Philosophy" (1909) (pp. 33-40)
 - "Experience, Nature, and Art" (1925) (pp. 266-272)
 - "Individuality and Experience" (1926) (pp. 257-265)
 - _From_ "How we Think" (1933) (pp. 41-66)
+
+### October 08: Ryan and Salih
+<div class="apa">
+{% md %}
+Malafouris, L., & Koukouti, M.-D. (2022). **Where the touching is touched: The role of haptic attentive unity in the dialogue between maker and material**. _Multimodality & Society_, _2_(3), 265–287. <https://doi.org/10.1177/26349795221109231>
+
+Nishida, N., Inoue, K., Nakayama, H., Bono, M., & Takanashi, K. (2025). **Do Multimodal Large Language Models Truly See What We Point At? Investigating Indexical, Iconic, and Symbolic Gesture Comprehension**. In W. Che, J. Nabende, E. Shutova, & M. T. Pilehvar (Eds.), _Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)_ (pp. 514–524). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2025.acl-short.40>
+{% endmd %}
+</div>
 
 ### Oct 15: Dewey
 
@@ -115,13 +133,34 @@ Readings
   - Part 2: "The Nature of Experience"
   - Part 5: "The Nature of Freedom"
 
-### Oct 29: Peirce
+### Oct 29: MIXI Lecture
+For our in person session this week we will attend
+the [MIXI Lecture 08: LUAC Book Launch](https://mixi.nyc/blog/luac-launch/), which will feature a discussion with the editors of _Learning Under Algorithmic Conditions_.
+
+<div class="apa"><p>Elizabeth de Freitas, Matthew X. Curinga, Ezekiel J. Dixon-Román, & P. Taylor Webb (Eds.). (2026). <a href="https://manifold.umn.edu/projects/defreitas-9781452977508"><em><b>Learning Under Algorithmic Conditions</b></em></a>. University of Minnesota Press.</p></div>
+
+Please read these chapters:
+
+- Chapter 3: Number Sense in Large Language Models by Julian Quiros
+- Chapter 6: Learning on the Neuromorphic Circuit by Henry Neim Osman
+- Chapter 7: Who Controls the Curriculum for AI? The Limits of Participatory Design for Educational AI by Michael Madaio
+- Chapter 8: Learning to Program by Warren Sack
+- Chapter 10: Machine Learning Ecologies and Self-Organization by Craig Carson
+- Chapter 13: The Urban Public School as Cybernetic Apparatus by Rebecca Uliasz
+
+
+
+### Nov 5: Peirce (online or in-person?)
 
 - "Some Consequences of Four Incapacities"
 - "The Fixation of Belief"
 - "How to Make Our Ideas Clear"
 - "What Pragmatism Is"
 
+### Nov 12: Sultana & Nikki
+- TBD
+
+- - - -
 
 Grading & Assignments
 ---------------------
