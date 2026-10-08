@@ -99,9 +99,9 @@ Readings
 ### Sep 24: Jen & Grace
 <div class="apa">
 {% md %}
-Yadavalli, A., Pimentel, T., Regev, T. I., Wilcox, E. G., & Warstadt, A. (2026). **What Do Prosody and Text Convey? Characterizing How Meaningful Information is Distributed Across Multiple Channels**. In M. Liakata, V. P. Moreira, J. Zhang, & D. Jurgens (Eds.), *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics *(Volume 1: Long Papers) (pp. 23665–23679). Association for Computational Linguistics. https://doi.org/10.18653/v1/2026.acl-long.1085
+Yadavalli, A., Pimentel, T., Regev, T. I., Wilcox, E. G., & Warstadt, A. (2026). **What Do Prosody and Text Convey? Characterizing How Meaningful Information is Distributed Across Multiple Channels**. In M. Liakata, V. P. Moreira, J. Zhang, & D. Jurgens (Eds.), *Proceedings of the 64th Annual Meeting of the Association for Computational Linguistics *(Volume 1: Long Papers) (pp. 23665–23679). Association for Computational Linguistics. <https://doi.org/10.18653/v1/2026.acl-long.1085>
 
-Shieh, E., Vassel, F.-M., Sugimoto, C. R., & Monroe-White, T. (2026). **Intersectional biases in narratives produced by open-ended prompting of generative language models.** *Nature Communications*, *17*(1), 1243. https://doi.org/10.1038/s41467-025-68004-9
+Shieh, E., Vassel, F.-M., Sugimoto, C. R., & Monroe-White, T. (2026). **Intersectional biases in narratives produced by open-ended prompting of generative language models.** *Nature Communications*, *17*(1), 1243. <https://doi.org/10.1038/s41467-025-68004-9>
 {% endmd %}
 </div>
 
