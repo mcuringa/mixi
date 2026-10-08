@@ -4,12 +4,15 @@ title: "Learning Sciences Workshop: Pragmatism"
 author: 
   - "Matthew X. Curinga"
   - "Craig Carson"
+image: "pragmatism.png"
+excerpt: "Learning Sciences PhD workshop looking at pragmatism and its implications for current theories of learning and thought including machine learning and AI."
 ---
 
 Learning Sciences Workshop: Pragmatism, thought, and reason
 ===========================================================
 **Fall 2026 · ELS 0815-821-001**
 
+<img src="/assets/images/pragmatism.png" class="d-block mx-auto img-fluid mb-2" alt="Dewey, James, & Peirce">
 
 Description
 ------------
