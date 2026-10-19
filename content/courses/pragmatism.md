@@ -69,9 +69,9 @@ Sep 10 | online   	| -
 Sep 17 | in person	| James
 Sep 24 | online   	| Jen & Grace
 Oct 01 | in person	| Dewey
-Oct 08 | online   	| Ryan & Salih
+Oct 08 | online   	| Ryan & Sultana
 Oct 15 | in person	| Dewey
-Oct 22 | online   	| Nikki & Sultana
+Oct 22 | online   	| Nikki & Salih
 Oct 29 | in person	| LUAC Book Talk
 Nov 05 | online   	| Peirce
 Nov 12 | in person	| working session
@@ -115,7 +115,7 @@ Shieh, E., Vassel, F.-M., Sugimoto, C. R., & Monroe-White, T. (2026). **Intersec
 - "Individuality and Experience" (1926) (pp. 257-265)
 - _From_ "How we Think" (1933) (pp. 41-66)
 
-### October 08: Ryan and Salih
+### October 08: Ryan and Sultana
 <div class="apa">
 {% md %}
 Malafouris, L., & Koukouti, M.-D. (2022). **Where the touching is touched: The role of haptic attentive unity in the dialogue between maker and material**. _Multimodality & Society_, _2_(3), 265–287. <https://doi.org/10.1177/26349795221109231>
@@ -136,7 +136,7 @@ Nishida, N., Inoue, K., Nakayama, H., Bono, M., & Takanashi, K. (2025). **Do Mul
   - Part 2: "The Nature of Experience"
   - Part 5: "The Nature of Freedom"
 
-### Oct 22: Sultana & Nikki
+### Oct 22: Salih & Nikki
 - TBD
 
 ### Oct 29: MIXI Lecture
