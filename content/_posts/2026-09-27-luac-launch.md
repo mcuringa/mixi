@@ -98,7 +98,7 @@ speakers:
 
 <p class="fw-bold p-3 my-4 fs-5" style="background-color:#e5d7a4">
 <em>Join us for presentations from the book and an evening of lively conversation, followed by a reception at MIXI.</em><br>
-The following authors will present their work from the book and discuss their research with the audience:
+The following authors will present their chapters and discuss their work with the audience:
 </p>
 
 <div class="row">

@@ -2,7 +2,18 @@
 layout: main
 title: "Events"
 ---
-{% assign events = site.posts | where: "categories", "Events" | sort: "event.start" | reverse %}
+{% assign events = site.posts | where: "categories", "Events" %}
+{% assign now = 'now' | date: '%s' %}
+
+{% assign past_events = "" | split: "," %}
+{% assign future_events = "" | split: "," %}
+
+{% for event in events %}
+{% assign start = event.event.start | date: '%s' %}
+
+{% if start < now %} {% assign past_events=past_events | push: event %} {% else %} {% assign future_events=future_events
+    | push: event %} {% endif %} {% endfor %} {% assign past_events=past_events | sort: "event.start" | reverse %} {%
+    assign future_events=future_events | sort: "event.start" %}
 
 {{today}}
 
@@ -23,7 +34,7 @@ title: "Events"
     <hr class="my-5">
     <h2>Upcoming Events</h2>
     <div class="row bg-light p-4 rounded mb-4">
-        {% for post in events %}
+        {% for post in future_events %}
             <div class="future-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
                 <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
                 <a class="d-block" href="{{ post.url }}">
@@ -37,7 +48,7 @@ title: "Events"
     </div>
     <h2 class="mt-5">Past Events</h2>
     <div class="row bg-light p-4 rounded mb-4">
-        {% for post in events %}
+        {% for post in past_events %}
             <div class="past-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
                 <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
                 <a class="d-block" href="{{ post.url }}">
@@ -73,31 +84,3 @@ title: "Events"
     </nav>
 </div>
 
-<script>
-function showFutureEventsOnly() {
-    const today = new Date();
-    const events = document.querySelectorAll('.future-event');
-    events.forEach(function(event) {
-        const ts = event.getAttribute('data-start');
-        const eventDate = new Date(ts);
-        if (eventDate < today) {
-            event.style.display = 'none';
-        }
-    });
-}
-
-function showPastEventsOnly() {
-    const today = new Date();
-    const events = document.querySelectorAll('.past-event');
-    events.forEach(function (event) {
-        const ts = event.getAttribute('data-start');
-        const eventDate = new Date(ts);
-        if (eventDate >= today) {
-            event.style.display = 'none';
-        }
-    });
-}
-
-document.addEventListener('DOMContentLoaded', showFutureEventsOnly);
-document.addEventListener('DOMContentLoaded', showPastEventsOnly);
-</script>
