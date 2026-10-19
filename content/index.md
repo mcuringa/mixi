@@ -151,7 +151,7 @@ author: "mxc"
         <a href="/people" class="text-black">
             <div class="row">
                 {% for person in site.data.people %}
-                    <div class="col-md-3 p-3">
+                    <div class="col-md-4 p-3">
                         <img src="/assets/images/people/{{person.key}}.png" 
                         class="d-block img-fluid mb-2" alt="{{person.name}}">
                         <p class="text-center">

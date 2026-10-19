@@ -1,0 +1,155 @@
+- name: Josh Chien
+  key: josh
+  title: BA in Music Education & BA in Music Performance, SUNY Potsdam; MA Educational Technology, Adelphi University
+  bio: >-
+    Josh Chien is a doctoral student in the Learning Sciences program at Adelphi University, 
+    adjunct professor, and elementary school music teacher. His research involves seeing how 
+    strategy and technical execution evolve and improve through discourse in competitive eSports. 
+    He is also interested in the learning processes involved in the memorization and execution 
+    of Rubik's Cube algorithms with the goal of improving solve times.
+  keywords: ""
+
+- name: Claire D'Emic
+  key: claire
+  title: BS Biology and BA French, Adelphi University; MS Ecology and Evolution, Fordham University
+  bio: >-
+    Claire M. D'Emic is the STEM Initiatives Program Director at the Long Island
+    Children's Museum and a doctoral student in Learning Sciences. Her research
+    interests include cocreating informal science programs with local
+    communities, the role of imagination and curiosity in learning, and the
+    importance of play.
+  keywords: ""
+
+- name: Gabriella Deninno
+  key: gab
+  title: >-
+    BA Mathematics, Hofstra University; MSEd Mathematics Education with STEM integration,
+    Hofstra University
+  bio: >-
+    Gabriella Deninno is a computer science teacher at Mineola UFSD and a
+    doctoral student in Learning Sciences. Her research interests include
+    embodied learning as it relates to mental representation building in K-12
+    computer science and mathematics education.
+  keywords: Embodied Learning, Computer Science Education, Mathematics Education, Learning Sciences, Educational Technology, Curriculum Design
+
+- name: Grace Qi Hu
+  key: grace
+  title: MA Educational Technology, Adelphi University
+  bio: >-
+    Grace Hu is a doctoral student in Learning Sciences at Adelphi University.
+    Her research focuses on teaching expertise in makerspaces. Her broader
+    interests include instructional design, accessibility, and the thoughtful
+    integration of generative AI in education.
+  keywords: Teaching Expertise, Makerspace, Instructional Design, Accessibility, Artificial Intelligence
+  
+- name: Ryan Foley
+  key: ryan
+  title: >-
+    BS Marketing, Adelphi University; MBA, Adelphi University; Certificate in Human
+    Resource Management, Adelphi University
+  bio: >-
+    Ryan Foley is the Director of Undergraduate Programs in the Robert B
+    Willumstad School of Business at Adelphi University and a doctoral student
+    in Learning Sciences. His research includes the embodied experiences of
+    learning as related to the arts and how these learning practices can applied
+    to other domains.
+  keywords: Embodied Learning, The Arts, Arts Education, Business , Business Education, Aesthetics
+
+- name: Sultana Yasmeen Jamal
+  key: sultana
+  title: >-
+    BBA Business Studies, American College of Dubai; MBA Human Resource
+    Management, East Delta University
+  bio: >-
+    Sultana Yasmeen Jamal is a doctoral student in Learning Sciences at Adelphi
+    University. She brings over a decade of experience in education and
+    instructional leadership across Bangladesh and the United Arab Emirates,
+    with a focus on early childhood and primary education. Her research
+    interests include AI-supported instructional design for multilingual
+    learners, inclusive education, and equity in educational technology.
+  keywords: Translanguaging, AI-Supported Educational Technology, Equity in Education, Curriculum Design
+  
+- name: Areeba Khalid
+  key: areeba
+  title: >-
+    BS, Mathematics, Adelphi University; MS, Applied Mathematics/Data Science, Adelphi University
+  bio: >-
+    Areeba Khalid is the Director of Graduate Business Programs in the Robert B.
+    Willumstad School of Business at Adelphi University, an adjunct professor,
+    and a doctoral student in Learning Sciences. Her research interests include
+    technology-supported learning, mathematical problem solving, and generative
+    AI in higher education, with a focus on how learners use and evaluate AI as
+    part of the learning process.
+  keywords: Mathematics Education, Problem Solving, Generative AI, Educational Technology, Learning Sciences
+
+- name: Salih Mansur
+  key: salih
+  title: >-
+    BA Electronic Design and Multimedia, City College of New York (CUNY);
+    BA Forensic Psychology, John Jay; MA Communication Arts, NYIT;
+    MS Instructional Technology, Touro; MS Artificial Intelligence Systems, Touro
+  bio: >-
+    Salih is a Communications Officer @ Design & Technology SIG (AERA). His
+    interests lie at the intersection of artificial intelligence, educational
+    technology, and the psychology of learning, with a focus on human-centered
+    AI and digital literacy.
+  keywords: Artificial Intelligence, Learning Sciences, Digital Literacy, Educational Technology
+
+- name: Jared Mroz
+  key: jared
+  title: |-
+    BA English, Literature and Rhetoric, Binghamton University; 
+    MS Business Analytics, Adelphi University; 
+    MBA, Adelphi University; 
+  bio: >-
+    Jared Mroz is an Executive Director at Morgan Stanley, an Adjunct Professor
+    in the Wilumstad School of Business at Adelphi University, as well as an
+    Adjunct Professor in the Business School at Molloy University. He is a
+    doctoral student in Learning Sciences at Adelphi University with a research
+    interest in the role of music in learning and cognition, artificial
+    intelligence, as well as developing and suporting learning in a professional
+    technology setting.
+  keywords: Artificial Intelligence, AI, Machine Learning, Music, Professional Development, Learning Sciences
+
+- name: Erin Puglisi
+  key: erin
+  title: >-
+    BS in Corporate Communications and Psychology Susquehanna University;
+    MS Digital Marketing Sacred Heart University
+  bio: >-
+    Erin Puglisi is an adjunct professor of marketing at Sacred Heart University
+    and a doctoral student in Learning Sciences at Adelphi University. Her
+    research interests lie at the intersection of generative AI, neurodiversity,
+    and teaching and learning in higher education, with a focus on how AI can
+    support diverse learners and educators. Her broader interests include
+    experiential and play-based learning, instructional design, and innovative
+    approaches to teaching marketing.
+  keywords: ""
+
+- name: Nikki Roda
+  key: nikki
+  title: >-
+    BA Economics, Barnard College;
+    MS Information Systems, University of Michigan
+  bio: >- 
+    Nikki Roda is an interaction designer who is interested in solving tough usability problems by 
+    drawing on her background in research, data science, and user experience design. Nikki currently
+    works as an education librarian at the American Museum of Natural History.
+  keywords: "-"
+
+- name: Jennifer Southard
+  key: jen
+  title: >-
+    MS English Education, Hofstra University; MA Educational Technology,
+    Adelphi University
+  bio: >-
+    Jennifer Southard is the Assistant Director of the Faculty Center for
+    Professional Excellence at Adelphi University, adjunct professor, and
+    Adelphi University PhD candidate. Her research examines how writing is
+    shifting from a static response to an immediate exigency into a distributed,
+    sense-making process among human, technological, and environmental agent,
+    redefining AI as a partner in co-composition to better prepare writers for
+    increasingly complex, post-human communication milieus.
+  keywords: Instructional Design, Writing and Composition Studies, Artificial Intelligence, Digital Literacy, Learning Sciences
+
+
