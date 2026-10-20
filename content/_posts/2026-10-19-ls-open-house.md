@@ -12,7 +12,7 @@ event:
   end: 2026-11-16T18:30-05:00
 
 categories: [Events]
-author: "matt curinga"
+author: "suraj uttamchandani"
 tags: ["learning sciences", "phd", "open house", "virtual", "sticky"]
 
 ---
@@ -26,7 +26,7 @@ Join Adelphi University faculty for an introduction to our
 Learn about the field of learning sciences and how research can inform the design of 
 learning experiences and educational practices. 
 
-Click [here](https://www.adelphi.edu/events/learning-sciences-phd-open-house/) to register. 
+Click [here to register](https://www.adelphi.edu/events/learning-sciences-phd-open-house/). 
 
 A recording of our prior open house, in November 2024, is available [here](https://mixi.nyc/blog/ls-open-house/). 
 
