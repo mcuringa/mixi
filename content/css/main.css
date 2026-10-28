@@ -30,10 +30,24 @@ a {
     --yellow-pink: linear-gradient(158deg, rgba(159, 209, 214, 0.56) 18.75%, #D9DE19 56.25%, rgba(245, 193, 241, 0.57) 79.6875%);
     --deep-purple: linear-gradient(158deg, rgba(75, 0, 130, 0.7) 18.75%, #4B0082 56.25%, rgba(138, 43, 226, 0.6) 79.6875%);
     --blue-slate: #bfdfe3;
+    --blue-purple: linear-gradient(158deg,
+                #d6e9f5 0%,
+                #c9d5f0 35%,
+                #d9cef2 70%,
+                #eee1f5 100%);
 }
 
 .yellow-pink {
     background: var(--yellow-pink);
+}
+
+
+.deep-purple {
+        background: var(--deep-purple);
+}
+
+.blue-purple {
+        background: var(--blue-purple);
 }
 
 .bg-purple {

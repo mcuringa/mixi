@@ -1,0 +1,35 @@
+- key: olivia
+  name: "Olivia Bello"
+  title: "BS Biology, Agnes Scott College; MST Teaching Biology, Fordham University, MAE Curriculum and Instruction in STEM Education, Adams State University; PhD, Innovation in Curriculum and Instruction, Fordham University."
+  bio: "Dr. Olivia Bello is a middle school STEAM teacher in New York City and adjunct instructor at Adelphi University. She is a Math For America Master Teacher II Fellow, New York State Master Teacher, and NSTA Scaling Up for STEM Fellow. Her research interests include the ecology of makerspace learning environments, STEAM education, and fostering STEM identity amongst historically marginalized groups, especially girls and women."
+  courses: "Teaching Science in the Secondary Inclusive Classroom, Urban Education, Multimodal Literacy, The Making of Citizen Scientists through Urban Ecology Exploration, Maker Lab 2 "
+
+- key: sarah
+  name: "Sarah C Radke"
+  title: "BA Mathematics, Drury University; MS Mathematics, New York University; PhD, Teaching and Learning (Math Education), New York University"
+  bio: "Dr. Sarah C. Radke is a learning scientist, educational researcher, mathematics content coach, and former middle school math teacher whose work bridges research and educational practice. Holding a Ph.D. in Teaching and Learning from NYU, her research sits at the intersections of learning, identity, equity, and design. She examines how learning unfolds as an embodied, relational, and aesthetic process across settings—ranging from classrooms and virtual game worlds to arts organizations and informal spaces. Throughout her career, she has supported educator development as a mathematics content coach, workshop facilitator, and instructor for Adelphi's STEAM Master's Program. A former NYC teacher and Oklahoma transplant, Sarah is also a trained classical and jazz musician, parent, and dirt-enthusiast."
+  courses: "Multimodal Literacies; Embodied Cognition and Aesthetic Experience"
+
+- key: eric
+  name: "Eric Miles"
+  title: "BS Environmental Science, BA Fine Art, Colby College<br>MFA Fine Art, Pratt Institute"
+  bio: "Eric Miles is a veteran educator, artist, and arts administrator who has worked with schools, universities and community-based organizations for over twenty years. The focus of his career has been in support of New York City’s aspiring high school artists, as an award-winning visual arts teacher and department head. In this mission, he co-founded the Bronx High School for the Visual Arts, administered a multi-disciplinary arts program at the Urban Assembly School of Music and Art and led Pratt’s Institute’s teacher training program. Eric has also been an advocate for youth voice through his leadership in community-based mural projects locally and internationally."
+  courses: "-"
+
+- key: ariel
+  name: "Ariel Fleurimond"
+  title: >-
+    Ed.D. Instructional Technology and Media, Teachers College, Columbia University
+    M.Ed, Educational Technology; M.A.Ed., Art Education, Adelphi University.
+    B.A., Psychology, General Education, Computer Programming and Applications, New York University
+  bio: "Dr. Ariel Fleurimond is the Senior Director of Instructional Design and Curriculum Support at Columbia University's School of Professional Studies and is currently Adjunct Faculty at Adelphi University. As a learning strategy and operations leader with more than 20 years in education, she has spent most of her career building the teams, systems, and operating models that help organizations scale learning without sacrificing quality. At Columbia, she leads a nearly $1M unit supporting all SPS degree programs that reach 4,000+ end users annually. She has driven team transformation across operations, talent, process, technology, and AI. She also holds roles as an Adjunct Assistant Professor at Teachers College, Columbia University, and Lecturer at SUNY Brockport. Her research, grounded in Diffusion of Innovations theory, examines faculty adoption of technology innovation and the human experience of change."
+  courses: "Digital Literacies and 21st Century Skills"
+
+- key: todd
+  name: "Todd Seidman"
+  title: "BA Cultural Studies, The Evergreen State College, MS Industrial Design, Pratt Institute"
+  bio: "Todd Seidman (he/him/his) is an Adjunct Instructor of Learning Sciences at Adelphi University. As a Production Designer, Todd has designed projects from MTV’s Total Request Live to PBS shows and Ford car commercials. As a Set Designer, he has worked on television series such as Gotham, Boardwalk Empire, and The Equalizer, as well as films ranging from Julie and Julia starring Meryl Streep to indie films. Additionally, Todd utilizes his background in ID to create mechanical effects for commercials. His work can be viewed at toddseidman.com. During a mid-career diversion, Todd cofounded the furniture design studio, 54Dean. His designs have been featured in publication including Metropolis, Dwell, Real Simple and The New York Times and in the books Communicating with Pattern: The Graphic Language of Stripes and Ultimate New York Design."
+  courses: "Maker 1: Design Lab"
+
+
+
