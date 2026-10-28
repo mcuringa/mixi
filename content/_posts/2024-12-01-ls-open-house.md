@@ -14,7 +14,7 @@ event:
     Zoom
 categories: [Events]
 author: "matt curinga"
-tags: ["PhD Learning Sciences", "open house", "meet the faculty", "funded degree", "sticky"]
+tags: ["PhD Learning Sciences", "open house", "meet the faculty"]
 ---
 <img src="/assets/images/blog/ls-slide.png" class="img-fluid d-block mb-3" alt="The Field of Learning Sciences">
 <div class="lead">
