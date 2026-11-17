@@ -15,7 +15,7 @@ author: "mxc"
     </div>
 </div>
 
-<div class="container blue-purple p-2 mt-3 mb-3">
+<div class="container bg-light p-2 mt-3 mb-3">
 <h2 class="">Affiliated faculty</h2>
     <div class="row">
     {% for person in site.data.adjuncts %}

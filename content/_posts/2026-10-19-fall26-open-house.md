@@ -33,19 +33,19 @@ Shape the future of education through research, learning and innovation.
     </p>
     <p class=""><i class="text-primary bi bi-calendar2-heart-fill"></i> {{ page.event.start | date: "%A %B %-d, %Y @ %-I%p ET" }}</p>
     <p class=""><i class="text-primary bi bi-webcam-fill"></i> Virtual</p>
-    <p class="text-center"><a href="https://www.adelphi.edu/events/learning-sciences-phd-open-house/" class="fw-bold">Click here to register</a></p>
+    <p class="text-center text-muted">Stay tuned for the next open house!</p>
   </div>
   <div class="col">
     <div class="ratio ratio-16x9 rounded-3 overflow-hidden shadow-sm my-4">
       <iframe
-        src="https://www.youtube.com/embed/69OCIjspfKU"
+        src="https://www.youtube.com/embed/hMYFM3MqfYE"
         title="YouTube video player"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
         allowfullscreen>
       </iframe>
     </div>
-    <p class="fw-bold fs-5">Can't make? Want to get ready? Check out our learning sciences video!</p>
+    <p class="fw-bold fs-5">Missed the open house? Watch the recording!</p>
   </div>
 </div>
 

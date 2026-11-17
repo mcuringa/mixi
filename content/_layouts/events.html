@@ -2,22 +2,12 @@
 layout: main
 title: "Events"
 ---
+
 {% assign events = site.posts | where: "categories", "Events" %}
-{% assign now = 'now' | date: '%s' %}
+{% assign future_events = events | sort: "event.start" %}
+{% assign past_events = events | sort: "event.start" | reverse %}
 
-{% assign past_events = "" | split: "," %}
-{% assign future_events = "" | split: "," %}
-
-{% for event in events %}
-{% assign start = event.event.start | date: '%s' %}
-
-{% if start < now %} {% assign past_events=past_events | push: event %} {% else %} {% assign future_events=future_events
-    | push: event %} {% endif %} {% endfor %} {% assign past_events=past_events | sort: "event.start" | reverse %} {%
-    assign future_events=future_events | sort: "event.start" %}
-
-{{today}}
-
-{%include blog-nav.html%}
+{% include blog-nav.html %}
 
 <div class="container mt-4">
     <h1>Events at Mixi</h1>
@@ -32,35 +22,47 @@ title: "Events"
     </p>
 
     <hr class="my-5">
+
     <h2>Upcoming Events</h2>
     <div class="row bg-light p-4 rounded mb-4">
+        <h4 class="NoEvents text-muted d-none">No upcoming events posted yet!</h4>
         {% for post in future_events %}
-            <div class="future-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
-                <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
-                <a class="d-block" href="{{ post.url }}">
-                    <div class="text-black fw-bold">{{ post.title }}</div>
-                    <small class="text-secondary ms-4 d-block mb-2">{{post.excerpt}}</small>
-                    <div class="ms-4 text-secondary"><i class="bi bi-calendar2-heart-fill"></i> {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}</div>
-                    <div class="ms-4 text-secondary"><i class="bi bi-map-fill"></i> {{ post.event.location }}</div>
-                </a>
-            </div>
+        <div class="future-event mb-2 d-none" data-start="{{ post.event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}">
+            <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
+            <a class="d-block" href="{{ post.url }}">
+                <div class="text-black fw-bold">{{ post.title }}</div>
+                <small class="text-secondary ms-4 d-block mb-2">{{ post.excerpt }}</small>
+                <div class="ms-4 text-secondary">
+                    <i class="bi bi-calendar2-heart-fill"></i>
+                    {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}
+                </div>
+                <div class="ms-4 text-secondary">
+                    <i class="bi bi-map-fill"></i> {{ post.event.location }}
+                </div>
+            </a>
+        </div>
         {% endfor %}
     </div>
+
     <h2 class="mt-5">Past Events</h2>
     <div class="row bg-light p-4 rounded mb-4">
         {% for post in past_events %}
-            <div class="past-event mb-2" data-start='{{ post.event.start | date: "%Y-%m-%dT%H:%M:%S" }}'>
-                <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
-                <a class="d-block" href="{{ post.url }}">
-                    <div class="text-black fw-bold">{{ post.title }}</div>
-                    <div class="ms-4 text-secondary"><i class="bi bi-calendar2-heart-fill"></i> {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}</div>
-                    <div class="ms-4 text-secondary"><i class="bi bi-map-fill"></i> {{ post.event.location }}</div>
-                </a>
-            </div>
+        <div class="past-event mb-2" data-start="{{ post.event.start | date: '%Y-%m-%dT%H:%M:%S%:z' }}">
+            <h4>{{ post.event.start | date: "%B %d, %Y" }}</h4>
+            <a class="d-block" href="{{ post.url }}">
+                <div class="text-black fw-bold">{{ post.title }}</div>
+                <div class="ms-4 text-secondary">
+                    <i class="bi bi-calendar2-heart-fill"></i>
+                    {{ post.event.start | date: "%A, %B %d, %Y at %I:%M %p" }}
+                </div>
+                <div class="ms-4 text-secondary">
+                    <i class="bi bi-map-fill"></i> {{ post.event.location }}
+                </div>
+            </a>
+        </div>
         {% endfor %}
     </div>
 </div>
-
 
 <div class="container">
     <nav aria-label="Page navigation">
@@ -84,3 +86,27 @@ title: "Events"
     </nav>
 </div>
 
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const now = new Date();
+        let i = 0;
+        document.querySelectorAll('.future-event').forEach(el => {
+            if (new Date(el.dataset.start) > now) {
+                el.classList.replace('d-none', 'd-block');
+                i++;
+            }
+        });
+
+        document.querySelectorAll('.past-event').forEach(el => {
+            if (new Date(el.dataset.start) > now) {
+                el.classList.add('d-none');
+            }
+        });
+
+        if(i == 0) {
+            document.querySelectorAll('.NoEvents').forEach(el => {
+                el.classList.replace('d-none', 'd-block');
+            });
+        }
+    });
+</script>
